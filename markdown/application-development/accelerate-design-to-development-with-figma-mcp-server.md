@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/accelerate-design-to-development-with-figma-mcp-server.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-23"
+last_updated: "2026-07-21"
 reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -18,6 +18,8 @@ MCP connections enable Build Agent to access external tools and resources throug
 The following MCP connections are currently supported for Build Agent:
 
 -   Atlassian Rovo
+-   AWS DevOps
+-   Box
 -   Docusign
 -   Figma
 -   Linear
@@ -32,7 +34,7 @@ The following MCP connections are currently supported for Build Agent:
 
 MCP is an open protocol that defines how AI agents communicate with external systems to discover and invoke tools, retrieve resources, and share context. By standardizing this communication layer, MCP enables AI agents to interact with a wide range of third-party applications without requiring custom integration logic for each one.
 
-In Connect Hub, an MCP connector represents a configured connection between ServiceNow and an external system that exposes a server compatible with MCP. After an MCP connector is set up, AI agents can use it to access the tools and capabilities that the external system provides, enabling coordinated, context-aware workflows across models and systems.
+In Connect Hub, an MCP connector represents a configured connection between ServiceNow and an external system that exposes a server compatible with MCP. After you set up an MCP connector, AI agents can use it to access tools and capabilities from the external system, enabling coordinated workflows across models and systems.
 
 ## Configuration details
 
@@ -46,7 +48,7 @@ For details on adding a new MCP connection in Workflow Data Fabric, see [Model C
 
 An example prompt: `Let's create a new project to track my baby's sleep and create issues in Linear based on inputs from the tracker`.
 
-**Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE, though you must be on Australia Patch 3 or higher to use MPC servers with Build Agent in ServiceNow Studio.
+**Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE.
 
 ## Approve and activate MCP servers
 
@@ -59,9 +61,19 @@ The end-to-end flow for making an MCP server available is:
 3.  You authenticate the connection in Personal Integrations.
 4.  You enable the MCP server in Build Agent settings.
 
+For details on enabling MCP connections, see [Client registration using custom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-custom.md).
+
 Individual MCP servers are enabled by default, but the complete flow must be completed before any server is available for use.
 
 For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/model-context-protocol-connector.md).
+
+## View available tools per MCP server
+
+You can view the list of tools available for each connected MCP server in the **MCP servers** pane in the Build Agent settings panel. Expand a server by selecting the chevron next to the server name to see its tools and descriptions.
+
+**Note:** You must be on Australia Patch 5 or later to view MCP tools.
+
+\[Omitted image "ba-mcp-list-tools.png"\] Alt text: MCP Servers panel listing enabled servers with Zoom Chat expanded to show available tools and descriptions.
 
 ## Application development with Figma MCP server
 

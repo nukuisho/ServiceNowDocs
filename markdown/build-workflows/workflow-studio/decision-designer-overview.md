@@ -1,5 +1,5 @@
 ---
-title: Exploring Decision Tables
+title: Exploring decision tables
 description: Decision tables in Workflow Studio enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/decision-designer-overview.html
@@ -7,12 +7,12 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 3
 breadcrumb: [Decision tables, Workflow Studio, Build workflows]
 ---
 
-# Exploring Decision Tables
+# Exploring decision tables
 
 Decision tables in Workflow Studio enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 
@@ -65,7 +65,7 @@ Decision tables in Workflow Studio enable you to do the following:
 
 Decision tables in Workflow Studio provide the following benefits:
 
--   Build complex decisions easily with decision tables.
+-   Build complex decisions with decision tables.
 -   Meet changing business requirements and quickly update decisions by modifying only the decision logic and not the application code.
 -   Increase efficiency by reusing decision logic across multiple applications.
 -   Evaluate data at runtime from multiple sources, including existing ServiceNow records and data from external sources.
@@ -92,7 +92,7 @@ App Engine Studio
 
 </td><td>
 
--   App Engine Studio \(AES\) provides an Integrated Development Environment \(IDE\) application-like interface for app developers to build custom applications in one centralized location while maintaining your organization's brand and application development standards.
+-   App Engine Studio \(AES\) provides an IDE application-like interface for app developers to build custom applications in one centralized location. It maintains your organization's brand and application development standards.
 -   AES users can create decision tables using an AES wizard and access existing decision tables for their applications without leaving AES.
 
 </td><td>

@@ -1,6 +1,6 @@
 ---
 title: Add custom columns for tasks in a CWM Board
-description: Create custom fields in a Board so that you can organize all details of tasks at a single location, thereby improving task management and saving time by reducing dependency on system admin.
+description: Create custom fields in a Board so that you can organize all details of tasks at a single location. This improves task management and saves time by reducing dependency on system admin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/add-custom-columns-for-tasks-in-board.html
 release: australia
@@ -8,13 +8,13 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
 # Add custom columns for tasks in a CWM Board
 
-Create custom fields in a Board so that you can organize all details of tasks at a single location, thereby improving task management and saving time by reducing dependency on system admin.
+Create custom fields in a Board so that you can organize all details of tasks at a single location. This improves task management and saves time by reducing dependency on system admin.
 
 ## Before you begin
 
@@ -27,8 +27,6 @@ You need to have either Editor or Owner access to the Space to add a custom colu
 ## About this task
 
 **Note:** This procedure provides general instructions involved in creating custom column types for CWM Boards. To learn how to create a Formula type column, see [Add a formula column in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md).
-
-Watch this video for guidance on adding custom columns for tasks in a CWM Board.
 
 ## Procedure
 

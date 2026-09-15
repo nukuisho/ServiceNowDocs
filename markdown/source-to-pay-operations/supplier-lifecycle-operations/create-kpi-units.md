@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Supplier Relationship, Performance Management, KPI units, Unit family, quantitative performance, Domain]
 breadcrumb: [Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -24,7 +25,7 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 
 ## Procedure
 
-1.  Navigate to **All**.
+1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
 2.  In the navigation filter, enter `sn_kpi_unit.LIST`.
 

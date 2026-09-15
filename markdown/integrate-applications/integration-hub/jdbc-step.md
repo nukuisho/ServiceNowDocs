@@ -19,7 +19,7 @@ Create a reusable action to send SQL commands to a relational database.
 **Note:**
 
 -   This step requires an Integration Hub subscription. For more information, see [Legal schedules - Integration Hub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf). After the required plugin is activated, the step is visible under Integrations.
--   The JDBC step runs only on a ServiceNow® MID Server with JDBC step capabilities. Activate the plugin, Integration Hub Standard Pack Installer \(com.glide.hub.integrations.standard\) or later to use the JDBC capability for the MID Server.
+-   The JDBC step runs only on a ServiceNow® MID Server with JDBC step capabilities.
 
 ## Roles and availability
 
@@ -44,7 +44,7 @@ You can adjust timeout values for JDBC operations with the following properties.
 
 ## Sanitizing inputs
 
-Escape all user inputs to eliminate the possibility of a malicious user from executing malicious SQL statements that can result in SQL injection on your target database. When you use data pills in JDBC step SQL statements, sanitize them first using Sanitize SQL transform functions. This transform function category automatically appears when a data pill is dropped into the SQL Statement input.
+Escape all user inputs to eliminate the possibility of a malicious user from executing malicious SQL statements that can result in SQL injection on your target database. When you use data pills in JDBC step SQL statements, sanitize them first using [Sanitize SQL transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/sanitize-sql-transform-functions.md). This transform function category automatically appears when a data pill is dropped into the SQL Statement input.
 
 ## SQL operations inclusion list
 
@@ -257,6 +257,6 @@ Default retry policy associated with **Connection Alias**. If **Override Default
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see .
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-error-evaluation.md).
 
 

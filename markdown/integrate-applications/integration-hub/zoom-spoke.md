@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-31"
 reading_time_minutes: 8
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Create and manage Zoom meetings with the Zoom spoke from your ServiceNow instanc
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Zoom spoke v4.8.0 is the latest version.
+Zoom spoke v5.0.0 is the latest version. For version history of the spoke, see [Zoom spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-zoom.html).
 
 ## Supported versions
 
@@ -211,7 +211,7 @@ Retrieves the metadata of countries and their ISO codes.
 
 </td></tr><tr><td>
 
-Look up account call logs stream
+Look up Account Call History Stream
 
 </td><td>
 
@@ -271,7 +271,7 @@ phone:read:list\_users:admin
 
 </td></tr><tr><td>
 
-Look up user call logs stream
+Look up User Call History Stream
 
 </td><td>
 
@@ -525,7 +525,7 @@ Lists information on participants from a past meeting.
 
 meeting:read:list\_past\_participants:admin
 
-</td></tr><tr><td rowspan="6">
+</td></tr><tr><td rowspan="8">
 
 User Management
 
@@ -588,6 +588,30 @@ Retrieves all the users that are associated to your account.
 </td><td>
 
 user:read:list\_users:admin
+
+</td></tr><tr><td>
+
+Look up User Settings
+
+</td><td>
+
+Retrieves the settings details for a users profile.
+
+</td><td>
+
+user:read:settings:admin
+
+</td></tr><tr><td>
+
+Update User
+
+</td><td>
+
+Updates the Zoom profile information of the required user.
+
+</td><td>
+
+user:update:user:admin
 
 </td></tr><tr><td>
 
@@ -729,6 +753,22 @@ Copies the attachment that contains the chat message to the incident record.
 
 team\_chat:read:user\_message:admin
 
+</td></tr><tr><td>
+
+Webinar Management
+
+</td><td>
+
+Look up Webinars Stream
+
+</td><td>
+
+Retrieves a list of upcoming or scheduled webinars for the required user.
+
+</td><td>
+
+webinar:read:list\_webinars:admin
+
 </td></tr></tbody>
 </table>## Available AI agents
 
@@ -736,12 +776,12 @@ Install Now Assist for Integration Hub and start using the available AI agents. 
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
     You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
--   See  for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
+-   See [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
 
 Available AI agents include:
 
@@ -752,7 +792,7 @@ Available AI agents include:
 |Zoom cloud recording management AI agent|Looks up meeting recordings and meeting recording settings.|
 |Zoom chat management AI agent|Enables users to create and manage chat channels, send and update messages, and handle member-related operations.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 13
+reading_time_minutes: 14
 breadcrumb: [Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -52,7 +52,7 @@ Stream Connect uses the following terms.
 
     Events are organized and stored in topics. A topic stores events of the same type. Topics are partitioned. Events have a key. Events with the same key are stored in the same partition.
 
-    Topics link to a topic namespace. You can use namespaces to organize topics in logical ways. For example, you can group topics together based on which Kafka cluster they come from. You can also use namespaces to configure which domains can access which topics on a domain-separated instance. For more information, see .
+    Topics link to a topic namespace. You can use namespaces to organize topics in logical ways. For example, you can group topics together based on which Kafka cluster they come from. You can also use namespaces to configure which domains can access which topics on a domain-separated instance. For more information, see [Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/managing-namespaces-topics-hermes.md).
 
 -   **Topic aliases**
 
@@ -77,7 +77,7 @@ Stream Connect uses the following terms.
     A Kafka stream is a record that defines the data stream for a consumer. If you're using the Kafka Message trigger in Workflow Studio, the Kafka stream is automatically created for you. If you're using a different consumer, you’ll need to create one manually.
 
 
-To link your Kafka environment to your ServiceNow instance, Stream Connect uses the Hermes Messaging Service. The Hermes Messaging Service enables your instance to produce and consume large volumes of Kafka events. It manages the flow of data between your Kafka environment and your instance. For more information, see Hermes Messaging Service.
+To link your Kafka environment to your ServiceNow instance, Stream Connect uses the Hermes Messaging Service. The Hermes Messaging Service enables your instance to produce and consume large volumes of Kafka events. It manages the flow of data between your Kafka environment and your instance. For more information, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service.md).
 
 The following diagram shows some of the key components of Stream Connect.
 
@@ -93,17 +93,32 @@ For more information about using the guided setup interface, see [Using guided s
 
 Build flows that produce and consume Kafka events with Stream Connect and Workflow Studio. Stream Connect has a flow trigger for consuming Kafka events and an action step for producing them.
 
-Use the Kafka Message trigger to create flows that process Kafka events. You can build a flow that consumes data from Kafka and inserts it into a table, or uses spokes to communicate the data to third-party environments.
+Use the [Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow-kafka.md) to create flows that process Kafka events. You can build a flow that consumes data from Kafka and inserts it into a table, or uses spokes to communicate the data to third-party environments.
 
 The trigger is enabled when the flow is activated. After it's activated, the trigger starts the flow whenever there's a message in the specified Kafka topic. When you use the Kafka Message trigger, you don't need to create a Kafka stream or subscription record. The system automatically creates both when the flow is activated. Messages are read from the topic as long as the flow is active.
 
-Use the Kafka Producer step to create actions that publish events to a topic in your Kafka environment. For example, you can use the step to create a message about an update on an incident in ServiceNow, then push the message to a topic in your Kafka environment.
+Use the [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/kafka-producer-action-designer.md) to create actions that publish events to a topic in your Kafka environment. For example, you can use the step to create a message about an update on an incident in ServiceNow, then push the message to a topic in your Kafka environment.
 
 ## Direct Kafka
 
 Integrate your ServiceNow instance with your local Kafka environment with [Direct Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/direct-kafka.md). Build efficient integrations between your enterprise systems, enabling high-volume and robust integrations to exchange data between applications, and reduce data loss with the queuing mechanism if one environment is temporarily offline.
 
 With Direct Kafka, you can configure a custom Kafka connection to integrate Stream Connect on your instance with your local Kafka environment. This connection enables you to use Stream Connect and its features directly, without requiring the Hermes Messaging Service or a separate message replicator.
+
+## Stream Producer
+
+Automatically stream changes from ServiceNow tables to Kafka topics with Stream Producer.
+
+Stream Producer provides a configuration-based alternative to writing scripts or business rules for exporting data. It uses change data capture \(CDC\) technology to capture inserts, updates, and deletes on the tables you select. The captured changes are formatted as messages and sent to a Kafka topic, enabling real-time data synchronization with external applications.
+
+Stream Producer has the following benefits.
+
+-   Eliminate dependency on business rules and custom scripts for data export.
+-   Reduce performance impact on the ServiceNow instance.
+-   Set it up once and automatically keep external data in sync.
+-   Streamline complex data integration workflows.
+
+For details see [Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-producer.md).
 
 ## Stream Connect alerting
 
@@ -125,7 +140,7 @@ When you [Configure an Extract Transform Load \(ETL\) consumer](https://raw.gith
 
 ## ProducerV2 API
 
-Publish events to a Kafka topic with the ProducerV2 API.
+Publish events to a Kafka topic with the [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md).
 
 ## Stream Connect Message Replication
 
@@ -206,6 +221,8 @@ The related TSOM product capabilities process the event data, quickly and effici
         **Note:** The above code is a partial, representative example focused on ingesting and parsing the message data to populate table records. It's intended to be helpful in guiding an implementation.
 
 
+-   **[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-producer.md)**  
+Stream Producer enables you to automatically stream changes from ServiceNow tables to Kafka topics using change data capture \(CDC\), eliminating the need for custom scripts or business rules.
 -   **[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md)**  
 Replicate data between your Apache Kafka environment and ServiceNow.
 -   **[Stream Connect alerting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-alert.md)**  

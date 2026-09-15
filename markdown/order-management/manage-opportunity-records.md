@@ -1,5 +1,5 @@
 ---
-title: Manage opportunity records
+title: Manage opportunity records using an MCP client
 description: Retrieve, update, create, and delete opportunity records and related CRM data from an MCP client using plain language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/manage-opportunity-records.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-07-07"
 reading_time_minutes: 5
-breadcrumb: [Use generative AI, Now Assist for SFA, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
-# Manage opportunity records
+# Manage opportunity records using an MCP client
 
 Retrieve, update, create, and delete opportunity records and related CRM data from an MCP client using plain language.
 
@@ -254,4 +254,11 @@ Supported operations:
 
     The agent performs the operation and returns the result. For create operations, it returns the record name and a link. For delete operations, it confirms the record was removed. If you don't have the required access, the agent returns a permission denied message.
 
+
+**Related topics**  
+
+
+[CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/crm-conversational-query.md)
+
+[AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/ai-capabilities-sales-crm.md)
 

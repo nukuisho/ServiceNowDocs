@@ -154,17 +154,10 @@ Select the user identity type based on the user:-   Human - Select this for a re
 
 See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information on using AI type users.
 
-**Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI**.
+**Note:**
 
-</td></tr><tr><td>
-
-Identity Subtype
-
-</td><td>
-
-Displays the identity type subtype based on the user login. For example:-   External
--   Internal
--   Guest
+-   The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically inactive when you select **Human** or **AI**.
+-   Changing Identity type from **AI** to other types and vice versa is restricted.
 
 
 </td></tr><tr><td>

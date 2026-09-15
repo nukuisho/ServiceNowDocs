@@ -16,7 +16,7 @@ This section includes the Customer Success Management tables.
 
 |Table|Description|
 |-----|-----------|
-|Engagement|As a provider, delivering value to an enterprise customer \[account\] is not a ‘one-time’’ event, it is a journey with multiple activities, both internal and external during its lifecycle.|
+|Engagement|As a provider, delivering value to an enterprise customer \[account\] is not a one-time event. It is a journey with multiple activities, both internal and external, during its lifecycle.|
 |Success objective|Success objectives represents the value that the provider has sold to an enterprise customer. This value can be defined for one or more products.|
 |Success outcome|Success outcomes are measurable components of success objectives. They can be monitored through analytics within the ServiceNow AI Platform or through a third-party integration tool.|
 |Success initiative|Success initiatives are a planned set of actions \(workflows\) that the provider and enterprise customer agree to take and complete on the customer's value realization journey.|
@@ -43,6 +43,7 @@ This section includes the Customer Success Management tables.
 |Applicable entitlements|Associates applicable entitlements with an engagement.|
 |Applicable team members|Associates team members with an engagement.|
 |Applicable customer team|Associate a customer team with an engagement.|
+|Meeting applicable records|Associates records with a touchpoint meeting. Each entry links a meeting to a related record, such as a success play created from a meeting recommendation. The association type indicates the relationship: Trigger, Action Item, or Referenced. The AI Recommended field indicates whether the associated record was suggested by ServiceNow Otto.|
 
 **Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
 

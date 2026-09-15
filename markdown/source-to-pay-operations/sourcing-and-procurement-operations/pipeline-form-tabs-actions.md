@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -140,9 +140,17 @@ Use this drop-down list to create new objects for the pipeline project. Availabl
 
 [Purchase requisition, purchase order, and sourcing request states]()
 
-[SPO and ITAM data model mappings]()
+[Purchase requisition state model]()
+
+[Purchase order state model]()
+
+[SPO and Asset Management data model mappings]()
+
+[Primary data tables for Sourcing and Procurement Operations]()
 
 [Domain separation and Sourcing and Procurement Operations]()
 
 [Sourcing and Procurement Operations glossary]()
+
+[Address deletion permissions]()
 

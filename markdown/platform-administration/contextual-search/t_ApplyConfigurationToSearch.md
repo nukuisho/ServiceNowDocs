@@ -8,7 +8,7 @@ product: Contextual Search
 classification: contextual-search
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configuring contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -43,6 +43,8 @@ The following procedure uses Incident Deflection as an example.
     |Condition|Conditions to specify one or more knowledge bases to search.|
     |Exclude pinned articles|Pinned article is a knowledge article. This property helps to decide whether to exclude pinned articles from knowledge base search or not.|
 
+    Example use case: To restrict knowledge search to the IT knowledge base only, set the **Condition** property value to a condition that filters by your IT knowledge base sys\_id \(for example, `kb_knowledge_base=<sys_id_of_IT_KB>`\).
+
     The **catalog** record displays the following catalog resource configuration properties:
 
 <table id="table_khp_ypb_lhb"><thead><tr><th>
@@ -73,11 +75,11 @@ Value of the operator is used in the Zing search engine to instruct how to combi
 
 
 </td></tr></tbody>
-</table>4.  To edit the value of any property, click the property name and in the Search Resource Context Property form, update the **Value** field to `true` or `false`.
+</table>4.  To edit the value of any property, select the property name and in the Search Resource Context Property form, update the **Value** field to `true` or `false`.
 
     \[Omitted image "search-resource-context-property.png"\] Alt text: Search resource context property
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 **Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/configuring-contextual-search.md)

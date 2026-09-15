@@ -1,5 +1,5 @@
 ---
-title: Copy and configure the Invoice attachment DI processing flow
+title: Configure the Invoice attachment DI processing flow
 description: Copy and configure the Invoice attachment DI processing flow and activate this flow to use it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/copy-di-processing-flow.html
@@ -9,11 +9,11 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice processing, invoice automation]
+keywords: [APO, Accounts Payable Operations, DI processing flow, APO Admin, Document Intelligence, invoice automation, Accounts Payable Operations integration, SYS DI Task Definition]
 breadcrumb: [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Copy and configure the Invoice attachment DI processing flow
+# Configure the Invoice attachment DI processing flow
 
 Copy and configure the Invoice attachment DI processing flow and activate this flow to use it.
 

@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice management, cost allocation, GL coding]
+keywords: [APO, Accounts Payable Operations, invoice management, cost allocation, APO Reference, ledger account]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -114,6 +114,8 @@ Ledger account that incurs the cost of the allocated transaction amount.
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Outbound cost allocation staging table]()
 
 [Distribution set form]()
@@ -137,6 +139,8 @@ Ledger account that incurs the cost of the allocated transaction amount.
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

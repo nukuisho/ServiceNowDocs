@@ -33,16 +33,17 @@ When planning an implementation of Data Certification, answer the following ques
 
 Domain separated systems can use the Data Certification application.
 
-## Data Certification experience in CMDB Workspaceand in Service Graph Workspace
+## Data Certification experience in CMDB Workspace
 
-You can use [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or Service Graph Workspace landing page and views to fully administer and use Data Certification, view various analytics, and handle Data Certification functions such as:
+You can use [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) landing page and views to fully administer and use Data Certification, view various analytics, and handle Data Certification functions such as:
 
 -   [Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 -   [Convert legacy certification schedules into Data Manager certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/convert-data-cert-definitions.md).
 -   [Review certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md).
 -   [Review failed certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-review-failed-tasks.md).
+-   [Reset a certification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.md)
 
-The Data Certification experience in CMDB Workspace doesn’t provide functionality such as reset, merging of multiple certification tasks, and escalation.
+The Data Certification experience in CMDB Workspace or Service Graph Workspacedon't provide functionality such as merging of multiple certification tasks and escalation.
 
-For more information about using Data Certification, see [Data Certification experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.md).
+For more information about using Data Certification, see [Data Certification experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.md).
 

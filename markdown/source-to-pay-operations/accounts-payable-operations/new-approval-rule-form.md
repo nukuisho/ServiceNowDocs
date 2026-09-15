@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, finance automation]
+keywords: [APO, Accounts Payable Operations, Managerial Hierarchy, invoice automation, Approval Rule, purchase order]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -115,6 +115,8 @@ Conditions based on the approving object that determine the conditions under whi
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Outbound cost allocation staging table]()
@@ -138,6 +140,8 @@ Conditions based on the approving object that determine the conditions under whi
 [Invoice exception definition form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

@@ -1,18 +1,18 @@
 ---
 title: Quote Experience metrics API
-description: Reference for the Quote Experience metrics API, including query parameters, default behavior, and metric definitions for views, session time, and stage time in ServiceNow CPQ.
+description: Reference for the Quote Experience metrics API, including query parameters, default behavior, and metric definitions for views, session time, and stage time in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-metrics-api.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-07"
 reading_time_minutes: 2
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote Experience metrics API
 
-Reference for the Quote Experience metrics API, including query parameters, default behavior, and metric definitions for views, session time, and stage time in ServiceNow CPQ.
+Reference for the Quote Experience metrics API, including query parameters, default behavior, and metric definitions for views, session time, and stage time in CPQ.
 
 ## Overview of metrics
 
@@ -119,7 +119,9 @@ Minutes
 When filtered to a single transaction, the metric reflects the time that specific transaction spent in the specified stage.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
+
+**Related topics**  
 
 
 [ServiceNow Quote Experience runtime API calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-runtime-api-calls.md)

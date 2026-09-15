@@ -22,7 +22,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-A demand can be reset to Draft from the Completed, Approved, Screening, or Submitted states, or until an artifact such as a project or enhancement is created from it. The **Reset to Draft** option is unavailable if the demand is in the Qualified state.
+A demand can be reset to Draft from the Completed, Approved, Screening, or Submitted states. This option is unavailable after an artifact such as a project or enhancement is created, or if the demand is in the Qualified state.
 
 ## Procedure
 
@@ -56,6 +56,10 @@ A demand can be reset to Draft from the Completed, Approved, Screening, or Submi
 
 [Create a demand]()
 
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
+
 [View demands]()
 
 [Add details to demands]()
@@ -70,9 +74,7 @@ A demand can be reset to Draft from the Completed, Approved, Screening, or Submi
 
 [PPM PIWB template - Find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
-
-[Summarize demands with demand summarization skill]()
-
 [Associate AI systems with demands]()
+
+[Work with demands in Employee Slate]()
 

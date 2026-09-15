@@ -88,11 +88,23 @@ Option, if selected, indicates that the product offering can be sold as a standa
 
 </td></tr><tr><td>
 
+Configuration Status
+
+</td><td>
+
+Indicates the status of the product offering: -   None: The product offering is not configured. This is the default value.
+-   Creating: Creation of the product offering in CPQ Administration is in progress.
+-   Created: The product offering is created in CPQ Administration and is available as a blueprint.
+-   Error: An error occurred while creating blueprint for the product offering in CPQ Administration.
+
+
+</td></tr><tr><td>
+
 Configurable
 
 </td><td>
 
-Option that indicates the product is customizable and can be configured by agents and customers using the CPQ Configurator, if implemented in your organization. For more information, see [Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md).
+Option that indicates the product is customizable and can be configured by agents and customers using the CPQ Configurator, if implemented in your organization. For more information, see [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +166,7 @@ Offering type
 
 </td><td>
 
-Type of product offer. Select one of the following:-   Product: A product entity that an agent or customer can add to a Sales CRM transaction. For example, agents can add products to a lead, opportunity, quote, or order from the CSM Configurable Workspace. Customers can add products to an order from the Business Portal.
+Type of product offer. Select one of the following:-   Product: A product entity that an agent or customer can add to a Sales CRM transaction. For example, agents can add products to a lead, opportunity, quote, or order from the CRM Workspace. Customers can add products to an order from the Business Portal.
 -   Entitlement: An entity such as a warranty or subscription that can be added to a lead, opportunity, quote, or order by an agent.
 
 

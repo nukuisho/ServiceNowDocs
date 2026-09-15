@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use\_location\_filter\_to\_add\_line\_items.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Location-based transactions, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Location-based transactions, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Use location filter to add opportunity line items
@@ -39,12 +39,10 @@ You can add opportunity lines by location if the [location-based transactions pr
 5.  Navigate to the **Line Items** tab to view the details of the newly added opportunity line item.
 
 
-**Parent Topic:**[Location-based transactions for Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/location_based_transactions_for_opportunity.md)
-
 **Related topics**  
 
 
-[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
 
 [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

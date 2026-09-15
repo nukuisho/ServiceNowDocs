@@ -7,16 +7,16 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Tuning the semantic layer, Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Segments in the Query Generation semantic layer
 
 Segments are predefined filter conditions that map business terminology to specific query filters, helping the semantic layer translate natural language questions into accurate database queries.
 
-[Segments]() provide non-obvious context to assist the semantic layer in selecting the correct entity, dimension, and values. For example, in the [utterance]() "How many open emergency change requests are there?", a segment identifies that "open" means "active=true" and "emergency" is a Type, not a Priority.
+[Segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) provide non-obvious context to assist the semantic layer in selecting the correct entity, dimension, and values. For example, in the [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) "How many open emergency change requests are there?", a segment identifies that "open" means "active=true" and "emergency" is a Type, not a Priority.
 
-When a user asks a question, the Query Generation engine searches for matching segments and includes their filters in the [LLM]() prompt so the model can reuse them to construct accurate queries.
+When a user asks a question, the Query Generation engine searches for matching segments and includes their filters in the [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) prompt so the model can reuse them to construct accurate queries.
 
 There are two types of segments:
 

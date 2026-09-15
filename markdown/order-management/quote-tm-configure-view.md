@@ -1,18 +1,18 @@
 ---
 title: Create a transaction view
-description: Create or modify a ServiceNow Quote Experience view by editing the fields CSV, events CSV, and views YAML files and importing them through the blueprint ZIP in ServiceNow CPQ.
+description: Create or modify a ServiceNow Quote Experience view by editing the fields CSV, events CSV, and views YAML files and importing them through the blueprint ZIP in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-configure-view.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 1
-breadcrumb: [Views, Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Views, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a transaction view
 
-Create or modify a ServiceNow Quote Experience view by editing the fields CSV, events CSV, and views YAML files and importing them through the blueprint ZIP in ServiceNow CPQ.
+Create or modify a ServiceNow Quote Experience view by editing the fields CSV, events CSV, and views YAML files and importing them through the blueprint ZIP in CPQ.
 
 ## Before you begin
 
@@ -48,4 +48,6 @@ View field and event access values cannot be modified in the ServiceNow Quote Ex
 
     The updated view takes effect when the blueprint deployment completes.
 
+
+**Parent Topic:**[Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-views.md)
 

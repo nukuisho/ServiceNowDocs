@@ -1,6 +1,6 @@
 ---
 title: Create a case on behalf of a supplier from the Source-to-Pay Workspace
-description: Create a supplier case to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from a supplier.
+description: Create supplier cases to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from the suppliers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-case.html
 release: australia
@@ -9,12 +9,13 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [Procurement Specialist Workspace, Case type, Banking information change request, Supplier Lifecycle Operations, Supplier information change request, Source-to-Pay Workspace, Supplier location change request]
 breadcrumb: [Manage supplier cases, Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Create a case on behalf of a supplier from the Source-to-Pay Workspace
 
-Create a supplier case to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from a supplier.
+Create supplier cases to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from the suppliers.
 
 \[Omitted video\] Description: Describes the procedure for creating a case on behalf of a supplier from the Source to Pay workspace.
 
@@ -30,15 +31,15 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 2.  Do one of the following.
 
-<table id="choicetable_qn2_ksn_wtb"><thead><tr><th align="left" id="d37478e92">
+<table id="choicetable_qn2_ksn_wtb"><thead><tr><th align="left" id="d39272e115">
 
 To
 
-</th><th align="left" id="d37478e95">
+</th><th align="left" id="d39272e118">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d37478e101">
+</th></tr></thead><tbody><tr><td id="d39272e124">
 
 **To create a case from Quick actions**
 
@@ -50,7 +51,7 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
     2.  From the **Create** drop-down list, select **Supplier case**.
 
 
-</td></tr><tr><td id="d37478e138">
+</td></tr><tr><td id="d39272e161">
 
 **To create a case from the List page**
 
@@ -66,22 +67,22 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
 </td></tr></tbody>
 </table>3.  On the Create New Supplier Case form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
+    For more information about the form fields and descriptions, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
 
 4.  Select **Save**.
 
     The case is created in Draft state.
 
-5.  Do the following steps only if you selected these case types: **Banking information change request**, **Supplier information change request**, **Supplier location change request**.
+5.  Do the following steps only if you selected these case types: **Banking information change request**, **Supplier information change request**, **Supplier location change request**, **Tax information change request**.
 
     1.  Select **Add more details**.
     2.  On the Add more details form, fill in the fields.
 
-        In the **Case type** field, if you selected **Banking information change request**, see [Update banking details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-form.md) for more information about the form fields and descriptions.
+        In the **Case type** field, if you selected **Banking information change request**, see [Fields in the Update banking details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-form.md) for more information about the form fields and descriptions.
 
-        In the **Case type** field, if you selected **Supplier information change request**, see [Update profile details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile-form.md) for more information about the form fields and descriptions.
+        In the **Case type** field, if you selected **Supplier information change request**, see [Fields in the Update profile details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile-form.md) for more information about the form fields and descriptions.
 
-        In the **Case type** field, if you selected **Supplier location change request**, see [Add New Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.md) for more information about the form fields and descriptions.
+        In the **Case type** field, if you selected **Supplier location change request**, see [Fields in the Add New Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.md) for more information about the form fields and descriptions.
 
     3.  Select **Submit**.
 6.  Select **Submit case**.

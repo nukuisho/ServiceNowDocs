@@ -7,10 +7,10 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, content, pack, content pack, enterprise, data, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Enterprise Data Foundation content pack, Available content packs, Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Enterprise Data Foundation, Available content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Enterprise Data Foundation content pack models
@@ -411,8 +411,8 @@ Material Master - Sales Org Data
 
 </td><td>
 
--   Create: Create sales org data
--   Update: Update sales org data
+-   Create: Create sales org data.
+-   Update: Update sales org data.
 -   Read: Retrieve sales org data, such as tax classification and item category group.
 
 </td><td>
@@ -584,5 +584,4 @@ ERP
 RFC/BAPI
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
-
+</table>

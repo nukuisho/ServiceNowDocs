@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-plugin-info.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-12"
-reading_time_minutes: 22
+last_updated: "2026-09-10"
+reading_time_minutes: 23
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -28,6 +28,14 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Admin Center
+
+</td><td>
+
+AI Admin Center \(sn\_na\_center\): AI Admin Center is an AI-enablement workspace that can help customers accelerate and maximize adoption of AI throughout the ServiceNow AI Platform by acting as a centralized portal for AI capabilities.
+
+</td></tr><tr><td>
+
 AI Agent Advisor
 
 </td><td>
@@ -39,6 +47,10 @@ AI Agent Advisor \(sn\_agent\_miner\): AI Agent Advisor is an AI solution that a
 AI Control Tower
 
 </td><td>
+
+Shadow AI Detection \(sn\_shadow\_ai\): Detect unsanctioned AI use.
+
+AI Policy Framework \(sn\_ai\_policy\_framework\): Mitigate AI exposure through policies.
 
 -   com.sn\_ai\_disc - Enables the AI connections page in the AI Control Tower configuration.
 -   sn\_sgc\_central - Enables the Service Graph Connector \(SGC\) feature in the AI connections page.
@@ -76,6 +88,14 @@ Advanced Approval Management
 </td><td>
 
 Advanced Approval Management \(com.sn\_adv\_appr\_mgmt\): Create workflows for approving entities such as customer quotes submitted by sales agents.
+
+</td></tr><tr><td>
+
+Advanced Approval Management AI
+
+</td><td>
+
+Advanced Approval Management AI \(com.sn\_adv\_apr\_mgmt\_ai\): MCP server tools for managing advanced approval requests by using natural language in the conversational interface of an MCP client.
 
 </td></tr><tr><td>
 
@@ -141,11 +161,29 @@ Change Management
 
 </td></tr><tr><td>
 
+Cloud Cost Management
+
+</td><td>
+
+ServiceNow Otto for Cloud Cost Management \(com.sn\_now\_assist\_ccm\): Enables cloud resource admins and users to use the capabilities of generative AI skills in Cloud Cost Management.
+
+</td></tr><tr><td>
+
 Code Signing
 
 </td><td>
 
 Code Signing OOB Apps Signatures \(com.glide.code\_signing.oob\_apps\_signatures\): This plugin installs build time signatures for all relevant records in the trued-upServiceNow® Store application versions.
+
+</td></tr><tr><td>
+
+Common Governance, Risk, and Compliance feature
+
+</td><td>
+
+-   Integrated risk management foundation \(com.sn\_ai\_irm\_fdn\)
+-   Integrated risk management advanced \(com.sn\_ai\_irm\_adv\)
+-   Integrated risk management prime \(com.sn\_ai\_irm\_prm\)
 
 </td></tr><tr><td>
 
@@ -171,7 +209,7 @@ Customer Service Problem Management
 
 </td><td>
 
-Alternative Dispute Resolution \(sn\_telco\_adr\_mgmt\): The Alternative Dispute Resolution captures the case details of the issue or problem faced by the customer and manages investigations and expected resolution. It tracks all actions required to identify the root cause of the ADR and resolve it.
+Customer Dispute Management \(com.sn\_telco\_adr\_mgmt\): The CDM captures the case details of the issue or problem faced by the customer and manages investigations and expected resolution. It tracks all actions required to identify the root cause of the dispute and resolve it.
 
 </td></tr><tr><td>
 
@@ -205,11 +243,19 @@ Data Catalog
 
 </td><td>
 
--   Data Catalog UI \(sn\_dcg\_ui\): Provides the self-service search and discovery interface for browsing and viewing data assets in the catalog.
--   Data Catalog Core \(sn\_dcg\_core\): Provides the core data model and business logic for catalog asset management, classifications, and lineage.
--   Metadata Collectors \(sn\_meta\_collectors\): Enables automated metadata collection from external data platforms to populate and synchronize catalog content.
--   Metadata Collectors Core \(sn\_dcg\_cc\): Provides connectivity services for integrating Data Catalog with external data sources and platforms.
+ServiceNow Data Catalog \(sn\_dcg\_app\): Provides a self-service search and discovery interface for browsing data assets. Manages the core data model and business logic for catalog asset governance and enables automated metadata collection and integration connectivity with external data platforms.
+
+-   ServiceNow Data Catalog \(sn\_dcg\_app\): Provides a self-service search and discovery interface for browsing data assets. Manages the core data model and business logic for catalog asset governance and enables automated metadata collection and integration connectivity with external data platforms.
+-   Graph Explorer \(sn\_hexplorer\): Provides visualization of data flow and business context relationships across systems with column-level lineage tracking. Enables interactive catalog navigation with upstream and downstream data flows and dependency insights.
 -   Workflow Data Fabric Connect Hub \(sn\_wdf\_connect\_hub\): Provides the central hub for managing external data source connections used by Workflow Data Fabric and Data Catalog.
+
+</td></tr><tr><td>
+
+Data Center and Network Asset Management
+
+</td><td>
+
+Data Center and Network Asset Management \(sn\_dcnam\): Data Center and Network Asset Management delivers end-to-end lifecycle management across all data center assets to increase visibility, reduce downtime, maximize usable life, and minimize risk.
 
 </td></tr><tr><td>
 
@@ -226,11 +272,9 @@ Data products
 </td><td>
 
 -   Data Products \(sn\_data\_product\): Enables data stewards to create data interfaces and package them into governed data products for sharing and consumption across the organization.
--   ServiceNow Data Catalog \(UI\) \(sn\_dcg\_ui\): Provides the self-service search and discovery interface for consumers to browse and access data products and data interfaces in the Data Catalog.
--   ServiceNow Data Catalog \(Core\) \(sn\_dcg\_core\): Provides the core data model and business logic for catalog asset management, classifications, and lineage.
--   ServiceNow Data Catalog - Metadata Collectors \(UI\) \(sn\_meta\_collectors\): Provides the interface for configuring and running metadata collectors that synchronize schema information from external data platforms to the Data Catalog.
--   ServiceNow Data Catalog - Metadata Collectors \(Core\) \(sn\_dcg\_cc\): Provides the core connectivity services for integrating external data platforms with the Data Catalog through metadata collection.
--   Connect Hub \(sn\_wdf\_connect\_hub\): Provides the central hub for configuring and managing zero-copy connectors that establish live data pathways between ServiceNow and external data sources.
+-   ServiceNow Data Catalog \(sn\_dcg\_app\): Provides a self-service search and discovery interface for browsing data assets. Manages the core data model and business logic for catalog asset governance and enables automated metadata collection and integration connectivity with external data platforms.
+-   Graph Explorer \(sn\_hexplorer\): Provides visualization of data flow and business context relationships across systems with column-level lineage tracking. Enables interactive catalog navigation with upstream and downstream data flows and dependency insights.
+-   Workflow Data Fabric Connect Hub \(sn\_wdf\_connect\_hub\): Provides the central hub for configuring and managing zero-copy connectors that establish live data pathways between ServiceNow and external data sources.
 
 </td></tr><tr><td>
 
@@ -246,7 +290,7 @@ Enterprise Service Management Foundation
 
 </td><td>
 
--   Setup Hub \(sn\_ia\): Simplifies instance management with a modular admin home dashboard and enables the Core Business Suite guided setup experience.
+-   ServiceNow Otto for Setup \(sn\_ia\): Simplifies instance management with a modular admin home dashboard and enables the Core Business Suite guided setup experience.
 -   Implementation Agent Content \(sn\_ia\_content\): Provides content assets for the Implementation Agent guided setup experience.
 -   Implementation Agent Common \(sn\_ia\_common\): Provides common components shared across the Implementation Agent framework.
 -   Simplified IT Service Management \(sn\_ai\_itsm\_cont\): Provides a tailored service desk with a central workspace, AI agent chat, an Employee Slate, and Now Assist to streamline ITSM and enhance productivity.
@@ -258,15 +302,6 @@ Enterprise Service Management Foundation
         -   Prime: Act autonomously with all AI assets, and create your own
 For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-
-</td></tr><tr><td>
-
-Field Service Management
-
-</td><td>
-
--   Field Service Manager Mobile \(com.snc.fsm\_manager\_mobile\). For details, see [Activate Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/activate-manager-mobile.md). Mangers can manage their technicians and tasks using their mobile device.
--   Field Service Manager Workforce \(com.snc.fsm\_manager\_workforce\). For details, see [Activate Field Service Manager Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/activate-workforce.md). Oversee agent schedules, manage resources, optimize territory coverage, and handle crew tasks and assignments to ensure efficient and effective coverage.
 
 </td></tr><tr><td>
 
@@ -283,6 +318,22 @@ Industrial Connected Workforce Mobile Experience
 </td><td>
 
 ICW Mobile \(sn\_icw\_mobile\): Contains the Industrial Connected Workforce Mobile Experience application.
+
+</td></tr><tr><td>
+
+Industrial Guided Tasks
+
+</td><td>
+
+Industrial Guided Task \(sn\_icw\_igt\): Contains the Industrial Guided Tasks application.
+
+</td></tr><tr><td>
+
+Industrial Standards
+
+</td><td>
+
+Industrial Standard \(sn\_icw\_std\): Contains the Industrial Standards application.
 
 </td></tr><tr><td>
 
@@ -317,28 +368,19 @@ Legal and Contracts Common Utilities \(sn\_lco\_cmn\): Common utilities plugin f
 
 </td></tr><tr><td>
 
+Live Connect
+
+</td><td>
+
+Live Connect \(com.glide.rest.sqlapiserver\): Unified installer for the ServiceNow ODBC and JDBC server‑side plugin. This plugin works with ServiceNow client‑side drivers to enable clients to query and retrieve data from a ServiceNow instance using ODBC and JDBC API standards. You can download and install the client‑side drivers on your client machines from the ServiceNow Store.
+
+</td></tr><tr><td>
+
 MCP Server Console
 
 </td><td>
 
 Model Context Protocol Server \(sn\_mcp\_server\): MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers.
-
-</td></tr><tr><td>
-
-Now Assist Center
-
-</td><td>
-
-Now Assist Center \(sn\_na\_center\): Now Assist Center is an AI-enablement workspace designed to help customers accelerate and maximize adoption of AI throughout the ServiceNow AI Platform by acting as a centralized portal for all Now Assist AI capabilities.
-
-</td></tr><tr><td>
-
-Now Assist for Creator
-
-</td><td>
-
--   App Life Cycle AI Agents \(com.sn\_app\_lc\_agents\): Scoped app: AI agent definition, script includes, REST API, system properties
--   App Life Cycle AI Agents - Global \(com.glide.app\_lifecycle\_agents.global\): Hosted global plugin: UI actions, UI scripts, global utilities
 
 </td></tr><tr><td>
 
@@ -350,27 +392,11 @@ Employee Center Pro \(sn\_ex\_sp\_pro\): Provides a platform for employees to co
 
 </td></tr><tr><td>
 
-Now Assist for Operational Technology Service Management \(OTSM\)
-
-</td><td>
-
-Now Assist for OTSM \(com.sn\_otsm\_gen\_ai\): Contains the features, AI agents, and agentic workflows for Now Assist for OTSM.
-
-</td></tr><tr><td>
-
-Now Assist for Source-to-Pay Operations
-
-</td><td>
-
-Now Assist for Purchase Order Management \(POM\) \[sn\_poem\_gen\_ai\]: Automates purchase order exception creation and suggests mitigation strategies for order-related issues, helping buyers resolve disruptions quickly and keep procurement operations on track.
-
-</td></tr><tr><td>
-
 Purchase Order Management
 
 </td><td>
 
-Now Assist for Purchase Order Management \(POM\) \(sn\_poem\_gen\_ai\): Automates purchase order exception creation and suggests mitigation strategies for order-related issues, helping buyers resolve disruptions quickly and keep procurement operations on track.
+ServiceNow Otto for Purchase Order Management \(POM\) \(sn\_poem\_gen\_ai\): Automates purchase order exception creation and suggests mitigation strategies for order-related issues, helping buyers resolve disruptions quickly and keep procurement operations on track.
 
 </td></tr><tr><td>
 
@@ -416,14 +442,6 @@ Enterprise-Wide Deployment \(sn\_spm\_ewd\): Provides data partitioning capabili
 
 </td></tr><tr><td>
 
-SQL API
-
-</td><td>
-
-SQL API \(com.glide.rest.sqlapiserver\): Unified installer for the ServiceNow ODBC and JDBC server‑side plugin. This plugin works with ServiceNow client‑side drivers to enable clients to query and retrieve data from a ServiceNow instance using ODBC and JDBC API standards. You can download and install the client‑side drivers on your client machines from the ServiceNow Store.
-
-</td></tr><tr><td>
-
 Self-service and omnichannel engagement for CSM
 
 </td><td>
@@ -435,15 +453,32 @@ Self-service and omnichannel engagement for CSM
 
 </td></tr><tr><td>
 
-ServiceNow Vault
+ServiceNow Otto for Care Team Operations
 
 </td><td>
 
-Vault Suite \(com.snc.vault\_suite\): Automates the deployment of the complete ServiceNow Vault offering, including Vault Console, Field Encryption, Zero Trust Access, Log Export Service, Code Signing Enterprise, and Cloud Encryption, on instances with a ServiceNow Vault subscription.
+Now Assist for Care Team Operations \(com.sn\_cto\_now\_assist\): Enables care teams to use the conversational abilities of Now Assist in Virtual Agent to create support requests.
 
 </td></tr><tr><td>
 
-Setup Hub
+ServiceNow Otto for Creator
+
+</td><td>
+
+-   App Life Cycle AI Agents \(com.sn\_app\_lc\_agents\): Scoped app: AI agent definition, script includes, REST API, system properties
+-   App Life Cycle AI Agents - Global \(com.glide.app\_lifecycle\_agents.global\): Hosted global plugin: UI actions, UI scripts, global utilities
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Operational Technology \(OT\) Service Management
+
+</td><td>
+
+ServiceNow Otto for OT Service Management \(com.sn\_otsm\_gen\_ai\): Contains the features, AI agents, and agentic workflows for ServiceNow Otto for OT Service Management.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Setup
 
 </td><td>
 
@@ -455,6 +490,22 @@ The following plugins are new in Australia:
 -   app-ia-common
 -   app-ia-config
 -   admin-center
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Source-to-Pay Operations
+
+</td><td>
+
+ServiceNow Otto for Purchase Order Management \(POM\) \[sn\_poem\_gen\_ai\]: Automates purchase order exception creation and suggests mitigation strategies for order-related issues, helping buyers resolve disruptions quickly and keep procurement operations on track.
+
+</td></tr><tr><td>
+
+ServiceNow Vault
+
+</td><td>
+
+Vault Suite \(com.snc.vault\_suite\): Automates the deployment of the complete ServiceNow Vault offering, including Vault Console, Field Encryption, Zero Trust Access, Log Export Service, Code Signing Enterprise, and Cloud Encryption, on instances with a ServiceNow Vault subscription.
 
 </td></tr><tr><td>
 
@@ -474,22 +525,6 @@ Telecommunications Network Inventory
 
 -   Remote Hands Request Management \(sn\_remote\_hands\): Remote Hands plugin enables you to use the Remote Hands request feature in the Customer Service Management portal.
 -   Racks Allocation Workflow \(sn\_genai\_platform 12.1.0\): Enables rack allocation via the Rack placement AI agent in the Telecommunication Network Inventory Workspace and Service Operation Workspace. The agent reserves the racks that meet the capacity requirements, based on the physical and logical constraints specified in the change request.
-
-</td></tr><tr><td>
-
-Telecommunications Service Operations Management \(TSOM\)
-
-</td><td>
-
-TSOM Event Management Connectors \(sn\_tsom\_em\_conns\): TSOM Assurance Connectors for events and metrics
-
-</td></tr><tr><td>
-
-Zero Copy Connectors
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Deprecated plugins in Australia
@@ -514,11 +549,57 @@ Customer Service CTI Demo Data \(com.snc.customerservice\_cti\_demo\): ServiceNo
 
 </td></tr><tr><td>
 
+Data Catalog
+
+</td><td>
+
+Data Catalog UI \(sn\_dcg\_ui\): Replaced by ServiceNow Data Catalog \(sn\_dcg\_app\).
+
+Data Catalog Core \(sn\_dcg\_core\): Replaced by ServiceNow Data Catalog \(sn\_dcg\_app\).
+
+Metadata Collectors \(sn\_meta\_collectors\): Replaced by ServiceNow Data Catalog \(sn\_dcg\_app\).
+
+Metadata Collectors Core \(sn\_dcg\_cc\): Replaced by ServiceNow Data Catalog \(sn\_dcg\_app\).
+
+</td></tr><tr><td>
+
+Legal Virtual Agent Conversations
+
+</td><td>
+
+[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-va-conversations.md) \(sn\_lg\_virtual\_agent\): Planned for deprecation in C release.There is no replacement for this plugin.
+
+</td></tr><tr><td>
+
+Predictive intelligence for Legal Service Delivery
+
+</td><td>
+
+[Predictive intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-predictive-intelligence-landing.md) \(sn\_lg\_pi\): Planned for deprecation in C release. There is no replacement for this plugin.
+
+</td></tr><tr><td>
+
 Security Incident Response
 
 </td><td>
 
 Security Incident Response UI \(sn\_app\_secops\_ui\): This plugin is replaced by Security Incident Response Workspace \(sn\_si\_aw\).
+
+</td></tr><tr><td>
+
+Self-service and omnichannel engagement for CSM
+
+</td><td>
+
+CTI Softphone \(com.snc.cti\): There is no replacement for this plugin.
+
+</td></tr><tr><td>
+
+ServiceNow AI Platform core feature
+
+</td><td>
+
+ServiceNow Subscription Management \(com.snc.usage\_admin.snc\): Update to the most recent version of the Subscription Management application through the Application Manager. For more information about the Subscription Management application, see [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md)
 
 </td></tr></tbody>
 </table>## Plugins planned for deprecation in Australia
@@ -534,6 +615,14 @@ Application or feature
 Details
 
 </th></tr></thead><tbody><tr><td>
+
+AI Admin Hub
+
+</td><td>
+
+Conversational Help Skills: Planned for deprecation in May 2026. Install the External Content Connectors Application Suite from the [ServiceNow store](https://store.servicenow.com/store/app/dd69bc781bd9a650396216db234bcb0b). For configuration guidance, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
+
+</td></tr><tr><td>
 
 Agent experience for CSM
 
@@ -589,6 +678,34 @@ The following Integration Hub flow templates are planned for deprecation in Sept
 
 </td></tr><tr><td>
 
+Case management for CSM
+
+</td><td>
+
+These plugins are planned for deprecation in the C release. Beginning with the Australia release these plugins will be migrated to store applications. Upgrade your instance to Australia or later release versions and the store applications will be automatically installed:
+
+-   [Action Status Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-case-action-status.md) \(com.sn\_action\_status\)
+-   [Customer Service Case Action Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-case-action-status.md) \(com.snc.csm\_action\_status\)
+-   [Case Digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-digests.md) \(com.sn\_csm\_case\_digest\)
+-   [Customer Service Document Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-case-digests.md) \(com.sn\_csm\_doc\_template\)
+-   [Customer Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ppm-integration.md) \(com.snc.csm\_ppm\)
+-   Customer Service with Request Management \(com.sn\_cs\_sm\_request\)
+-   Customer Service with Service Management \(com.sn\_cs\_sm\)
+-   [Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-management.md) \(com.sn\_majorissue\_mgt\)
+-   [Proxy contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/employee-create-case-for-customer.md) \(com.snc.csm\_proxy\_contacts\)
+-   [Targeted communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_TargetedCommunications.md) \(com.sn\_publications\)
+-   [Case Assignment Workbench Demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustServMgmtAddtlPluginsTable.md) \(com.snc.case\_assignment\_workbench\_demo\): Beginning with the Australia release this plugin will be deprecated. The demo data will be migrated to the Case Assignment Workbench store application.
+
+</td></tr><tr><td>
+
+Cloud Cost Management
+
+</td><td>
+
+Cloud Cost Management \(sn\_clin\): Planned for deprecation in a future release. Planned for deprecation in a future release. Use the Cloud Cost Management Infra Stack application that includes related ServiceNow® Store applications and plugins if they aren’t already installed.
+
+</td></tr><tr><td>
+
 Configurable Workspace
 
 </td><td>
@@ -629,7 +746,7 @@ Document Intelligence
 
 </td><td>
 
-Document Intelligence Admin \(sn\_docintel\_admin\): Planned for deprecation in the Brazil release. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/docintel-nowassist-landing.md).
+Document Intelligence Admin \(sn\_docintel\_admin\): Planned for deprecation in the Brazil release. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/docintel-nowassist-landing.md).
 
 </td></tr><tr><td>
 
@@ -644,69 +761,11 @@ Encryption
 
 </td></tr><tr><td>
 
-Field Service Management
-
-</td><td>
-
-The following plugins are planned for deprecation in the C release. Beginning with the Australia release, this plugin will be migrated to a store application. When you upgrade your instance to at least the Australia release, the store applications will be automatically installed.
-
--   Advanced Appointment Booking \(com.snc.advanced\_appointment\_booking\)
--   Field Service Marketplace \(com.snc.fsm\_marketplace\)
--   Marketplace Core \(com.snc.marketplace\_core\)
--   Field Service Management Intelligent Task Recommendations \(com.snc.fsm\_task\_recommendations\)
--   Field Service Management Scheduling Flows \(com.snc.sn\_app\_fsm\_scheduling\_flows\)
--   Intelligent Task Recommendations \(com.snc.task\_recommendations\)
--   Application Common Configuration \(com.snc.app\_cmn\_config\)
--   Field Service Capacity Management \(com.snc.fsm\_capacity\_management\)
--   Field Service Territory Planning \(com.snc.fsm\_territory\_planning\)
--   Field Service with Service Locations support \(com.snc.fsm\_service\_locations\)
--   Sales Mobile Common \(com.snc.sales\_mobile\_cmn\)
--   Technician driven sales with Field Service \(com.snc.fsm\_technician\_sales\)
--   Territory Planning \(com.snc.territory\_planning\)
--   Field Service Mobile \(com.sn\_fsm\_mobile\)
--   Field Service Quality Management \(com.sn\_fsm\_quality\)
--   Quality Management \(com.sn\_quality\)
--   Field Service Contractor Management \(com.snc.fsm\_contractor\_management\)
--   Beans.AI Spoke \(com.sn\_beans\_ai\_spoke\)
--   Map Integrations for Field Service \(com.snc.app\_fsm\_map\_integr\)
--   Schedule Optimization \(com.snc\_schedule\_optimization\)
--   Field Service Multi-Day Task Scheduling \(com.snc.fsm\_multiday\_tasks\)
--   Field Service Management Access Hours Management \(com.snc.fsm\_access\_hours\)
--   Work Order Questionnaires \(com.snc.wm\_questionnaire\)
--   Work Order Management \(com.snc.work\_management\_core\)
-
-</td></tr><tr><td>
-
 Impact
 
 </td><td>
 
-Impact Health \(com.sn\_impact\_health\): Planned for deprecation in a future release. For this functionality, install the [Now Assist for Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-health-agent.md) Scan Engine application.
-
-</td></tr><tr><td>
-
-Legal Virtual Agent Conversations
-
-</td><td>
-
- \(sn\_lg\_virtual\_agent\): Planned for deprecation in C release.There is no replacement for this plugin.
-
-</td></tr><tr><td>
-
-Now Assist
-
-</td><td>
-
-Conversational Help Skills: Planned for deprecation in May 2026. Install the External Content Connectors Application Suite from the [ServiceNow store](https://store.servicenow.com/store/app/dd69bc781bd9a650396216db234bcb0b). For configuration guidance, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
-
-</td></tr><tr><td>
-
-Now Assist for Creator
-
-</td><td>
-
--   App generation \(sn\_ae\_gen\_ai\): Planned for deprecation in September 2026. The Build Agent plugin provides the latest experience for this functionality.
--   Test generation \(sn\_text2test\): Planned for deprecation in September 2026. The Build Agent plugin provides the latest experience for this functionality.
+Impact Health \(com.sn\_impact\_health\): Planned for deprecation in a future release. For this functionality,  to use the Scan Engine application.
 
 </td></tr><tr><td>
 
@@ -714,15 +773,7 @@ Now Assist in Document Intelligence
 
 </td><td>
 
-The Document Intelligence Admin \(sn\_docintel\_admin\) plugin is planned for deprecation in the Brazil release. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/docintel-nowassist-landing.md).
-
-</td></tr><tr><td>
-
-Predictive intelligence for Legal Service Delivery
-
-</td><td>
-
- 
+The Document Intelligence Admin \(sn\_docintel\_admin\) plugin is planned for deprecation in the Brazil release. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/docintel-nowassist-landing.md).
 
 </td></tr><tr><td>
 
@@ -734,6 +785,14 @@ Self-service and omnichannel engagement for CSM
 -   [Skill Determination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quick-start-tests-csm.md) \(com.snc.skill\_determination\)
 -   [Advanced Work Assignment for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/awa-csm-overview.md) \(sn\_csm.awa\)
 -   [Social Media Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/social-media-integration.md) \(sn\_cs\_social\_host\)
+
+</td></tr><tr><td>
+
+Service Graph Connector Integration for Claroty CTD
+
+</td><td>
+
+Service Graph Connector Integration for Claroty CTD \(sn\_clarotyctdsgc\): Planned for deprecation by the Canada release.
 
 </td></tr><tr><td>
 
@@ -754,11 +813,36 @@ CLI Metadata \(com.sn\_cli\_metadata\): Planned for deprecation in the C release
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Creator
+
+</td><td>
+
+-   App generation \(sn\_ae\_gen\_ai\): Planned for deprecation in September 2026. The Build Agent plugin provides the latest experience for this functionality.
+-   Test generation \(sn\_text2test\): Planned for deprecation in September 2026. The Build Agent plugin provides the latest experience for this functionality.
+
+</td></tr><tr><td>
+
+Vulnerability Response Integration with Claroty CTD
+
+</td><td>
+
+Vulnerability Response Integration with Claroty CTD \(sn\_clarotyctdvr\): Planned for deprecation by the Canada release.
+
+</td></tr><tr><td>
+
 Workforce Optimization for HR
 
 </td><td>
 
 Workforce Optimization for HR \(com.sn\_hr\_wfo\): Planned for deprecation in July 2027. There is no replacement for this application as of now.
+
+</td></tr><tr><td>
+
+Workforce Optimization for ITSM
+
+</td><td>
+
+Admin Console in Workforce Optimization for ITSM \(sn\_wfo\_admin\): Planned for deprecation in Australia release. There is no replacement for this plugin.
 
 </td></tr></tbody>
 </table>## Renamed or changed plugins in Australia
@@ -782,7 +866,9 @@ Data Management for CSM
 -   CSM Contributor User \(com.snc.csm\_contributor\_user\)
 -   Outsourced Customer Service \(com.snc.csm\_ocs\)
 -   Service Organization \(com.snc.service\_organization\)
--   Outsourced Service Provider \(com.snc.outsourced\_service\_provider\)
+-   Outsourced service provider \(com.snc.outsourced\_service\_provider\)
+-   CSM Data Classification \(com.snc.csm\_data\_privacy\): Renamed to CRM Data Classification.
+-   Customer Service Household \(com.snc.household\): Renamed to CRM Household Entities.
 
 </td></tr><tr><td>
 
@@ -790,7 +876,7 @@ Predictive AI for CSM
 
 </td><td>
 
-Recommended Actions for Customer Service \(sn\_cs\_nb\_action\):Renamed to Recommended Actions for Service \(sn\_cs\_nb\_action\) starting with v31.0.
+Recommended Actions for Customer Service \(sn\_cs\_nb\_action\): renamed to Recommended Actions for Service \(sn\_cs\_nb\_action\) starting with v31.0.
 
 </td></tr><tr><td>
 

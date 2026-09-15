@@ -42,19 +42,19 @@ Get the Hardware Asset Management application from the [ServiceNow Store](https:
 
 </td><td>
 
-[Install Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-ham.md)
+[Install Hardware Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-ham.md)
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-sdlc.svg"\] Alt text: Configure Now Assist for HAMConfigure the Now Assist for HAM application
+\[Omitted image "bus-sdlc.svg"\] Alt text: Configure ServiceNow Otto for HAMConfigure the ServiceNow Otto for HAM application
 
 </td><td>
 
-Get the Now Assist for Hardware Asset Management \(HAM\) application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+Get the ServiceNow Otto for Hardware Asset Management \(HAM\) application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 </td><td>
 
-[Configure Now Assist for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configuring-now-assist-ham.md)
+[Configure ServiceNow Otto for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configuring-now-assist-ham.md)
 
 </td></tr><tr><td>
 

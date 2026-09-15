@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
-breadcrumb: [Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # URL Discovery insights dashboard
@@ -24,11 +24,11 @@ To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Works
 ## Prerequisites
 
 -   **Verify that you have the required setup**
-    -   Australia, Zurich, or YP6 or later version of the ServiceNow AI Platform
+    -   ServiceNow AI Platform: Australia release, Zurich release, or Yokohama release, starting with Patch 6
     -   Software Asset Management Professional plugin \(com.snc.samp\)
-    -   Agent Client Collector for Visibility - Content \(ACC-VC\) v1.8.0 or later
-    -   ITOM URL Discovery v1.1.0 or later
-    -   Discovery Admin Workspace v1.14.0 or later
+    -   Agent Client Collector for Visibility - Content \(ACC-VC\), starting with v1.8.0
+    -   ITOM URL Discovery, starting with v1.1.0
+    -   Discovery Admin Workspace, starting with v1.14.0
 -   **Enable the data collection**
 
     Role required: discovery\_admin or admin

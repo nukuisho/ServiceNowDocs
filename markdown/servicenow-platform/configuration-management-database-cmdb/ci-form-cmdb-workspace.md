@@ -20,7 +20,7 @@ The CI Form feature is a centralized location with a comprehensive set of CI det
 
 General operations you can perform in CI Form:
 
--   Select the Now Assist for CMDB CI Summarization skill: Requires that Now Assist for CMDB is set up. For more information, see [Configure the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.md).
+-   Select the CI Summarization skill: Requires that ServiceNow Otto for CMDB is set up. For more information, see [Configure the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.md).
 -   Select **Open map** to open the CI map in [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/cmdb-workspace-unified-map.md). This function isn't available for a non-operational CI. For information about using the **Life cycle stage** attribute to define a CI's operational state, see [Configure CIs to appear based on life cycle stage value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-confg-operational-state.md).
 
 In general, a CMDB Admin and a CMDB Editor can view and edit CI records, and a CMDB User can view CI details on the form.
@@ -253,7 +253,7 @@ More information:
 
 -   [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
 -   [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
--   [Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md)
+-   [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md)
 
 **Parent Topic:**[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 

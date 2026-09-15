@@ -1,20 +1,26 @@
 ---
-title: Scheduled jobs for TPM in the EA Workspace
-description: Several types of scheduled jobs are added for Technology Portfolio Management.
+title: Scheduled jobs for TLM in the EA Workspace
+description: Several types of scheduled jobs are added for Technology Lifecycle Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-tpm-scheduled-jobs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Activate the Technology Portfolio Management \(TPM\) plugin, Configure Technology Portfolio Management, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+reading_time_minutes: 2
+breadcrumb: [Activate the Technology Lifecycle Management \(TLM\) plugin, Configure Technology Lifecycle Management, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Scheduled jobs for TPM in the EA Workspace
+# Scheduled jobs for TLM in the EA Workspace
 
-Several types of scheduled jobs are added for Technology Portfolio Management.
+Several types of scheduled jobs are added for Technology Lifecycle Management.
 
-The following is the list of scheduled jobs for Technology Portfolio Management \(TPM\) in EA Workspace:
+**Important:**
+
+Technology Lifecycle Management \(TLM\) was previously known as Technology Portfolio Management \(TPM\). TPM and TLM refer to the same feature. Table names and scheduled job names continue to use TPM and haven't been renamed.
+
+Whether your instance displays TPM or TLM also depends on your application versions. TLM labels appear only when both the Enterprise Architecture Workspace application \(version 9.2.1 or later\) and the Technology Lifecycle Management plugin, sn\_apm\_tpm \(version 1.11.0 or later\), are installed. If either application is on an earlier version, the interface continues to show TPM.
+
+The following is the list of scheduled jobs for Technology Lifecycle Management \(TLM\) in EA Workspace:
 
 <table id="table_cqf_13p_k1c"><thead><tr><th>
 
@@ -46,17 +52,27 @@ Populate TRM technical debts in the EA Workspace
 
 </td><td>
 
-Updates the Technical Debt \[sn\_apm\_trm\_standards\_technical\_debt\] table with the latest technical debt data for your software products that is available in the TPM Discovered Technology \[sn\_apm\_tpm\_discovered\_technology\] table.**Note:** The Populate TRM technical debts in the EA Workspace scheduled job will be available only the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
+Updates the Technical Debt \[sn\_apm\_trm\_standards\_technical\_debt\] table with the latest technical debt data for your software products that is available in the TPM Discovered Technology \[sn\_apm\_tpm\_discovered\_technology\] table. Existing records persist across runs and move between Active, Resolved, and Archived states instead of being deleted and re-created.**Note:** The Populate TRM technical debts in the EA Workspace scheduled job will be available only the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
+
+</td></tr><tr><td>
+
+Delete Archived Tech Debts
+
+</td><td>
+
+Runs automatically on the first day of every month and deletes Archived technical debt records whose **Updated** value is older than the retention period set in the system property **sn\_apm\_tpm.monthsToDeleteArchivedTechDebt**. The default retention period is 12 months. You don't need to run this job manually, though you can if you want to apply a retention period change immediately.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate the Technology Portfolio Management \(TPM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md)
+</table>**Parent Topic:**[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md)
 
 **Related topics**  
 
 
-[Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
+[Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
 
-[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md)
+[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md)
 
-[Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
+[Restart the TLM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
+
+[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md)
 

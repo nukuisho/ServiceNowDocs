@@ -38,8 +38,8 @@ Category
 
 </td><td>
 
-Category of the demand:-   Strategic: For demands for plans, such as projects or stories.
--   Operational: For demands for operational work, such as changes or defects.
+Category of the demand:-   Strategic: For demands for plans, such as projects or stories. These demands go through strategic evaluation and prioritization regardless of scope, from large initiatives, such as a project or epic, to smaller, well-defined changes, such as a story.
+-   Operational: For demands for operational work, such as changes or defects. These demands address business-as-usual work that doesn't require strategic evaluation or prioritization.
 
 </td></tr><tr><td>
 
@@ -66,6 +66,8 @@ If the Agile Development 2.0 application is active, the Story, Epic, Enhancement
 If the Strategic Planning application is active, the EAP Epic, EAP Feature, and EAP Capability options are available.
 
 The No Conversion option enables you to use your demand to fund a large project that includes one or more projects, epic, or programs.
+
+A story represents a smaller strategic change that a product manager has scoped narrowly enough that it doesn't need further decomposition into an epic with child stories.
 
 The selections in the **Category** and **Type** field also determine the fields that are displayed in the Assessment Data section.
 
@@ -141,10 +143,7 @@ Start date
 
 The preliminary or estimated date when the work is initially planned to begin. This date helps outline the intended timing for early demand planning and prioritization. You can set this date during initial demand creation or anytime in the planning phase when a rough idea forms. This date can be updated until the demand is officially approved. For example, you’re planning for a database upgrade to start on 2025-11-01.
 
-This date is changed to **Planned start date** when the demand is converted to a project.**Note:**
-
--   When you change the planned start date of a demand or project, the associated cost plans and resource assignments also change. The **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property controls the behavior for a demand date change. This property isn’t enabled by default. For more information, see and [Properties installed with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md).
--   The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Australia version. To ensure continuity, if you’re upgrading to the Australia release from an earlier release, you’ll continue to see the prior labels.
+**Note:** The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Australia version. To ensure continuity, if you’re upgrading to the Australia release from an earlier release, you’ll continue to see the prior labels.
 
 </td></tr><tr><td>
 
@@ -154,10 +153,7 @@ Due date
 
 The preliminary or estimated date when the planned work is expected to be completed. This date provides an expected completion window for planning and stakeholder communication. You can set this date anytime in the planning phase when a rough idea forms and can be updated until the demand is officially approved.For example, you’re planning to complete the database upgrade by 2025-12-31.
 
-**Note:**
-
--   The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Australia version. To ensure continuity, if you’re upgrading to the Australia release from an earlier release, you’ll continue to see the prior labels.
--   This date is changed to **Planned end date** when the demand is converted to a project.
+**Note:** The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Australia version. To ensure continuity, if you’re upgrading to the Australia release from an earlier release, you’ll continue to see the prior labels.
 
 </td></tr><tr><td>
 
@@ -477,7 +473,7 @@ ROI %
 
 </td><td>
 
-ROI calculated based on the values in the **Total costs** and **Financial return** fields.The value in this field is updated when a cost plan, benefit plan, or resource assignment is created or updated for the demand in the Qualified or Approved state.
+ROI calculated based on the values in the **Total costs** and **Financial return** fields.This field is updated when a cost plan, benefit plan, or resource assignment is created or updated. The demand must be in the **Qualified** or **Approved** state.
 
 </td></tr><tr><td>
 
@@ -586,7 +582,7 @@ Score
 
 </td><td>
 
-The demand score is calculated based on the **risk**, **value**, and **size** attributes in the base system.The value of the **risk**, **value**, and **size** attributes are derived from the assessment metric category results. For more information, see [View assessment results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/view-assessment-results-demand-ppw.md) and [assessment category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewACategoryResult.md).
+The demand score is calculated based on the **risk**, **value**, and **size** attributes in the base system.The value of the **risk**, **value**, and **size** attributes are derived from the assessment metric category results.
 
 -   When the **risk** and **size** values are high, the score of the demand is low.
 -   When the **value** setting is high, the score of the demand is high.

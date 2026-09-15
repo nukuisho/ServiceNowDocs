@@ -9,12 +9,15 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [supplier task, affected KPI, KPI Admin, action plan item, action plan, supplier case]
 breadcrumb: [Create action plan for KPIs, Using Supplier Relationship and Performance Management, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Create supplier tasks for the action plan
 
 Create supplier tasks for the affected KPIs in the action plan.
+
+\[Omitted video\] Description: Create action plan for KPIs.
 
 ## Before you begin
 

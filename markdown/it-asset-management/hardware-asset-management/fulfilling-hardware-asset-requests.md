@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-06-05"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Manageme
 
 You can fulfill hardware asset requests submitted through the Service Catalog application manually or by using the Help manage hardware asset requests agentic workflow.
 
--   **[Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)**  
+-   **[ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)**  
 Use the Help manage hardware asset requests agentic workflow, driven by AI agents, to handle your employees' hardware asset requests automatically. The AI agents fulfill requests by either consuming the available local stock, or by generating transfer orders or purchase orders.
 -   **[Fulfill hardware asset requests manually by using the Standard Hardware Asset Request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-request-flow.md)**  
 Use a hardware asset request flow for requesting, sourcing, and deploying hardware catalog items from the Service Catalog application.
@@ -85,6 +85,10 @@ Use a hardware asset request flow for requesting, sourcing, and deploying hardwa
 [Manage asset put away using the Hardware Asset Workspace]()
 
 [Audit your hardware assets by using Asset Attestation]()
+
+[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+
+[Manage obligations in the Hardware Asset Workspace]()
 
 [Acknowledge receipt of assets on the Employee Center portal]()
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customize Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
+breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Customize Scan Engine definition suites
@@ -27,40 +27,14 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
 
 4.  Fill in the fields as needed.
 
-<table id="choicetable_o2k_3nx_2hc"><tbody><tr><td id="d29235e106">
+    |Field|Description|
+    |-----|-----------|
+    |Number|Unique identifier of the definition suite. This number is generated automatically.|
+    |Active|Makes the definition suite active and useable.|
+    |Short Description|Brief description of the definition suite.|
+    |Description|Detailed description of why the suite was created.|
 
-**Number**
-
-</td><td>
-
-The unique identifier of the definition suite. This number is generated automatically.
-
-</td></tr><tr><td id="d29235e115">
-
-**Active**
-
-</td><td>
-
-Makes the definition suite active and useable.
-
-</td></tr><tr><td id="d29235e124">
-
-**Short Description**
-
-</td><td>
-
-Brief description of the definition suite.
-
-</td></tr><tr><td id="d29235e133">
-
-**Description**
-
-</td><td>
-
-Detailed description of why the suite was created
-
-</td></tr></tbody>
-</table>5.  Modify Scan Engine Definition Suites
+5.  Modify Scan Engine Definition Suites
 
     **Note:** Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
 
@@ -69,8 +43,6 @@ Detailed description of why the suite was created
 6.  Navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Definition Suites**.
 
 7.  Select a suite number to open its details and modify its properties.
-
-    You can edit the same fields you configured in [Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definition-suites.md).
 
     Related lists appear at the bottom of the screen.
 
@@ -109,3 +81,5 @@ Displays findings found during on-demand or instance scans as defined by the def
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/view-modify-scan-engine-properties.md)
+

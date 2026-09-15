@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-itsmmobileagent-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -100,7 +100,7 @@ You can also summarize the incident information when adding work notes when reas
     -   My team applet
     -   Major incidents
     -   My work
-To enable this feature in ITSM Mobile Agent, you must configure the Incident summarization skill in Now Assist for ITSM.
+To enable this feature in ITSM Mobile Agent, you must configure the Incident summarization skill in ServiceNow Otto for ITSM.
 
 -   **[Set alert tones for incident with different priority levels](https://www.servicenow.com/docs/access?context=set-alert-tones-incident-priority&family=yokohama&ft:locale=en-US)**
 
@@ -302,7 +302,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install ITSM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, supplier, invoice automation, AP automation, Universal Request]
+keywords: [APO, Accounts Payable Operations, supplier, Supplier Collaboration Portal, invoice automation, Request Help form, Universal Request]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -71,6 +71,8 @@ Attachments related to the request or issue.
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Outbound cost allocation staging table]()
@@ -94,6 +96,8 @@ Attachments related to the request or issue.
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

@@ -1,18 +1,18 @@
 ---
 title: Create a transaction rule
-description: Create a rule in ServiceNow Quote Experience to define conditions and actions that control field behavior and layout presentation on a quote in ServiceNow CPQ.
+description: Create a rule in ServiceNow Quote Experience to define conditions and actions that control field behavior and layout presentation on a quote in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-rule.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 5
-breadcrumb: [Rules and rule groupings, Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Rules and rule groupings, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a transaction rule
 
-Create a rule in ServiceNow Quote Experience to define conditions and actions that control field behavior and layout presentation on a quote in ServiceNow CPQ.
+Create a rule in ServiceNow Quote Experience to define conditions and actions that control field behavior and layout presentation on a quote in CPQ.
 
 ## Before you begin
 
@@ -130,4 +130,6 @@ Rules are created through the ServiceNow Quote Experience administration interfa
 ## What to do next
 
 Add the rule to a rule grouping so that it can be assigned to stages and events. For more information, see [Create a transaction rule grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-rule-grouping.md).
+
+**Parent Topic:**[Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-rules-and-rule-groups.md)
 

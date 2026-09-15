@@ -18,7 +18,7 @@ Manage public zones and private managed DNS zones in using Google Cloud DNS acco
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -30,7 +30,7 @@ This spoke was built for Google Cloud DNS API version v1, but may be compatible 
 
 ## Spoke version
 
-Google Cloud DNS Spoke version is 1.0.2.
+Google Cloud DNS Spoke version is 1.0.2. For version history of the spoke, see [Google Cloud DNS spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-google-cloud-dns.html).
 
 ## Spoke requirements
 

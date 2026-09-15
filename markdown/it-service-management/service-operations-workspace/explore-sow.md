@@ -1,6 +1,6 @@
 ---
 title: Exploring Service Operations Workspace for ITSM
-description: You can have a unified and seamless experience when managing the life cycle of task records such as incidents, requests, and walk-ups in IT Service Management workflows using Service Operations Workspace \(SOW\) for ITSM.
+description: Service Operations Workspace provides agents with a unified view of incidents, alerts, and tasks so they can investigate and resolve service issues from a single interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/explore-sow.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 
 # Exploring Service Operations Workspace for ITSM
 
-You can have a unified and seamless experience when managing the life cycle of task records such as incidents, requests, and walk-ups in IT Service Management workflows using Service Operations Workspace \(SOW\) for ITSM.
+Service Operations Workspace provides agents with a unified view of incidents, alerts, and tasks so they can investigate and resolve service issues from a single interface.
 
 ## Service Operations Workspace for ITSM overview
 
@@ -84,7 +84,7 @@ User who implements and sets up Service Operations Workspace for ITSM.
 |Administrators can have a guided experience for initial configuration of Service Operations Workspace for ITSM.|[Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md)|Administrator|
 |Agents can have a unified experience for services and operations on a single platform by integrating with Service Operations Workspace for ITOM.|[Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/service-operations.md)|Tier 1 agent, Tier 2 agent, and IT operator|
 
-For information about key features in Service Operations Workspace for ITOM, see [Exploring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/explore-sow-itom.md).
+For information about key features in Service Operations Workspace for ITOM, see Exploring Service Operations Workspace for ITOM.
 
 ## Service Operations Workspace for ITSM workflow for an agent
 

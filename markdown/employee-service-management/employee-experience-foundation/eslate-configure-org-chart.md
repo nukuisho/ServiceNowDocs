@@ -1,6 +1,6 @@
 ---
-title: Configure the organization chart for Employee Slate
-description: Configure the organization chart in Employee Slate. Set the eligible users and the fields that appear on each card.
+title: Configure the organization chart
+description: Configure the organization chart in EmployeeWorks Web App. Set the eligible users and the fields that appear on each card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-org-chart.html
 release: australia
@@ -10,18 +10,18 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
 keywords: [organization chart, org chart configuration, eligible users, employee card fields, Employee Slate]
-breadcrumb: [Employee org chart, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee org chart, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Configure the organization chart for Employee Slate
+# Configure the organization chart
 
-Configure the organization chart in Employee Slate. Set the eligible users and the fields that appear on each card.
+Configure the organization chart in EmployeeWorks Web App. Set the eligible users and the fields that appear on each card.
 
 ## Before you begin
 
-Activate Employee Slate for Now Assist in the instance.
+Activate Employee Slate \(built for Now Assist\) in the instance.
 
-Role required: admin or Employee Slate administrator.
+Role required: admin.
 
 ## About this task
 
@@ -43,15 +43,19 @@ The eligible user setting controls who appears in the chart. The card field sett
 
     Common fields include **Name**, **Title**, **Manager email**, and **Team**. Each selected field appears in the order shown.
 
-4.  Preview the chart from an employee account.
+4.  In **Org chart configuration**, set the report count display to **Direct** or **Total**.
+
+    **Direct** shows only the direct reports for each employee. **Total** shows the cumulative count of reports at each level below that employee.
+
+5.  Preview the chart from an employee account.
 
     Open the Employee Slate portal and select **Org chart** in the left navigation. Confirm that the eligible users and the card fields match the configuration.
 
-5.  Verify the AI conversational use cases.
+6.  Verify the AI conversational use cases.
 
     Ask the assistant `Who is Beth Anglin?` or `Show the org of Adela Cervantes.` The assistant returns the user profile or loads the requested org chart view.
 
-6.  Save the configuration.
+7.  Save the configuration.
 
     The save commits the eligible user list and the card field selections. Refresh the chart to confirm the change.
 

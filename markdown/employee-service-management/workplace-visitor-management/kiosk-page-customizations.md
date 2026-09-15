@@ -148,3 +148,7 @@ After creating an end page configuration, you can add further steps for the visi
 
 [Additional requirement form]()
 
+[About visit-related tables]()
+
+[Differences between Workplace Visitor Management versions]()
+

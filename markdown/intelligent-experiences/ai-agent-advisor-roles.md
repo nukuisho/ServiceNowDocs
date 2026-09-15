@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-advisor-roles.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-16"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [AI Agent Advisor, Now Assist, Now Assist Center, Gen AI, Generative AI, AI Agent Advisor, Now Assist, Now Assist Center, Gen AI, Generative AI, AI Agent Advisor, Now Assist, Now Assist Center, Gen AI, Generative AI, AI Agent Advisor, Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Reference, AI Agent Advisor, Enable AI experiences]
+keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup, AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup, AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup, AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
+breadcrumb: [Reference, AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # AI Agent Advisor roles
@@ -21,6 +21,8 @@ AI Agent Advisor is installed with these roles.
 
 
 [Components installed with AI Agent Advisor]()
+
+[Domain separation and AI Agent Advisor]()
 
 ## AI Agent Advisor admin \[sn\_agent\_miner.app\_admin\]
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Close an alert
@@ -36,7 +36,7 @@ When a Clear event is triggered for an open alert, the corresponding alert is se
 
     The alert closes without confirmation. If the alert has any resolved or closed incidents, a work note is added to the incident indicating that the related alert was closed.
 
-    If an alert has an open incident that is not related to any other open alerts, the incident is either closed, resolved, or left unchanged based on the **evt\_mgmt.alert\_closes\_incident** property. The available values are: Resolve Incident, Close Incident and Do Nothing.
+    If an alert has an open incident that is not related to any other open alerts, the incident is either closed, resolved, or left unchanged. This behavior is based on the **evt\_mgmt.alert\_closes\_incident** property. The available values are: Resolve Incident, Close Incident and Do Nothing.
 
 
 **Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlert.md)

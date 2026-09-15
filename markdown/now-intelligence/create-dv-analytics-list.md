@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-dv-analytics-list.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 8
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -40,11 +40,13 @@ In the Zurich release, this List replaces the simple list visualization. Upon mi
 
 4.  Select **Add data source**.
 
+5.  Select a table, using either the dropdown list or the Search sources box.
+
     You can only select Table data sources, such as the Incident \[incident\] table.
 
-    The list appears, populated with a default selection of columns depending on the default view of the selected table. You can change the columns in the Columns and rows section. Save the List before changing the column selection.
+    The list of records for that table appears. It is populated with a default selection of columns depending on the default view of the selected table. You can change the columns in the Columns and rows section. Save the List before changing the column selection.
 
-5.  Configure the **Header and border**. Header and border options are the same for all data sources.
+6.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
     |Header and border fields|Description|
     |------------------------|-----------|
@@ -58,7 +60,7 @@ In the Zurich release, this List replaces the simple list visualization. Upon mi
     |Header background color|Specify the color behind the title of the visualization.|
     |Title color|Specify the text color. The default title color is black, but you can choose a color that contrasts better with the header background.|
 
-6.  Configure the data fields.
+7.  Configure the data fields.
 
 <table id="table_list-data"><thead><tr><th>
 
@@ -81,7 +83,7 @@ Group by \(optional\)
 The field to group by. For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportRanges.md).
+-   For fields with continuous values, such as date or integer, values are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportRanges.md).
 
 
 </td></tr><tr id="alternative-group-by"><td>
@@ -173,7 +175,7 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>7.  Configure the presentation fields.
+</table>8.  Configure the presentation fields.
 
 <table id="table_presentation"><thead><tr><th>
 
@@ -237,7 +239,7 @@ Disable the dotwalk capability in personalized lists. Available only if Show opt
 
 </td></tr><tr><td>
 
-Show option to drag and drop columns
+Show option to drag-and-drop columns
 
 </td><td>
 
@@ -265,7 +267,7 @@ Show column filtering
 
 </td><td>
 
-Enable users to apply filters from column headings at runtime.
+Enable users to apply filters from column headings at runtime. For more information, see [Column filters in list components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/column-filters-in-lists.md).
 
 </td></tr><tr><td>
 
@@ -320,16 +322,42 @@ Enables the user to view all the rows in the visualization, not just the maximum
 
 </td></tr><tr><td>
 
+Show record count
+
+</td><td>
+
+Show the number of rows in the list \(taking filters into account\) at the top of the visualization.
+
+</td></tr><tr><td>
+
 Allow list pagination
 
 </td><td>
 
 Enables the list to be divided across multiple pages. When cleared, list pagination is hidden.
 
+</td></tr><tr><td>
+
+Fetch highlighted values
+
+</td><td>
+
+Render highlighted values in the list based on a predefined configuration.
+
+</td></tr><tr><td>
+
+Highlighted value configuration
+
+</td><td>
+
+Because different configurations can highlight values with different colors, select the configuration to use to render highlighted values. For more information, see [Configure a highlighted value for a form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-ws-highlight-value.md).
+
 </td></tr></tbody>
 </table>
 -   **[Create a list visualization with variable columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-list-dv-with-var-col.md)**  
 You can create a list visualization with variables columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list report that has a column for the values in this variable.
+-   **[Column filters in list components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/column-filters-in-lists.md)**  
+If column filters are activated, viewers of a List can filter the list by the contents of individual columns. Filter options depend on the column type.
 
 **Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/creating-data-visualizations.md)
 

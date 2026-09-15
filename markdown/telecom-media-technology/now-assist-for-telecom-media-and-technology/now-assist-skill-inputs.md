@@ -1,5 +1,5 @@
 ---
-title: Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Use inputs for each skill to configure how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.html
@@ -8,15 +8,15 @@ product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
-breadcrumb: [Configure, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+reading_time_minutes: 10
+breadcrumb: [Configure, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Use inputs for each skill to configure how and when a skill is used.
 
-## Overview of Now Assist for TMT
+## Overview of ServiceNow Otto for TMT
 
 Depending on the selected skill, you can configure inputs. These settings determine how a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a service problem case summary, resolution notes summary, customer service summary, and test summary.
 
@@ -24,7 +24,7 @@ Domain separation allows users to separate data, processes, and administrative t
 
 Domain separation is possible at the skill level and at the individual configuration level.
 
-Enable security for Now Assist skills and flows through access control lists \(ACLs\) and user identities. For more information, see [Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+Enable security for ServiceNow Otto skills and flows through access control lists \(ACLs\) and user identities. For more information, see [Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
 To understand more about the ServiceNow domain separation, see [Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md).
 
@@ -196,11 +196,11 @@ The customer service summary skill helps user to get information on the customer
 -   General details
 -   Graph questionnaire
 
-    To add or modify the queries, see [Configure the graph questionnaire Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.md).
+    To add or modify the queries, see [Configure the graph questionnaire ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.md).
 
 -   Customize prompt
 
-    To customize the prompt, see [Customize a skill in Now Assist for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.md).
+    To customize the prompt, see [Customize a skill in ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.md).
 
 -   Define access
 -   Select display
@@ -1049,4 +1049,135 @@ Input fields
 -   Description
 
 </td></tr></tbody>
-</table>
+</table>## Transcript Analysis skill
+
+Analyzes a transcript chunk against the full meeting overview, next steps, and topic summaries to extract per-participant communication style, focus area, and sentiment, plus a chunk-level sentiment score.
+
+<table id="table_ifr_ghl_jkc"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Virtual Meeting Details table \(sn\_meeting\_mgmt\_virtual\_meeting\_details\)
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Conversation analysis
+-   Meeting information
+
+</td></tr></tbody>
+</table>## Prep Brief Data Generator skill
+
+Produce a structured, citation-backed preparation brief for an upcoming customer meeting.
+
+<table id="table_owc_wrl_jkc"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Virtual Meeting Details table \(sn\_meeting\_mgmt\_virtual\_meeting\_details\)
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Emails since last meeting
+-   Touchpoint reference records
+-   Stakeholders
+-   Series classification
+-   Meeting
+-   Prior meetings
+-   Account
+
+</td></tr></tbody>
+</table>## Next Steps Task Description Skill
+
+Generates short and detailed task descriptions plus an assignee for each meeting. Creates next steps or actions required using the meeting overview and summary as context.
+
+<table id="table_ftx_gvl_jkc"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Meeting Details table \(sn\_meeting\_mgmt\_meeting\_details\)
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Meeting summary
+-   Meeting overview
+
+</td></tr></tbody>
+</table>## Event-Context Candidate Recommender skill
+
+<table id="table_pt5_bvk_lkc"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   matchingGuidance
+-   recommendationMode
+-   candidatePool
+-   eventRecommendationContextPayload
+
+</td></tr></tbody>
+</table>## Executive Insight Generator skill
+
+|Input|Description|
+|-----|-----------|
+|Input table|Activity type table \(sn\_actsub\_activity\_type\)|
+|Input fields|activities|
+

@@ -9,7 +9,7 @@ classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Cloud Services Catalog Terraform Connector, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Use, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Manage the Terraform template-based catalog items
@@ -30,7 +30,7 @@ When the Cloud Services Catalog Terraform Connector app detects a change in the 
 
 -   Update the existing catalog item per the updated template version.
 
-    When you choose to update the existing catalog item per the updated template version, a new version of the template is created and activated while the existing template version is retired and rendered inactive.
+    When you choose to update the existing catalog item per the updated template version, a new version of the template is created and activated. The existing template version is retired and rendered inactive.
 
 
 **Note:** The name of the Terraform config provider should match between the environments, while exporting Terraform template based catalog items. For example, if the config provider is called TFE in dev environment, it should be named the same, TFE, in the target environment \(UAT, prod, etc.\) too.

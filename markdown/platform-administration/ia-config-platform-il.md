@@ -1,5 +1,5 @@
 ---
-title: Platform module configuration in Setup Hub
+title: Platform module configuration in ServiceNow Otto for Setup
 description: Follow through all the console items configuration to configure the Platform module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-config-platform-il.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-17"
 reading_time_minutes: 1
-breadcrumb: [Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Platform module configuration in Setup Hub
+# Platform module configuration in ServiceNow Otto for Setup
 
 Follow through all the console items configuration to configure the Platform module.
 
@@ -38,10 +38,12 @@ Specify roles for individuals or groups to provide the access needed.
 Configure the hardware and consumables to setup the assets for your ServiceNow implementation.
 -   **[Knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-knowledge-mgmt.md)**  
 Configure a self-service platform for users to store, share and manage content.
+-   **[CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/cmdb-implementation-agent.md)**  
+Using the configuration items \(CI\), monitor the infrastructure and ensure continuous service operations.
 -   **[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-ai-search.md)**  
 Configure and maintain the AI-Search engine to experience a modern search experience.
 -   **[Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-security-settings-il.md)**  
 Configure the security settings to maintain the security of your ServiceNow deployments.
 
-**Parent Topic:**[Configure in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md)
+**Parent Topic:**[Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md)
 

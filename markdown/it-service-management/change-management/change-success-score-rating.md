@@ -1,5 +1,5 @@
 ---
-title: Success score rating
+title: Configure success score rating
 description: Based on the change success score rating, a color and text is associated that is displayed as part of the Change Success Score card. By default, four success score ratings are available with a specific score range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-success-score-rating.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Change success score, Configure, Change Management, IT Service Management]
 ---
 
-# Success score rating
+# Configure success score rating
 
 Based on the change success score rating, a color and text is associated that is displayed as part of the Change Success Score card. By default, four success score ratings are available with a specific score range.
 
@@ -33,7 +33,9 @@ The Change Success Score Ratings table is used to hold the records of the text a
 
 You can choose to modify the score range, color, introduce, or modify new rating values. The values defined here can be viewed in the **Change Success Score card** on the change Request form.
 
-\[Omitted image "change-success-score-card.png"\] Alt text: Change success score card
+**Note:** The change success score feature is installed after you activate the Change Management - change success score plugin available with the ITSM Professional subscription only. Contact your account manager for more information.
+
+\[Omitted image "change-success-score-tokyo.png"\] Alt text: Change Success Score card
 
 ## Procedure
 
@@ -46,7 +48,7 @@ You can choose to modify the score range, color, introduce, or modify new rating
     |**To add a new score range**|Click **New** and fill in the range details and the color you want to associate and submit.|
     |**To modify the existing range**|Open the rating, and click the **here** link in the record information message to modify the values.|
 
-3.  Click **Update**.
+3.  Select **Update**.
 
 
 **Parent Topic:**[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-success-score.md)

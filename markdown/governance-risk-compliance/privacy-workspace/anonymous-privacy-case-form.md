@@ -122,7 +122,7 @@ Total number of individuals whose personal data was exposed, accessed, or compro
 **Related topics**  
 
 
-[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
+[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 
 [Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
 

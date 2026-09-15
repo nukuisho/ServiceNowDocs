@@ -46,15 +46,15 @@ With Action planner, you can manage actions in context while reviewing a Health 
 
 7.  To edit or open an action separately, select an option in the **Created actions** section.
 
-<table id="choicetable_cqz_333_ljc"><thead><tr><th align="left" id="d733412e158">
+<table id="choicetable_cqz_333_ljc"><thead><tr><th align="left" id="d737001e158">
 
 Option
 
-</th><th align="left" id="d733412e161">
+</th><th align="left" id="d737001e161">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d733412e167">
+</th></tr></thead><tbody><tr><td id="d737001e167">
 
 **Edit an existing action**
 
@@ -68,14 +68,14 @@ The inline **Edit action** form opens with the current fields pre-filled.
 3.  Update the fields as needed and select **Save**.
 
 
-</td></tr><tr><td id="d733412e196">
+</td></tr><tr><td id="d737001e196">
 
 **Open an action record in full**
 
 </td><td>
 
 1.  Locate the action card you want to open.
-2.  Select the Open record icon \(\[Omitted image "hs-open-action.png"\] Alt text:\) on the card.
+2.  Select the Open record icon \(\[Omitted image "hs-open-action.png"\] Alt text: open record icon\) on the card.
  The action record opens as a new tab in the associated Health and Safety record.
 
 </td></tr></tbody>
@@ -92,7 +92,7 @@ The inline **Edit action** form opens with the current fields pre-filled.
 
 ## What to do next
 
-If the Now Assist for Health and Safety application \(sn\_hs\_gen\_ai\) is installed, you can also view and act on AI-generated action suggestions in the action planner. For more information, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
+If the ServiceNow Otto for Health and Safety application \(sn\_hs\_gen\_ai\) is installed, you can also view and act on AI-generated action suggestions in the action planner. For more information, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
 
 **Parent Topic:**[Managing safety actions in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-action-planner.md)
 

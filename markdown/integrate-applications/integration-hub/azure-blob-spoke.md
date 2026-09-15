@@ -18,7 +18,7 @@ Manage Azure blobs and containers from your ServiceNow instance.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Azure Blob Storage spoke v2.0.0 is the latest version.
+Azure Blob Storage spoke v2.0.0 is the latest version. For version history of the spoke, see [Microsoft Azure Blob Storage spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-azure-blob-storage.html).
 
 ## Spoke dependencies
 

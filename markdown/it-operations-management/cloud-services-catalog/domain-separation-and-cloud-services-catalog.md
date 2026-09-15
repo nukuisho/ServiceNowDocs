@@ -9,7 +9,7 @@ classification: cloud-services-catalog
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CSC references, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Reference, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Domain separation and Cloud Services Catalog
@@ -38,7 +38,7 @@ Domain separation recommendations in Cloud Services Catalog:
 
 -   **Terraform Opensource in global domain**
 
-    All the catalogs and config providers are installed in the global domain with the installation of Cloud Services Catalog plugin. Hence, the Out Of Box catalogs will also work only if, you create the Terraform Opensource\(TFO\) configuration and credentials in the global domain and not in a specific domain. This also enables the Managed Service Provider \(MSP\) users to use single TFO server for multiple domains.
+    All the catalogs and config providers are installed in the global domain with the installation of Cloud Services Catalog plugin. The Out Of Box catalogs work only if you create the Terraform Opensource \(TFO\) configuration and credentials in the global domain. This also enables the Managed Service Provider \(MSP\) users to use single TFO server for multiple domains.
 
 -   **Service providers credentials**
 

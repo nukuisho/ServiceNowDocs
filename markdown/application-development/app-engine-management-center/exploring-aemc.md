@@ -7,8 +7,9 @@ release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-23"
 reading_time_minutes: 3
+keywords: [App Engine Management Center, AEMC, Custom app governance, Governing app development, Deploy applications]
 breadcrumb: [App Engine Management Center, Governing app development, Building applications]
 ---
 
@@ -21,6 +22,12 @@ Learn about how the App Engine Management Center \(AEMC\) can help to centralize
 The App Engine Management Center \(AEMC\) is a powerful tool that innovates and unifies the application development, deployment, and governance experience. AEMC contains all of the features that you need to manage application development within your organization, from idea submission to deployment and then monitoring the app. Using AEMC, admins can manage requests for new apps and delegate development and collaboration permissions. Admins can also oversee the entire deployment process with insights into individual deployment requests, test suites, and scheduled deployments.
 
 Starting with version 28.2.1 of AEMC, ReleaseOps is integrated into AEMC. See the ReleaseOps in AEMC section for more information.
+
+## AI features in AEMC
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+AEMC contains AI features that enable you to regenerate release notes. For more information, see [Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/generate-release-notes.md).
 
 ## App Engine Management Center users
 
@@ -71,7 +78,7 @@ The workflow for managing app development and deployment through an App Engine p
 
 ## ReleaseOps in AEMC
 
-ReleaseOps is now integrated into AEMC. ReleaseOps improves on the existing pipelines deployment process by supporting the deployment of update sets, leveraging the automation capabilities of ServiceNow Playbooks, and enabling both scheduled and on-demand releases. To learn more about ReleaseOps, see [Exploring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-ops.md).
+ReleaseOps is now integrated into AEMC. ReleaseOps improves on the existing pipelines deployment process by supporting deployments using update sets, leveraging the automation capabilities of ServiceNow Playbooks, and enabling both scheduled and on-demand releases. To learn more about ReleaseOps, see [Exploring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-ops.md).
 
 Developers working with update sets in version 28.1.2 of ServiceNow Studio and later can trigger ReleaseOps deployments directly within the development environment.
 

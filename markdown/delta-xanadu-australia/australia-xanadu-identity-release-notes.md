@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-identity-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -161,19 +161,15 @@ Yokohama
 Assign the `access_analyzer_admin` role to the users to access and administer the Access Analyzer.
 
 
-**Important:** Access Analyzer V4 is available in the ServiceNow Store. For more information, visit ServiceNow Store.
-
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Access analyzer](https://www.servicenow.com/docs/access?context=access-analyzer&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
 
-Display the Security data filter that is in the **Applied** or **Undefined** status in the Access Analyzer results. Access Analyzer also supports the new criteria in ACLs that is controlled by reference.
-
-**Important:** Access Analyzer is available in the ServiceNow Store. For more information, visit [ServiceNow Store](https://store.servicenow.com/store).
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -203,7 +199,7 @@ Use Federated ID to uniquely identify roles across multiple instances. Federated
 View the Inbound API Integration Usage dashboard under the Machine Identity Console's Unique API calls page to access statistics for requesters and their API calls.
 
 
--   **[Scripting Governance Tool](https://www.servicenow.com/docs/access?context=scripting-governance&family=australia&ft:locale=en-US)**
+ -   **[Scripting Governance Tool](https://www.servicenow.com/docs/access?context=scripting-governance&family=australia&ft:locale=en-US)**
 
 Manage user permissions for scripting on the ServiceNow AI Platform from the enhanced scripting governance tool.
 
@@ -325,7 +321,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Identity is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -333,7 +332,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Identity is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -341,7 +343,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Identity is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -476,7 +481,8 @@ Australia
 
 </td><td>
 
--   **Coral theme**
+-   **Accessibility information**
+    -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -608,11 +614,19 @@ Australia
 
 </td><td>
 
+[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+
+-   **[Role Masking enhancement](https://www.servicenow.com/docs/access?context=role-masking&family=australia&ft:locale=en-US)**
+
+Dynamic role addition: Add multiple roles to an AI agent's role masking configuration as individual records, rather than as a single delimited list. Each role you add through the embedded list on the Agent Access Role Configuration form creates a record in the Agent Access Role Mapping table.
+
+
+ Australia
+
 -   Use the granular roles to complete administrative configuration tasks for Identity without requiring the full admin role.
 -   Configure AI Agents or AI users by selecting the `AI` option from the Identity type drop-down menu.
 -   Use the ai\_user\_admin role for creating, editing, and role management of AI users. Using the role you can view, create, edit, assign roles to, and delete users with the identity type as `AI`.
 -   Use role masking for AI agents and agentic workflows to limit the inherited roles during tool execution, verifying that AI agents run with restricted privileges, minimizing potential security risks and helping prevent unintended actions.
--   Use the Identity sub-type field to categorize the identity type while creating a user.
 
  See [Identity](https://www.servicenow.com/docs/access?context=identity-landing&family=australia&ft:locale=en-US) for more information.
 

@@ -32,9 +32,9 @@ Impact Core
 
 </td><td>
 
--   
+-   [Exploring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-program-features.md)
 -   [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md)
--   
+-   [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-operating-model.md)
 
 </td></tr><tr><td>
 
@@ -53,7 +53,7 @@ Platform Health and Monitoring
 </td><td>
 
 -   HealthScan
--   [Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+-   [Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 
 </td></tr><tr><td>
 

@@ -31,7 +31,7 @@ The workspace integrates data from all AIOps products to provide operators with 
 
 ## ITOM AIOps workflow
 
-Each AIOPs application focuses on specific aspects of IT operations while contributing to a unified AIOps platform.\[Omitted image "AIOps.png"\] Alt text: Flow of events through ITOM AIOps. Flow described in subsequent paragraphs
+Each AIOPs application focuses on specific aspects of IT operations while contributing to a unified AIOps platform.\[Omitted image "AIOps.png"\] Alt text: Flowchart showing a four-step AIOps workflow: issue detection, AI correlation, investigation, and response. For the text description, refer to the surrounding content.
 
 -   **Agent Client Collector**
 
@@ -134,7 +134,7 @@ Automated alert response
 
 </td><td>
 
-[Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-alert-automation.md)
+[Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sow-itom-alert-automation.md)
 
 </td><td>
 
@@ -192,7 +192,7 @@ In the context of ITOM AIOps, which focuses on maintaining the health and perfor
 
 -   **Service Portfolio Management**
 
-    Service Portfolio Management \(SPM\) offers the associated product model, while Software Asset Management \(SAM\) and Hardware Asset Management \(HAM\) provide lifecycle data for Technology Portfolio Management \(TPM\). Together, they enable comprehensive management of IT assets, ensuring effective utilization, compliance, and optimization throughout their life cycles.
+    Service Portfolio Management \(SPM\) offers the associated product model, while Software Asset Management \(SAM\) and Hardware Asset Management \(HAM\) provide lifecycle data for Technology Lifecycle Management \(TLM\). Together, they enable comprehensive management of IT assets, ensuring effective utilization, compliance, and optimization throughout their life cycles.
 
 
 ## Products that benefit from ITOM AIOps
@@ -212,7 +212,7 @@ Before implementing ITOM AIOps, verify that your instance has the necessary prer
 
 A well-populated Configuration Management Database \(CMDB\) is crucial to get the most out of AIOps. ITOM AIOps relies on accurate configuration item data to map events to infrastructure components, calculate service impact, and provide context for alert correlation. Use Discovery to populate your CMDB with current infrastructure data before activating AIOps applications.
 
-Configure the MID Web Server extension to enable ITOM AIOps features. The MID Web Server is an extension that enables external clients to push metric data and events to the MID Server, which is required for Event Management, and many instances of Agent Client Collector, and Health Log Analytics.
+Configure the MID Web Server extension to enable ITOM AIOps features. The MID Web Server is an extension that enables external clients to push metric data and events to the MID Server. This extension is required for Event Management and many instances of Agent Client Collector and Health Log Analytics.
 
-Setup Hub provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. For more information about using the Setup Hub, see [Configure Event Management using Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/aiops-conf-console.md).
+ServiceNow Otto for Setup provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. For more information about using the ServiceNow Otto for Setup, see [Configure Event Management using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/aiops-conf-console.md).
 

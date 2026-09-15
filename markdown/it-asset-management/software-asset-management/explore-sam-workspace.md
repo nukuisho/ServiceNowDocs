@@ -94,6 +94,8 @@ Software Asset Demand
 </td></tr></tbody>
 </table>-   **[Software Asset Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMOverview.md)**  
 An overview of the functionality of the Software Asset Management application.
+-   **[AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/exploring-now-assist-sam.md)**  
+ServiceNow Otto for Software Asset Management \(SAM\) uses AI to automate software asset management operations, improve compliance, and optimize license management.
 -   **[Now Mobile app for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-moile-app-for-sam.md)**  
 Use the Now Mobile app to view the hardware and software assets that are assigned to you.
 -   **[Virtual Agent for software requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/virtual-agent-software-request-auto-allocation.md)**  
@@ -171,7 +173,7 @@ Use a guided walk-through playbook to achieve audit readiness and regulatory com
 -   **[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)**  
 The Software Asset Management Guided Experiences application provides step-by-step guidance for completing tasks in your daily software management activities.
 -   **[Use Software Asset Management with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-integration-cmpro.md)**  
-Leverage advanced contract life cycle capabilities after a contract has been signed using the Obligation Management \(sn\_cm\_obligation\) and the Now Assist in Contract Management Pro \(sn\_cm\_gen\_ai\) plugin.
+Leverage advanced contract life cycle capabilities after a contract has been signed using the Obligation Management \(sn\_cm\_obligation\) and the ServiceNow Otto for Contract Management Pro in Contract Management Pro \(sn\_cm\_gen\_ai\) plugin.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

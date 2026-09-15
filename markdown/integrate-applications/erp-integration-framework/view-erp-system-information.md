@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, software, information, detail]
-breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Working with ERP systems, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View Zero Copy Connector for ERP software information
@@ -35,6 +35,4 @@ Role required: sn\_erp\_integration.erp\_admin or sn\_erp\_integration.erp\_user
 
     View software information including ERP family and generation. All fields are read only. For more information, see [Zero Copy Connector for ERP software info tab field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-system-info-details.md).
 
-
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
 

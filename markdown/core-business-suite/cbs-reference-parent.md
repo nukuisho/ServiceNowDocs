@@ -29,6 +29,14 @@ Navigation sections available on the Employee Slate for Now Assist configuration
 Field descriptions for the Edit assignment rule form, used to define when and how tasks are assigned to a group or user in Core Business Suite.
 -   **[CBS Client Role Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-role-rule-form.md)**  
 Field descriptions for the CBS Client Role Rule form, used to define the conditions that determine how the CBS requester role is assigned to employees.
+-   **[Create group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/groups-cbs-ref.md)**  
+Create custom groups for Core Business Suite functions by filling in the form fields.
+-   **[Edit Knowledge Base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/edit-kb-ref-cbs.md)**  
+Edit any Knowledge Base settings by filling in the form fields to define workflows, ownership, and management. You can apply separate settings for different Knowledge bases across your organization.
+-   **[CBS Knowledge Authors form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-author-ref.md)**  
+Field descriptions for the CBS Knowledge Authors form.
+-   **[CBS Knowledge Readers form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reader-ref.md)**  
+Field descriptions for the CBS Knowledge Readers form.
 
 **Parent Topic:**[Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-landing.md)
 

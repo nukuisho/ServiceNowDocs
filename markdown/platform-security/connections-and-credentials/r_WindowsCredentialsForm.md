@@ -48,13 +48,15 @@ To run Powershell commands to discover a Workgroup computer, configure the MID S
 -   Built-in administrator account on the Workgroup computer.
 -   Domain user on the Workgroup computer.
 
-## Multi-domain configuration
-
-To enable Windows credentials to function across multiple domains, make sure to sure to use the correct name formats and MID Server configuration.
+## Credential name formats
 
 Discovery and Orchestration support Windows domain credentials in both **User Principal Name** and **Down-Level Logon Name** user name formats. For example, **Domain\\UserName** or **UserName@example.domain.com**. You can provide Windows workgroup credentials in the following format: WORKGROUP\\UserName.
 
 **Note:** You can also provide a local account by using the **. \\** user name.
+
+## Multi-domain configuration
+
+To enable Windows credentials to function across multiple domains, make sure to use the correct name formats and MID Server configuration.
 
 These additional actions are required to enable credentials to function across multiple Windows domains.
 
@@ -122,7 +124,7 @@ Credential alias
 
 </td><td>
 
-Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow or assign different credentials to each occurrence of the same activity type in an Orchestration workflow.To use the credential for discovering CIs not belonging to this CI type using Service Mapping and Discovery patterns, enter the table name for the CI type to which the CI belongs, for example cmdb\_ci\_apache\_web\_server.
+Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow or assign different credentials to each occurrence of the same activity type in an Orchestration workflow.To discover CIs not belonging to this CI type using Service Mapping and Discovery patterns, enter the table name for the CI type to which the CI belongs. For example, enter `cmdb_ci_apache_web_server`.
 
 </td></tr><tr><td>
 

@@ -7,8 +7,9 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-08-19"
+reading_time_minutes: 2
+keywords: [relish integration, supplier validation, tax validation, sanction screening, bank validation]
 breadcrumb: [Integrate, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -18,9 +19,16 @@ The SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_connec\) provid
 
 **Important:** Check your entitlements to determine whether you have access to Relish Integration for Supplier Lifecycle Operations.
 
-Relish is a third-party supplier intelligence platform that helps in validating supplier data while working on supplier cases \(for banking information change requests, supplier location change requests, and conducting sanction screening\). For more information, see [Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md).
+Relish is a third-party supplier intelligence platform that validates supplier data while working on supplier cases. The integration supports the following validation types:
 
-To install SLO Connector for Relish Data Assure, the following plugins must be installed:
+-   Supplier location validation for location change requests
+-   Banking information and bank account ownership validation for banking details change requests
+-   Tax information validation for tax change requests
+-   Sanction screening for compliance verification
+
+For more information, see [Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md).
+
+To install the SLO Connector for Relish Data Assure, the following plugins must be installed:
 
 -   **Required plugins**:
     -   SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_connec\)
@@ -32,7 +40,7 @@ To install SLO Connector for Relish Data Assure, the following plugins must be i
 After SLO Connector for Relish Data Assure is installed, Relish shares the client ID and password. A basic authentication profile must be created using the client ID and password. For more information, see [Set up authentication profile using Relish credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.md).
 
 -   **[Set up authentication profile using Relish credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.md)**  
-Create a basic authentication profile that can be used for web service integration with Relish. Register the Relish user name and password to create the authentication profile.
+Set up a basic authentication profile using Relish credentials to enable web service integration.
 
 **Parent Topic:**[Integrate Supplier Lifecycle Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/integrate-slo.md)
 
@@ -44,6 +52,8 @@ Create a basic authentication profile that can be used for web service integrati
 [Craft.co Integration for Supplier Lifecycle Operations]()
 
 [News Integration for Supplier Lifecycle Operations]()
+
+[FedEx Dataworks Integration for Supplier Lifecycle Operations]()
 
 [Set up authentication profile using Relish credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.md)
 

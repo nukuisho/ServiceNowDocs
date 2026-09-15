@@ -1,29 +1,36 @@
 ---
 title: Enterprise Architecture release notes
-description: The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
+description: The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-05-13"
-reading_time_minutes: 23
+reading_time_minutes: 26
 ---
 
 # Enterprise Architecture release notes
 
 The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
 
-## Enterprise Architecture Workspace highlights for the Australia release
+## About Enterprise Architecture
+
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+
+-   Model your business architecture using five new entities in the Business Architecture section: Business Actor, Business Role, Stakeholder, Driver, and Business Process Activity.
+-   Technology Portfolio Management \(TPM\) is renamed Technology Lifecycle Management \(TLM\) in the Enterprise Architecture Workspace. Table and scheduled job names continue to use TPM.
+-   Select a linked record name in an Enterprise Architecture query agent response to navigate directly to that record in Enterprise Architecture Workspace.
+-   Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 [Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
 
 -   Support added for third-party AI models: GPT-5.4 mini and Gemini 3.5 Flash
--   Third-party AI models are the default models for all Now Assist for EA skills.
+-   Third-party AI models are the default models for all ServiceNow Otto for EA skills.
 -   The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
 -   Align two or more shapes to a common edge or center, and distribute three or more shapes at equal spacing on the modeling diagram canvas.
--   Preview shapes in the **Shapes** panel by hovering over a shape icon or navigating with arrow keys to see a larger view and its label before adding it to the canvas.
+-   Preview shapes in the **Shapes** panel by hovering over a shape icon or using arrow keys to see a larger view and label.
 -   Connect shapes from any direction by using bi-directional connector ports on ArchiMate, AWS, CSDM, and EA Extended shape libraries.
 -   Add specific records of upstream or downstream entities to a shape in a modeling diagram instead of all records of an entity type.
 -   Run a scheduled job to sync TRM product names in EA Workspace with the latest names of their linked software products.
@@ -60,16 +67,104 @@ Australia Early Availability
 
 See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
 
-[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+-   **Activation information**
 
--   **Now Assist for Enterprise Architecture \(EA\) enhancements**
+    Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/application-portfolio-management-landing-page.md).
+
+    Now Assist features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   Navigate the interface using the keyboard on the Enterprise Modeling and Visualization pages.
+    -   Access the shape context menu using the keyboard on the Enterprise Modeling and Visualization canvas. On navigating to a particular shape context menu button, the selected button gets highlighted.
+    -   See pop-over menus when hovering over connector lines on the Enterprise Modeling and Visualization canvas.
+    -   Keep connector ports visible on all shapes in the diagram canvas without hovering by enabling the **Show all buttons without the need to hover** option in **Preferences** &gt; **Accessibility**. When enabled, connector ports remain visible at all times on General, ArchiMate®, AWS, CSDM, and Group shapes. For more information, see [Show shape controls without hovering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-show-shape-ports.md).
+    -   Reflow- The Enterprise Architecture Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
+
+        This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
+
+
+**Parent Topic:**[Enterprise Architecture release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/enterprise-architecture-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[New business architecture entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-business-architecture.md)**
+
+    Model additional layers of your business architecture using five new entity types in the Business Architecture section of the Portfolio List view:
+
+    -   [Business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-actors.md) represent the people, teams, or organizational units that perform business processes and activities.
+    -   [Business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-roles.md) represent the responsibilities, rights, and duties associated with performing specific business behavior, independently of who holds the role. Business roles can have a parent role, letting you build a role hierarchy.
+    -   [Stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-stakeholders.md) represent the individuals or teams with an interest in your enterprise architecture outcomes, rated by influence and interest level.
+    -   [Drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-drivers.md) represent the internal or external conditions that motivate your organization to define goals and implement changes, rated by urgency.
+    -   [Business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-process-activities.md) represent discrete units of work, such as a manual task, an approval step, or a system-triggered action, associated with the business actors who perform them.
+    You can create, edit, and associate each entity with related business actors, roles, stakeholders, drivers, goals, value streams, and business processes from the Portfolio List view.
+
+-   **[Connections between business architecture entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/portfolio-list-view.md)**
+
+    Associate related records between existing and new business architecture entities directly from their related lists in the Portfolio page of Enterprise Architecture Workspace:
+
+    -   Add or remove business capabilities on a business unit.
+    -   Add or remove business units on a business capability.
+    -   Add or remove business processes on a business unit.
+    -   Add or remove business units on a business process.
+    -   Add or remove business processes on a goal.
+    -   Add or remove goals on a business process.
+    -   Add or remove business capabilities on a goal.
+    -   Add or remove goals on a business capability.
+    You can also create related record directly from the related list instead of searching for an existing one.
+
+-   **[Exploring Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-overview.md)**
+
+    When an Enterprise Architecture query agent response references a specific record, such as a business application or a capability, the record name now appears as linked text. Select the linked text to navigate directly to that record in Enterprise Architecture Workspace.
+
+
+### What's changed
+
+-   **[Renamed Technology Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm.md)**
+
+    Technology Portfolio Management \(TPM\) is renamed Technology Lifecycle Management \(TLM\) in the Enterprise Architecture Workspace.
+
+-   **[Renamed Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)**
+
+    ServiceNow Otto for Enterprise Architecture \(EA\) is rebranded to ServiceNow Otto. User-facing text and icons across the Enterprise Modeling and Visualization tool are updated to reflect the new branding.
+
+
+-   Added **Business Actors**, **Business Roles**, **Stakeholders**, **Drivers**, and **Business Process Activities** options to the **Business Architecture** section of the Portfolio List view.
+-   Added the **Related business capabilities** and **Related business processes** tabs to business unit records page.
+-   Added the **Business capabilities** and **Business processes** tabs to goal records page.
+-   Updated Now Assist icons and text across the Enterprise Architecture Workspace to ServiceNow Otto branding.
+-   Record names referenced in Enterprise Architecture query agent responses now appear as selectable linked text.
+
+## July 2026
+
+The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Now Assist for Enterprise Architecture \(EA\) enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)**
 
     Added support for third-party LLM models: GPT-5.4 mini and Gemini 3.5 Flash
 
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+### What's changed
+
+-   **[ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)**
+    -   The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+    -   Changed the default LLM model for all ServiceNow Otto for Enterprise Architecture \(EA\) is to Azure OpenAI.
+
+## June 2026
+
+The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Enterprise Modeling and Visualization enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)**
     -   Align and distribute shapes in a modeling diagram:
@@ -97,7 +192,7 @@ See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/Servic
     -   Replace an existing shape or entity in a modeling diagram with a different shape type. Existing connections and relationship lines associated with the shape are preserved after the replacement. For information, see [Replace a shape in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-replace-shape.md).
     -   Upload an image of an existing process diagram to generate a new, editable business process map \(BPM\) diagram in Enterprise Modeling and Visualization, using the ServiceNow AI Lens Now Assist skill. AI Lens identifies shapes, pools, lanes, gateways, and connections from the image, maps recognized shapes to existing records where matching records exist, and stages new records for shapes with no match.
 
-        The generated diagram opens in review state on a split canvas: the upper pane displays the generated diagram and the lower pane displays the source image for reference. Shapes identified with a confidence score below 50% are marked with an orange border on the canvas and listed in the Shapes with low confidence scores drop-down in the canvas banner. For information, see [Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md) and [Review a AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
+        The generated diagram opens in review state on a split canvas: the upper pane displays the generated diagram and the lower pane displays the source image for reference. Shapes identified with a confidence score below 50% are marked with an orange border on the canvas and listed in the Shapes with low confidence scores drop-down in the canvas banner. For information, see [Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md) and [Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
 
 -   **[Sync TRM product names with software product names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-schedule-job-sync-trm-product-names.md)**
 
@@ -110,9 +205,7 @@ See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/Servic
     -   Event shapes: The library now includes all standard BPMN 2.0 event types organized into start, non-interrupting start, intermediate catching, intermediate throwing, end, and boundary events, with trigger configurations for message, timer, conditional, signal, escalation, compensation, error, cancel, link, and terminate.
     -   Gateway shapes: Expanded to include event-based, instantiating, and complex gateway types. Gateway shapes can be resized on the canvas.
     -   Activity shapes: Expanded to include eight task types \(task, user task, service task, manual task, script task, business rule task, send task, and receive task\) and call activity shapes. Four existing shape names are updated to align with the BPMN 2.0 standard: Default → Task, System → Service task, User → User task, Manual → Manual task.
-    BPMN shapes in the **Shapes** panel are organized into four sub-categories: **Event**, **Activity**, **Gateway**, and **General**. When you drag a shape from the panel onto the canvas, the shape displays its actual icon while dragging.
-
-    ArchiMate Technology layer shape names are updated to match the ArchiMate 3.2 specification: Infrastructure Function → Technology Function, Communication Path → Path, Infrastructure Interface → Technology Interface. The Network Box and Network shapes, which aren't part of the ArchiMate 3.2 standard, are removed.
+    BPMN shapes in the **Shapes** panel are organized into four sub-categories: **Event**, **Activity**, **Gateway**, and **General**. When you drag a shape from the panel onto the canvas, the shape displays its actual icon while dragging.ArchiMate Technology layer shape names are updated to match the ArchiMate 3.2 specification: Infrastructure Function → Technology Function, Communication Path → Path, Infrastructure Interface → Technology Interface. The Network Box and Network shapes, which aren't part of the ArchiMate 3.2 standard, are removed.
 
 -   **[AI Portfolio tab on the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-exploring-the-ai-portfolio.md)**
 
@@ -122,7 +215,7 @@ See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/Servic
     -   **AI Systems by Business Application Association**: Shows the total number of AI systems, segmented by whether they are linked to a business application.
     Both widgets source their data from approved AI System–Business Application linkage records. For information, see [Exploring the AI Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-exploring-the-ai-portfolio.md).
 
--   **[Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-overview.md)**
+-   **[Exploring Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-overview.md)**
 
     The Enterprise Architecture query agent is a new Now Assist agentic AI skill that lets you ask natural language questions about your enterprise architecture portfolio directly from EA Workspace.
 
@@ -133,7 +226,22 @@ See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/Servic
     Monitor AI adoption across your enterprise from the AI Portfolio tab on the EA Workspace dashboard. The tab is available when the AI Control Tower workspace is installed and displays two widgets: Business Applications by AI System Association and AI Systems by Business Application Association.
 
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+### What's changed
+
+-   Added the alignment options \(**Align left**, **Align center horizontally**, **Align right**\) to the toolbar on the modeling diagram canvas page. The **More alignment options** menu was added to access **Align top**, **Align center vertically**, **Align bottom**, **Distribute horizontally**, and **Distribute vertically** options.
+-   Added a preview popover that appears to the right of the **Shapes** panel when you hover over a shape icon with the mouse or focus on it with the arrow keys.
+-   Added the connector toolbar in modeling diagrams to show different controls depending on the notation of the connected shapes. For ArchiMate connectors, the toolbar provides the **Relationship type** drop-down, **Swap direction**, and **T+**. For non-ArchiMate and mixed connectors, the toolbar provides **Line style**, **Start arrow**, **Swap direction**, **End arrow**, **Icon**, and **T+** controls.
+-   Added **Access**, **Serving**, **Association**, and **Triggering** entries to the **Relationship type** drop-down on the ArchiMate connector toolbar.
+-   The width of the right side panel on the modeling diagram canvas is saved as a user preference and persists across sessions.
+-   Added the **Import image** icon on the Enterprise Modeling and Visualization homepage.
+-   Added the Now Assist icon in the navigation bar and the **Ask Now Assist** button on the Enterprise Architecture Workspace homepage.
+-   Added the **AI Portfolio** tab to the Enterprise Architecture Workspace dashboard. The tab includes the **Business Applications by AI System Association** and **AI Systems by Business Application Association** widgets. The tab is visible when the AI Control Tower workspace is installed.
+
+## Australia General Availability
+
+The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[AI systems on business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md)**
 
@@ -150,7 +258,17 @@ See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/Servic
     Search published TRM catalog records using natural language queries in the Now Assist panel. EA Workspace ships default AI Search configuration that automatically indexes TRM catalog records you publish. To make previously published TRM catalog records searchable, you can manually trigger indexing. For information, see [Index previously published TRM catalog records for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/index-archive-pub-trm-cat.md) or [AI Search on the TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ai-search-trm-cat.md).
 
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+### What's changed
+
+-   Added the **AI Systems** tab to business application records in the Enterprise Architecture Workspace. The tab displays **Managed** and **Unmanaged** sections, each listing associated AI systems.
+-   Added the **Business Applications** field to the **Request an AI use case** catalog item in the service portal. The field is available only when the Enterprise Architecture application is installed and business applications are configured. You can select multiple business applications. Retired business applications aren't available for selection.
+-   Added a read-only **Business applications** related list under **Related assets** on AI system records in AI Control Tower. This list shows the business applications associated with each AI system.
+
+## April 2026
+
+The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -162,17 +280,15 @@ See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/Servic
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **[Exploring the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-explore-arch-analyzer.md)Architecture Analyzer**
-    -   Added support for analyzing all EA extended entities that are part of Enterprise Modeling and Visualization, such as
-        -   Control
-        -   Digital integration
-        -   Digital interface
-        -   GRC risk
-        -   Product capability
-        -   TRM product
-    -   The **Clear** button clears all the selections made in the **Add to canvas** boxes.
+### What's changed
 
-Australia Early Availability
+-   The diagram comparison canvas displays visual indicators to highlight new or modified shapes and entities. Newly added shapes and relationship lines appear in green and modified ones appear in yellow.
+
+## Australia Early Availability
+
+The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Enterprise Modeling and Visualization enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)**
 
@@ -254,30 +370,20 @@ Australia Early Availability
     -   Modify diagram versions to compare using the Diagram comparison icon on the diagram comparison page.
     -   Identify differences faster when comparing two versions of a diagram, by using the color-coded highlights on the canvas. Newly added shapes and relationship lines appear in green and modified ones appear in yellow.
 
-## UI changes
+### What's changed
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+-   **[Enhancements to the My certifications section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-requests-certs-assessments.md)**
 
--   Added the alignment options \(**Align left**, **Align center horizontally**, **Align right**\) to the toolbar on the modeling diagram canvas page. The **More alignment options** menu was added to access **Align top**, **Align center vertically**, **Align bottom**, **Distribute horizontally**, and **Distribute vertically** options.
--   Added a preview popover that appears to the right of the **Shapes** panel when you hover over a shape icon with the mouse or focus on it with the arrow keys.
--   Added the connector toolbar in modeling diagrams to show different controls depending on the notation of the connected shapes. For ArchiMate connectors, the toolbar provides the **Relationship type** drop-down, **Swap direction**, and **T+**. For non-ArchiMate and mixed connectors, the toolbar provides **Line style**, **Start arrow**, **Swap direction**, **End arrow**, **Icon**, and **T+** controls.
--   Added **Access**, **Serving**, **Association**, and **Triggering** entries to the **Relationship type** drop-down on the ArchiMate connector toolbar.
--   The width of the right side panel on the modeling diagram canvas is saved as a user preference and persists across sessions.
--   Added the **Import image** icon on the Enterprise Modeling and Visualization homepage.
--   Added the Now Assist icon in the navigation bar and the **Ask Now Assist** button on the Enterprise Architecture Workspace homepage.
--   Added the **AI Portfolio** tab to the Enterprise Architecture Workspace dashboard. The tab includes the **Business Applications by AI System Association** and **AI Systems by Business Application Association** widgets. The tab is visible when the AI Control Tower workspace is installed.
+    View only the certifications that are relevant to you in the **My certifications** tab on the Enterprise Architecture Workspace home page.
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 
--   Added the **AI Systems** tab to business application records in the Enterprise Architecture Workspace. The tab displays **Managed** and **Unmanaged** sections, each listing associated AI systems.
--   Added the **Business Applications** field to the **Request an AI use case** catalog item in the service portal. The field is available only when the Enterprise Architecture application is installed and business applications are configured. You can select multiple business applications. Retired business applications aren't available for selection.
--   Added a read-only **Business applications** related list under **Related assets** on AI system records in AI Control Tower. This list shows the business applications associated with each AI system.
+-   **[Enhancements to the Application Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)**
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+    Business applications with the Retired state or Lifecycle stage as End of life are no longer displayed in the Business Portfolio section.
 
--   The diagram comparison canvas displays visual indicators to highlight new or modified shapes and entities. Newly added shapes and relationship lines appear in green and modified ones appear in yellow.
 
-Australia Early Availability
+-   Generate document
+-   View all documents
 
 -   Added the Publishing center section in the Setup page.
 -   Changed the label of Publisher to Company in the TRM page.
@@ -295,11 +401,26 @@ Australia Early Availability
 -   The Now Assist icon is removed from the side panel of the Enterprise Modeling and Visualization diagram page. It’s added to the Compare diagrams page, which opens when you select the **Compare versions** button in the diagram canvas header.
 -   The **Compare versions** button is added to the header of the canvas on the diagram comparison page.
 
-## Changed in this release
+## Australia
 
--   **[Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)**
-    -   The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-    -   Changed the default LLM model for all Now Assist for Enterprise Architecture \(EA\) is to Azure OpenAI.
+The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Exploring the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-explore-arch-analyzer.md)Architecture Analyzer**
+    -   Added support for analyzing all EA extended entities that are part of Enterprise Modeling and Visualization, such as
+        -   Control
+        -   Digital integration
+        -   Digital interface
+        -   GRC risk
+        -   Product capability
+        -   TRM product
+    -   The **Clear** button clears all the selections made in the **Add to canvas** boxes.
+
+### What's changed
+
+Australia Early Availability
+
 -   **[Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gran-admin-role-changes.md)**
 
     Added the granular level admin role \(sn\_apm.apm\_admin\) to the following system properties in the Enterprise Architecture:
@@ -312,55 +433,7 @@ Australia Early Availability
     -   **sn\_apm.discoveryModelProductTypesForTPMSuggestions**: Product types of discovery models to consider for TPM software suggestions.
     -   **sn\_apm.noOfSDLCComponentPerTPMPage**: The number of Agile Development components to show per page.
     -   **glide.ui.cmdb\_ci\_business\_app\_activity.fields**: Business application activity formatter fields.
-    -   **sn\_apm.startRangeOfTPMLifecycle**: The number of years before the current date is included when displaying software model lifecycle phases in the TPM timeline.
-    -   **sn\_apm.endRangeOfTPMLifecycle**: The number of years beyond the current date is included when displaying software model lifecycle phases in the TPM timeline.
+    -   **sn\_apm.startRangeOfTPMLifecycle**: The number of years before the current date is included when displaying software model lifecycle phases in the TLM timeline.
+    -   **sn\_apm.endRangeOfTPMLifecycle**: The number of years beyond the current date is included when displaying software model lifecycle phases in the TLM timeline.
     -   **noOfBusinessAppsPerTPMPage**: The number of business applications to show per page.
-
--   **[Enhancements to the My certifications section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-requests-certs-assessments.md)**
-
-    View only the certifications that are relevant to you in the **My certifications** tab on the Enterprise Architecture Workspace home page.
-
-
--   **[Enhancements to the Application Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)**
-
-    Business applications with the Retired state or Lifecycle stage as End of life are no longer displayed in the Business Portfolio section.
-
-
-## Activation information
-
-Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/application-portfolio-management-landing-page.md).
-
-Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-
-## Accessibility information
-
--   Navigate the interface using the keyboard on the Enterprise Modeling and Visualization pages.
--   Access the shape context menu using the keyboard on the Enterprise Modeling and Visualization canvas. On navigating to a particular shape context menu button, the selected button gets highlighted.
--   See pop-over menus when hovering over connector lines on the Enterprise Modeling and Visualization canvas.
--   Keep connector ports visible on all shapes in the diagram canvas without hovering by enabling the **Show all buttons without the need to hover** option in **Preferences** &gt; **Accessibility**. When enabled, connector ports remain visible at all times on General, ArchiMate®, AWS, CSDM, and Group shapes. For more information, see [Show shape controls without hovering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-show-shape-ports.md).
--   Reflow- The Enterprise Architecture Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
-
-    This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
-
-
-## Related ServiceNow applications and Features
-
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Help improve productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
--   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
-
-    The Now Assist Admin console provides you with quick and effortless access to the important information that you must set up, configure, and monitor in Now Assist applications and features.
-
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
-
-    Use the Now Assist panel to interact with and get assistance from generative AI.
-
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
-
-    Now Assist products provide generative AI skills that are tailored to meet the needs of users in different workflows, including content summarization in docs.
-
-
-**Parent Topic:**[Enterprise Architecture release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/enterprise-architecture-rn-landing.md)
 

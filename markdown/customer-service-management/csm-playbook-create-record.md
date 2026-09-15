@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using playbooks, Automate and optimize, Use, Customer Service Management]
+breadcrumb: [Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a record using a playbook
@@ -42,7 +42,7 @@ To create cases in this way, the following configuration is required:
 
 ## Procedure
 
-1.  Navigate to a list or form in CSM Configurable Workspace.
+1.  Navigate to a list or form in CRM Workspace.
 
     For example, navigate to the All Onboarding Cases list.
 

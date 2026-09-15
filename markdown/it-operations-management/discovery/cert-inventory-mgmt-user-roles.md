@@ -9,7 +9,7 @@ classification: discovery
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Explore, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Certificate Inventory and Management roles and responsibilities
@@ -28,7 +28,7 @@ Responsibilities
 
 </th></tr></thead><tbody><tr><td>
 
-Certificate Administrator \[sn\_disco\_certmgmt.pki\_admin\]
+Certificate administrator \[sn\_disco\_certmgmt.pki\_admin\]
 
 </td><td>
 
@@ -44,7 +44,7 @@ The headless user \(an account not tied to a specific user\) is included in the 
 
 </td></tr><tr><td>
 
-Certificate User\[sn\_disco\_certmgmt.pki\_user\]
+Certificate user\[sn\_disco\_certmgmt.pki\_user\]
 
 </td><td>
 
@@ -52,7 +52,7 @@ Responsible for overseeing certificate discovery, this role is granted the abili
 
 </td></tr><tr><td>
 
-Certificate Approver \[sn\_disco\_certmgmt.pki\_approver\]
+Certificate approver \[sn\_disco\_certmgmt.pki\_approver\]
 
 </td><td>
 
@@ -60,7 +60,7 @@ Responsible for certificate requests, a user with this role \(normal user\) can 
 
 </td></tr><tr><td>
 
-Certificate Requester\[sn\_disco\_certmgmt.certificate\_requester\]
+Certificate requester\[sn\_disco\_certmgmt.certificate\_requester\]
 
 </td><td>
 

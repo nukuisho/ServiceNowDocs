@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 21
+reading_time_minutes: 22
 breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -23,7 +23,7 @@ Install MID Servers with the MID Server guided Windows installation package. The
 </td></tr></tbody>
 </table>-   Verify that the host computer satisfies the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
 -   The MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1.
--   Ensure that the Microsoft Application Experience Lookup Service is enabled on the MID Server host. If this service is disabled, the MID Server auto-upgrade might fail, causing the MID Server to go down. For information on managing issues with the Application Experience service, see [KB0597552](https://support.servicenow.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0597552).
+-   Verify that the Microsoft Application Experience Lookup Service \(**AeLookupSvc**\) is enabled on the MID Server host. If you disable this service, the MID Server auto-upgrade might fail and cause the MID Server to go down. On Windows Server 2022 and later, Microsoft removed the standalone **AeLookupSvc** service and built application compatibility into the operating system. The related Application Experience tasks now run under **Task Scheduler** rather than through a dedicated service. For information on managing issues with the Application Experience service, see [KB0597552](https://support.servicenow.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0597552).
 
 Java 21.0.7 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 21.0.7 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 21.0.7. If you are using a lower version than 17.0.10, you may see encryption related issues.
 
@@ -502,7 +502,29 @@ MID Servers can be configured to run using non-administrative accounts. Using no
         -   **mid.proxy.port**
         -   **mid.proxy.username**
         -   **mid.proxy.password**
-7.  If you want to install the MID Server as a non-admin user, follow these steps.
+7.  Configure the Windows service name to identify the MID Server service or install multiple MID Servers on the same host.
+
+    1.  Edit the `.\conf\wrapper-override.conf` file.
+
+    2.  Uncomment `wrapper.name` and specify a unique service name.
+
+        For example:
+
+        ```
+        wrapper.name=snc_mid_MID_Discovery_USA_1
+        ```
+
+    3.  Uncomment `wrapper.displayname` and specify the service display name.
+
+        For example:
+
+        ```
+        wrapper.displayname=ServiceNow MID Server_MID_Discovery_USA_1
+        ```
+
+    The `wrapper.name` value must be unique on the host. No other Windows service can use the same name.
+
+8.  If you want to install the MID Server as a non-admin user, follow these steps.
 
     1.  Edit the `.\conf\wrapper-override.conf` file.
 
@@ -516,15 +538,11 @@ MID Servers can be configured to run using non-administrative accounts. Using no
 
     5.  Uncomment `wrapper.ntservice.permissions.1.allow` but do not edit it.
 
-    6.  Uncomment `wrapper.name` and specify the desired service name, and uncomment `wrapper.displayname` and specify the desired display name.
-
-        The `wrapper.name` must be unique on the host and no other service can share the same name.
-
-8.  Run `start.bat` to start the MID Server.
+9.  Run `start.bat` to start the MID Server.
 
     If `wrapper.ntservice.password.prompt` was set in step 7c, enter the password when prompted. If there is no password, proceed without entering one.
 
-9.  On the instance, in the **Related Links**, select **Validate**.
+10. On the instance, in the **Related Links**, select **Validate**.
 
     The MID Server **Validated** changes to **Yes**.
 

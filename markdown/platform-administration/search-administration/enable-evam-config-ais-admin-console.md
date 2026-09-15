@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Customizing the result-card, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Customizing the result-card interface of an AI Search application by using EVAM, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activate or deactivate an EVAM view configuration
@@ -33,11 +33,11 @@ When you configure a new EVAM view configuration for your AI Search application,
 
 3.  In the left pane, select **Result-card Interface**.
 
-4.  From the Select a bundle to edit list, select an EVAM configuration bundle.
+4.  From the **Select a bundle to edit** list, select an EVAM configuration bundle.
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
-5.  Hover over the view configuration that you want to activate or deactivate and then select the **More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More Actions.\)** &gt; **Activate or deactivate**.
+5.  Hover over the view configuration that you want to activate or deactivate and then select the **More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More Actions.** &gt; **Activate or deactivate**.
 
 
 ## Result

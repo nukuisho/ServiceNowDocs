@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/exploring-build-agent.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-11"
-reading_time_minutes: 7
+last_updated: "2026-08-20"
+reading_time_minutes: 9
 keywords: [AI agent, application development, natural language, full-stack applications, conversational interface, autonomous AI, code generation, Now Assist, AI Agents, generative AI, agentic AI]
 audience: developer
 breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -16,11 +16,17 @@ breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Bui
 
 Build Agent enables developers to create, edit, and deploy full-stack ServiceNow® applications to update sets that encompass both user interface and back-end components.
 
-## How to use Build Agent
+As of Australia Patch 5, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Build Agent. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
-**Note:** Starting with the Australia release, you can use Build Agent in ServiceNow Studio. This document provides guidance on using Build Agent in the ServiceNow IDE. For detailed instructions on using Build Agent in ServiceNow Studio, see [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
+## Build Agent overview
 
-Build Agent is an AI tool designed for developers within ServiceNow Studio the ServiceNow Integrated Development Environment \(ServiceNow IDE\). Build Agent acts as an autonomous AI agent capable of independently generating a complete ServiceNow® scoped or global application. For example, a global scope app that uses tables such as incident, problem, and change.
+Build Agent is an AI tool designed for developers within ServiceNow Studio and the ServiceNow Integrated Development Environment \(ServiceNow IDE\). Build Agent acts as an autonomous AI agent capable of independently generating a complete ServiceNow® scoped or global application. For example, a global scope app that uses tables such as incident, problem, and change.
+
+## Migrating to Build Agent from App Engine Studio
+
+If you currently build applications in App Engine Studio \(AES\), you can migrate to Build Agent when your development needs grow beyond what AES supports. For example, when you need custom scripting, global scope applications, or the ability to modify base system applications. Existing app artifacts like tables, flows, workspaces, and ACLs are already accessible in ServiceNow Studio, so migration is primarily a workflow adjustment rather than a conversion process. For more information, see [Migrating to Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-migrating-to-build-agent.md).
+
+## Conversational interface
 
 Using the chat panel within ServiceNow Studio or the ServiceNow IDE, you can interact with Build Agent through an easy-to-use multi-turn conversation interface. You can also ask it general questions about developing on the ServiceNow AI Platform.
 
@@ -28,23 +34,31 @@ All you have to do is describe an application in natural language, and the agent
 
 Build Agent can understand natural language prompts, autonomously generate full-stack applications, oversee the entire build process, respond to feedback, deploy applications to update sets, and more.
 
-You can also upload supported file types, such as images, code, and documents, to provide more context about application design and functionality. For more information, see [Supported file types for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-supported-file-types.md).
+Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other ServiceNow Otto products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences. For more information, see [Use the app generation skill to generate apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-use-app-gen-skill.md).
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
+## Where to use Build Agent
+
+You can use Build Agent in ServiceNow Studio, including the ServiceNow IDE. For detailed instructions on using Build Agent in ServiceNow Studio, see [Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-build-agent.md) and [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
+
+You can also use Build Agent in Developer Sandboxes, which provides a controlled baseline configuration for isolated, parallel development. For more information, see [Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/exploring-sandboxes.md).
+
+## Providing context with file uploads
+
+You can upload supported file types, such as images, code, and documents, to provide more context about application design and functionality. For more information, see [Supported file types for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-supported-file-types.md).
+
+## Extended capabilities
+
 While creating and updating applications is the primary use case for Build Agent, its capabilities extend beyond that. It can perform various code-related tasks, such as rewriting tables, explaining code, validating and enhancing existing applications, fixing application errors, and more. For instance, Build Agent can use the Run Query tool to query a specific table within your instance and return the top five records or derive specific insights.
 
-Build Agent currently supports the following models:
+To use Build Agent as part of an end-to-end development practice that includes Git, the ServiceNow SDK, ReleaseOps, and CI/CD pipelines, see the [SDLC on ServiceNow guide](https://servicenow.github.io/sdk/guides/sdlc-guide) in the ServiceNow SDK documentation.
 
--   Gemini 2.5 Pro
--   Azure OpenAI 5.4
--   Opus 4.6
+## Playbook Designer support
 
-For information on changing the model, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
+You can use Build Agent to author Playbook Designer artifacts. As of Australia Patch 6, including runtime permissions, activity definitions, and Agentic activity field configuration. Playbook records are consolidated into a single XML update set file for consistent deployment across instances. For more information, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
 
-Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other Now Assist products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences. For more information, see [Use the app generation skill to generate apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-use-app-gen-skill.md).
-
-## Fluent and modern web frameworks
+## ServiceNow Fluent and modern web frameworks
 
 Build Agent generates code in ServiceNow Fluent, the domain-specific language for developing on the ServiceNow AI Platform. Build Agent can also incorporate modern web frameworks, such as React, when building custom user experiences.
 
@@ -54,9 +68,13 @@ Build Agent generates code in ServiceNow Fluent, the domain-specific language fo
 
 Build Agent is available as a trial app on a freemium model. To install Build Agent \(Trial\), visit the [ServiceNow Store](https://www.servicenow.com/products/vibe-coding.html#benefits).
 
-After you install the Build Agent \(Trial\) app, your instance will receive 100 free user interactions for 30 days at no additional charge, enabling you to explore Build Agent features at no additional cost.
+After you install the Build Agent \(Trial\) app, your instance receives 100 free user interactions for 30 days at no additional charge. The free interactions enable you to explore Build Agent features at no additional cost.
 
 If you exceed the free interaction limit, you must wait 30 days for a reset, or install the paid version of Build Agent.
+
+## Automatic upgrades
+
+Qualifying instances receive automatic upgrades when a new version of Build Agent is published to the ServiceNow Store. For more information, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md).
 
 ## Localization and Build Agent
 
@@ -93,25 +111,32 @@ Build Agent accelerates application development on the ServiceNow AI Platform. I
 
 To learn more about configuring and using Build Agent, see:
 
--   [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md)
+-   [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
 -   [Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+-   [Build Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-reference-landing.md)
 
 To learn more about prompting, see this Community article on [The fastest way to learn Build Agent prompting? Ask Build Agent.](https://www.servicenow.com/community/now-assist-for-creator-articles/the-fastest-way-to-learn-build-agent-prompting-ask-build-agent/ta-p/3533544)
 
--   **[Example Build Agent use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/additional-build-agent-use-cases.md)**  
-Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance. Reference these scenarios to identify ways to apply Build Agent across your development workflow.
+-   **[Build Agent use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/additional-build-agent-use-cases.md)**  
+Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance.
 -   **[Build Agent workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-workflow.md)**  
 The Build Agent workflow automates building applications, testing, and deploying update sets on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
+-   **[Build Agent chat panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-chat-panel.md)**  
+The Build Agent chat panel is where you interact with the AI agent during development. Use it to submit requests, review responses, and apply generated code.
+-   **[Supported models and versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-models-versions.md)**  
+Learn which AI models and versions Build Agent supports and how to change them. Use this information to verify compatibility and select the right model for your task.
 -   **[Tutorial for Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-tutorial.md)**  
-Learn to develop reusable server-side logic and build a ServiceNow® application in Build Agent, from data modeling through testing, using AI-assisted development.
+Learn to develop reusable server-side logic and build a ServiceNow® application in Build Agent, from data modeling through testing, using agentic development.
 -   **[General guidelines for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-general-guidelines.md)**  
 Use these guidelines to get the most out of Build Agent in your development workflow.
 -   **[Build Agent tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-tools.md)**  
-Build Agent tools support application development tasks such as semantic search, schema inspection, code search, planning, UI validation, database querying, and app navigation. Each tool extends what Build Agent can do during a build session.
+Build Agent tools support application development tasks such as semantic search, schema inspection, code search, planning, UI validation, database querying, app navigation, and script execution. Each tool extends what Build Agent can do during a build session.
 -   **[MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md)**  
 MCP connections enable Build Agent to access external tools and resources through standardized communication. Use these connections to integrate third-party applications like Figma for accelerated design-to-development workflows.
 -   **[Build Agent governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-governance.md)**  
 Governance controls in Build Agent help with code quality, security, and compliance when generating applications. The Build Agent automated safeguards prevent common development issues and enforce organizational standards.
+-   **[Domain separation and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-domain-separation.md)**  
+Domain separation is supported for Build Agent. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Build Agent limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-limitations.md)**  
 Plan deployments and troubleshoot issues by learning about Build Agent constraints that affect deployment capabilities and performance.
 

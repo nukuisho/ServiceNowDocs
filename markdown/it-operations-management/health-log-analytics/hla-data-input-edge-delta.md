@@ -25,13 +25,13 @@ Set up an Edge Delta data input to enable Health Log Analytics to process Edge D
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses are not routable over the internet. Without a public IP, external clients cannot connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 
 Role required: evt\_mgmt\_admin
 
 ## About this task
 
-If your organization uses Edge Delta to handle large volumes of log data from multiple sources before sending it to Health Log Analytics, the log format HLA receives is distinct from other types. The Edge Delta data input enables HLA to detect and separate transport headers from inner log messages in this format, forwarding only the inner message to the source type structure for processing.
+If your organization uses Edge Delta to handle large volumes of log data from multiple sources, the log format is distinct from other types. Edge Delta sends data to Health Log Analytics. The Edge Delta data input enables HLA to detect and separate transport headers from inner log messages. It forwards only the inner message to the source type structure for processing.
 
 ## Procedure
 

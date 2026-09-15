@@ -225,7 +225,7 @@ Create a sample flow that dynamically calls subflows for provisioning cloud serv
 -   **[Publish a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/publish-subflow.md)**  
 Publish a subflow to make it available to other users and to add it to activated flows.
 -   **[Summarize a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/summarize-a-subflow.md)**  
-Generate a summary of a subflow with Now Assist for Creator.
+Generate a summary of a subflow with ServiceNow Otto for Creator.
 -   **[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflow-history.md)**  
 View and manage the history of a subflow. See past configurations of a subflow to copy, restore, or remove them.
 -   **[Test a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-subflow.md)**  

@@ -1,18 +1,18 @@
 ---
-title: CSM Configurable Workspace features
-description: CSM Configurable Workspace provides several different tools and features that agents can use to assist customers, research issues, and resolve cases.
+title: CRM Workspace features
+description: CRM Workspace provides several different tools and features that agents can use to assist customers, research issues, and resolve cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-feature-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace features
+# CRM Workspace features
 
-CSM Configurable Workspace provides several different tools and features that agents can use to assist customers, research issues, and resolve cases.
+CRM Workspace provides several different tools and features that agents can use to assist customers, research issues, and resolve cases.
 
 <table id="table_csm_workspace_feature_overview"><thead><tr><th>
 
@@ -44,7 +44,7 @@ Displays information that provides agents with a complete view of a customer's h
 
 </td><td>
 
-Agents see their assignments in their CSM Configurable Workspace inbox. Work assignments appear as cards in the inbox that agents can either choose to accept or reject. Agents can also set their status in the inbox, such as **Available** or **Busy**.
+Agents see their assignments in their CRM Workspace inbox. Work assignments appear as cards in the inbox that agents can either choose to accept or reject. Agents can also set their status in the inbox, such as **Available** or **Busy**.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Windows that overlay the main window content in a workspace. Agents can use mode
 
 </td><td>
 
-Use form templates to populate fields on new records with selected values. Create and edit form templates for use in CSM Configurable Workspace and then use the templates to automatically the configured fields.
+Use form templates to populate fields on new records with selected values. Create and edit form templates for use in CRM Workspace and then use the templates to automatically the configured fields.
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Global search enables you to search multiple record types at once from the Next 
 
 </td><td>
 
-Use the Now Assist for Customer Service Management \(CSM\) application to summarize interaction chats and calls, summarize case information, and generate case resolution notes.
+Use the ServiceNow Otto for Customer Service Management \(CSM\) application to summarize interaction chats and calls, summarize case information, and generate case resolution notes.
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Use the case action status feature so that agents can easily identify cases that
 </td></tr></tbody>
 </table>## Additional applications
 
-A number of additional applications are available for use with CSM Configurable Workspace.
+A number of additional applications are available for use with CRM Workspace.
 
 |Feature|Description|
 |-------|-----------|
@@ -173,7 +173,7 @@ A number of additional applications are available for use with CSM Configurable 
 |[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md)|Use Workforce Optimization for Customer Service to manage and maintain the productivity of your workforce. Efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.|
 |[Customer Service Case Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md)|Use case types to handle different types of customer issues. A case type identifies the processes and the data needed to resolve a specific type of issue, such as a lost or missing credit card.|
 |[Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/proactive-service-operations.md)|Use this feature to track the digital services used by your customers and to proactively create cases for service disruptions.|
-|[Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-playbooks.md)|Use playbooks to provide step-by-step guidance for completing the tasks needed to resolve specific types of customer service cases.|
+|[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)|Use playbooks to provide step-by-step guidance for completing the tasks needed to resolve specific types of customer service cases.|
 |[Guided Decisions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-guided-decisions.md)|Use guided decisions to resolve complex cases faster and more efficiently by guiding customer service agents through a structured troubleshooting process.|
 |[Estimated time to resolve a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ettr.md)|Use machine learning to predict the estimated time to resolve a case \(ETTR\) based on case attributes such as the short description, category, priority, and assignment group.|
 

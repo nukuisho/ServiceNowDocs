@@ -186,13 +186,13 @@ Roll up of MITRE technique associations from observables, indicators, objects, a
 
 [Workbench Overview]()
 
-[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+[Summarize a Case using generative AI]()
 
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

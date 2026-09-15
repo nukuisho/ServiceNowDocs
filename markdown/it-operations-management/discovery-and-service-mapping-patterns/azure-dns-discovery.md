@@ -1,6 +1,6 @@
 ---
 title: Azure DNS zones and record sets discovery using Patterns
-description: The Discovery and Service Mapping Patterns application uses the Azure - DNS Zones \(LP\) and Azure - DNS Zone Recordsets \(LP\) Patterns to discover Azure Domain Name System \(DNS\) definitions \(zones and their respective record sets\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Azure - DNS Zones \(LP\) and Azure - DNS Zone Recordsets \(LP\) Patterns to discover Azure Domain Name System \(DNS\) definitions \(zones and their respective record sets\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/azure-dns-discovery.html
 release: australia
@@ -15,11 +15,11 @@ breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Disc
 
 # Azure DNS zones and record sets discovery using Patterns
 
-The Discovery and Service Mapping Patterns application uses the Azure - DNS Zones \(LP\) and Azure - DNS Zone Recordsets \(LP\) Patterns to discover Azure Domain Name System \(DNS\) definitions \(zones and their respective record sets\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Azure - DNS Zones \(LP\) and Azure - DNS Zone Recordsets \(LP\) Patterns to discover Azure Domain Name System \(DNS\) definitions \(zones and their respective record sets\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 To learn about Azure DNS zones and record sets and their version that you can discovery, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
 

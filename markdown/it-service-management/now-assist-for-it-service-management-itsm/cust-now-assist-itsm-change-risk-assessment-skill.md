@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-10"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI, change risk assessment, AI Risk Data Sources, answer generator]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Customize the change risk assessment answer generator skill
@@ -33,6 +33,8 @@ The answer generator skill is active by default and requires no activation. You 
     -   Active change tasks linked to change request
     -   Outages linked to change request
 -   **Change request fields**: The skill reads a fixed set of fields from the change request record. Add or remove fields by updating a system property.
+
+**Note:** The skill also reads the risk and compliance attributes stored on the change request in the dynamic attribute store field. These attributes are retrieved automatically, so they don't require an **AI Risk Data Sources** record or an entry in the change request fields property. The skill uses them when it suggests answers, so it can determine details such as whether the change is compliant, how long a rollback takes, and how many users the change is estimated to impact. For information about dynamic attributes, see .
 
 ## Procedure
 
@@ -85,6 +87,6 @@ The answer generator skill is active by default and requires no activation. You 
 
     4.  Select **Save**.
 
-    To get the change risk assessment answers and reasoning using AI, see [Generate change risk assessment answers by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md)
+    To get the change risk assessment answers and reasoning using AI, see [Generate change risk assessment answers by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md)
 
 

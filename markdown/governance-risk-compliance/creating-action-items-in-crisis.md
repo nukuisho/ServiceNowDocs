@@ -1,6 +1,6 @@
 ---
 title: Creating action items in crisis events
-description: Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during a crisis event or exercise, as long as the event remains open. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
+description: Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during open crisis events or exercises. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/creating-action-items-in-crisis.html
 release: australia
@@ -12,11 +12,11 @@ breadcrumb: [Structured workflows for Crisis events, Manage, Business Continuity
 
 # Creating action items in crisis events
 
-Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during a crisis event or exercise, as long as the event remains open. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
+Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during open crisis events or exercises. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
 
 ## Action items in real-time
 
-Action items can be used to assign tasks in real-time. For example, a crisis manager can assign an action item to verify that there are no injuries at a specific office location after an exercise or they can request someone to review the business continuity plan before proceeding to the next steps.
+Action items can be used to assign tasks in real-time. For example, a crisis manager can assign an action item to verify that there are no injuries at a specific office location after an exercise. They can request someone to review the business continuity plan before proceeding to the next steps.
 
 You can also use action items to conduct assessments during a crisis event. For example, in the event of a fire, you can assign an action item to assess the situation, determining the severity, and identify affected employees and buildings. You can perform an assessment and assign an action item.
 
@@ -193,6 +193,8 @@ The roles associated with action items are described in the table.
 |Viewers|Can read all action items.|
 |Recovery event/Plan owner|Can read and update all action items that they are assigned to.|
 
+-   **[Action item collaborator synchronization with Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/action-item-collaborators-smart-assessment-sync.md)**  
+When users are assigned to a recovery action item, they are automatically synced as collaborators on the linked Smart Assessment instance.
 -   **[Create task and assessment-type action items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-action-items-based-on-smart-assessments.md)**  
 Use integration of crisis events and Smart Assessment for creating necessary action items related to the crisis event. The action items can be of task and assessment type.
 

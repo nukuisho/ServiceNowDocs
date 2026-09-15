@@ -7,9 +7,9 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: reference
-last_updated: "2026-01-11"
+last_updated: "2026-08-21"
 reading_time_minutes: 1
-breadcrumb: [Now Assist in Virtual Agent reference, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [ServiceNow Otto for Virtual Agent reference, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Multilingual support for voice assistants
@@ -43,6 +43,12 @@ Voice assistants support the following languages for user interactions:
 -   Norwegian
 -   Australian English
 -   Irish English
+-   Finnish
+-   Czech
+-   Slovakian
+-   Ukrainian
+-   Malay
+-   Canadian English
 
 ## Japanese language considerations
 

@@ -60,13 +60,13 @@ Role required: sn\_sec\_tisc.admin
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+[Summarize a Case using generative AI]()
 
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Generate a Case Report using generative AI]()
 

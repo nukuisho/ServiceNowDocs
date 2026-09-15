@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/glossary/now-platform-glossary.
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 100
+reading_time_minutes: 101
 keywords: [glossary terms, ACL, glossary terms, glossary terms, glossary terms, glossary terms, dashboard, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 ---
 
@@ -146,7 +146,7 @@ Agentic AI refers to artificial intelligence systems that possess autonomy, enab
 
 ### agentic conversation
 
-Agentic conversation refers to interactions between humans and AI systems where the AI exhibits autonomous behavior, making decisions and taking actions to achieve specific goals. In an agentic conversation, the AI agent can understand the context, reason, and respond accordingly, often without requiring explicit human direction. You can enable it in Virtual Agent, Now Assist panel, Voice/Web agents, and enhance it through Knowledge Graph, RAG, and Open Prompts.
+Agentic conversation refers to interactions between humans and AI systems where the AI exhibits autonomous behavior, making decisions and taking actions to achieve specific goals. In an agentic conversation, the AI agent can understand the context, reason, and respond accordingly, often without requiring explicit human direction. You can enable it in Virtual Agent, ServiceNow Otto panel, Voice/Web agents, and enhance it through Knowledge Graph, RAG, and Open Prompts.
 
 ### agentic system
 
@@ -166,7 +166,7 @@ Applications offered by an expanding partner ecosystem that integrate autonomous
 
 ### AI agents
 
-AI agents are autonomous digital workers that use LLMs, tools, and workflows to complete tasks across ITSM, HR, and CSM on behalf of users. They can reason, plan, and act independently or collaboratively. You can create and manage them using AI Agent Studio and orchestrate them in AI Agent Orchestrator. These agents are embedded in Now Assist panels, Virtual Agent, and custom workflows.
+AI agents are autonomous digital workers that use LLMs, tools, and workflows to complete tasks across ITSM, HR, and CSM on behalf of users. They can reason, plan, and act independently or collaboratively. You can create and manage them using AI Agent Studio and orchestrate them in AI Agent Orchestrator. These agents are embedded in ServiceNow Otto panels, Virtual Agent, and custom workflows.
 
 The AI agent is a virtual worker that performs specific tasks leveraging tools from the ServiceNow AI Platform such as workflow, skill, script, knowledge base, etc.
 
@@ -176,11 +176,11 @@ AI compliance refers to the adherence to regulatory requirements, standards, and
 
 ### AI Control Tower
 
-AI Control Tower is a centralized governance hub for managing AI models, agents, and compliance across the ServiceNow AI Platform. It provides visibility into model usage, performance, risk and compliance, and is integrated with Now Assist Admin console.
+AI Control Tower is a centralized governance hub for managing AI models, agents, and compliance across the ServiceNow AI Platform. It provides visibility into model usage, performance, risk and compliance, and is integrated with AI Admin Hub.
 
 ### AI governance
 
-AI governance refers to the set of policies, procedures, and standards that guide the development, deployment, and use of AI systems within an organization. It ensures that AI systems are aligned with organizational values, comply with regulatory requirements, and are used in a responsible and transparent manner. In ServiceNow AI Platform, you can manage AI governance through AI Control Tower, AI Trust Guard, and role-based access in Now Assist Admin console.
+AI governance refers to the set of policies, procedures, and standards that guide the development, deployment, and use of AI systems within an organization. It ensures that AI systems are aligned with organizational values, comply with regulatory requirements, and are used in a responsible and transparent manner. In ServiceNow AI Platform, you can manage AI governance through AI Control Tower, AI Trust Guard, and role-based access in AI Admin Hub.
 
 ### AI steward
 
@@ -584,7 +584,7 @@ Cases that are associated with a major case, created one-to-one for each busines
 
 ### citation
 
-Small, interactable number next to AI-generated content in the Now Assist panel that cites the source of the information.
+Small, interactable number next to AI-generated content in the ServiceNow Otto panel that cites the source of the information.
 
 ### class \(script\)
 
@@ -752,7 +752,7 @@ A column of content that relates to the main content of the page. For example, y
 
 ### contract analysis
 
-A Now Assist skill used to analyze contract documents for clause deviations, ensuring compliance with standard clauses and identifying potential risks
+A AI skill used to analyze contract documents for clause deviations, ensuring compliance with standard clauses and identifying potential risks
 
 ### contract dashboard
 
@@ -828,10 +828,6 @@ An update set that has been selected using the Update Set Picker. User customiza
 ### custom application
 
 Any scoped application a developer creates on the ServiceNow AI Platform.
-
-### custom fields
-
-
 
 ### custom skill
 
@@ -1071,9 +1067,9 @@ A form for a catalog item can use dynamic behavior to automatically update based
 
 **Note:** Dynamic behaviors are also called Catalog UI Policies.
 
-### dynamic translation
+### Dynamic Translation
 
-A feature in Now Assist that translates user input to English and then translates the AI-generated responses back to the user's preferred language.
+A feature on the ServiceNow AI Platform that translates user input to English and then translates the AI-generated responses back to the user's preferred language.
 
 ## E
 
@@ -1273,8 +1269,6 @@ A registered instance of a scripted extension point that links a script include 
 Designates where custom script logic can be incorporated into your code so you can integrate customizations and new features without altering the existing code for your application. The returned data or objects must conform to the requirements specified by the application creator.
 
 ### External Content Connectors
-
-External
 
 External Content Connectors is a ServiceNow® Store application that enables AI Search to index and search content from external repositories like Atlassian Confluence Cloud and Microsoft SharePoint Online. It expands search capabilities to include external content while maintaining original access permissions.
 
@@ -1597,10 +1591,6 @@ The process of receiving and entering invoices into the system.
 
 The end-to-end handling of invoices from receipt to payment.
 
-### Invoice processing
-
-The end-to-end handling of invoices from receipt to payment.
-
 ### item
 
 Something a requestor can ask for, such as new computer equipment or time off work. Each item requires its own form in Creator Studio.
@@ -1655,7 +1645,7 @@ Repository of articles and information that helps agents and customers resolve i
 
 ### Knowledge Graph
 
-The Knowledge Graph organizes structured and unstructured enterprise data into a semantic network that AI agents can query. The ServiceNowKnowledge Graph application enhances the performance of Now AssistVirtual Agent, AI agents, and generative AI skills by leveraging structured and unstructured data from various sources. It provides a customized user experience by creating and managing Knowledge Graph schemas through a user-friendly interface. The application integrates with AI agents and Virtual Agent, offering prebuilt integrations for seamless functionality.
+Knowledge Graph organizes structured and unstructured enterprise data into a semantic network that AI agents can query. The ServiceNowKnowledge Graph application enhances the performance of ServiceNow Otto for Virtual Agent, AI agents, and generative AI skills by leveraging structured and unstructured data from various sources. It provides a customized user experience by creating and managing Knowledge Graph schemas through a user-friendly interface. The application integrates with AI agents and Virtual Agent, offering prebuilt integrations for seamless functionality.
 
 ### KPI
 
@@ -1851,7 +1841,7 @@ A ServiceNow Store listing filter for applications and integrations that have do
 
 ### multi-turn catalog ordering
 
-A feature in Now Assist that allows users to order catalog items from the service catalog through a conversational interface.
+A feature in ServiceNow Otto for Virtual Agent that allows users to order catalog items from the service catalog through a conversational interface.
 
 ## N
 
@@ -1859,7 +1849,7 @@ Glossary terms are grouped alphabetically.
 
 ### native translation
 
-A feature in Now Assist that uses the LLMs provided by the Now LLM Service to generate responses in the user's preferred language. You can enable and configure it in the Now Assist Admin console.
+A feature in ServiceNow Otto that uses integrated large language models \(LLMs\) to generate responses in the user's preferred language. You can enable and configure it in the AI Admin Hub.
 
 ### navigation bar
 
@@ -1897,41 +1887,41 @@ Message sent from a ServiceNow instance to inform a user that something happened
 
 A functionality that allows technical support agents to notify affected customers about network issues and updates.
 
-### Now Assist Admin console
+### AI Admin Hub
 
-A console for administrators to quickly set up, configure, and monitor generative AI features and capabilities offered under Now Assist.
+A console for administrators to quickly set up, configure, and monitor generative AI features and capabilities offered on the ServiceNow AI Platform.
 
-### Now Assist Analytics
+### AI Analytics
 
-A dashboard that provides insights into the usage, value, and performance of Now Assist.
+A dashboard that provides insights into the usage, value, and performance of AI on a ServiceNow instance.
 
-### Now Assist context menu
+### ServiceNow Otto context menu
 
 A generative AI feature that assists agents in creating and editing emails and chat replies, available in the Next Experience for specific workflows.
 
-### Now Assist Guardian
+### AI Guardian
 
 A feature that monitors and evaluates content created with generative AI to protect users from harmful, offensive, or inappropriate content. It can log incidents and prevent such content from being displayed.
 
-### Now Assist in Contract Management Pro
+### ServiceNow Otto for Contract Management Pro
 
 A generative AI-powered feature that enhances productivity by suggesting contract clauses, and extracting metadata from a signed contract.
 
-### Now Assist panel
+### ServiceNow Otto panel
 
 A conversational interface to summarize chat, case, or incident or generate resolution notes so that you can get the context of the information more quickly.
 
-### Now Assist skill
+### generative AI skill
 
-A predefined capability within Now Assist that uses generative AI to perform tasks such as generating summaries, resolution notes, and so on.
+A predefined capability on the ServiceNow AI Platform that uses generative AI to perform tasks such as generating summaries, resolution notes, and so forth.
 
-### Now Assist for SPO
+### ServiceNow Otto for SPO
 
 An application that uses generative AI to summarize procurement-related records and facilitate conversational procurement tasks.
 
-### Now Assist
+### ServiceNow Otto
 
-Now Assist refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
+ServiceNow Otto refers to generative AI experiences on the ServiceNow AI Platform. With ServiceNow Otto, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
 ### now code editor
 
@@ -1979,7 +1969,7 @@ Cloud-based services and solutions that are made available to customers both out
 
 ### offensive content detection
 
-A guardrail in Now Assist Guardian that logs and blocks offensive, harmful, or inappropriate content.
+A guardrail in AI Guardian that logs and blocks offensive, harmful, or inappropriate content.
 
 ### offline mode
 
@@ -2003,9 +1993,9 @@ A message-bus agnostic framework that supports publishing notifications to any o
 
 A view within the Service Operations Workspace that provides a comprehensive overview of a customer's or partner's account, including key contacts, products, services, and performance metrics. To learn more, see .
 
-### Orchestrator
+### orchestrator
 
-The AI agent orchestrator is a specialized agent that plans, coordinates, and manages the execution of tasks across multiple AI agents. It holds short-term memory, tracks goals, and ensures agents collaborate effectively. This component is central to Agentic AI architecture and is configured in AI Agent Studio. The orchestrator conducts the planning and leads a team of AI agents to address a given agentic workflow.
+The AI agent orchestrator is a specialized agent that plans, coordinates, and manages the execution of tasks across multiple AI agents. It holds short-term memory, tracks goals, and ensures agents collaborate effectively. This component is central to agentic AI architecture and is configured in AI Agent Studio. The orchestrator conducts the planning and leads a team of AI agents to address a given agentic workflow.
 
 ### order guide
 
@@ -2217,7 +2207,7 @@ Structure that organizes component files.
 
 ### prompt injection detection
 
-A security feature in Now Assist Guardian that identifies and prevents malicious inputs from being used to manipulate AI-generated responses.
+A security feature in AI Guardian that identifies and prevents malicious inputs from being used to manipulate AI-generated responses.
 
 ### proxy contact
 
@@ -2261,7 +2251,7 @@ Glossary terms are grouped alphabetically.
 
 ### Q&amp;A genius result
 
-Q&amp;A Genius Results in Now Assist provide users with concise, actionable answers generated from relevant knowledge articles and other sources. These results are displayed as actionable cards, each including a link to the source knowledge article for further reference.
+Q&amp;A Genius Results in ServiceNow Otto provide users with concise, actionable answers generated from relevant knowledge articles and other sources. These results are displayed as actionable cards, each including a link to the source knowledge article for further reference.
 
 ### qualifier
 
@@ -2333,7 +2323,7 @@ A catalog item that allows end users to create records from the Service Catalog.
 
 ### record summarization
 
-A feature of Now Assist for SPO that provides a concise overview, actions completed, and next steps for procurement records.
+A feature of ServiceNow Otto for SPO that provides a concise overview, actions completed, and next steps for procurement records.
 
 ### record watch
 
@@ -2425,7 +2415,7 @@ The Restricted Caller Access \(RCA\) feature enables an administrator to define 
 
 ### Retrieval Augmented Generation
 
-Retrieval Augmented Generation is a generative AI technique that enhances large language model \(LLM\) outputs by retrieving relevant enterprise content, such as knowledge articles or records and using it as context to generate more accurate and actionable responses. Within ServiceNow, RAG is implemented in products like Now Assist for Search, where it powers Genius Results cards by combining AI Search with generative responses. It is also configurable in AI Agent Studio, allowing admins to define RAG based tools that retrieve external or internal data to support autonomous or supervised AI agent workflows.
+Retrieval Augmented Generation is a generative AI technique that enhances large language model \(LLM\) outputs by retrieving relevant enterprise content, such as knowledge articles or records and using it as context to generate more accurate and actionable responses. Within ServiceNow, RAG is implemented in products like ServiceNow Otto for AI Search, where it powers Genius Results cards by combining AI Search with generative responses. It is also configurable in AI Agent Studio, allowing admins to define RAG based tools that retrieve external or internal data to support autonomous or supervised agentic workflows.
 
 ### Return
 
@@ -2600,9 +2590,9 @@ An application that enables a department to offer custom services through the Se
 
 A definition that specifies the timings, conditions, workflows, and other details that are required for creating and managing task service level agreements \(SLAs\). It enables you to use an SLA system for your organization's tasks.
 
-### service level agreement \(SLA\)
+### Service Level Agreement \(SLA\)
 
-An agreement that specifies the time period that a service must be provided within. SLA definitions are configured to include the necessary information to create and manage SLAs for customer service cases.
+A contractual commitment defining service performance standards and service availability guarantees. In Sales Order Management for Telecommunications, global service-agnostic SLAs are negotiated at the sales agreement level and cascade to all service contracts and service orders.
 
 ### Service Model Foundation
 
@@ -2687,6 +2677,10 @@ A list of table records \(sys\_ids\) that are collected at the time that the ind
 ### SOAP message
 
 A record that stores details on how to interact with an external web service through SOAP.
+
+### sold product
+
+A record representing a product that has been sold to a customer and is actively being delivered or has been delivered. Sold products are created from product orders after order approval and track the lifecycle of the product from activation through billing and eventual decommissioning. Sold products link to the customer account and associated service and resource instances.
 
 ### source control
 

@@ -1,6 +1,6 @@
 ---
 title: Nutanix Acropolis discovery
-description: The ServiceNow Discovery application uses the Nutanix Components pattern to find components of the Nutanix Acropolis solution containing Nutanix Prism Central version 2024.3.1.8 or Nutanix Prism Element 7.0.1.6. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the Nutanix Components pattern to find components of the Nutanix Acropolis solution containing Nutanix Prism Central version 2024.3.1.8 or Nutanix Prism Element 7.0.1.6. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Nutanix Acropolis discovery
 
-The ServiceNow Discovery application uses the Nutanix Components pattern to find components of the Nutanix Acropolis solution containing Nutanix Prism Central version 2024.3.1.8 or Nutanix Prism Element 7.0.1.6. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the Nutanix Components pattern to find components of the Nutanix Acropolis solution containing Nutanix Prism Central version 2024.3.1.8 or Nutanix Prism Element 7.0.1.6. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The Nutanix Components pattern uses REST APIs to collect information about the Acropolis deployment components.
 
@@ -22,7 +22,7 @@ Starting with version 1.29.0, Discovery and Service Mapping Patterns supports Nu
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Nutanix events
 

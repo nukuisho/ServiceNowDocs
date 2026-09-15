@@ -7,8 +7,8 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-07-09"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Inventory template naming patterns, Reference, Telecommunications Network Inventory]
 ---
 
@@ -21,7 +21,7 @@ When you instantiate an inventory template, each related template in the hierarc
 How a related template's CI gets its name depends on the related template's type:
 
 -   Slot, sub-slot, and interface related templates all require a **Name Pattern** field. The pattern must resolve to a non-empty string; you cannot save the template without a valid pattern. When the template creates a CI, the system evaluates the pattern as a JavaScript expression. The resulting string is set to the CI name.
--   Card and module related templates do not include a **Name Pattern** field. When the template creates a CI, the system automatically builds the CI name from two values: the site name and the inventory model name. The name follows this format: `<site name>/<model name>`.
+-   Card and module related templates don't include a **Name Pattern** field. When the template creates a CI, the system automatically builds the CI name from two values: the site name and the inventory model name. The name follows this format: `<site name>/<model name>`.
 
 ## How a Name Pattern resolves to a name
 

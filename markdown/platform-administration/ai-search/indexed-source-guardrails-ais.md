@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-07-02"
 reading_time_minutes: 4
-breadcrumb: [Indexed sources, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Indexed source guardrails
@@ -26,7 +26,7 @@ Guardrails are enabled in the base system for the Task and Alert tables and thei
 
 ## How guardrails work
 
-When guardrails are enabled, AI Search first checks the Guard Rail Limit for Indexed Data Sources \[`ais_guard_rail_limit_data_source`\] table to see whether a record exists for the indexed source \(defining the maximum number of records to index for that indexed source\). If no table entry exists, AI Search checks the `glide.ais.ingestion.guard_rails_enabled_datasources` system property value to see whether a limit is defined there for the indexed source. If no limit is found in either place, AI Search does not apply guardrail limits to the indexed source.
+When guardrails are enabled, AI Search first checks the Guard Rail Limit for Indexed Data Sources \[`ais_guard_rail_limit_data_source`\] table to see whether a record exists for the indexed source \(defining the maximum number of records to index for that indexed source\). If no table entry exists, AI Search checks the `glide.ais.ingestion.guard_rails_enabled_datasources` system property value to see whether a limit is defined there for the indexed source. If no limit is found in either place, AI Search doesn't apply guardrail limits to the indexed source.
 
 Guardrail limits on the number of records indexed are applied after the set of source records is limited by the indexed source's filter conditions and retention policy. For details on indexed source filter conditions and retention policies, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/retention-policies-conditions-ais.md).
 
@@ -42,7 +42,7 @@ A ServiceNow® employee can modify guardrail settings for your instance as follo
 
 **Note:** Changes to your instance's guardrail settings may take up to 24 hours to be reflected in AI Search's indexing behavior.
 
-## Indexing and search performance
+## Search performance considerations for indexing
 
 Search performance for AI Search is affected by several customer-controlled factors related to content indexing. Changes to these factors can impact search performance as follows.
 

@@ -18,7 +18,7 @@ Manage elastic load balancers, instances, relational database services, and othe
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -49,7 +49,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 ## Spoke version
 
-AWS OpsWorks spoke v1.0.2 is the latest version.
+AWS OpsWorks spoke v1.0.2 is the latest version. For version history of the spoke, see [AWS OpsWorks spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-aws-opsworks-spoke.html).
 
 ## Spoke actions
 

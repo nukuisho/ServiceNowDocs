@@ -43,13 +43,13 @@ You can also view cases and case tasks directly from the Workbench Overview that
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+[Summarize a Case using generative AI]()
 
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

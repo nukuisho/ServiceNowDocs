@@ -9,15 +9,15 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-01-27"
 reading_time_minutes: 2
-keywords: [org chart, organizational chart, reporting structure, employee directory, Employee Slate]
-breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+keywords: [org chart, organizational chart, reporting structure, employee directory]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Employee org chart
 
 The organizational chart provides an interactive visualization of company structure, reporting relationships, and team hierarchies with search and navigation capabilities.
 
-Employee Slate brings org chart and employee profile functionality together in a single experience. Employees explore the organizational structure and view colleague information without switching between HR systems or directory tools.
+EmployeeWorks Web App brings org chart and employee profile functionality together in a single experience. Employees explore the organizational structure and view colleague information without switching between HR systems or directory tools.
 
 \[Omitted image "es-org-chart.png"\] Alt text: Employee org chart and team structure
 
@@ -37,9 +37,9 @@ Administrators configure org chart and profile content through two records in th
 -   Use the organization chart configuration to define eligible users and to select the fields that appear on org chart cards.
 -   Use the overview UI configuration to select the fields that appear in the **About**, **Work details**, **Personal details**, and **Team** sections.
 
-Employee Slate uses the same org chart configuration as Employee Center. You don't need to set up the org chart separately when you deploy Employee Slate alongside an existing Employee Center instance.
+EmployeeWorks Web App uses the same org chart configuration as Employee Center. You don't need to set up the org chart separately when you deploy EmployeeWorks Web App alongside an existing Employee Center instance.
 
-**Note:** The scheduled job fetches the count of direct reports. During an org restructure, the badge count and the actual number may not match. To resolve the count issue, run the org chart schedule job.
+**Note:** The scheduled job fetches the count of direct reportsand the cumulative total of reports at each level. During an org restructure, the badge count and the actual number may not match until the next scheduled run. To resolve the count issue, run the org chart schedule job.
 
 ## What you can do with org chart
 
@@ -51,6 +51,7 @@ The org chart provides the following capabilities:
 -   Contextual positioning: Go to any employee position in the org chart from their profile page using the **View Org Chart** button.
 -   Team structure indicators: Visual representation of reporting structures.
 -   Visual enhancements: You can enhance Org chart and profile with visual updates and image edits.
+-   Report count display: Show either the count of direct reports or the cumulative total of reports at each level, based on your configuration.
 
 ## AI chat interactions
 

@@ -1,6 +1,6 @@
 ---
 title: Amazon ECS resource discovery with Patterns
-description: The ServiceNow Discovery application uses the Amazon AWS - ECS pattern to find resources managed by the Amazon Elastic Container Service \(Amazon ECS\). This includes resources that are run on the Fargate launch type. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the Amazon AWS - ECS pattern to find resources managed by the Amazon Elastic Container Service \(Amazon ECS\). This includes resources that are run on the Fargate launch type. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-ecs-fargate-discovery.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patter
 
 # Amazon ECS resource discovery with Patterns
 
-The ServiceNow Discovery application uses the Amazon AWS - ECS pattern to find resources managed by the Amazon Elastic Container Service \(Amazon ECS\). This includes resources that are run on the Fargate launch type. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the Amazon AWS - ECS pattern to find resources managed by the Amazon Elastic Container Service \(Amazon ECS\). This includes resources that are run on the Fargate launch type. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Amazon ECS is a highly scalable, fast, container management service that makes it easy to run, stop, and manage Docker containers. AWS Fargate is a compute engine for Amazon ECS that enables AWS customers to run containers without having to manage servers or clusters.
 
@@ -22,11 +22,11 @@ Discovery uses the Amazon AWS - ECS pattern to run horizontal discovery.
 
 Starting with Discovery and Service Mapping Patterns version 1.18.0, the Amazon AWS - ECS pattern supports the discovery of Amazon Elastic Container Registry \(Amazon ECR\) images. For more information on container scanning, see [Scan container images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-task.md).
 
-Starting with Discovery and Service Mapping Patterns version 1.31.0, you can choose to discover Docker image CIs only, without discovering Docker container CIs. Check your entitlements to determine whether you have access to 2026 Container Packaging. For more information, see [Disable Docker container CI discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disable-docker-container-discovery.md).
+Starting with Discovery and Service Mapping Patterns version 1.31.0, you can choose to discover Docker image CIs only, without discovering Docker container CIs. Check your entitlements to determine whether you have access to 2026 Packaging SKU. For more information, see [Disable Docker container CI discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disable-docker-container-discovery.md).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Amazon ECS data model
 

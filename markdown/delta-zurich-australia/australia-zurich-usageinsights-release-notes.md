@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-usageinsights-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,6 +67,10 @@ Zurich
 
 </td><td>
 
+-   **[Bulk export of User Experience Analytics data via REST API](https://www.servicenow.com/docs/access?context=data-export-restapi&family=zurich&ft:locale=en-US)**
+
+Use Usage Insights data export store app to deliver an asynchronous REST API endpoint that processes export requests in the background and streams results as JSON batches to a dedicated Kafka topic. Unlike manual export from the Usage Insights dashboard, data export is designed for programmatic, large-volume, recurring data movement scenarios.
+
 -   **[Analytics overlay experience](https://www.servicenow.com/docs/access?context=uxa-access-analytics-overlay&family=zurich&ft:locale=en-US)**
 
 Try the new utility icon that shows you the key usage metrics for the pages that you're navigating to without having to leave the application page. The shortcut gives you faster access to the contextual analytics overlay.
@@ -81,6 +85,22 @@ Experience the enhancements by enabling UXA filters on dashboards, additional me
 Australia
 
 </td><td>
+
+-   **[Conversations](https://www.servicenow.com/docs/access?context=conversations&family=australia&ft:locale=en-US)**
+
+Explore the conversations view by ServiceNow Otto chat activity. It reports engagement metrics such as total chat users and live agent transfers, chat-related events, from starting a conversation to rendering a chat response to selecting a chat action.
+
+-   **[Create cross-application conversion funnels](https://www.servicenow.com/docs/access?context=create-conversion-funnel-for-cross-application&family=australia&ft:locale=en-US)**
+
+Create and use cross-application conversion funnels to target all applications or one specific application, so that consecutive steps can follow from one application into another.
+
+-   **[Page properties analytics](https://www.servicenow.com/docs/access?context=page-properties-analytics&family=australia&ft:locale=en-US)**
+
+Filter a page detail page by one or more page properties to analyse how usage differs across page attributes such as owner, category, or load time.
+
+-   **[Bulk export of User Experience Analytics data via REST API](https://www.servicenow.com/docs/access?context=data-export-restapi&family=australia&ft:locale=en-US)**
+
+Use Usage Insights data export store app to deliver an asynchronous REST API endpoint that processes export requests in the background and streams results as JSON batches to a dedicated Kafka topic. Unlike manual export from the Usage Insights dashboard, data export is designed for programmatic, large-volume, recurring data movement scenarios.
 
 -   **[Creating custom events](https://www.servicenow.com/docs/access?context=tagged-events&family=australia&ft:locale=en-US)**
 
@@ -114,7 +134,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -172,7 +195,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Usage Insights in Xanadu](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&family=zurich&ft:locale=en-US)**
+
+Usage Insights is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using Usage Insights.
+
 
 </td></tr><tr><td>
 
@@ -180,7 +206,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Usage Insights in Xanadu](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&family=australia&ft:locale=en-US)**
+
+Usage Insights is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using Usage Insights.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -201,7 +230,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Usage Insights is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -209,7 +241,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Usage Insights is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -346,6 +381,7 @@ Zurich
 
 </td><td>
 
+-   Usage Insight Data Export is delivered as a store app that adds a REST API endpoint to your instance and provisions a dedicated messaging topic for result delivery.
 -   Access the analytics overlay faster via the new utility icon and then redirect to the analytics dashboard by selecting **Analyze with User Experience Analytics** on the overlay.
 -   Experience enhanced analytics with UXA filters on dashboards, configurable session metrics, Pages in User Experience Analytics, drill-down in inline dashboards, and a condition builder for Events.
 
@@ -358,7 +394,8 @@ Australia
 </td><td>
 
 -   User Experience Analytics is now known as Usage Insights.
--   Tag and create new events and update event descriptions.
+-   Usage Insight Data Export is delivered as a store app that adds a REST API endpoint to your instance and provisions a dedicated messaging topic for result delivery.
+-   Tag and create events and update event descriptions.
 -   View funnels you create in Usage Insights directly in Platform Analytics.
 -   Create dashboards for Platform Analytics directly in Usage Insights.
 

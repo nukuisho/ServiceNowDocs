@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-26"
 reading_time_minutes: 2
 keywords: [employee communications, announcements, content library, Employee Slate, chat promotion]
-breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Analytics and reporting
@@ -28,7 +28,13 @@ UXA automatically captures the following interactions:
 -   Widget renders, for example, the Employee sidebar and org chart card.
 -   Selections on specific widgets and page elements, beyond standard page views.
 
-The UXA Overview Dashboard visualizes how employees navigate Employee Slate. Administrators use the dashboard to identify common navigation paths and exit points in the experience.
+The UXA Overview Dashboard visualizes how employees navigate EmployeeWorks Web App. Administrators use the dashboard to identify common navigation paths and exit points in the experience.
+
+Employee Slate \(built for Now Assist\) and EmployeeWorks Web App are separate products, each with its own option in Usage Insights.
+
+Interactions in either product, including button clicks, redirects, and widget selections, are captured and surfaced within Usage Insights.
+
+EmployeeWorks Web App uses the same widget set available for any other application in Usage Insights.
 
 ## UXA metrics
 
@@ -40,7 +46,7 @@ The UXA dashboard captures and displays the following metrics:
 
 -   **New users**
 
-    The number of users who accessed Employee Slate for the first time in the selected time period.
+    The number of users who accessed EmployeeWorks Web App for the first time in the selected time period.
 
 -   **Total sessions**
 
@@ -62,12 +68,32 @@ The UXA dashboard captures and displays the following metrics:
 
     Aggregate counts for each dimension, available as trend data over time.
 
+-   **Retention**
+
+    The number of users who return within a selected period, compared to new users, shown as an overall retention cohort.
+
+-   **Cohort analysis**
+
+    Custom user groups that administrators define for deeper analysis of retention patterns.
+
+-   **Conversion funnels**
+
+    Predefined or custom funnels that track click-through relationships between specific workflows in the Employee Slate interface.
+
+-   **Navigation paths**
+
+    The percentage of users who follow each navigation path through the available journeys in the Employee Slate experience.
+
+-   **Session details**
+
+    Anonymized session-level data, including duration, device count, location count, and underlying events.
+
 
 **Note:** Department-level and business unit filtering for UXA data is not currently available. Check your entitlements to verify whether you have access to advanced UXA filtering when it is available.
 
 ## Employee comms analytics
 
-Communications Analytics tracks the performance of announcements published through Employee Slate. This capability serves communications teams and stakeholders to measure the reach and engagement of company-wide or targeted content.
+Communications Analytics tracks the performance of announcements published through EmployeeWorks Web App. This capability serves communications teams and stakeholders to measure the reach and engagement of company-wide or targeted content.
 
 \[Omitted image "es-analytics-comms.png"\] Alt text: Comms analytics data and details
 

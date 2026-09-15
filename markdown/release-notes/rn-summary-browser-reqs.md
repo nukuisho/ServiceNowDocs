@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-browser-reqs.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -26,35 +26,27 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-AI Agent Advisor
+AI Admin Center
 
 </td><td>
 
-The AI Agent Advisor application supports various browsers, including Google Chrome and Microsoft Edge. AI Agent Advisor isn’t supported in Internet Explorer. For more information, see Browser support.
+The AI Admin Center application supports various browsers, including Google Chrome and Microsoft Edge. AI Admin Center isn’t supported in Internet Explorer.
 
 </td></tr><tr><td>
 
-AI Control Tower
+AI Admin Hub
 
 </td><td>
 
-The AI Control Tower application supports all browsers.
+Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Internet Explorer.
 
 </td></tr><tr><td>
 
-AI Desktop Actions
+AI Agent Studio
 
 </td><td>
 
-Now Assist AI agents support various browsers, including Google Chrome and Microsoft Edge. Now Assist AI agents aren't supported in Internet Explorer.
-
-</td></tr><tr><td>
-
-AI Search
-
-</td><td>
-
-AI Search doesn’t support Internet Explorer.
+AI agents and AI Agent Studio support various browsers, including Google Chrome and Microsoft Edge. AI agents and AI Agent Studio aren't supported in Internet Explorer.
 
 </td></tr><tr><td>
 
@@ -98,6 +90,14 @@ Enable the DEX browser extension to monitor web applications for various operati
 
 </td></tr><tr><td>
 
+Live Connect
+
+</td><td>
+
+Live Connect is a backend connectivity layer with no browser-specific requirements. Browser compatibility depends on the third-party client tools used to connect to Live Connect.
+
+</td></tr><tr><td>
+
 Manufacturing Commercial Operations
 
 </td><td>
@@ -119,38 +119,6 @@ Next Experience Developer \(NED\) Tools
 </td><td>
 
 Next Experience Developer Tools requires Google Chrome.
-
-</td></tr><tr><td>
-
-Now Assist
-
-</td><td>
-
-Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Internet Explorer.
-
-</td></tr><tr><td>
-
-Now Assist AI Agents
-
-</td><td>
-
-Now Assist AI agents support various browsers, including Google Chrome and Microsoft Edge. Now Assist AI agents aren't supported in Internet Explorer.
-
-</td></tr><tr><td>
-
-Now Assist Center
-
-</td><td>
-
-The Now Assist Center application supports various browsers, including Google Chrome and Microsoft Edge. Now Assist Center isn’t supported in Internet Explorer.
-
-</td></tr><tr><td>
-
-Now Assist for Legal Service Delivery \(LSD\)
-
-</td><td>
-
-To see the list of supported browsers for Now Assist for Legal Service Delivery \(LSD\), see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -188,6 +156,14 @@ Self-service and omnichannel engagement for CSM
 </td><td>
 
 Starting with the Australia release, self-service and omnichannel application don't support Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Legal Service Delivery \(LSD\)
+
+</td><td>
+
+To see the list of supported browsers for ServiceNow Otto for Legal Service Delivery \(LSD\), see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 

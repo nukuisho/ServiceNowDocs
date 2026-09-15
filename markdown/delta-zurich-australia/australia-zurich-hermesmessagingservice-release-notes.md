@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-hermesmessagingservice-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -82,25 +82,13 @@ Australia
 
 </td><td>
 
--   **[Expanded topic limits in Hermes](https://www.servicenow.com/docs/access?context=exploring-hermes-messaging-service&family=australia&ft:locale=en-US)**
-
-Create more topics in Hermes with an increased topic limit. The total number of partitions across all topics can't exceed 960.
-
--   **[Hermes Usage Dashboard improvements](https://www.servicenow.com/docs/access?context=monitoring-data-usage-hermes&family=australia&ft:locale=en-US)**
-
-View Hermes data usage by source, including the total number of bytes received and bytes sent over time, in the Hermes Usage Dashboard.
-
--   **[Access restrictions by IP address](https://www.servicenow.com/docs/access?context=restricting-access-hermes-topics&family=australia&ft:locale=en-US)**
-
-Restrict access to Hermes by enabling IP address access control rules.
-
--   **[View-only role](https://www.servicenow.com/docs/access?context=hermes-messaging-service-roles-4&family=australia&ft:locale=en-US)**
-
-Enable administrators to view topics and namespaces in Hermes by granting the hermes\_viewer role instead of the full admin role.
-
--   **Hermes Settings page**
+-   **[Hermes Settings page](https://www.servicenow.com/docs/access?context=c-hermes-settings&family=australia&ft:locale=en-US)**
 
 Enable maintenance users and administrators to view and modify Hermes configuration properties and manage background jobs directly from the Hermes Settings page.
+
+-   **[Encryption at rest for Hermes topics](https://www.servicenow.com/docs/access?context=encryption-at-rest&family=australia&ft:locale=en-US)**
+
+Protect message data stored on broker disks by enabling encryption at rest on individual Hermes topics. Choose between ServiceNow-managed keys or customer-supplied keys using the Bring Your Own Key \(BYOK\) model.
 
 
 </td></tr></tbody>
@@ -122,7 +110,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -209,7 +200,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see [Activating Hermes](https://www.servicenow.com/docs/access?context=hermes-messaging-service-activation&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -217,7 +211,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or the installation of the Log Export Service application. For details, see [Activating Hermes](https://www.servicenow.com/docs/access?context=hermes-messaging-service-activation&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -296,7 +293,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -369,6 +370,7 @@ Australia
 -   View granular usage metrics in the Hermes Usage Dashboard.
 -   Restrict access to the Hermes cluster based on the client IP address.
 -   Manage Hermes configuration properties and background jobs from the Hermes Settings page.
+-   Protect message data on broker disks with encryption at rest, with support for customer-supplied keys.
 
  See [Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&family=australia&ft:locale=en-US) for more information.
 

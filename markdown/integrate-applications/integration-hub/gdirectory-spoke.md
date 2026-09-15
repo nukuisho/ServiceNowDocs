@@ -18,7 +18,7 @@ Manage groups, members, and users in Google Directory from your ServiceNow insta
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -31,7 +31,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Google Directory spoke v1.6.0 is the latest version.
+Google Directory spoke v1.6.0 is the latest version. For version history of the spoke, see [Google Directory spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-google-directory.html).
 
 ## Spoke dependencies
 

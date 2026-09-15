@@ -59,6 +59,10 @@ You can select the impacted AI systems for the demand. If the required AI system
 
 [Create a demand]()
 
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
+
 [View demands]()
 
 [Add details to demands]()
@@ -75,7 +79,5 @@ You can select the impacted AI systems for the demand. If the required AI system
 
 [PPM PIWB template - Find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
-
-[Summarize demands with demand summarization skill]()
+[Work with demands in Employee Slate]()
 

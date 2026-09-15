@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2025-09-05"
 reading_time_minutes: 3
-keywords: [explore, AI Agents, Agentic AI]
+keywords: [explore, AI Agents, Agentic AI, adaptive desktop action, probabilistic desktop action]
 breadcrumb: [Explore, AI Desktop Actions, Enable AI experiences]
 ---
 
@@ -49,25 +49,15 @@ Adaptive desktop actions are available to all users who perform tasks across ent
 
 ## Operating desktop actions
 
-You access desktop actions through the Now Assist panel that has enhanced chat enabled. The AI agent provides updates on its progress in the chat interface. As the agent works, you receive:
+You access desktop actions through the ServiceNow Otto panel that has enhanced chat enabled. The AI agent provides updates on its progress in the chat interface. As the agent works, you receive:
 
 -   Real-time status updates in the chat
 -   Periodic screenshots of the web pages the agent navigates
 -   Notifications when external websites require login credentials
 
-When an external website requires login, you're prompted in the chat. Switch to the external website tab, provide your credentials, then switch back to the Now Assist panel. The agent continues after authentication is complete.
+When you close the chat, you have the option to delete the chat log, including all screenshots containing sensitive information. For more information, see [Delete an AI agent chat log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-delete-chat-log.md).
 
-**Note:** When you close the chat, you have the option to delete the chat log, including all screenshots containing sensitive information. For more information, see [Delete an AI agent chat log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-delete-chat-log.md).
-
-## Limitation
-
-Desktop actions operate as browser extensions with the following limitations:
-
--   Can only access content within the browser
--   Cannot interact with desktop applications or local files \(except for downloading files\)
--   Cannot upload data from the local file system
-
-For tasks requiring local file access, consider using defined desktop actions. For more information, see [Defined path desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions.md).
+To run multiple tasks at once in adaptive desktop actions, open each task in a separate Chrome browser window, each with a different user profile,logging in with different ServiceNow users. This lets the tasks run in parallel instead of one at a time.
 
 ## Third-party website access
 
@@ -82,7 +72,7 @@ ServiceNow AI Desktop Actions rely on “computer use,” a beta technology prov
 
 [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md)
 
-[Creating AI agents for AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md)
+[Creating AI agents and adding desktop action tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md)
 
 [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)
 

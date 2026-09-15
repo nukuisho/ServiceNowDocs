@@ -21,7 +21,7 @@ You can install the Change Management for Field Service application \(sn\_fsm\_c
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Change Management for Field Service requires the following plugins. Ensure that these plugins are activated before you install Change Management for Field Service.
     -   **Required ServiceNow plugins**
-        -   **CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)**
+        -   **CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)**
 
             Enable your agents to engage with customers, answer questions, create cases, and resolve issues. For more information, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md).
 
@@ -36,7 +36,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

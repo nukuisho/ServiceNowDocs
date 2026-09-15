@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 77
+reading_time_minutes: 87
 keywords: [ITOM, Visibility, ServiceNow, Discovery, Cloud, API, Permissions, Patterns, AWS, Azure, GCP, IBM, Oracle, OCI]
 breadcrumb: [Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -1512,6 +1512,30 @@ Amazon AWS - VPC Managed Prefix List - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
+[AWS Application and Network LB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-application-network-lb-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Application and Network LB \(LP\)
+
+</td></tr><tr><td>
+
 [AWS application ELB Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-application-elb-service-discovery.md)
 
 </td><td>
@@ -2140,6 +2164,54 @@ Amazon AWS Lambda
 
 </td></tr><tr><td>
 
+[AWS Linux Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-linux-server-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Linux Server \(LP\)
+
+</td></tr><tr><td>
+
+[AWS Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-marketplace-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Marketplace \(LP\)
+
+</td></tr><tr><td>
+
 [AWS MemoryDB for Redis discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-memorydb-discovery.md)
 
 </td><td>
@@ -2161,6 +2233,30 @@ Horizontal
 </td><td>
 
 AWS MemoryDB \(pattern\)
+
+</td></tr><tr><td>
+
+[AWS Network ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-acl-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - ACL \(LP\)
 
 </td></tr><tr><td>
 
@@ -2527,6 +2623,30 @@ Amazon AWS - Virtual Server \(LP\)
 
 </td></tr><tr><td>
 
+[AWS Windows Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-windows-server-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Windows Server \(LP\)
+
+</td></tr><tr><td>
+
 [AWS X-Ray Sampling Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-xray-sampling-rule.md)
 
 </td><td>
@@ -2668,6 +2788,30 @@ Horizontal
 </td><td>
 
 Azure - Application Insight Data Collection Rule - Extended Inventory\(LP\)
+
+</td></tr><tr><td>
+
+[Azure Application LB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-application-lb-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Application LB \(LP\)
 
 </td></tr><tr><td>
 
@@ -3522,6 +3666,30 @@ Azure - NAT Gateway \(LP\)
 
 </td></tr><tr><td>
 
+[Azure Network and Subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-network-subnet-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Network and Subnet \(LP\)
+
+</td></tr><tr><td>
+
 [Azure Networks IP Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-networks-ip-group.md)
 
 </td><td>
@@ -3543,6 +3711,30 @@ Horizontal
 </td><td>
 
 Azure - Networks IP Group - Extended Inventory\(LP\)
+
+</td></tr><tr><td>
+
+[Azure NIC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-nic-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - NIC \(LP\)
 
 </td></tr><tr><td>
 
@@ -3595,6 +3787,30 @@ Azure - Private DNS Zone \(LP\)
 
 </td></tr><tr><td>
 
+[Azure Private Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-private-gateway-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Private Gateway \(LP\)
+
+</td></tr><tr><td>
+
 [Azure Private Link Private Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-private-link-private-endpoint.md)
 
 </td><td>
@@ -3616,6 +3832,30 @@ Horizontal
 </td><td>
 
 Azure - Private Link Private Endpoint - Extended Inventory\(LP\)
+
+</td></tr><tr><td>
+
+[Azure Public IP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-public-ip-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Public IP \(LP\)
 
 </td></tr><tr><td>
 
@@ -5661,6 +5901,30 @@ DB2
 
 </td></tr><tr><td>
 
+[IBM Flash System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-flash-system-pattern.md)
+
+</td><td>
+
+N/A
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+IBM Flash System
+
+</td></tr><tr><td>
+
 [IBM Virtualization and Hardware Management Console \(HMC\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.md)
 
 </td><td>
@@ -6070,7 +6334,7 @@ Kubernetes
 
 </td><td>
 
-1.21 - 1.30
+1.21 - 1.36.2
 
 </td><td>
 
@@ -6084,7 +6348,8 @@ Horizontal
 
 </td><td>
 
-Kubernetes
+-   Kubernetes
+-   Kubernetes Cluster - Per-Namespace LP
 
 </td></tr><tr><td>
 
@@ -6841,6 +7106,105 @@ OpenStack \(pattern\)
 
 </td></tr><tr><td>
 
+[OCI cloud hardware type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-hardware-type-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Cloud Hardware Type \(LP\)
+
+</td></tr><tr><td>
+
+[OCI OS image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-os-image-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+-   Oracle OCI - Image \(LP\)
+-   Oracle OCI - Cloud OS Image \(LP\)
+
+</td></tr><tr><td>
+
+[OCI virtual machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-vm-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Virtual Machine \(LP\)
+
+</td></tr><tr><td>
+
+[Oracle Access Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-access-manager-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+ WinRM
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - Access Manager
+
+</td></tr><tr><td>
+
 Oracle Application Server
 
 </td><td>
@@ -6868,36 +7232,6 @@ Top-down
 </td><td>
 
 Oracle iAS
-
-</td></tr><tr><td>
-
-Oracle Concurrent Server
-
-</td><td>
-
-Windows
-
- UNIX
-
-</td><td>
-
-10.x, 11.x, 12.x
-
-</td><td>
-
-WMI
-
- WinRM
-
- SSH
-
-</td><td>
-
-Top-down
-
-</td><td>
-
-Concurrent Server
 
 </td></tr><tr><td>
 
@@ -6946,6 +7280,60 @@ Horizontal
 </td><td>
 
 Oracle CRS
+
+</td></tr><tr><td>
+
+[Oracle Coherence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-coherence-pattern.md)
+
+</td><td>
+
+UNIX
+
+</td><td>
+
+N/A
+
+</td><td>
+
+SSH
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - Coherence
+
+</td></tr><tr><td>
+
+Oracle Concurrent Server
+
+</td><td>
+
+Windows
+
+ UNIX
+
+</td><td>
+
+10.x, 11.x, 12.x
+
+</td><td>
+
+WMI
+
+ WinRM
+
+ SSH
+
+</td><td>
+
+Top-down
+
+</td><td>
+
+Concurrent Server
 
 </td></tr><tr><td>
 
@@ -7099,6 +7487,30 @@ E-Business Suite
 
 </td></tr><tr><td>
 
+[Oracle Enterprise Manager Management Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-oem-oms-pattern.md)
+
+</td><td>
+
+UNIX
+
+</td><td>
+
+N/A
+
+</td><td>
+
+SSH
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - Enterprise Manager Management Server
+
+</td></tr><tr><td>
+
 Oracle Forms
 
 </td><td>
@@ -7126,6 +7538,32 @@ Top-down
 </td><td>
 
 Forms Engine
+
+</td></tr><tr><td>
+
+[Oracle Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-forms-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+ WinRM
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - Forms
 
 </td></tr><tr><td>
 
@@ -7239,56 +7677,6 @@ Oracle GLAS Data Collection \(pattern\)
 
 </td></tr><tr><td>
 
-[Oracle Java processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
-
-</td><td>
-
-JDK
-
-</td><td>
-
-All
-
-</td><td>
-
-N/A
-
-</td><td>
-
-Horizontal
-
-</td><td>
-
-Java installation pattern
-
- ACC based discovery
-
-</td></tr><tr><td>
-
-[Oracle Solaris LDOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/solaris-ldom-discovery.md)
-
-</td><td>
-
-Solaris
-
-</td><td>
-
-10, 11
-
-</td><td>
-
-SSH
-
-</td><td>
-
-Horizontal
-
-</td><td>
-
-Solaris Logical Domain \(LDOM\) infrastructure
-
-</td></tr><tr><td>
-
 Oracle HTTP Server
 
 </td><td>
@@ -7316,6 +7704,54 @@ Top-down
 </td><td>
 
 HTTP Server
+
+</td></tr><tr><td>
+
+[Oracle HTTP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-http-server-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - HTTP Server
+
+</td></tr><tr><td>
+
+[Oracle Internet Directory Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-oid-server-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - Internet Directory Server
 
 </td></tr><tr><td>
 
@@ -7364,6 +7800,32 @@ Top-down
 </td><td>
 
 Sun JES pattern
+
+</td></tr><tr><td>
+
+[Oracle Java processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
+
+</td><td>
+
+JDK
+
+</td><td>
+
+All
+
+</td><td>
+
+N/A
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Java installation pattern
+
+ ACC based discovery
 
 </td></tr><tr><td>
 
@@ -7448,6 +7910,30 @@ Horizontal and top-down
 </td><td>
 
 My SQL server On Windows and Linux \(pattern\)
+
+</td></tr><tr><td>
+
+[Oracle Node Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-node-manager-pattern.md)
+
+</td><td>
+
+UNIX
+
+</td><td>
+
+N/A
+
+</td><td>
+
+SSH
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - Node Manager
 
 </td></tr><tr><td>
 
@@ -7571,6 +8057,30 @@ App TNS Service
 
 </td></tr><tr><td>
 
+[Oracle Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-reports-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - Reports
+
+</td></tr><tr><td>
+
 Oracle Report Server
 
 </td><td>
@@ -7625,6 +8135,30 @@ Solaris Server
 
 </td></tr><tr><td>
 
+[Oracle Solaris LDOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/solaris-ldom-discovery.md)
+
+</td><td>
+
+Solaris
+
+</td><td>
+
+10, 11
+
+</td><td>
+
+SSH
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Solaris Logical Domain \(LDOM\) infrastructure
+
+</td></tr><tr><td>
+
 [Oracle Solaris Logical Domain infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/solaris-ldom-discovery.md)
 
 </td><td>
@@ -7646,6 +8180,106 @@ Horizontal
 </td><td>
 
 Solaris LDOM
+
+</td></tr><tr><td>
+
+[Oracle TNS Listener](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-tns-listener-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - TNS Listener
+
+</td></tr><tr><td>
+
+[Oracle Siebel CRM Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-siebel-crm-server-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+ WinRM
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - Siebel CRM Server
+
+</td></tr><tr><td>
+
+[Oracle Siebel Gateway Name Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-siebel-gateway-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - Siebel Gateway Name Server
+
+</td></tr><tr><td>
+
+[Oracle Unified Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-unified-directory-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+ WinRM
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle - Unified Directory
 
 </td></tr><tr><td>
 
@@ -7890,6 +8524,30 @@ AppDirector Load Balancer
 
 </td></tr><tr><td>
 
+[Red Hat 389 Directory Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/red-hat-389-directory-server-pattern.md)
+
+</td><td>
+
+UNIX
+
+</td><td>
+
+N/A
+
+</td><td>
+
+SSH
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Red Hat - Directory Server
+
+</td></tr><tr><td>
+
 Red Hat Cluster Suite
 
 </td><td>
@@ -7944,6 +8602,82 @@ Jboss \(pattern\)
 
 </td></tr><tr><td>
 
+[Red Hat JBoss EAP Host Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/red-hat-jboss-eap-hc-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+ WinRM
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Red Hat JBoss - Enterprise App Platform Host Controller
+
+</td></tr><tr><td>
+
+[Red Hat JBoss EAP Server on UNIX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/red-hat-jboss-eap-server-unix-pattern.md)
+
+</td><td>
+
+UNIX
+
+</td><td>
+
+N/A
+
+</td><td>
+
+SSH
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Red Hat - JBoss Enterprise App Platform Server on Unix
+
+</td></tr><tr><td>
+
+[Red Hat JBoss EAP Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/red-hat-jboss-eap-server-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+ WinRM
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Red Hat JBoss Enterprise Application Platform Server
+
+</td></tr><tr><td>
+
 [Red Hat JBoss Fuse discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/jboss-fuse-discovery.md)
 
 </td><td>
@@ -7991,6 +8725,82 @@ Horizontal
 </td><td>
 
 Collect OpenShift info library used as an extension section of the Kubernetes pattern
+
+</td></tr><tr><td>
+
+[Red Hat Podman](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/red-hat-podman-pattern.md)
+
+</td><td>
+
+UNIX
+
+</td><td>
+
+N/A
+
+</td><td>
+
+SSH
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Red Hat - Podman
+
+</td></tr><tr><td>
+
+[Red Hat SSO Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/red-hat-sso-server-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+ WinRM
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Red Hat - Single Sign-On Server
+
+</td></tr><tr><td>
+
+[Red Hat WildFly Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/red-hat-wildfly-server-pattern.md)
+
+</td><td>
+
+Windows
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+ WinRM
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Red Hat - WildFly Server
 
 </td></tr><tr><td>
 

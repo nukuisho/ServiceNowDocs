@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, partner, profile, information, detail]
-breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Working with ERP systems, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View Zero Copy Connector for ERP partner profile information
@@ -49,6 +49,4 @@ Partner profiles are fetched from SAP during initial load. If any new profiles a
 
     For field descriptions, see [Zero Copy Connector for ERP partner profile field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-partner-profile-fields.md).
 
-
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
 

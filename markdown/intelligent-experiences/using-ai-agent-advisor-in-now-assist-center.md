@@ -1,27 +1,27 @@
 ---
-title: AI Agent Advisor in Now Assist Center
-description: Use AI Agent Advisor in Now Assist Center to automatically discover automation opportunities in your instance and deploy AI agents to implement the automations.
+title: AI Agent Advisor in AI Admin Center
+description: Use AI Agent Advisor in AI Admin Center to automatically discover automation opportunities in your instance and deploy AI agents to implement the automations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-06"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [AI Agent Advisor, Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Use, AI Agent Advisor, Enable AI experiences]
+keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
+breadcrumb: [Use, AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
-# AI Agent Advisor in Now Assist Center
+# AI Agent Advisor in AI Admin Center
 
-Use AI Agent Advisor in Now Assist Center to automatically discover automation opportunities in your instance and deploy AI agents to implement the automations.
+Use AI Agent Advisor in AI Admin Center to automatically discover automation opportunities in your instance and deploy AI agents to implement the automations.
 
-Now Assist Center enables you to perform the following activities using AI Agent Advisor:
+AI Admin Center enables you to perform the following activities using AI Agent Advisor:
 
 -   [View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md)
 
     Review the automation opportunities that AI Agent Advisor has identified for your instance.
 
--   [Implement an automation opportunity from Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-automation-opportunity-now-assist-center.md)
+-   [Implement an automation opportunity from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-automation-opportunity-now-assist-center.md)
 
     Deploy a matched AI agent or a new agent to automate a resolution for an identified automation opportunity.
 
@@ -30,7 +30,19 @@ Now Assist Center enables you to perform the following activities using AI Agent
     Edit an AI agent that was created for an automation opportunity.
 
 
-For more information, see [Using AI Agent Advisor in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md).
+-   **[View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md)**  
+Review the automation opportunities that AI Agent Advisor has identified for your instance.
+-   **[Implement an automation opportunity from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-automation-opportunity-now-assist-center.md)**  
+Deploy a matched AI agent or a new agent to automate a resolution for an identified automation opportunity.
+-   **[Edit an AI agent from an automation opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-edit-opportunity-agent.md)**  
+Edit a custom AI agent that was created for an automation opportunity.
 
 **Parent Topic:**[Using AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ai-agent-advisor.md)
+
+**Related topics**  
+
+
+[AI Agent Advisor in AI Control Tower]()
+
+[AI Agent Advisor in AI Agent Studio]()
 

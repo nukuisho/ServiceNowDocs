@@ -20,9 +20,9 @@ Role required: icm.investigator
 
 ## Procedure
 
-1.  Navigate to the CSM Configurable Workspace and select **My active cases**.
+1.  Navigate to the CRM Workspace and select **My active cases**.
 
-    Alternatively, you can select a case using the CSM Configurable Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
+    Alternatively, you can select a case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
 
 2.  Select the case you wish to add narrative details to.
 
@@ -30,7 +30,7 @@ Role required: icm.investigator
 
 4.  In the Case Narrative field, enter the narrative details.
 
-    You can refine the text entered in this field using the Now Assist for PSDS Case Narrative refinement skill. For more information on this skill and how to use it, see [Refine an investigative case narrative using the Now Assist for PSDS Investigative case narrative refinement skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-na-refine-icm-case-narrative.md).
+    You can refine the text entered in this field using the ServiceNow Otto for PSDS Case Narrative refinement skill. For more information on this skill and how to use it, see [Refine an investigative case narrative using the ServiceNow Otto for PSDS Investigative case narrative refinement skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-na-refine-icm-case-narrative.md).
 
     \[Omitted image "psds-narrative-skill-activated.png"\] Alt text: case narrative refinement skill view
 

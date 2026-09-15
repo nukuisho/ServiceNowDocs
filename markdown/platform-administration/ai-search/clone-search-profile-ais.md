@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Search profiles, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Clone a search profile
@@ -26,7 +26,7 @@ Multiple search applications can link to the same search profile. For example, i
 
 As a search administrator, you may wish to configure separate search profiles for two applications that share a search profile. Cloning the existing search profile enables you to create a new record with the same search sources, stop word and synonym dictionaries, Genius Result configurations, and result improvement rules. This approach saves time if you want the two applications to use similar or identical search experience settings.
 
-**Note:** Cloning a search profile does not preserve its existing typo handling dictionary settings or blocked terms.
+**Note:** Cloning a search profile doesn't preserve its existing typo handling dictionary settings or blocked terms.
 
 ## Procedure
 

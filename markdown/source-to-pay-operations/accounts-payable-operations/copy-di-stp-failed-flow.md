@@ -1,5 +1,5 @@
 ---
-title: Copy and configure the DI STP Failed flow
+title: Configure the DI STP Failed flow
 description: Copy and configure the DI STP Failed flow and activate this flow to use it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/copy-di-stp-failed-flow.html
@@ -9,11 +9,11 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation]
+keywords: [APO, Accounts Payable Operations, APO Admin, Process automation, DI STP Failed flow, Gen AI use case, Flow Designer]
 breadcrumb: [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Copy and configure the DI STP Failed flow
+# Configure the DI STP Failed flow
 
 Copy and configure the DI STP Failed flow and activate this flow to use it.
 

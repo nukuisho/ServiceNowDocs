@@ -21,7 +21,7 @@ As an administrator, you can review the installed components and modify them or 
 -   Approver group for managing conflict of interest requests
 -   Flows for Legal Conflict of Interest
 -   [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) to inform different stakeholders at different stages of a conflict of interest request
--   To submit conflict of interest request using conversational intake from Now Assist in Virtual Agent, install and configure Legal Service Delivery - Prime that is a paid application.
+-   To submit conflict of interest request using conversational intake from ServiceNow Otto in Virtual Agent, install and configure Legal Service Delivery - Prime that is a paid application.
 
 -   **[Install Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/install-legal-conflict-of-interest.md)**  
 You can install the Legal Conflict of Interest application \(sn\_lg\_coi\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
@@ -29,6 +29,8 @@ You can install the Legal Conflict of Interest application \(sn\_lg\_coi\) if yo
 Configure the risk assessment to automatically evaluate conflict of interest disclosures and assign risk levels that determine approval routing.
 -   **[Configure flows for Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/configure-coi-flow-designer-flows.md)**  
 Review the flows installed with the Legal Conflict of Interest application and configure them to align with your business needs.
+-   **[Configure conversational intake for COI request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-config-converse-intake.md)**  
+Confirm required applications are installed to enable legal users to submit a Conflict of Interest \(COI\) request using conversational interface of ServiceNow Otto panel in Virtual Agent.
 
 **Parent Topic:**[Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md)
 

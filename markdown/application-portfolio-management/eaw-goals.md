@@ -24,6 +24,9 @@ Using the Enterprise Architecture Workspace, you can perform the following:
 -   Add qualitative targets to goals
 -   Add sub-goals
 -   Add demands to a goal
+-   Associate a goal with the business processes and business capabilities
+
+A goal is mapped to a business process, and to a business capability, using the relationship type **Realizes :: Realized by**.
 
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
 
@@ -39,4 +42,12 @@ Using the Enterprise Architecture Workspace, you can perform the following:
 [Add a qualitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-a-qualitative-target-to-a-goal.md)
 
 [Create a sub-goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-sub-goal.md)
+
+[Add a business process to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-process-to-goal.md)
+
+[Remove a business process from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-process-from-goal.md)
+
+[Add a business capability to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-capability-to-goal.md)
+
+[Remove a business capability from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-capability-from-goal.md)
 

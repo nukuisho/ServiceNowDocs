@@ -520,13 +520,45 @@ Default: The default roles added to the property are:
 
 </td></tr><tr><td>
 
+promin.metered\_usage.allow\_unrestricted
+
+</td><td>
+
+Disables all metered-usage guardrail checks when set to true, allowing users to mine without pre-mining blocks. Users who exceed their entitlement will be overcharged.Type: true \| false
+
+Default: false
+
+</td></tr><tr><td>
+
 promin.metered\_usage.warning\_limit
 
 </td><td>
 
-Specifies the number of records when the process mining metered usage warning should be shown to user. If the value is -1, no warning message is displayed. If the value is 0 or more, the warning message on consumption-based tables for the users is displayed. Type: integer
+Specifies the number of records at which the process mining metered usage warning is shown to the user. A default value of -1 means no warning is shown to the customer at all.Type: integer
 
 Default: -1
+
+</td></tr><tr><td>
+
+sn\_po\_extdata.cancel\_job\_after\_seconds
+
+</td><td>
+
+Specifies the number of seconds the external data import runs before getting cancelled automatically. Type: integer
+
+Default: 86400
+
+</td></tr><tr><td>
+
+sn\_promin\_sf.salesforce\_data\_chunk\_size
+
+</td><td>
+
+This is applicable only for Process Mining for SalesforceSpecifies the number of records that are processed in a single batch during an import.
+
+Type: integer
+
+Default: 200
 
 </td></tr></tbody>
 </table>

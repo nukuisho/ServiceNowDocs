@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-ai-wa-configure-allowed-websites.html
 release: australia
 topic_type: task
-last_updated: "2025-08-28"
+last_updated: "2026-05-25"
 reading_time_minutes: 2
 breadcrumb: [Adaptive desktop actions, Configure, AI Desktop Actions, Enable AI experiences]
 ---
@@ -16,7 +16,7 @@ Specify a list of websites that AI agents configured with adaptive desktop actio
 
 ## Before you begin
 
-Set your application scope to Now Assist AI web agent.
+Set your application scope to ServiceNow Otto AI web agent.
 
 Role required: admin
 
@@ -56,8 +56,8 @@ When configuring an allow list, include your organization's websites. Work with 
 ## What to do next
 
 -   [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md)
--   [Add an adaptive desktop action tool to an AI agent for web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-web-actions.md)
--   [Create an agentic workflow for automating web tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-configure-workflow.md)
+-   
+-   
 
-**Parent Topic:**[Configuration for adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-adaptive-path-da.md)
+**Parent Topic:**[Configuration for adaptive path desktop actions for web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-adaptive-path-da.md)
 

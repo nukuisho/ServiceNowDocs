@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityposturecontrol-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,7 +38,10 @@ Zurich
 
 </td><td>
 
-For a complete list of the applications that are required to implement Security Posture Control, see [Install Security Posture Control](https://www.servicenow.com/docs/access?context=spc-install&family=zurich&ft:locale=en-US).
+-   **Upgrade information**
+
+For a complete list of the applications that are required to implement Security Posture Control, see [Install Security Posture Control](https://www.servicenow.com/docs/access?context=spc-install&family=zurich&ft:locale=en-US). Starting with Zurich Patch 12, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. The change is reflected in the name of ServiceNow® products, including Now Assist for Vulnerability Response which is called ServiceNow Otto for Unified Security Exposure Management. See [ServiceNow Otto for Unified Security Exposure Management](https://www.servicenow.com/docs/access?context=now-assist-for-usem-landing-ties&family=zurich&ft:locale=en-US) for more information.
+
 
 </td></tr><tr><td>
 
@@ -69,11 +72,11 @@ Zurich
 
 -   **[Create a custom API service graph connector in the Security Posture Control workspace](https://www.servicenow.com/docs/access?context=spc-creating-sgc-template&family=zurich&ft:locale=en-US)**
 
-Use generative AI to help your developers create SPC API connectors quickly with the Connector builder framework module in the Security Posture Control workspace. With a Now Assist skill that is included with the Now Assist for Vulnerability Response application, your developers have the option to automate steps in the Connector builder framework.
+Use generative AI to help your developers create SPC API connectors quickly with the Connector builder framework module in the Security Posture Control workspace. With a Now Assist skill that is included with the ServiceNow Otto for Unified Security Exposure Management application, your developers have the option to automate steps in the Connector builder framework.
 
     -   You have the option to automate the steps for selecting API templates, populating request and header parameters, and response field mapping with generative AI.
 
-**Note:** You must install Zurich Patch 4 of the Now Assist for Vulnerability Response application to have access to the generative AI skill for the Connector builder framework. See the [Now Assist for Security Incident Response \(SIR\) release notes](https://www.servicenow.com/docs/access?context=secops-now-assist-security-operations-rn&family=zurich&ft:locale=en-US) and [Supporting information](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-vr&family=zurich&ft:locale=en-US) for more information.
+**Note:** You must install Zurich Patch 4 of the ServiceNow Otto for Unified Security Exposure Management application to have access to the generative AI skill for the Connector builder framework. See the [ServiceNow Otto for Security Incident Response \(SIR\) \(SIR\) release notes](https://www.servicenow.com/docs/access?context=secops-now-assist-security-operations-rn&family=zurich&ft:locale=en-US) and [Supporting information](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-vr&family=zurich&ft:locale=en-US) for more information.
 
     -   Use your custom API connector to integrate with security tools and import asset data that is based on the unique requirements of your environment.
     -   Help your cybersecurity teams monitor your overall security posture and identify assets that are missing key security tools with the API connectors that you build.
@@ -117,6 +120,11 @@ Zurich
 
 -   Security Posture Control relies on data from service graph connectors that is populated in the CMDB 360 Data \[cmdb\_multisource\_data\] table. This data is populated only when the glide.identification\_engine.multisource\_enabled system property is set to true. You must have the cmdb\_ms\_admin role to modify property values. To set the property, navigate to **All** &gt; **Configuration** &gt; **CMDB 360 Properties**.
 -   The labels on the form view for the mitigation control details record associated with vulnerable item records \(VITs\) have been enhanced for more clarity. These updates make the interface more user-friendly by expanding abbreviations on the form view, such as changing "EDR" to "Endpoint Protection."
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -203,7 +211,10 @@ Zurich
 
 </td><td>
 
-Install Security Posture Control by requesting the required applications from the ServiceNow Store. 
+-   **Activation information**
+
+Install Security Posture Control by requesting the required applications from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -290,7 +301,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -348,7 +363,7 @@ Zurich
 
 </td><td>
 
--   Create and publish your own API connectors with a step-by-step process in the Connector builder module in the Security Posture Control workspace. You can use generative AI to automate some steps. See the [Now Assist for Security Incident Response \(SIR\) release notes](https://www.servicenow.com/docs/access?context=secops-now-assist-security-operations-rn&family=zurich&ft:locale=en-US) for more information about the Now Assist skill.
+-   Create and publish your own API connectors with a step-by-step process in the Connector builder module in the Security Posture Control workspace. You can use generative AI to automate some steps. See the [ServiceNow Otto for Security Incident Response \(SIR\) \(SIR\) release notes](https://www.servicenow.com/docs/access?context=secops-now-assist-security-operations-rn&family=zurich&ft:locale=en-US) for more information about the Now Assist skill.
 -   Get insights into your overall security posture and configuration gaps in your security tools using new policies and asset proﬁles that are included with the Security Posture Control application.
 -   Use the policies included with the application or custom policies that you create to monitor your assets for overall security tool coverage, compliance with internal configuration standards, critical combinations of security gaps and vulnerabilities, and possible internet exposure.
 

@@ -24,13 +24,13 @@ See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Red Hat Virtualization \(RHV\)
 
 Red Hat Virtualization \(RHV\) is a virtualization product that is based on the Kernel-based Virtual Machine \(KVM\) hypervisor. RHV uses the SPICE protocol and Virtual Desktop Server Manager \(VDSM\) with an RHEL centralized management server. The RHV solution is based on two primary software components: Red Hat Virtualization Manager \(RHV-M\) and Red Hat Virtualization Hypervisors or hosts: Red Hat Enterprise Linux or RHV Host \(RHV-H\).
 
-**Note:** The Discovery application uses patterns to find RHV components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store. For more information, see [Oracle Linux Virtualization Manager and Red Hat Virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/red-hat-virtualization-discovery.md)
+**Note:** The Discovery application uses patterns to find RHV components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store. For more information, see [Oracle Linux Virtualization Manager and Red Hat Virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/red-hat-virtualization-discovery.md)
 
 \[Omitted image "CIClassModels1.5.0l.png"\] Alt text: Red Hat Virtualization class model.
 

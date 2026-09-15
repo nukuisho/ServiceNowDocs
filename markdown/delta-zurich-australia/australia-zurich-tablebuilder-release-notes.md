@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-tablebuilder-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -96,7 +96,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Accessing Table Builder](https://www.servicenow.com/docs/access?context=accessing-form-builder&family=zurich&ft:locale=en-US)**
+
+In the search input, enter `tablename.builder`, `tablename.view`, `tablename.sheet`, or `tablename.flow` to access the table directly.
+
 
 </td></tr><tr><td>
 
@@ -104,7 +107,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Field configuration in Table Builder](https://www.servicenow.com/docs/access?context=field-parameters&family=australia&ft:locale=en-US)**
+
+A new **Read Only Option** has been added to the dictionary tables \(`sys_dictionary` and `sys_dictionary_override`\). The existing **read\_only** field is now locked and cannot be edited in the UI. Field behavior depends on the selected option. With **Display Read Only**, the field appears read-only but can still be updated through APIs. With **Strict Read Only**, the field can't be changed in the UI or by client scripts such as \[`g_form.setValue()`\]. A new system property,`glide.read_only.legacy_read_only_behavior`, controls whether the old behavior, where client scripts could override read-only settings, is retained.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -183,7 +189,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
 
 </td></tr><tr><td>
 
@@ -191,7 +197,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -241,7 +247,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn’t supported.
+
 
 </td></tr><tr><td>
 
@@ -249,7 +258,10 @@ Australia
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn’t supported.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -328,7 +340,15 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+[\[Placeholder link text to key australia-patch-5\]](https://www.servicenow.com/docs/access?context=australia-patch-5&family=zurich&ft:locale=en-US)
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Starting with the Zurich release, Form Designer is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. Features within Form Designer will be available in the Form Builder.
+
+ -   Read-only behavior is now controlled by the **Read only option** \[`read_only_option`\] choice field, which provides options such as **Display Read Only** or **Strict Read Only**.
+-   The existing **Read only** field will no longer be editable in the UI.
+
+ See [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -336,7 +356,12 @@ Australia
 
 </td><td>
 
--   Read-only behavior is now controlled by the **Read only option** \[`read_only_option`\] choice field, which provides options such as **Display Read Only** or **Strict Read Only**.
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Starting with the Australia release, Form Designer is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. Features within Form Designer will be available in the Form Builder.
+
+ -   Read-only behavior is now controlled by the **Read only option** \[`read_only_option`\] choice field, which provides options such as **Display Read Only** or **Strict Read Only**.
 -   The existing **Read only** field will no longer be editable in the UI.
 
  See [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&family=australia&ft:locale=en-US) for more information.

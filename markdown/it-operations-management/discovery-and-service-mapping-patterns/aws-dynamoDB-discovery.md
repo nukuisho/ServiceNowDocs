@@ -1,6 +1,6 @@
 ---
 title: Amazon DynamoDB discovery using Patterns
-description: The ServiceNow Discovery and Service Mapping applications use the Amazon AWS DynamoDB pattern to find components of DynamoDB. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery and Service Mapping applications use the Amazon AWS DynamoDB pattern to find components of DynamoDB. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-dynamoDB-discovery.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patter
 
 # Amazon DynamoDB discovery using Patterns
 
-The ServiceNow Discovery and Service Mapping applications use the Amazon AWS DynamoDB pattern to find components of DynamoDB. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery and Service Mapping applications use the Amazon AWS DynamoDB pattern to find components of DynamoDB. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The Amazon AWS DynamoDB pattern deploys REST APIs for fetching information about DynamoDB. You can also configure Service Mapping and Discovery to discover AWS DynamoDB components using AWS events.
 
@@ -22,7 +22,7 @@ The ServiceNow AI Platform supports Amazon Commercial Cloud Services \(C2S\) for
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 

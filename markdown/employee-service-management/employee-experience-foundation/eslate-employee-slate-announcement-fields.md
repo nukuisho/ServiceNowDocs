@@ -1,6 +1,6 @@
 ---
-title: Employee Slate announcement form
-description: Field descriptions for creating and configuring Employee Slate announcements.
+title: Announcement form
+description: Field descriptions for creating and configuring the announcements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-employee-slate-announcement-fields.html
 release: australia
@@ -10,16 +10,16 @@ topic_type: reference
 last_updated: "2026-04-02"
 reading_time_minutes: 2
 keywords: [announcement fields, Employee Slate, content library, form reference]
-breadcrumb: [Employee communications, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee communications, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Employee Slate announcement form
+# Announcement form
 
-Field descriptions for creating and configuring Employee Slate announcements.
+Field descriptions for creating and configuring the announcements.
 
 ## Announcement details
 
-To create an announcement, see [Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+To create an announcement, see [Create announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 <table><thead><tr><th>
 

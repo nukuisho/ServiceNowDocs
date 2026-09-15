@@ -8,7 +8,7 @@ product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 5
 keywords: [standalone app, ServiceNow lens as standalone app, Start ServiceNow lens from desktop, Start ServiceNow lens from Windows, Start ServiceNow lens from MacOS, Use ServiceNow lens from desktop, Use ServiceNow lens from Windows, Use ServiceNow lens from MacOS]
 breadcrumb: [Use, ServiceNow AI Lens, Enable AI experiences]
 ---
@@ -23,7 +23,7 @@ To access the ServiceNow AI Lens functionality, perform the following steps:
 
 -   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md).
 -   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
--   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download the ServiceNow AI Lens installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
+-   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download and set how you want to launch ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 Don't scan any personally identifiable information, such as medical reports, financial reports, or other sensitive data, when using ServiceNow AI Lens as you don't want to expose the large language model \(LLM\) to any sensitive information.
 
@@ -55,186 +55,93 @@ Role required: lens\_user
 
     If you launch the ServiceNow AI Lens for the first time, the onboarding journey widget appears. You can select **Don't show me again** to hide the widget the next time you launch ServiceNow AI Lens.
 
-6.  Perform any one of the following methods to capture screenshots or upload files and analyze the data.
+6.  Select one of the following methods.
 
-<table id="choicetable_xtj_f4t_g3c"><thead><tr><th align="left" id="d187094e297">
+    -   **Capture screen**
 
-Method
+        1.  Select **Capture**.
 
-</th><th align="left" id="d187094e300">
+            The ServiceNow AI Lens scanner window is launched.
 
-Steps
+        2.  On your system, open one or more documents that you want to scan.
 
-</th></tr></thead><tbody><tr><td id="d187094e306">
+            Example of a document: image, scanned handwritten note, Excel sheet, web page, or any document that gives visual data.
 
-**Capture a single screenshot of a document and analyze the data.**
+        3.  Extract data from a single screenshot.
+            1.  Place the ServiceNow AI Lens scanner window on top of the document.
+            2.  Resize the ServiceNow AI Lens scanner window by dragging its borders.
 
-</td><td>
+                \[Omitted image "lens-scanner-incident-capture.png"\] Alt text: Scan and capture data from screenshot
 
-1.  Select **Capture**.
+        4.  \(Optional\) Extract data from multiple screenshots.
+            1.  Select the **Multi-capture** button \[Omitted image "multi-capture-icon.png"\] Alt text: Multi-capture icon.
+            2.  Select the Capture icon \[Omitted image "capture-icon.png"\] Alt text:.
+            3.  Place the ServiceNow AI Lensscannerwindow over another document or page and then select the Capture icon \[Omitted image "capture-icon.png"\] Alt text:.
+            4.  Repeat the step to capture more screenshots, if required.
 
-The ServiceNow AI Lens scanner window is launched.
+                **Note:**
 
-**Note:** Use the scanner window to scan the data of the screenshot so you can submit it for analysis.
+                -   You can capture a total of 10 screenshots with the combined size of all captured screenshots not exceeding 10 MB.
+                -   To enable the desktop app to send large screenshot data to the server, verify that the following system properties are set exactly as shown:
 
-2.  Open a document that you want to scan.
+                    |Property name|Type|Recommended value|
+                    |-------------|----|-----------------|
+                    |glide.rest.max\_content\_length|Integer|15|
+                    |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-Example of a document: image, scanned handwritten note, Excel sheet, web page, or any document that gives visual data.
+                    For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/r_ControllingMaxRequestSize.md).
 
-3.  Place the ServiceNow AI Lensscannerwindow over the document.
-4.  \(Optional step\). To provide instructions to analyze the data in the screenshot in a specific way, select the Edit icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Edit icon.\), and enter the instructions.
+                    **Note:** You must have the admin role to set the system properties.
 
-\[Omitted image "lens-incident-email.png"\] Alt text: Field to enter instructions.
+            5.  To complete the capture, select the Done icon \[Omitted image "lens-capture-done-icon.png"\] Alt text:.
+    -   **Upload**
 
-The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
+        1.  Select **Upload**.
+        2.  Perform any one of the following file upload methods.
 
-5.  To analyze the data in the screenshot that you captured, select **Analyze**.
-6.  The preview of the analysis is displayed on the ServiceNow AI Lens preview window.
+            -   Upload one or more files by selecting the **+Add file** option.
+            -   Upload one or more files by dragging the selected files to the Drag and drop files section and then select **Upload all**.
+            \[Omitted image "lens-browser-upload-file-window.png"\] Alt text: File upload window.
 
-\[Omitted image "lens-single-scrnsht-analysis.png"\] Alt text: Preview of the analysis of single image.
+            **Note:**
 
-</td></tr><tr><td id="d187094e389">
+            -   You can upload up to 10 unprotected files, with the combined size of the uploaded files not exceeding 10 MB.
+            -   To enable the desktop app to send large data of the uploaded files to the server, confirm that the following system properties are set exactly as shown below:
 
-**Capture multiple screenshots from one or more documents.**
+                |Property name|Type|Recommended value|
+                |-------------|----|-----------------|
+                |glide.rest.max\_content\_length|Integer|15|
+                |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-</td><td>
+                For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/r_ControllingMaxRequestSize.md)
 
-1.  Select **Capture**.
-2.  Open one or more documents from which you want to capture the screenshots.
+                **Note:** You must have the admin role to set the system properties.
 
-Example of a document: image, scanned handwritten note, Excel sheet, web page, or any document that gives visual data.
+            -   To remove a file that you attached, select the Remove file icon \[Omitted image "lens-delete-attached-file-icon.png"\] Alt text:.
+            -   To rename the file that you attached, select the More options icon \[Omitted image "lens-three-dots-icon.png"\] Alt text:, and then select **Rename**.
+        3.  Select **Next**.
 
-3.  Select the Multi-capture icon \(\[Omitted image "lens-multi-capture-icon.png"\] Alt text: Multi-capture icon.\), and then place the scanner window over the document that you want to scan.
+            The ServiceNow AI Lens preview window displays the files that you have uploaded
 
-You can resize the scanner window by dragging its borders.
+            \[Omitted image "lens-analyze-multiple-screenshots.png"\] Alt text: The desktop app showing preview of uploaded files.
 
-4.  \(Optional step\). To provide instructions to analyze the data in the screenshots in a specific way, select the Instructions icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Instructions icon.\), and enter the instructions.
+7.  To provide instructions to analyze the data in screenshots in a specific way, select the Edit icon \[Omitted image "lens-instructions-icon.png"\] Alt text:, and enter the instructions.
 
-\[Omitted image "lens-incident-email.png"\] Alt text: Field to enter custom instructions.
+    The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the **sn\_lens\_user\_prompt\_max\_length** system property.
 
-The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
-
-5.  Select the Capture icon \(\[Omitted image "capture-icon.png"\] Alt text: Capture icon.\)
-
-The first screenshot is captured.
-
-6.  Place the ServiceNow AI Lensscannerwindow over the page of another or the same document and then select the Capture icon \(\[Omitted image "capture-icon.png"\] Alt text: Capture icon.\).
-
-The second screenshot is captured.
-
-Repeat the step to capture more screenshots, if required.
-
-\[Omitted image "lens-number0f-scrnshts-captured.png"\] Alt text: number of screenshots you've captured.
-
-**Note:**
-
-    -   You can capture a total of 10 screenshots with the combined size of all captured screenshots not exceeding 10 MB.
-    -   To enable the desktop app to send large screenshot data to the server, confirm that the following system properties are set exactly as shown below:
-
-        |Property name|Type|Recommended value|
-        |-------------|----|-----------------|
-        |glide.rest.max\_content\_length|Integer|15|
-        |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
-
-For more information, see Configure system property
-
-**Note:** You must have the admin role to set the system properties.
-
-7.  \(Optional step\) To remove a screenshot that you had captured, select the Delete icon.
-
-\[Omitted image "lens-scrnsht-delete-button.png"\] Alt text: Captured screenshot delete button.
-
-**Tip:**
-
-    -   Repeat the step as many times to remove as many screenshots.
-    -   The last screenshot that you had captured is removed at the first click.
-    -   You can capture one or more new screenshots after removing the screenshots.
-8.  To complete the capture, select the Done icon \(\[Omitted image "lens-capture-done-icon.png"\] Alt text: Capture complete icon.\).
- The ServiceNow AI Lens preview window displays the screenshots that you've captured.
-
- \[Omitted image "lens-multiple-images-captured.png"\] Alt text: Multiple screenshots captured.
-
-**Tip:**
-
--   To view the preview of a screenshot that you captured, select the card. The preview of the screenshot opens on its respective default application.
--   To remove a captured screenshot, select the \[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove file icon.
--   To capture one or more additional screenshots, select **Capture more**.
-
-**Note:** You can capture a total of 10 screenshots with the combined size of all captured screenshots not exceeding 10 MB.
-
-</td></tr><tr><td id="upload-files-steps">
-
-**Upload one or more files**
-
-</td><td>
-
-Select **Upload** and perform any one of the following file upload methods.**Add one or more files**
-
-1.  Select **+Add file**,
-2.  On your computer, navigate to the location and select one or more files that you want to upload.
-
-**Tip:**
-
-    -   You can upload up to 10 unprotected files, with the combined size of the uploaded files not exceeding 10 MB.
-    -   To enable the desktop app to send large data of the uploaded files to the server, confirm that the following system properties are set exactly as shown below:
-
-        |Property name|Type|Recommended value|
-        |-------------|----|-----------------|
-        |glide.rest.max\_content\_length|Integer|15|
-        |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
-
-For more information, see Configure system property
-
-**Note:** You must have the admin role to set the system properties.
-
-    -   To remove a file that you attached, select the Remove file icon \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove file\).
-3.  Select **Next**.
-**Drag and drop files**1.  On your computer, navigate to the location and select one or more files that you want to upload.
-2.  Drag the selected files to the Drag and drop section \(\[Omitted image "lens-drag-and-drop.png"\] Alt text: Drag and drop section.\).
-
-**Note:**
-
-    -   You can drag and drop up to 10 unprotected files, with the combined size of the uploaded files not exceeding 10 MB.
-    -   To enable the desktop app to send large data of the uploaded files to the server, confirm that the following system properties are set exactly as shown below:
-
-        |Property name|Type|Recommended value|
-        |-------------|----|-----------------|
-        |glide.rest.max\_content\_length|Integer|15|
-        |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
-
-For more information, see Configure system property
-
-**Note:** You must have the admin role to set the system properties.
-
-    -   To remove a file that you attached, select the Remove file icon \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove file\).
-3.  Select **Next**
-
-The ServiceNow AI Lens preview window displays the files that you've uploaded
-
-\[Omitted image "lens-multiple-images-attached.png"\] Alt text: Multiple files attached. \[Omitted image ""\] Alt text: Multiple files attached.
-
-**Tip:**
-
-    -   To view the preview of a file that you uploaded, select the card. The preview of the file opens on its respective default application.
-    -   To remove an uploaded file, select the \[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove file icon.
-    -   To capture one or more additional files, select **Upload**.
-
-**Note:** You can upload a total of 10 unprotected files with the combined size of all files not exceeding 10 MB.
-
-</td></tr></tbody>
-</table>7.  Select **Analyze**.
+8.  To analyze the data in the screenshots that you captured, select **Analyze**.
 
     ServiceNow AI Lens displays the preview of the response
 
-    \[Omitted image "lens-single-scrnsht-analyze-response.png"\] Alt text: Analysis response displayed under Preview window.
+    \[Omitted image "lens-single-scrnsht-analysis.png"\] Alt text: Preview of the analysis of single image.
 
-8.  Select **Submit** to trigger post processing.
+9.  Select **Submit** to trigger post processing.
 
     The **Submit** button appears on the Preview window if the post-processing is enabled in the related ServiceNow AI Lens action.
 
-9.  Copy the previewed data by selecting the Copy icon \[Omitted image "icon-docintel-na-copy.png"\] Alt text: Copy icon..
+10. Copy the previewed data by selecting the Copy icon \[Omitted image "icon-docintel-na-copy.png"\] Alt text:.
 
-10. End the current session by selecting **Start new session**.
+11. End the current session by selecting **Start new session**.
 
 
 **Related topics**  
@@ -244,7 +151,5 @@ The ServiceNow AI Lens preview window displays the files that you've uploaded
 
 [ServiceNow AI Lens limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/sn-lens-limitations.md)
 
-[Create a record in an instance by using ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md)
-
-[Update a record in an instance by using ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/update-record-sn-lens.md)
+[Create or update a record in an instance by using ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-sn-lens.md)
 

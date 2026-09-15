@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-01-06"
 reading_time_minutes: 1
-breadcrumb: [Moveworks for Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Otto Chat Integration, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure bot ID and AI assistant
@@ -20,7 +20,7 @@ Specify the bot ID to configure Moveworks AI assistant on Employee Center portal
 
 Confirm that you have the appropriate entitlements for the application.
 
-**Note:** To save the page with Bot ID, verify that the your application scope is selected to Moveworks for Employee Center.
+**Note:** To save the page with Bot ID, verify that the your application scope is selected to ServiceNow Otto Chat Integration.
 
 Role required: admin
 
@@ -55,6 +55,8 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
     
     ```
 
+    **Note:** The integrationId value must match the connector name on the Moveworks side for [authentication steps](https://help.moveworks.com/ai-assistant/ai-assistant-web-surfaces/moveworks-for-web/moveworks-for-web-installation-servicenow#installation-steps).
+
     For complete configuration with branding
 
     ```
@@ -72,10 +74,13 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
     }
     ```
 
-    **Note:**
+    **Note:** While installing to a **Moveworks GovCloud** instance, ignore the 'Failed to update config' error. The process installs the required assets.
 
-    The integrationId value must match the connector name on the Moveworks side for [authentication steps](https://help.moveworks.com/ai-assistant/ai-assistant-web-surfaces/moveworks-for-web/moveworks-for-web-installation-servicenow#installation-steps).
+    Complete the setup by following these steps:
 
+    1.  Navigate to the `sys_properties` table and locate the `sn_ex_mw_chat_int.webchat.initialization_options` property.
+    2.  Update its value to `{"serverUrl": "https://webchat.moveworksgov.com"}`.
+    3.  Select **Save**.
 4.  Select **Save configuration**.
 
 
@@ -87,12 +92,12 @@ The Moveworks application is ready for use. You can access the features and func
 
 You can perform the following actions:
 
--   Verify the Moveworks chatbot visibility from **All** &gt; **Self-Service** &gt; **Employee Center** portal. For more information, see [Use Moveworks on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md).
+-   Verify the Moveworks chatbot visibility from **All** &gt; **Self-Service** &gt; **Employee Center** portal. For more information, see [Use Otto Chat Integration on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md).
 -   Test basic functionality by invoking the assistant and asking a sample question.
 -   Check system properties and verify that all Moveworks specific properties are configured properly.
 
 **Related topics**  
 
 
-[Moveworks for Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
+[ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
 

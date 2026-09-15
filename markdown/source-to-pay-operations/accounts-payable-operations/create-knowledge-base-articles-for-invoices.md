@@ -1,5 +1,5 @@
 ---
-title: Create a knowledge base article about invoice
+title: Create a knowledge base article for invoices
 description: Create a knowledge base article to share invoice information and policies with your employees and suppliers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-knowledge-base-articles-for-invoices.html
@@ -13,7 +13,7 @@ keywords: [APO, Accounts Payable Operations, invoice management, supplier, AP sp
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Create a knowledge base article about invoice
+# Create a knowledge base article for invoices
 
 Create a knowledge base article to share invoice information and policies with your employees and suppliers.
 
@@ -29,8 +29,8 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist
 
 3.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
+    |Create article form field|Description|
+    |-------------------------|-----------|
     |Number|System-generated unique identifier for the request.|
     |Knowledge base|Knowledge base to which this article belongs.|
     |Category|Category of the article such as Accounts Payable. Use the category picker to select an existing category or subcategory. You can create a category or subcategory to suit your requirements.|
@@ -80,11 +80,13 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist
 
 [Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace]()
+[Composing emails with predefined content]()
 
 [Universal Request in Accounts Payable Operations]()
 
 [Playbook for updating the invoice primary data]()
 
 [Using Supplier Collaboration Portal in APO]()
+
+[AI worker case resolution confirmation]()
 

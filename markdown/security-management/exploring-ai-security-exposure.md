@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/exploring-ai-security-exposure.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-07"
-reading_time_minutes: 5
+last_updated: "2026-09-03"
+reading_time_minutes: 6
 keywords: [explore]
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -17,7 +17,7 @@ AI Security Exposure Management is a part of the Unified Security Exposure Manag
 
 ## AI Security Exposure Management overview
 
-With the rapid growth and adoption of AI in enterprises, a new attack surface emerging in the form of AI security exposures, that includes open source AI model vulnerabilities and AI model behavioral risks with harmful prompts that could result in security breaches and data loss during runtime. In addition, AI infrastructure configuration issues might exist in AI agents, data sets, or any other type of AI assets in your environment.
+With the rapid growth and adoption of AI in enterprises, a new attack surface is emerging in the form of AI security exposures. This attack surface includes open source AI model vulnerabilities and AI model behavioral risks with harmful prompts that could result in security breaches and data loss during runtime. In addition, AI infrastructure configuration issues might exist in AI agents, data sets, or any other type of AI assets in your environment.
 
 AI Security Exposure Management can help your organization efficiently manage AI security exposures such as AI model vulnerabilities, harmful AI model behavior, and AI infrastructure configuration issues.
 
@@ -26,6 +26,10 @@ Use the [Guardrails Detector skill](https://raw.githubusercontent.com/ServiceNow
 Use an [agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-use-agent.md) to automate the deferral of findings that have mitigations or guardrails and create exception rules to auto-defer future findings.
 
 With AI Security Exposure Management, vulnerability managers can prioritize high risk exposures and defer low risk exposures that might have mitigations or guardrails already in place. This prioritization ultimately helps vulnerability management teams optimize remediation workflows to help them reduce the meantime to remediate their high risk exposures.
+
+## AI asset remediation in Employee Center
+
+AI Security Exposure Management integrates with Employee Center and third-party security tools to enable AI asset owners to remediate AI vulnerabilities directly through AI exposure tasks. These tasks can reduce response by appealing directly to the asset owner and avoid the time and technical complexity of traditional vulnerability analysts. See [Using AI remediation workflows with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-employee-workflow.md) for more information.
 
 ## Key terms for AI Security Exposure Management
 
@@ -79,7 +83,8 @@ As an example, consider a vulnerability analyst and a vulnerability team that is
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|A dedicated module, AI exposures, that provides visibility into the entire AI attack surface, including vulnerabilities, validation or automated red teaming findings, and security posture findings or configuration issues in various AI assets.|AI Exposures module|Vulnerability analysts, vulnerability management teams, Chief Information Security Officers \(CISO\).|
+|A dedicated module, AI Security Exposure Management, that provides visibility into the entire AI attack surface, including vulnerabilities, validation or automated red teaming findings, and security posture findings or configuration issues in various AI assets.|AI Security Exposure Management module|Vulnerability analysts, vulnerability management teams, Chief Information Security Officers \(CISO\).|
+|AI exposure tasks mapped directly to AI asset owners in Employee Centers can reduce response time by appealing directly to the asset owner and avoid the time and technical complexity of traditional vulnerability analysts.|Employee center AI asset remediation workflow|Employees, developers, vulnerability managers and analysts|
 
 ## What to explore next
 
@@ -91,7 +96,9 @@ To learn more about configuring and using AI Security Exposure Management, see:
 -   [Configuring remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-remediation-task-rules.md)
 
 -   **[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-skill-agent.md)**  
-You have the option to use a generative AI skill and agentic workflow to help you understand what type of findings you have, understand the guardrails associated with findings, and see why the skill to mapped guardrails to particular findings.
+You have the option to use a generative AI skill and agentic workflow to help you understand what type of findings you have, understand the guardrails associated with findings, and see why the skill mapped guardrails to particular findings.
+-   **[Using AI remediation workflows with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-employee-workflow.md)**  
+AI Security Exposure Management integrates with Employee Center and third-party security tools to enable AI asset owners to remediate AI posture findings \(configuration issues\) directly through lightweight tasks.
 
 **Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
 

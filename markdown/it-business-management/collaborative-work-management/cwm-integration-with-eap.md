@@ -22,7 +22,7 @@ The EAP-CWM integration enables organizations to connect strategic program plann
 
 Using EAP, program managers and release train engineers can define Program Increment \(PI\) objectives, align Epics, Features, and Stories, create sprints for teams, and manage cross-team dependencies. After completing a PI, they can conduct PI retrospectives and update roadmaps for the next cycle. These capabilities ensure that enterprise priorities are clearly structured and traceable across all levels.
 
-By linking EAP to CWM, product owners and team members can plan and execute sprints, manage agile stories alongside operational tasks such as incidents, track progress, and hold team-level retrospectives, all within the same workspace.
+By linking EAP to CWM, product owners and team members can plan and execute sprints, manage agile stories alongside operational tasks such as incidents. They can also track progress and hold team-level retrospectives, all within the same workspace.
 
 This connection between the applications reduces context switching and ensures that both planned and unplanned work is accounted for, without losing alignment to strategic goals. The result is end-to-end transparency where leadership can track progress against PI goals through EAP, while teams maintain flexibility to adapt to changing priorities.
 
@@ -39,6 +39,8 @@ This connection between the applications reduces context switching and ensures t
 ## Creating or managing sprints for EAP teams in CWM
 
 For EAP teams integrated with CWM, existing sprints and their scheduled work automatically sync to CWM. These details are displayed in the Sprint Planning view on the CWM Board.
+
+Sprint name, state, capacity, and dates all sync automatically from EAP to CWM, including for Agile teams that use non-calendar-based iterations.
 
 As the team progresses through assigned work, they can update the work status directly in the Sprints section. The sprint can be marked **Complete** from this view and any incomplete work items can be moved either to the backlog or the next sprint, if it exists.
 

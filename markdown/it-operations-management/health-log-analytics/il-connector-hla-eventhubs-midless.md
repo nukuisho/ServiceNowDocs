@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [ServiceNow, Health Log Analytics, HLA, Azure Event Hubs, MID-less, integration, configuration]
 breadcrumb: [MID-less integrations, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -19,19 +19,21 @@ Set up an integration for streaming events from Microsoft Azure Event Hubs to yo
 
 ## Before you begin
 
+Set up MID-less log streaming via ITOM Gateway. Choose the deployment method based on your expected log volume. For more information, see [MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md).
+
+As an alternative to the provided procedure, you can set up MID-less integrations for HLA from an AI-enabled MCP Client, without opening the ServiceNow UI. For more information, see [MID-less log ingestion for HLA from an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-mcp-server-hla-ingest.md).
+
 Role required: evt\_mgmt\_admin
 
 ## About this task
 
 This Microsoft Azure Event Hubs integration eliminates the need for a MID Server, which simplifies setup and enables more efficient log data ingestion into your instance. By removing the MID Server requirement, log data collection and processing are streamlined to promote faster analysis and root cause identification.
 
-You set up integrations through the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.md).
-
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
+2.  From the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -92,14 +94,20 @@ Protocol used to stream the log data. This field is read-only.This integration u
 
     The screen provides a link to detailed configuration instructions for each of these two installation options.
 
-8.  Do one of the following:
+8.  Do one of the following.
 
-    -   If you completed all the prerequisites before starting the configuration, activate the integration either with or without AI-powered capabilities. Select the appropriate option:
-        -   **Activate with AI** enables AI-powered automatic mapping of log data. When the integration is activated successfully, the **Overview** tab is displayed and Now Assist collects and analyzes log data. An AI icon indicates that Now Assist auto-maps log data to service instances and components for contextual alert generation.
+    -   If you completed all the prerequisites before starting the configuration, activate the integration either with or without AI-powered capabilities. Select the appropriate option.
+
+        -   **Activate with AI** enables AI-powered automatic parsing and mapping of log data to service instances and components for contextual alerts.
+
+            When the integration is activated successfully, the **Overview** tab is displayed. ServiceNow Otto for ITOM collects and analyzes log data. An AI icon indicates that AI is active.
+
         -   **Activate** activates the integration without AI-powered mapping. The integration is activated and the **Overview** tab is displayed.
+        On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
+
     -   If you didn't complete all the prior requirements, select **Save draft**.
 
-        The system saves the integration as a draft in the Integrations Launchpad **Installed integrations** tab, under **Waiting for your action**. You can complete the prerequisites and activate the installation later. For more information, [Activate a draft integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.md).
+        The system saves the integration as a draft in the Integrations Launchpad **Installed integrations** tab, under **Waiting for your action**. At a later time, complete the prerequisites and activate the installation. For more information, see [Activate a draft integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.md).
 
 
 ## What to do next

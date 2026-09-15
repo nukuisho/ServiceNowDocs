@@ -18,6 +18,8 @@ Define the criteria within organization criteria \[service\_organization\_criter
 
 Role required: admin
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Administration** &gt; **Organization Criteria**.
@@ -62,9 +64,9 @@ Table Name
 
 Table where you must define the criteria.
 
- To establish customer associations, you must select **Account**, **Consumer**, or **Household** from the drop-down list in the **Table** field. Similarly, for associating products and services, you must choose **Internal Business Location** from the drop-down list in the **Table** field.
+ To establish customer associations, you must select **Account**, **Consumer**, or **Household** from the drop-down list in the **Table** field. Similarly, for associating products and services, you must choose **Internal Organization \(formerly Internal Business Location\)** from the drop-down list in the **Table** field.
 
- Selecting **Business Location** or **Service Organization** from the drop-down list in the **Table** field leads to an error because the system currently doesn’t support fulfillment capabilities for external business locations when resolving a case.
+ Selecting **Business Location** or **Service Organization** from the drop-down list in the **Table** field leads to an error because the system currently doesn’t support fulfillment capabilities for external organizations \(formerly external business locations\) when resolving a case.
 
 **Note:** Support can be extended to other tables by configuring them in the `SOCriteriaTableScript` script include.
 

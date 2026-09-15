@@ -42,7 +42,7 @@ To understand the upper limit of what Build Agent can do, review the ServiceNow 
 -   [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 -   [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
 
-If there isn't a mapping between ServiceNow Fluent and the XML metadata, then Build Agent can't update the data unless you understand the platform well enough to precisely instruct Build Agent to make the changes you need.
+If ServiceNow Fluent does not support a metadata type, Build Agent cannot update it unless you provide precise platform-specific instructions.
 
 ## Regulated environments
 
@@ -52,10 +52,8 @@ Customers in regulated environments must remain on Build Agent v1, which runs on
 
 In regulated environments where Build Agent v2 is unavailable, you can continue to use the following:
 
--   Developer Sandboxes
 -   Core update set and Git workflows in ServiceNow Studio
 -   Instance Scan
--   ReleaseOps
 
 ## Feedback on Build Agent
 

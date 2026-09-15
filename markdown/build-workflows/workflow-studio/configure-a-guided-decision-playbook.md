@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: task
 last_updated: "2026-05-13"
 reading_time_minutes: 7
-breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Configure a Guided Decision Playbook
@@ -121,15 +121,15 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     All playbooks require a parent table and sysId to be hardcoded on the controller or provided through a URL. The configuration depends on the execution type you selected in step 1.
 
-<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d72243e574">
+<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d72756e574">
 
 Type
 
-</th><th align="left" id="d72243e577">
+</th><th align="left" id="d72756e577">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d72243e583">
+</th></tr></thead><tbody><tr><td id="d72756e583">
 
 **Standalone**
 
@@ -140,7 +140,7 @@ Action
 3.  Select the activated playbook you want to render.
 
 
-</td></tr><tr><td id="d72243e610">
+</td></tr><tr><td id="d72756e610">
 
 **Record-driven**
 

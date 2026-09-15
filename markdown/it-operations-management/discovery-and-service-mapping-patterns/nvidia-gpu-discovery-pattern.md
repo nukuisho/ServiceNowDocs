@@ -1,6 +1,6 @@
 ---
 title: NVIDIA GPU discovery using patterns
-description: The Discovery and Service Mapping Patterns application uses the Linux Server pattern extension Discover Nvidia GPU to find NVIDIA graphics processing units \(GPUs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Linux Server pattern extension Discover Nvidia GPU to find NVIDIA graphics processing units \(GPUs\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/nvidia-gpu-discovery-pattern.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # NVIDIA GPU discovery using patterns
 
-The Discovery and Service Mapping Patterns application uses the Linux Server pattern extension **Discover Nvidia GPU** to find NVIDIA graphics processing units \(GPUs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Linux Server pattern extension **Discover Nvidia GPU** to find NVIDIA graphics processing units \(GPUs\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The Discover Nvidia GPU pattern is an extension of the Linux Server pattern. For more information, see [Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md).
 
@@ -22,7 +22,7 @@ Starting with Visibility Content version 6.32.0, NVIDIA GPU discovery requires t
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 

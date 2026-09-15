@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 14
-breadcrumb: [Event field mapping configuration, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event field mapping configuration, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create event field mappings
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 Create the rule to match the event by its class and original values. Also, specify the new values to replace the original values in the event.
 
-For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better team support. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better team support. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 ## Procedure
 
@@ -105,7 +105,7 @@ Copies part of the Source field value to the Target field. Source and Target fie
 
 -   **Advanced mapping using script**:
 
-Implements your own logic for event values transformation by using a script. When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase and uses the dedicated script that also has the sys\_id of the CI in the input parameters.
+Implements your own logic for event values transformation by using a script. When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase. The dedicated script also has the sys\_id of the CI in the input parameters.
 
 **Warning:** Complex scripts may affect event processing performance.
 
@@ -149,6 +149,8 @@ Run after binding
 
 </td></tr></tbody>
 </table>    -   If you selected **Map field and transform value \(Single field\)**, fill in the fields as appropriate.
+
+        **Note:** Map field and transform value \(Single field\) is supported in **Service Operations Workspace** &gt; **Enrich Automation**.
 
 <table id="table_d2n_plh_wy"><thead><tr><th>
 
@@ -468,7 +470,7 @@ Run after binding
 
 </td><td>
 
-When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase and uses the dedicated script that also has the sys\_id of the CI in the input parameters.
+When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase. The dedicated script also has the sys\_id of the CI in the input parameters.
 
  **Warning:** Complex scripts may affect event processing performance.
 

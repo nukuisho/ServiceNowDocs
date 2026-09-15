@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, upgrade, admin, migration]
+keywords: [APO, Accounts Payable Operations, Document Intelligence, Values Flow, DI Processing flow, Flow Designer, Process Automation]
 breadcrumb: [Components installed with Accounts Payable Invoice Processing, Install Accounts Payable Invoice Processing, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -23,7 +23,7 @@ Role required: admin
 
 ## Procedure
 
-1.  When you upgrade Accounts Payable Operations from any version to the latest version, follow the steps mentioned in [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-apo-docintel-integration.md) with the latest use case- **DO NOT USE- Invoice Processing Vx** SYS DI Task Definition.
+1.  Follow the upgrade steps in [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-apo-docintel-integration.md) to update the use case configuration to the latest version- **DO NOT USE- Invoice Processing Vx** SYS DI Task Definition.
 
     X refers to the latest version.
 
@@ -35,7 +35,7 @@ Role required: admin
 
 5.  To copy and configure the invoice attachment DI processing flow, perform the following steps:
 
-    1.  Search and use the existing flow that was copied from [Copy and configure the Invoice attachment DI processing flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/copy-di-processing-flow.md).
+    1.  Search and use the existing flow that was copied from [Configure the Invoice attachment DI processing flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/copy-di-processing-flow.md).
 
     2.  Open **Flows**.
 
@@ -59,4 +59,8 @@ Role required: admin
 
     4.  Select **Activate**.
 
+
+## Result
+
+APO is upgraded to the latest version.
 

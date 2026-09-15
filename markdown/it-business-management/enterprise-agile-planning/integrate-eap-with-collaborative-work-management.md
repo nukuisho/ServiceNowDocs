@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-07-07"
+last_updated: "2026-08-25"
 reading_time_minutes: 4
 breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ The EAP-CWM integration enables organizations to connect strategic program plann
 
 Using EAP, program managers and release train engineers can define Program Increment \(PI\) objectives, align Epics, Features, and Stories, create sprints for teams, and manage cross-team dependencies. After completing a PI, they can conduct PI retrospectives and update roadmaps for the next cycle. These capabilities ensure that enterprise priorities are clearly structured and traceable across all levels.
 
-By linking EAP to CWM, product owners and team members can plan and execute sprints, manage agile stories alongside operational tasks such as incidents, track progress, and hold team-level retrospectives, all within the same workspace.
+By linking EAP to CWM. Product owners and team members can plan and execute sprints. They can also manage agile stories alongside operational tasks such as incidents, track progress, and hold team-level retrospectives, all within the same workspace.
 
 This connection between the applications reduces context switching and ensures that both planned and unplanned work is accounted for, without losing alignment to strategic goals. The result is end-to-end transparency where leadership can track progress against PI goals through EAP, while teams maintain flexibility to adapt to changing priorities.
 
@@ -44,7 +44,9 @@ As the team progresses through assigned work, they can update the work status di
 
 New sprints for the team must be created in EAP. After creating new sprints in EAP, they will sync to CWM, allowing the team to schedule work into these sprints from CWM.
 
-**Note:** Sprints for EAP teams are not created directly at the Agile team level. Sprints are created automatically when a Planning Interval \(PI\) is defined for the parent Agile Release Train \(ART\) in EAP and sync to CWM automatically.
+When you change the start date or the end date of an iteration in EAP, the linked sprint in CWM is updated with the new dates. Sprints that don't follow a planning calendar entry sync by using the dates on the iteration record itself. A team on a configuration with a single level of iterations can connect to CWM and keep its own cadence. For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
+
+**Note:** Sprints for EAP teams are not created directly at the Agile team level. Sprints are created automatically when a Planning Interval \(PI\) is defined for the parent Agile Release Train \(ART\) in EAP and sync to CWM automatically. On a configuration that has a single level of iterations, an Agile Team creates its Sprints directly and those Sprints sync in the same way.
 
 \[Omitted image "eap-cwm-sprints.png"\] Alt text: Sprint planning view for EAP teams in CWM.
 

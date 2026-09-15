@@ -1,6 +1,6 @@
 ---
 title: Exploring Collaborative Work Management
-description: Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace, helping knowledge workers, project managers, and agile teams manage work without switching between applications.
+description: Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace. It helps knowledge workers, project managers, and agile teams manage work without switching between applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/exploring-cwm.html
 release: australia
@@ -8,13 +8,13 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
 last_updated: "2026-04-02"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Collaborative Work Management, Strategic Portfolio Management]
 ---
 
 # Exploring Collaborative Work Management
 
-Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace, helping knowledge workers, project managers, and agile teams manage work without switching between applications.
+Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace. It helps knowledge workers, project managers, and agile teams manage work without switching between applications.
 
 ## Collaborative Work Management overview
 
@@ -30,7 +30,7 @@ CWM integrates with the broader ServiceNow AI Platform, connecting to other Serv
 
 |User|Description|
 |----|-----------|
-|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and formula building.|
+|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and formula building.|
 |Project manager|Organizes work into Spaces and Boards, tracks progress across teams, and connects work to business goals and the Strategic Planning workspace.|
 |Agile practitioner|Plans and runs sprints, manages backlogs, generates scrum tasks from user stories, and tracks cross-team dependencies.|
 |SPM team member|Views and updates project and demand tasks from Project Workspace and Next Experience for Demand Management directly in CWM using the team member read or team member read-write role.|
@@ -68,7 +68,7 @@ All users
 Get started without admin involvement by configuring your own workflow and organizing work the way your team needs it.
 
 -   Create custom fields for task records.
--   Switch between List, Gantt, and Kanban views.
+-   Switch between Dashboard, List, Gantt, and Kanban views.
 -   Create custom work item types.
 -   Add a list of additional assignees to a task.
 
@@ -82,7 +82,7 @@ All users
 
 </td></tr><tr><td>
 
-Bring in tasks, Stories, or Epics from existing files such as Excel, Word, or PDF without recreating them row by row. Now Assist proposes the column mapping, you adjust it, preview the result, and confirm the import.
+Bring in tasks, Stories, or Epics from existing files such as Excel, Word, or PDF without recreating them row by row. ServiceNow Otto proposes the column mapping, you adjust it, preview the result, and confirm the import.
 
 </td><td>
 
@@ -94,11 +94,23 @@ All users
 
 </td></tr><tr><td>
 
+Create CWM tasks and stories from open prompts or documents with ServiceNow Otto. Review the generated tasks and add them to your Board.
+
+</td><td>
+
+[Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
 Create and collaborate on meeting notes, technical specifications, or feature requirements directly within your workspace, keeping documentation connected to the work it supports.
 
  -   Create rich text docs and add action items to users from within and outside the team.
 -   Collaborate on docs in real-time with multiple concurrent editors.
--   Use AI to summarize page content for quick insights, generate and refine content using custom prompts, or generate tasks directly from the information in your Doc and add them to Boards.
+-   Use AI to summarize page content for quick insights. You can also generate and refine content using custom prompts, or generate tasks directly from the information in your Doc and add them to Boards.
 
 </td><td>
 
@@ -136,7 +148,7 @@ Agile practitioner
 
 Break user stories into granular scrum tasks to improve sprint execution and estimation. Assign tasks to team members and track daily progress through a sprint.
 
- Using Now Assist to accelerate sprint preparation, you can generate acceptance criteria for your stories from the story description, then generate an initial set of scrum tasks based on that description and criteria. Review and refine both before adding them to your sprint, or create scrum tasks manually from the story form.
+ Using Now Assist to accelerate sprint preparation, you can generate acceptance criteria for your stories from the story description. Then, generate an initial set of scrum tasks based on that description and criteria. Review and refine both before adding them to your sprint, or create scrum tasks manually from the story form.
 
 </td><td>
 
@@ -160,7 +172,31 @@ Agile practitioner
 
 </td></tr><tr><td>
 
-Switch between List, Gantt, and Kanban view modes to visualize work in the format that fits your team's workflow. Save personalized views or create shared views to give the whole team a consistent starting point.
+Visualize task and sprint progress at a glance with configurable widgets, such as charts, dials, and score cards, on a dedicated Dashboard view. Choose from a set of predefined widgets or build your own custom widgets bound to any column on the Board.
+
+</td><td>
+
+[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
+Save and reuse filtered views of records from any table. Default lists such as My Epics, Stories, and Active Sprints are also available for quick access.
+
+</td><td>
+
+[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-lists.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
+Switch between Dashboard, List, Gantt, and Kanban view modes to visualize work in the format that fits your team's workflow. Save personalized views or create shared views to give the whole team a consistent starting point.
 
 </td><td>
 

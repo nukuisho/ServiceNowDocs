@@ -1,21 +1,21 @@
 ---
-title: Create copy of a work set standard
-description: Create and update a work set standard or create a copy of a published or retired work set standard, and use it as a template for a new one.
+title: Create a copy of a work set standard
+description: Create and update a work set standard. Create a copy of a published or retired work set standard to use as a template for a new one.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-copy-of-work-set-standard.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-09-03"
 reading_time_minutes: 1
 keywords: [version work set standard, copy work set standard]
 breadcrumb: [Create a work set standard, Standard and task life cycles, Industrial Standards, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
 
-# Create copy of a work set standard
+# Create a copy of a work set standard
 
-Create and update a work set standard or create a copy of a published or retired work set standard, and use it as a template for a new one.
+Create and update a work set standard. Create a copy of a published or retired work set standard to use as a template for a new one.
 
 ## Before you begin
 
@@ -50,8 +50,6 @@ After approval, the new version replaces the previous published version, which m
 
 
 [Create a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-work-set-standard.md)
-
-[Components installed with work set standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/components-installed-with-work-set-standards.md)
 
 [Work set standard form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-form.md)
 

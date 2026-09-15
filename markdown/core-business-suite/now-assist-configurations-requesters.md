@@ -1,5 +1,5 @@
 ---
-title: Now Assist requester experience
+title: Otto requester experience
 description: Requesters in CBS can use Now Assist in the conversational interface and in search functionality to raise requests and get AI-enabled responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/now-assist-configurations-requesters.html
@@ -11,7 +11,7 @@ keywords: [Now Assist configuration requesters CBS conversational interface sear
 breadcrumb: [Use, Core Business Suite]
 ---
 
-# Now Assist requester experience
+# Otto requester experience
 
 Requesters in CBS can use Now Assist in the conversational interface and in search functionality to raise requests and get AI-enabled responses.
 

@@ -19,7 +19,7 @@ Employees who engage in activities that could potentially conflict with their pr
 
 ## Overview of Legal Conflict of Interest workflow
 
-Employees can submit disclosures using the intake form in the Employee Center or through the conversational interface of Now Assist in Virtual Agent.
+Employees can submit disclosures using the intake form in the Employee Center or through the conversational interface of ServiceNow Otto in Virtual Agent.
 
 1.  The legal user submits a new conflict of interest disclosure request by selecting the appropriate conflict type.
 2.  The risk assessment evaluates the request and assigns a risk level \(Low, Medium, or High\) based on the calculated risk score.
@@ -28,8 +28,8 @@ Employees can submit disclosures using the intake form in the Employee Center or
 5.  The final decision is communicated to the employee via email notification.
 6.  A corresponding record is automatically generated in the system.
 
--   **[Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md)**  
-Submit a request to obtain the legal clearance before you involve in any activity that might pose a risk of potential conflict with the primary employer duties.
+-   **[Submit COI requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-requests.md)**  
+Submit conflict of interest disclosure requests using a traditional form or through conversational intake with ServiceNow Otto.
 -   **[Update an existing conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/update-existing-coi-disclosure-request.md)**  
 Update an existing conflict of interest disclosure request to obtain the legal clearance again before it expires. You might want to get fresh approvals for an extension of the period or for the revised conditions that might pose a risk of potential conflict with the primary employer duties.
 -   **[Approve or reject a conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/approve-reject-coi-request.md)**  

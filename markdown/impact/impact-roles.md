@@ -50,6 +50,7 @@ sn\_impact\_common.Impact Platform Owner
 -   Premium access management for Instance Observer and Developer Support
 -   Access Platform Owner dashboard
 -   Request Accelerators and advisory sessions
+-   Can't assign or configure roles to users or groups \(See Impact App Admin\)
 
 </td></tr><tr><td>
 
@@ -122,7 +123,8 @@ sn\_impact\_common.Impact App Admin
 
 </td><td>
 
--   Full access to Impact tables
+-   Full CRUD access to Impact tables
+-   Assign and configure roles to users or groups
 -   Configure Platform Health
 -   Scan Engine capabilities:
     -   Manage scan settings
@@ -199,7 +201,7 @@ Scan Engine Admin
 
 </td><td>
 
-sn\_scan\_engine\_admin
+sn\_se.scan\_engine\_admin
 
 </td><td>
 
@@ -221,7 +223,7 @@ Scan Engine User
 
 </td><td>
 
-sn\_scan\_engine\_user
+sn\_se.scan\_engine\_user
 
 </td><td>
 

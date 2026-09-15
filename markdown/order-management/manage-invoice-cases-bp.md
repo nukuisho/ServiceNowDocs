@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Communicate and share supporting documents for an invoice case from Business Portal
@@ -20,7 +20,7 @@ Role required: sn\_customerservice.customer
 
 ## About this task
 
-After an invoice case is created either through the Now Assist Virtual Assistant or manually via the playbook experience, you can use the invoice case record in the Business Portal to stay engaged throughout the resolution process. View case history or send messages to the billing specialist handling your case and respond to any requests they raise using the Activity tab. Upload supporting documents, such as proof of delivery, goods receipt notes, or any other evidence relevant to your dispute, using the Attachments tab.
+After an invoice case is created either through the ServiceNow Otto Virtual Agent or manually via the playbook experience, you can use the invoice case record in the Business Portal to stay engaged throughout the resolution process. View case history or send messages to the billing specialist handling your case and respond to any requests they raise using the Activity tab. Upload supporting documents, such as proof of delivery, goods receipt notes, or any other evidence relevant to your dispute, using the Attachments tab.
 
 You can use these tabs proactively without waiting to be contacted, for example, to share additional context or upload documents immediately after your case is created.
 
@@ -42,6 +42,8 @@ You can use these tabs proactively without waiting to be contacted, for example,
 
     You can drag files or use the Add attachments icon \[Omitted image "attachments-icon.png"\] Alt text: to browse and upload files from your system.
 
+
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 

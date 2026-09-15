@@ -26,7 +26,7 @@ The Approval Configuration record controls two aspects of the approval experienc
 
 -   **Display experience**
 
-    Defines which fields appear and in what order, both in the Approval Assistance AI agent and the Approval Info Record widget. For more information, see [Platform Approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-approval-aia.md) and [Approval Info Record widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/approval-info-record-widget.md).
+    Defines which fields appear and in what order, both in the Approval Assistance AI agent and the Approval Info Record widget. For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md) and [Approval Info Record widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/approval-info-record-widget.md).
 
 -   **AI behavior**
 
@@ -83,7 +83,7 @@ Auto-populated
 
 </td><td>
 
-Choose an application scope, such as Global or Now Assist Agent for Requester.
+Choose an application scope, such as Global or ServiceNow Otto® Agent for Requester.
 
 </td></tr><tr><td>
 

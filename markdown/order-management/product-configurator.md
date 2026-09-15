@@ -1,18 +1,18 @@
 ---
-title: ServiceNow CPQ Configurator - Basic
-description: The product configurator is a user interface that is embedded in various Sales Customer Relationship Management applications, such as the Opportunity, Quote, and Order Management applications, enabling agents to configure complex products or services dynamically according to customer requirements.
+title: Configurator
+description: The Configurator is a user interface that is embedded in various Sales Customer Relationship Management applications, such as the Opportunity, Quote, and Order Management applications, enabling agents to configure complex products or services dynamically according to customer requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/product-configurator.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [Configure, price, quote apps, Explore, Sales Customer Relationship Management]
 ---
 
-# ServiceNow CPQ Configurator - Basic
+# Configurator
 
-The product configurator is a user interface that is embedded in various Sales Customer Relationship Management applications, such as the Opportunity, Quote, and Order Management applications, enabling agents to configure complex products or services dynamically according to customer requirements.
+The Configurator is a user interface that is embedded in various Sales Customer Relationship Management applications, such as the Opportunity, Quote, and Order Management applications, enabling agents to configure complex products or services dynamically according to customer requirements.
 
 **Note:** Check your entitlements to determine if you have access to this feature.
 

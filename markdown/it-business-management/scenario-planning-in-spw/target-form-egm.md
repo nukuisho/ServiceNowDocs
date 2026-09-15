@@ -48,7 +48,7 @@ Description
 
 </td><td>
 
-Brief description of the target.You can refine target description using the Refine records skill, if the Now Assist for SPM application is installed.
+Brief description of the target.You can refine target description using the Refine records skill, if the ServiceNow Otto for SPM application is installed.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Status
 
 </td><td>
 
-Status of the target. The status indicates whether the target breakdown is likely to be completed by the planned end date.
+Status of the target. The status can be **Red**, **Yellow**, **Green**, or **No status**.
 
 </td></tr><tr><td>
 

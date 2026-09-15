@@ -9,7 +9,7 @@ classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Use Playbook in Next Experience for Demand Management
@@ -22,6 +22,8 @@ Role required: it\_demand\_user or it\_demand\_manager.
 
 ## About this task
 
+\[Omitted video\] Description: Playbooks in Next Experience for Demand Management.
+
 A playbook defines the standard stages of a demand \(for example, Initiation, Planning, Execution, Monitoring, and Closure\) and includes activities or action items to complete at each stage.
 
 **Note:** This task describes how to use a playbook to manage demand information in a guided, stage-based workflow. To find out how to update demand information on the Details page of the demand record, see [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/update-the-demand-details-from-dw.md).
@@ -30,9 +32,9 @@ A playbook defines the standard stages of a demand \(for example, Initiation, Pl
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-2.  Select the Demands icon\[Omitted image "demands-icon.png"\].
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-3.  Open a demand record.
+3.  Open a demand from the **List** page.
 
 4.  Select the **Playbook** tab.
 
@@ -54,7 +56,7 @@ A playbook defines the standard stages of a demand \(for example, Initiation, Pl
 **Related topics**  
 
 
-[Running Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-agents-and-fulfillers.md)
+[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-agents-and-fulfillers.md)
 
 [Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-reference.md)
 

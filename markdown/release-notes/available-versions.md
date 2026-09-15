@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/available-versions.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Learn about the Australia release, Australia release notes]
 ---
 
@@ -26,9 +26,9 @@ Targets are subject to change prior to patching. Target versions change only if 
 
 |Releases|Patch target option|Release notes|
 |--------|-------------------|-------------|
-|Australia|[Australia Patch 2 Hotfix 3a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3135839)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
-|Zurich|[Zurich Patch 10 Hotfix 2](https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-10-hf-2.html)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
-|Yokohama|[Yokohama Patch 13 Hotfix 3](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3081672)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
+|Australia|[Australia Patch 5 W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152205)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
+|Zurich|[Zurich Patch 10 Hotfix 4b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152184)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
+|Yokohama|[Yokohama Patch 13 Hotfix 5a W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152505)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
 
 ## Available versions
 
@@ -52,6 +52,368 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-6.md)
+
+ [Australia Patch 6 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152248)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/09/10
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 5 W36](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3153999)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/09/03
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 5 W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152205)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/27
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 5 W34](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3150411)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/21
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 5 W33](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147913)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/13
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 5m](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ap5m-release-notes.md)
+
+ [Australia Patch 5m security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3150636)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/09/03
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-6.md)
+
+ [Australia Patch 6 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152248)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/09/10
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 5 W36](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3153999)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/09/03
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 5 W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152205)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/27
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 5 W34](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3150411)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/21
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 5 W33](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147913)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/13
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 5m](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ap5m-release-notes.md)
+
+ [Australia Patch 5m security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3150636)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/08/26
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+
+ [Australia Patch 5 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3138411)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/08/07
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 4 Hotfix 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4-hf-4-PO.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/19
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 4 Hotfix 3 W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152202)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/27
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 4 Hotfix 3 W34](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3150410)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/20
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 4 Hotfix 3 W33](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3148119)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/13
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 4 Hotfix 3](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3146432)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/06
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 4 Hotfix 2](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3143885)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/30
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 4 Hotfix 1](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3140560)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/23
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 4m Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4m-hf-1.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/22
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 4m](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ap4m-release-notes.md)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/07/23
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
 [Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
 
  [Australia Patch 4 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3126028)
@@ -66,7 +428,39 @@ Patch
 
 </td><td>
 
-Available
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 3 Hotfix 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3-hf-4-PO.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/19
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 3 Hotfix 3](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3143614)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/29
+
+</td><td>
+
+Unavailable
 
 </td></tr><tr><td>
 
@@ -82,7 +476,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -120,6 +514,246 @@ Unavailable
 
 </td></tr><tr><td>
 
+[Australia Patch 2 Hotfix 5b W36](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3153994)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/09/03
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 5b W35](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2-hf-5b-w35.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/31
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 5b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2-hf-5b-PO.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/26
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 5a W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152198)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/27
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 5a W34](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3150405)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/20
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 5a W33](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147911)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/13
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 5a W32](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3146424)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/06
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 5a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142075)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/24
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 4b W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152197)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/27
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 4b W34](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3150406)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/20
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 4b W33](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147912)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/13
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 4b W32](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3146425)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/06
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 4b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3143888)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/30
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 4a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2-hf-4a-PO.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/14
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 3b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3138484)
+
+</td><td>
+
+Security patch
+
+</td><td>
+
+2026/07/21
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
 [Australia Patch 2 Hotfix 3a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3135839)
 
 </td><td>
@@ -132,7 +766,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -148,7 +782,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -268,12 +902,32 @@ For the latest MetricBase on-premise release notes, refer to [KB0748185](https:/
 
 ## Ancillary software releases
 
-For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
+-   **[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-6.md)**  
+The Australia Patch 6 release contains important problem fixes.
+-   **[Australia Patch 5m](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ap5m-release-notes.md)**  
+The Australia Patch 5m release contains important problem fixes via Australia Patch 5 and updates to compatible ServiceNow Store applications.
+-   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)**  
+The Australia Patch 5 release contains important problem fixes.
+-   **[Australia Patch 4 Hotfix 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4-hf-4-PO.md)**  
+The Australia Patch 4 Hotfix 4 release contains fixes to these problems.
+-   **[Australia Patch 4m Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4m-hf-1.md)**  
+The Australia Patch 4m Hotfix 1 release contains fixes to these problems.
+-   **[Australia Patch 4m](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ap4m-release-notes.md)**  
+The Australia Patch 4m release contains important problem fixes via Australia Patch 4 and updates to compatible ServiceNow Store applications.
 -   **[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)**  
 The Australia Patch 4 release contains important problem fixes.
+-   **[Australia Patch 3 Hotfix 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3-hf-4-PO.md)**  
+The Australia Patch 3 Hotfix 4 release contains fixes to these problems.
 -   **[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)**  
 The Australia Patch 3 release contains important problem fixes.
+-   **[Australia Patch 2 Hotfix 5b W35](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2-hf-5b-w35.md)**  
+The Australia Patch 2 Hotfix 5b W35 release contains fixes to these problems.
+-   **[Australia Patch 2 Hotfix 5b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2-hf-5b-PO.md)**  
+The Australia Patch 2 Hotfix 5b release contains fixes to these problems.
+-   **[Australia Patch 2 Hotfix 4a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2-hf-4a-PO.md)**  
+The Australia Patch 2 Hotfix 4a release contains fixes to these problems.
 -   **[Australia Patch 2 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2-hf-1.md)**  
 The Australia Patch 2 Hotfix 1 release contains fixes to these problems.
 -   **[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)**  

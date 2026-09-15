@@ -8,7 +8,7 @@ product: Usage Insights
 classification: usage-insights
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Usage Insights, Platform Analytics]
 ---
 
@@ -28,6 +28,8 @@ Drill down into usage data with standard and custom filters.
 User retention reports help you understand how often your users visit your application to better understand if it meets your users' needs and expectations.
 -   **[Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-cohorts.md)**  
 A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to group users together based on common behavior to analyze how many users complete certain predetermined actions in a given time frame.
+-   **[Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/conversations.md)**  
+The conversations view brings ServiceNow Otto chat activity into Usage Insights. It reports engagement metrics such as total chat users and live agent transfers, chat-related events, from starting a conversation to rendering a chat response to selecting a chat action.
 -   **[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md)**  
 Conversion funnels serve as visual representations of the customer journey, tracking a specific sequence of actions. Investigating a conversion funnel can help you measure and optimize the completion rates of relevant processes within your application.
 -   **[Navigation paths](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-navigation-paths.md)**  
@@ -46,8 +48,8 @@ View user analytics event occurrences to help you analyze core steps within your
 The Pages module for UI Analysis in Usage Insights shows analytics specific to pages on the web-based UI in terms of page use and navigation. View user action, performance, and navigation details for each web page to identify pages where users might be having issues and optimize workflows accordingly.
 -   **[Exporting data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/export-data.md)**  
 You can export data records to CSV format. Exporting user and session lists, and other analytics data to CSV is available wherever you see the download icon \(\[Omitted image "csv-download.png"\] Alt text: CSV export download icon.\).
--   **[Export data in bulk export via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-restapi.md)**  
-Usage Insights data export is a store app that enables you to programmatically export Usage Insights \(UXA\) usage data from your ServiceNow® instance for integration with your enterprise analytics platform.
+-   **[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-restapi.md)**  
+Usage Insights data export is a store app that enables you to programmatically export Usage Insights usage data from your ServiceNow® instance for integration with your enterprise analytics platform.
 -   **[Access analytics overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-access-analytics-overlay.md)**  
 Use the utility icon for quick, in-context page usage metrics, offering faster access to analytics without leaving the page.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-patch-1
 release: australia
 topic_type: reference
 last_updated: "2026-04-03"
-reading_time_minutes: 96
+reading_time_minutes: 94
 breadcrumb: [Available patches and hotfixes, Learn about the Australia release, Australia release notes]
 ---
 
@@ -40,7 +40,7 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
 -   ****
 
-    The SQL API provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
+    Live Connect provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
 
 -   ****
 
@@ -57,53 +57,29 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
     Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource.
 
 -   ****
-
-    The SQL API supports business intelligence reporting, ad-hoc data analysis, and custom report development.
-
 -   ****
-
-    Configure the JDBC driver settings on your client machine to establish a connection to your ServiceNow instance and access data through the SQL API.
-
 -   ****
-
-    Configure connection settings for the installed ODBC driver including server URL and authentication credentials to enable data access from BI tools to your ServiceNow instance.
-
 -   **[Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-servicenow-vault.md)**
 
     Learn how to install and configure ServiceNow Vault.
 
 -   ****
 
-    Configure your ServiceNow instance to enable SQL API access, set up the necessary security controls, and install the appropriate drivers on your client machine.
+    Configure your ServiceNow instance to enable Live Connect access, set up the necessary security controls, and install the appropriate drivers on your client machine.
 
 -   ****
 
-    Configure your ServiceNow instance to enable SQL API access, set up the necessary security controls, and install the appropriate drivers on your client machine.
+    Configure your ServiceNow instance to enable Live Connect access, set up the necessary security controls, and install the appropriate drivers on your client machine.
 
 -   ****
 
-    Overview of the three-step configuration process required to enable SQL API access including prerequisites and expected outcomes.
+    Overview of the three-step configuration process required to enable Live Connect access including prerequisites and expected outcomes.
 
 -   ****
-
-    Connect Power BI Desktop to your ServiceNow instance using the ODBC driver to access and analyze ServiceNow data. Create dashboards and reports that visualize your ServiceNow data.
-
 -   ****
-
-    Configure table-level access control using the egress\_sql and read operations to grant Service Accounts query access to specific tables through the SQL API.
-
 -   ****
-
-    Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the SQL API ODBC or JDBC driver. By default, all incoming IPs are blocked until you configure the SQL API Authentication Policy with an IP filter and policy condition to allow access only from trusted client machines.
-
 -   ****
-
-    Create a dedicated non-interactive Service Account in User Administration and assign the appropriate SQL API access role to enable secure, programmatic access for BI tools and analytics platforms.
-
 -   ****
-
-    Download the ODBC and JDBC drivers from the ServiceNow store to your client machine to enable SQL API connectivity.
-
 -   ****
 
     Define one or more REST API response headers in a REST API.
@@ -134,47 +110,36 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
     The following procedure describes the process for manual definition of a scripted REST API request header. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
--   ****
+-   **[Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/my-requests-update-intro.md)**
 
-    **Note:** You must be on the Employee Center version 38.0 or later or have upgraded to the Australia release to use the Enhanced Requests Experience.
 
-    The requests are displayed in a card view by default. You can the view toggle icons next to the search bar to switch between card view and list view. The toggle functionality is only available on Employee Center version 40 onwards.
 
 -   ****
-
-    The ServiceNow SQL API provides data access to your ServiceNow instances through industry-standard ODBC and JDBC drivers, enabling direct connections from Business Intelligence \(BI\) tools and data analysis platforms.
-
+-   ****
 -   ****
 
-    Configure ServiceNow SQL API drivers to connect with external business intelligence and database tools for direct data access and analysis.
+    Install the ServiceNow ODBC driver on your Windows client machine to enable connectivity between your Business Intelligence \(BI\) tools and ServiceNow data through the Live Connect.
 
 -   ****
 
-    Install the ServiceNow ODBC driver on your Windows client machine to enable connectivity between your Business Intelligence \(BI\) tools and ServiceNow data through the SQL API.
-
--   ****
-
-    Installing the SQL API on your instance enables secure, read-only access to your instance data from external applications. You can integrate your data with external tools and analytics platforms to enhance your reporting and data analysis capabilities.
+    Installing the Live Connect on your instance enables secure, read-only access to your instance data from external applications. You can integrate your data with external tools and analytics platforms to enhance your reporting and data analysis capabilities.
 
 -   **[Install ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/install-vault.md)**
 
     Install the ServiceNow Vault application and assign the required roles.
 
--   ****
+-   **[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mnge-content-topics.md)**
 
     Link your desired categories to the topics and track the additions and removals to have easier management of unconnected content.
 
 -   ****
-
-    This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for SQL API.
-
 -   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)**
 
     For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md).
 
 -   ****
 
-    You can route SQL API calls to Read Replica to optimize the performance of your ServiceNow instance.
+    You can route Live Connect calls to Read Replica to optimize the performance of your ServiceNow instance.
 
 -   ****
 
@@ -185,28 +150,13 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
     Learn and set up the roles necessary to use ServiceNow Vault.
 
 -   ****
-
-    The SQL API architecture demonstrates how the SQL API plugin integrates with the ServiceNow system to provide secure, read-only data access through industry-standard ODBC and JDBC drivers.
-
 -   ****
-
-    This section provides details about SQL API reference information like minimum requirements and usage limitations.
-
 -   ****
-
-    Common SQL functions used in SQL API for querying and analyzing incident data.
-
 -   ****
-
-    Run the Interactive SQL application for quick verification of connectivity and to test query results without using a full application.
-
 -   ****
+-   **[Use ServiceNow Otto to search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-awf-search.md)**
 
-    The SQL API imposes rate limits to ensure system stability and performance when querying ServiceNow data through ODBC and JDBC drivers.
-
--   **[Use Now Assist to search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-awf-search.md)**
-
-    Starting with Now Assist for CMDB v3.0, searches can include parent-child nodes spanning multiple tables and can traverse relationship graphs \(searches that traverse the cmdb\_rel\_ci\), for example, "Search for servers that depend on databases".
+    Starting with ServiceNow Otto for CMDB v3.0, searches can include parent-child nodes spanning multiple tables and can traverse relationship graphs \(searches that traverse the cmdb\_rel\_ci\), for example, "Search for servers that depend on databases".
 
 
 ## Notable fixes

@@ -1,6 +1,6 @@
 ---
 title: Approval Plan form
-description: Field descriptions for the Approval Plan form used to review and configure invoice approval plans, including routing methods, decision methods, and approval status options.
+description: Field descriptions for the Approval Plan form used to review and configure invoice approval plans, including routing methods, decision methods, and approval statuses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/approval-plan-form.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 
 # Approval Plan form
 
-Field descriptions for the Approval Plan form used to review and configure invoice approval plans, including routing methods, decision methods, and approval status options.
+Field descriptions for the Approval Plan form used to review and configure invoice approval plans, including routing methods, decision methods, and approval statuses.
 
 |Field|Description|
 |-----|-----------|
@@ -41,6 +41,8 @@ Field descriptions for the Approval Plan form used to review and configure invoi
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Outbound cost allocation staging table]()
@@ -64,6 +66,8 @@ Field descriptions for the Approval Plan form used to review and configure invoi
 [Invoice exception definition form]()
 
 [Approval Rule form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

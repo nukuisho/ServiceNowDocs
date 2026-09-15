@@ -44,3 +44,12 @@ In the **DocIntel Extract Values Flow - copied use case - Invoice Processing v7*
 6.  Select **Activate**.
 
 
+## What to do next
+
+[Configure the Invoice processing case for Invoice email flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-di-flow.md)
+
+**Related topics**  
+
+
+[Extract data with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/extract-data-with-di.md)
+

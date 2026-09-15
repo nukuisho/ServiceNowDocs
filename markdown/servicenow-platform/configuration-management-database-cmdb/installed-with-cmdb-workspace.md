@@ -67,7 +67,7 @@ Number of days after which if one or more discovery sources stop reporting CIs, 
  -   Type: integer
 -   Default: 7
 -   Location: Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **CMDB 360**. Select Settings and configure **Number of days since CIs were last discovered by a discovery source** in the Potential issues section.
--   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Maximum number of records that appear as list views when drilling down from the 
 -   Type: integer
 -   Default: 100,000
 -   Location: Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **CMDB 360**. Select Settings and configure **Maximum number of records to process** in the Global section.
--   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 </td></tr><tr><td>
 
@@ -572,7 +572,7 @@ Runs daily to populate the following tables:
 
 Reads de-duplication task data records and calculates the root cause analysis for the duplication.
 
- Used in support of Now Assist for CMDB.
+ Used in support of ServiceNow Otto for CMDB.
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -973,7 +973,7 @@ Remediate Duplicate Task Groups
 
 Groupings of de-duplication tasks, the CI class affected, any discovery source associated with the de-duplication task, and the CI identification rule that was used to discover the CIs.
 
- Used in support of Now Assist for CMDB.
+ Used in support of ServiceNow Otto for CMDB.
 
  -   sn\_cmdb\_admin role has create/write/delete privileges
 -   sn\_cmdb\_user OR dedup\_admin roles have read privileges
@@ -988,7 +988,7 @@ Group Task Mapping
 
 Reference to the Remediate Duplicate Task Groups table and a root cause analysis summary of the reason that the Cis were added to the de-duplication task
 
- Used in support of Now Assist for CMDB.
+ Used in support of ServiceNow Otto for CMDB.
 
  -   sn\_cmdb\_admin role has create/write/delete privileges
 -   sn\_cmdb\_user OR dedup\_admin roles have read privileges

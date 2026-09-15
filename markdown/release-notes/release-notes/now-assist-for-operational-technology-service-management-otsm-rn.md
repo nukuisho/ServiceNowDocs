@@ -1,18 +1,18 @@
 ---
-title: Now Assist for Operational Technology Service Management \(OTSM\) release notes
-description: The ServiceNow Now Assist for Operational Technology Service Management \(OTSM\) application enables you to summarize Operational Technology \(OT\) incident information and generate incident resolution notes. Now Assist for OTSM is a new application in the Australia release.
+title: ServiceNow Otto for Operational Technology \(OT\) Service Management release notes
+description: The ServiceNow ServiceNow Otto for Operational Technology \(OT\) Service Management application enables you to summarize Operational Technology \(OT\) incident information and generate incident resolution notes. ServiceNow Otto for OT Service Management is a new application in the Australia release.The ServiceNow ServiceNow Otto for Operational Technology \(OT\) Service Management application enables you to summarize Operational Technology \(OT\) incident information and generate incident resolution notes. ServiceNow Otto for OT Service Management is a new application in the Australia release.The ServiceNow ServiceNow Otto for Operational Technology \(OT\) Service Management application enables you to summarize Operational Technology \(OT\) incident information and generate incident resolution notes. ServiceNow Otto for OT Service Management is a new application in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
 
-# Now Assist for Operational Technology Service Management \(OTSM\) release notes
+# ServiceNow Otto for Operational Technology \(OT\) Service Management release notes
 
-The ServiceNow® Now Assist for Operational Technology Service Management \(OTSM\) application enables you to summarize Operational Technology \(OT\) incident information and generate incident resolution notes. Now Assist for OTSM is a new application in the Australia release.
+The ServiceNow® ServiceNow Otto for Operational Technology \(OT\) Service Management application enables you to summarize Operational Technology \(OT\) incident information and generate incident resolution notes. ServiceNow Otto for OT Service Management is a new application in the Australia release.
 
-## Now Assist for OTSM highlights for the Australia release
+## About ServiceNow Otto for Operational Technology \(OT\) Service Management
 
 Australia
 
@@ -20,13 +20,26 @@ Australia
 -   Help save time by automatically updating the resolution notes for an OT incident.
 -   Generate a KB article when an OT incident is resolved by using an agentic workflow.
 
-See [Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-operational-technology-service-management.md) for more information.
+See [ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-operational-technology-service-management.md) for more information.
 
-**Important:** Now Assist for OTSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+## Activation and other requirements
 
-## Now Assist for OTSM features
+**Important:** ServiceNow Otto for OT Service Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
--   **[Summarize an Operational Technology incident by using Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)**
+-   **Activation information**
+
+    Install ServiceNow Otto for OT Service Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+
+## Australia Early Availability
+
+The ServiceNow® ServiceNow Otto for Operational Technology \(OT\) Service Management application enables you to summarize Operational Technology \(OT\) incident information and generate incident resolution notes. ServiceNow Otto for OT Service Management is a new application in the Australia release.
+
+### What's new
+
+-   **[Summarize an Operational Technology incident by using ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)**
 
     Automatically summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
 
@@ -46,7 +59,7 @@ See [Now Assist for Operational Technology Service Management \(OTSM\)](https://
     -   KB Base
     -   Author
 
-## UI changes
+### What's changed
 
 -   **[Summarize UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)**
 
@@ -59,25 +72,16 @@ See [Now Assist for Operational Technology Service Management \(OTSM\)](https://
     **Note:** This UI action appears after the OT incident state is set to **Resolved**.
 
 
-## Activation information
+## Australia
 
-Install Now Assist for OTSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+The ServiceNow® ServiceNow Otto for Operational Technology \(OT\) Service Management application enables you to summarize Operational Technology \(OT\) incident information and generate incident resolution notes. ServiceNow Otto for OT Service Management is a new application in the Australia release.
 
-## Plugin information
+### Plugin information
 
 -   **New plugins**
 
     The following plugins are new in Australia:
 
-    Now Assist for OTSM \(com.sn\_otsm\_gen\_ai\): Contains the features, AI agents, and agentic workflows for Now Assist for OTSM.
+    ServiceNow Otto for OT Service Management \(com.sn\_otsm\_gen\_ai\): Contains the features, AI agents, and agentic workflows for ServiceNow Otto for OT Service Management.
 
-
-## Related ServiceNow applications and features
-
--   **[Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management-landing-page.md)**
-
-    The ServiceNow® Operational Technology Incident Management application enables engineers to resolve Operational Technology \(OT\) asset and production process issues quickly.
-
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 

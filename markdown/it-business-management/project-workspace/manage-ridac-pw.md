@@ -8,7 +8,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: concept
 last_updated: "2026-07-01"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [use]
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -23,9 +23,11 @@ RIDAC stands for Risks, Issues, Decisions, Actions, and Change Requests. It is a
 
 -   Risks: Potential events or conditions that may impact your project if they occur
 -   Issues: Current problems or obstacles that are actively affecting your project
--   Decisions: Key choices made during the project that need to be documented and tracked
+-   Decisions: Key choices made during the project that needs to be documented and tracked
 -   Actions: Tasks or steps that must be completed to address risks, issues, or decisions
 -   Change Requests: Proposed modifications to the project scope, schedule, or resources
+
+The RIDAC menu is expanded by default when you open Project Workspace, displaying all three sub-menus: **AI Identified Risks**, **RIDAC by Type**, and **All RIDAC**. If you collapse the RIDAC menu, it stays collapsed for the rest of your session. The changed view is saved as user preference and is retained even after actions such as accepting a risk from AI Identified Risks and reloading the page.
 
 To manage RIDAC in your project:
 
@@ -35,7 +37,7 @@ To manage RIDAC in your project:
 -   [Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/convert-ridac-project-workspace.md)
 
 -   **[Generate, accept, and reject risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-risks-using-ai-pw.md)**  
-Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
+Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, milestones, and work notes.
 -   **[Create RIDAC records from RIDAC by Type page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-ridac-pw.md)**  
 Create and manage RIDAC records organized by type in Project Workspace.
 -   **[Add RIDAC records to projects from All RIDAC page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-risk-project-project-workspace.md)**  

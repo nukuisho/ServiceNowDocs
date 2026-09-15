@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-accessmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -150,22 +150,11 @@ Australia
 
 -   **[Query ACLs](https://www.servicenow.com/docs/access?context=query-acl-rule&family=australia&ft:locale=en-US)**
 
-Query ACLs now load automatically during plugin installation for most platform plugins. These preconfigured ACLs reduce the need to run the QueryRangeACLAuditor tool to generate query ACLs. Store app query ACLs aren't included in preconfigured query ACLs. For more information about preconfigured query ACLs, see the [Maintenance Information \[KB2046494\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2046494) article in the Now Support Knowledge Base.
+Query ACLs now load automatically during plugin installation for most platform plugins. These preconfigured ACLs reduce the need to run the QueryRangeACLAuditor tool to generate query ACLs. Store app query ACLs aren't included in preconfigured query ACLs. For more information about preconfigured query ACLs, see the [Maintenance Information \[KB2046494\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2046494) article in the Now Support Knowledge Base.Existing custom query ACLs are preserved and loaded as inactive. To view inactive ACLs, use this command: `<INSTANCE_URL>/sys_security_acl_list.do?[query_parameters]`QueryRangeACLAuditor tool modifications are preserved.
 
-Existing custom query ACLs are preserved and loaded as inactive. To view inactive ACLs, use this command: `<INSTANCE_URL>/sys_security_acl_list.do?[query_parameters]`
-
-QueryRangeACLAuditor tool modifications are preserved.
-
--   **[ACL rule types](https://www.servicenow.com/docs/access?context=acl-rule-types&family=australia&ft:locale=en-US)**
+-   **[ACL types](https://www.servicenow.com/docs/access?context=acl-rule-types&family=australia&ft:locale=en-US)**
 
 Core field and datatype ACLs are replaced with more comprehensive rules to optimize ACL volume.
-
-
--   **[Access Analyzer](https://www.servicenow.com/docs/access?context=access-analyzer&family=australia&ft:locale=en-US)**
-
-Use ServiceNow® Access Analyzer v6.1, a tool designed for AI administrators or creators to validate the access controls configured within agentic assets \(agentic workflows and AI agents\) on the ServiceNow AI Platform.
-
-**Important:** Access Analyzer is available in the ServiceNow Store. For more information, visit [ServiceNow Store](https://store.servicenow.com/store).
 
 
 </td></tr></tbody>
@@ -261,7 +250,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Access Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -269,7 +261,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Access Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -277,7 +272,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Access Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -475,7 +473,7 @@ Early Availability
 -   Use new preconfigured query ACLs for most platform plugins, as part of ongoing security risk mitigation. These base system ACLs significantly reduce the need to run the QueryRangeACLAuditor tool.
 -   Use Access Findings, the proactive detection and remediation layer within Access Management Console, to run eight base system access checks against your instance on a daily schedule. This surfaces prioritized findings when misconfigurations are detected, and provides a complete remediation workflow including AI-powered guidance.
 
- See [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&family=australia&ft:locale=en-US) for more information.
+ See [Access Control Lists \(ACLs\)](https://www.servicenow.com/docs/access?context=access-control-rules&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)

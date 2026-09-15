@@ -18,7 +18,7 @@ Provides subflows and actions to dynamically translate the user-entered text, an
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Subscription
 
@@ -28,6 +28,10 @@ This spoke requires one of the following subscriptions:
 -   Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
 See the [Google Cloud Translator Service Spoke](https://store.servicenow.com/sn_appstore_store.do#!/store/application/6b0f258a73623300395108b24ff6a734/) in ServiceNow Store.
+
+## Spoke version
+
+Google Cloud Translator Service Spoke v3.2.8 is the latest version. For version history of the spoke, see [Google Cloud Translator Service spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-google-translator.html).
 
 ## Supported versions
 

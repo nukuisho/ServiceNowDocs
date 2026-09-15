@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Lead and opportunity management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Customer Engagement Sequences
@@ -65,7 +65,7 @@ The following illustration describes the tasks involved in configuring and using
 
 \[Omitted image "customer-engagement-sequences-workflow-landing.svg"\] Alt text: Infographic showing how to create sequences and complete outreach using Customer Engagement Sequences. For details, refer to the list of tasks that follows.
 
-1.  As a sequence writer, create a customer engagement sequence such as a lead-nurturing sequence from the CSM Configurable Workspace.
+1.  As a sequence writer, create a customer engagement sequence such as a lead-nurturing sequence from the CRM Workspace.
 2.  Define the sequence parameters:
     -   Single or multi-trigger conditions \(for example, when a new lead is created\)
     -   Sequence steps \(for example, call, follow-up, email\)

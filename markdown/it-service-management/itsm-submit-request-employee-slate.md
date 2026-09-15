@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-submit-request-employee-slate.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee experience in Employee Slate, Employee experience, Simplified IT Service Management, IT Service Management]
+breadcrumb: [Employee experience in Employee Slate, Simplified IT Service Management, IT Service Management]
 ---
 
 # Submit a catalog request in Employee Slate
@@ -20,7 +20,7 @@ Role required: none
 
 ## Procedure
 
-1.  Navigate to the Employee Slate portal.
+1.  Navigate to Employee Slate.
 
 2.  Enter your request in the conversational interface.
 
@@ -40,6 +40,8 @@ Role required: none
 
 5.  In the Order Confirmation window, specify the required information and select **Checkout**.
 
+    -   A requested item is created for a catalog item.
+    -   A request is created for an order guide.
 
 **Parent Topic:**[Employee experience in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-using-employee-slate.md)
 

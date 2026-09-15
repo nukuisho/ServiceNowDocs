@@ -1,6 +1,6 @@
 ---
 title: Microsoft Certificate Authority \(CA\) certificates discovery
-description: The ServiceNow Discovery application can discover Microsoft Certificate Authority \(CA\) certificates using the Microsoft CA - Certificate Management pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application can discover Microsoft Certificate Authority \(CA\) certificates using the Microsoft CA - Certificate Management pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/microsoft-ca-discovery.html
 release: australia
@@ -15,11 +15,11 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Microsoft Certificate Authority \(CA\) certificates discovery
 
-The ServiceNow Discovery application can discover Microsoft Certificate Authority \(CA\) certificates using the Microsoft CA - Certificate Management pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application can discover Microsoft Certificate Authority \(CA\) certificates using the Microsoft CA - Certificate Management pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Starting with version 1.27.0, Discovery and Service Mapping Patterns supports discovering the subject alternative name \(SAN\) for both the all request IDs and the template ID discovery methods.
 

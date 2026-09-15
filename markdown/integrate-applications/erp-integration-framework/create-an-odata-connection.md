@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, connection, http]
-breadcrumb: [Connect to SAP with OData, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [OData, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create an OData connection in Zero Copy Connector for ERP
@@ -21,7 +21,7 @@ Create an OData v2 connection to link to SAP so data can be extracted for use in
 
 Role required: admin
 
-For information about OData connections in Zero Copy Connector for ERP, see [Connect Zero Copy Connector for ERP to SAP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md) and [OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
+For information about OData connections in Zero Copy Connector for ERP, see [Connecting Zero Copy Connector for ERP to SAP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md) and [OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
 
 ## About this task
 
@@ -90,7 +90,7 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
 11. Select **Specify inputs** to check the information and edit as needed.
 
-    For more information, see [Manage input parameters for a Zero Copy Connector for ERP model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs.md).
+    For more information, see [Manage input parameters for a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs.md).
 
 12. Select **Choose output** to check the information and edit as needed.
 
@@ -172,6 +172,4 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
     9.  View and check the output, for example, in **Output Data**, select the **Response** to view the output.
 
-
-**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

@@ -1,32 +1,32 @@
 ---
-title: Now Assist Center glossary
-description: Before getting started with Now Assist Center, it is important to understand some key concepts used in the application.
+title: AI Admin Center glossary
+description: Before getting started with AI Admin Center, it is important to understand some key concepts used in the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-glossary.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-30"
 reading_time_minutes: 2
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Reference, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Reference, AI Admin Center, Enable AI experiences]
 ---
 
-# Now Assist Center glossary
+# AI Admin Center glossary
 
-Before getting started with Now Assist Center, it is important to understand some key concepts used in the application.
+Before getting started with AI Admin Center, it is important to understand some key concepts used in the application.
 
-For more helpful terminology, see  glossary.
+For more helpful terminology, see [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) glossary.
 
-**Parent Topic:**[Now Assist Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
+**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Now Assist Center]()
+[Components installed with AI Admin Center]()
 
-[Domain separation and Now Assist Center]()
+[Domain separation and AI Admin Center]()
 
-[Now Assist Center roles]()
+[AI Admin Center roles]()
 
 ## agents
 
@@ -42,19 +42,19 @@ An agentic workflow is a structured sequence of tasks executed by one or more AI
 
 ## citation
 
-Small, interactable number next to AI-generated content in the Now Assist panel that cites the source of the information.
+Small, interactable number next to AI-generated content in the ServiceNow Otto panel that cites the source of the information.
 
-## Now Assist
+## ServiceNow Otto
 
-Now Assist refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
+ServiceNow Otto refers to generative AI experiences on the ServiceNow AI Platform. With ServiceNow Otto, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
-## Now Assist skill
+## generative AI skill
 
-A predefined capability within Now Assist that uses generative AI to perform tasks such as generating summaries, resolution notes, and so on.
+A predefined capability on the ServiceNow AI Platform that uses generative AI to perform tasks such as generating summaries, resolution notes, and so forth.
 
-## Orchestrator
+## orchestrator
 
-The AI agent orchestrator is a specialized agent that plans, coordinates, and manages the execution of tasks across multiple AI agents. It holds short-term memory, tracks goals, and ensures agents collaborate effectively. This component is central to Agentic AI architecture and is configured in AI Agent Studio. The orchestrator conducts the planning and leads a team of AI agents to address a given agentic workflow.
+The AI agent orchestrator is a specialized agent that plans, coordinates, and manages the execution of tasks across multiple AI agents. It holds short-term memory, tracks goals, and ensures agents collaborate effectively. This component is central to agentic AI architecture and is configured in AI Agent Studio. The orchestrator conducts the planning and leads a team of AI agents to address a given agentic workflow.
 
 ## subflow
 

@@ -1,6 +1,6 @@
 ---
 title: Oracle Cloud Infrastructure \(OCI\) discovery
-description: ServiceNow Discovery uses the Oracle Cloud Infrastructure \(OCI\) discovery patterns to provide real-time elasticity for enterprise applications by combining Oracle autonomous services, integrated security, and cloud compute. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: ServiceNow Discovery uses the Oracle Cloud Infrastructure \(OCI\) discovery patterns to provide real-time elasticity for enterprise applications by combining Oracle autonomous services, integrated security, and cloud compute. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-infrastructure-discovery.html
 release: australia
@@ -15,13 +15,13 @@ breadcrumb: [Available cloud discovery patterns, Discovery patterns used by ITOM
 
 # Oracle Cloud Infrastructure \(OCI\) discovery
 
-ServiceNow Discovery uses the Oracle Cloud Infrastructure \(OCI\) discovery patterns to provide real-time elasticity for enterprise applications by combining Oracle autonomous services, integrated security, and cloud compute. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+ServiceNow Discovery uses the Oracle Cloud Infrastructure \(OCI\) discovery patterns to provide real-time elasticity for enterprise applications by combining Oracle autonomous services, integrated security, and cloud compute. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Starting with version 1.29.0, Discovery and Service Mapping Patterns supports the discovery of OCI GovCloud accounts.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -154,10 +154,6 @@ Tags are populated to the **cmdb\_key\_value** table and related to the relevant
 
 |CI|Relationship|CI|
 |---|------------|---|
-|cmdb\_ci\_os\_template|Hosted on::Hosts|cmdb\_ci\_oci\_datacenter|
-
-|CI|Relationship|CI|
-|---|------------|---|
 |cmdb\_ci\_oci\_datacenter|Hosted on::Hosts|cmdb\_ci\_cloud\_service\_account|
 
 |CI|Relationship|CI|
@@ -184,13 +180,12 @@ Tags are populated to the **cmdb\_key\_value** table and related to the relevant
 |---|------------|---|
 |cmdb\_ci\_network|Contains::Contained by|cmdb\_ci\_cloud\_subnet|
 
-|CI|Relationship|CI|
-|---|------------|---|
-|cmdb\_ci\_vm\_instance|Hosted on::Hosts|cmdb\_ci\_oci\_datacenter|
-|cmdb\_ci\_vm\_instance|Provisioned From::Provisioned|cmdb\_ci\_os\_template|
-|cmdb\_ci\_vm\_instance|Provisioned From:Provisioned|cmdb\_ci\_compute\_template|
-|cmdb\_ci\_vm\_instance|DR provided by::Provides DR for|cmdb\_ci\_avaliability\_zone|
-|cmdb\_ci\_avaliability\_zone|Contains::Contained by|cmdb\_ci\_vm\_instance|
+-   **[OCI cloud hardware type pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-hardware-type-pattern.md)**  
+Discovery and Service Mapping Patterns finds OCI cloud hardware types \(called shapes in OCI\) in your Cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI OS image pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-os-image-pattern.md)**  
+Discovery and Service Mapping Patterns finds OCI OS images on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI virtual machine pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-vm-pattern.md)**  
+Discovery and Service Mapping Patterns finds OCI virtual machines \(VMs\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 **Parent Topic:**[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 

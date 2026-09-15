@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aicontroltower-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Upgrade information**
+
+For details on upgrading to the redesigned AI Control Tower experience, see the [AI Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
+
 
 </td></tr><tr><td>
 
@@ -46,7 +49,10 @@ Australia
 
 </td><td>
 
-Not applicable.
+-   **Upgrade information**
+
+For details on upgrading to the redesigned AI Control Tower experience, see the [AI Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -73,7 +79,7 @@ Zurich
     -   Monitor MCP server access by AI Gateway with these new charts: Clients connecting to MCP servers, authorized access attempts, and failed access attempts.
 -   **[Data section on Configurations page](https://www.servicenow.com/docs/access?context=data&family=zurich&ft:locale=en-US)**
 
-Enable and set up data integrity incident detection, agent goal deviation, and output screening metrics to measure the integrity of your data model and potential threats in LLM output.
+Set up data integrity incident detection, agent goal deviation, and output screening metrics to measure the integrity of your data model and potential threats in LLM output.
 
 -   **[Manage agentic AI system life cycles](https://www.servicenow.com/docs/access?context=create-ai-system-assets&family=zurich&ft:locale=en-US)**
 
@@ -102,115 +108,11 @@ In addition, create offboarding requests for the following additional AI asset t
     -   Datasets
     -   MCP servers
 
--   **[Security and privacy tab](https://www.servicenow.com/docs/access?context=security-privacy-tab&family=zurich&ft:locale=en-US)**
-    -   Identify ServiceNow® AI assets that impact your security posture using the ServiceNow® AI security score and AI insights. AI insights highlight key metric changes, recommend next steps, enabling you to quickly understand the impacts and take action.
-    -   Access and monitor security for AWS Bedrock agents running as privileged users, autonomous vs. supervised tools, and dormant agents.
-    -   Monitor sensitive data detection, prompt injection, and offensive content metrics to help identify and mitigate AI-driven security and compliance risks before they impact workflows or expose sensitive information. AI security tasks are created automatically from Dormant AI systems metrics to streamline your workflow and quickly resolve issues. You can also create AI security tasks directly from more areas, such as access issues and privileged AI agents metrics.
-    -   Review Autonomous vs. supervised systems metrics based on AI tools. Previously, the metrics were based on workflows.
-    -   Show Access issues metrics for only those agents with issues. Previously, agents with issues and no issues were shown.
-    -   See more details about agent access issues in the access map to help you troubleshoot quickly. For example, you can see the user ID of the user who executed the agent and the workflow and tool associated with the access issue, if applicable.
--   **[AI Gateway tab](https://www.servicenow.com/docs/access?context=ai-gateway-tab&family=zurich&ft:locale=en-US)**
-
-The **AI Gateway** tab shows the metrics at the MCP server level, listing all connected MCP servers along with the total number of transactions for each server and its success rate.
-
--   **[Data section on Configurations page](https://www.servicenow.com/docs/access?context=data&family=zurich&ft:locale=en-US)**
-
-See a read-only view of your data privacy configuration for sensitive data patterns in the Data privacy page. Use this page as a quick reference when troubleshooting sensitive data charts.
-
--   **[AI Task section on AI assets page](https://www.servicenow.com/docs/access?context=ai-assets&family=zurich&ft:locale=en-US)**
-
-Review all AI security tasks for your instance in the All Security Tasks page. You can also create an AI task on this page.
-
--   **[Enhance control of AI asset life cycle through change and offboarding requests](https://www.servicenow.com/docs/access?context=creating-ai-asset-requests&family=zurich&ft:locale=en-US)**
-
-Enhance the management of deployed AI assets by using the change request workflow to make necessary edits to AI assets that have already undergone review and onboarding. Furthermore, facilitate the retirement of AI assets by submitting an offboarding request, ensuring a structured and controlled process for removing assets that are no longer needed or have been superseded.
-
-
--   **[Health tab in AI Control Tower](https://www.servicenow.com/docs/access?context=aict-health-tab&family=zurich&ft:locale=en-US)**
-
-Monitor and evaluate the effectiveness of offensive content and prompt injection guardrails active on your AI assets.
-
-
--   **[AI strategy with Strategic Planning](https://www.servicenow.com/docs/access?context=ai-strategy-aict&family=zurich&ft:locale=en-US)\(Requires SPM\)**
-    -   Monitor and track your AI strategies and associated goals and targets.
-    -   Track the costs of your AI projects, epics, and demands.
-    -   Monitor key project risks, issues, decisions, actions, and changes.
--   **[AI strategy with Goal Framework](https://www.servicenow.com/docs/access?context=ai-strategy-aict&family=zurich&ft:locale=en-US) \(Requires SPM\)**
-
-Monitor and track your AI strategies and associated goals and targets.
-
--   **[AI connections](https://www.servicenow.com/docs/access?context=enterprise-ai-discovery&family=zurich&ft:locale=en-US)**
-    -   Discover and add AI agents and related models and tools to the AI inventory through integration with AWS Bedrock.
-    -   Discover and add AI agents and related models and tools to the AI inventory through integration with Azure AI Foundry.
-    -   Configure AI discovery setup and visibility of connections.
--   **[Value tab](https://www.servicenow.com/docs/access?context=aict-value-tab&family=zurich&ft:locale=en-US)**
-    -   Gain insights into the value realized from AI skills and features. The Value insights dashboard page gives you insights into the estimated productivity gains as a result of using AI systems.
-    -   Define and measure value relevant to your AI systems using customizable value templates.
-    -   Perform calculations and approximations for the read and write time saved by users using AI systems by using data points and timestamps from the invoking records.
-    -   Understand the key usage and performance indicators that help you evaluate the adoption of Now Assist in your organization.
-    -   Provide insights on success rate visualization by department, country, and AI assets along with the indicators for task closure efficiency.
--   **[Value templates](https://www.servicenow.com/docs/access?context=using-value-templates&family=zurich&ft:locale=en-US)**
-    -   Create, manage, and use templates from a Global Template Repository across multiple AI assets, so that you can standardize and streamline your AI experience, and track usage of AI systems, use cases, and skills more effectively.
-    -   Enable users to edit, view, and create customized value templates by enabling a value template assignment experience in inventory records.
-    -   Provide transparency to value calculations of each AI system through value templates.
-    -   Perform calculations and approximations for the read and write time saved by users using AI systems by using data point and timestamps from the invoking records.
--   **[Risk and compliance tab](https://www.servicenow.com/docs/access?context=risk-and-complaince-tab&family=zurich&ft:locale=en-US)**
-
-Display the risk classification of AI assets and the compliance posture for selected authority documents and policies through the **Risk and compliance** tab. This tab provides visibility into AI systems, models, and datasets. The Risk overview section uses visual charts to categorize AI assets.
-
-Review adherence to frameworks in the Compliance overview section. For example, adherence to the NIST AI Risk Management Framework or the EU Artificial Intelligence Act, presenting scores based on citations and control attestations that are set by the customer. You can filter data by authority documents or policies, view overall compliance percentages, and identify critical issues and AI cases tied to items deemed non-compliant by the customer.
-
-    -   Build trust in the AI asset inventory to effectively manage AI-related risks across the enterprise.
-    -   Drive enterprise-wide risk visibility by aggregating individual scores into a consolidated AI risk profile to support informed mitigation decisions.
-    -   Display real-time residual risk scores on the home page to help practitioners identify high-risk AI assets and prioritize mitigation actions.
-    -   Use enhanced impact assessment templates to help manage and oversee compliance with regulatory requirements.
-    -   Perform bulk control attestations using Core UI to validate multiple controls across AI assets, improving efficiency for large-scale assessments.
-    -   Adopt a proactive approach by leveraging comprehensive AI risk and compliance scoring across the entire AI asset inventory.
--   **[AI cases tab](https://www.servicenow.com/docs/access?context=ai-cases-tab-aict&family=zurich&ft:locale=en-US)**
-
-Gain a centralized overview of all your AI asset cases and inquiries by using the AI cases. On the **AI cases** tab, you see a list of records that include the case details such as the status, priority, owner, and timeline of your AI cases. You can monitor the progression of a case, stay informed about ongoing investigations, follow up on pending actions, and help to ensure timely resolutions. On this tab, you can also find filtering and sorting options that help you to prioritize cases that require immediate attention.
-
-    -   Use the enhanced home page to access a single, unified view of all AI-related cases and inquiries.
-    -   Track, manage, and respond to AI-related cases more efficiently through centralized case visibility.
--   **[Security and privacy tab](https://www.servicenow.com/docs/access?context=security-privacy-tab&family=zurich&ft:locale=en-US)**
-
-Review your AI security health metrics in the **Security and Privacy** tab. Use the access map for a comprehensive overview of agentic workflows, tools, and agent details. The map helps to show how AI agents interface with workflows and tools to accomplish a task. Additionally, you can analyze current AI access, investigate ongoing access issues, and review your AI usage metrics.
-
-Control which third-party models OEM by ServiceNow are enabled for Now Assist AI implementation and how they’re used.
-
--   **[Specify additional details during AI asset creation](https://www.servicenow.com/docs/access?context=creating-ai-assets&family=zurich&ft:locale=en-US)**
-
-Use the following fields to specify additional details about your AI systems, AI models, prompts, and datasets when you create AI assets:
-
-    -   AI systems:
-        -   Managed by
-        -   License details
-        -   Supported locations
-    -   AI models:
-        -   Managed by
-        -   License details
-        -   Supported locations
-    -   Prompts: Managed by
-    -   Datasets:
-        -   Managed by
-        -   Creation type
-        -   Department
-        -   Dataset creation date
-
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[Publish ServiceNow agents to Microsoft Agent 365](https://www.servicenow.com/docs/access?context=publish-servicenow-agents-to-microsoft-agent-365&family=australia&ft:locale=en-US)**
-
-Publish the ServiceNow Agents to Microsoft Agent 365 ensuring the ServiceNow agents are sent to external registries.
-
-    -   **[Service Graph Connectors for AI Control Tower](https://www.servicenow.com/docs/access?context=service-graph-connectors-for-ai-control-tower&family=australia&ft:locale=en-US)**
-
-AI Service Graph Connector for Databricks discover AI agents and import to AI Control Tower from Databricks environment.
-
 
 -   **[Security &amp; privacy tab in AI Governance](https://www.servicenow.com/docs/access?context=security-privacy-tab&family=australia&ft:locale=en-US)**
     -   Customize the AI asset security score by weighting LLM guardrail categories that comprise the score. The score formula was changed to an average across all AI assets. The score was renamed to the AI asset security score.
@@ -235,17 +137,17 @@ Specify the intended use and purpose of an AI system. Provide insight into who i
 
 Associate the following additional related AI asset types with your AI systems:
 
-    -   If an AI system has an Asset type of Generative AI or Agentic AI, you can associate it with any of its supported components or subsystems.
-    -   If an AI system has an Asset type of Agentic AI, you can associate it with any of its integrated AI tools.
+    -   If an AI system has an Asset type of generative AI or agentic AI, you can associate it with any of its supported components or subsystems.
+    -   If an AI system has an Asset type of agentic AI, you can associate it with any of its integrated AI tools.
 -   **[Create change and offboarding requests for additional AI asset types](https://www.servicenow.com/docs/access?context=creating-ai-asset-requests&family=australia&ft:locale=en-US)**
 
 Create change requests for the following additional AI asset types:
 
-    -   AI systems with an Asset type of Agentic AI
+    -   AI systems with an Asset type of agentic AI
     -   Datasets
 In addition, create offboarding requests for the following additional AI asset types:
 
-    -   AI systems with an Asset type of Agentic AI
+    -   AI systems with an Asset type of agentic AI
     -   AI models
     -   Datasets
     -   MCP servers
@@ -255,33 +157,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
--   **[AI connections](https://www.servicenow.com/docs/access?context=enterprise-ai-discovery&family=australia&ft:locale=en-US)**
-
-AI connections are created using AI Service Graph Connectors. AI connections are a combination of hyperscalers, AI apps, and agentic AI frameworks.
-
-The following AI Service Graph Connectors are available from March 2026
-
-    -   [AWS](https://www.servicenow.com/docs/access?context=aws_0&family=australia&ft:locale=en-US)
-    -   [Microsoft](https://www.servicenow.com/docs/access?context=microsoft&family=australia&ft:locale=en-US)- Azure Foundry and Copilot
-    -   [Google Cloud Platform \(GCP\) Vertex AI](https://www.servicenow.com/docs/access?context=gcp-vertex-ai&family=australia&ft:locale=en-US)
-    -   [n8n](https://www.servicenow.com/docs/access?context=n8n&family=australia&ft:locale=en-US)
-    -   [LangGraph](https://www.servicenow.com/docs/access?context=langgraph&family=australia&ft:locale=en-US)
-    -   [Salesforce](https://www.servicenow.com/docs/access?context=salesforce&family=australia&ft:locale=en-US)
--   **[Managed and unmanaged AI assets](https://www.servicenow.com/docs/access?context=assets-list-managing-and-unmanaging-assets&family=australia&ft:locale=en-US)**
-
-Managed assets benefit from AI Control Tower features such as governance, lifecycle management, value assessment, risk classification, security, and privacy. Unmanaged assets, on the other hand, do not have access to these AI Control Tower capabilities.
-
--   **[AI Gateway](https://www.servicenow.com/docs/access?context=ai-gateway-overview&family=australia&ft:locale=en-US)**
-
-AI Gateway offers MCP Global Clients, which can be used across all servers.
-
-A Gateway offers MCP Catalog to choose while adding MCP servers.
-
-MCP server can be added to an AI Asset inventory from AI Control Tower.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -303,21 +180,27 @@ Zurich
 
 </td><td>
 
--   **[Security and privacy tab](https://www.servicenow.com/docs/access?context=security-privacy-tab&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Drop-down menu for associating AI assets with related assets](https://www.servicenow.com/docs/access?context=view-ai-assets-lifecycle-stage&family=zurich&ft:locale=en-US)**
+
+The **Add new** button in AI asset creation forms and records is now the **Add from inventory** drop-down menu. Select **Add from inventory** to associate an AI asset with a related asset that already exists in your inventory. Select **Create** to associate it with a related asset that doesn't exist in your inventory yet.
+
+-   **[Editable asset details fields on the Details tab of AI asset records](https://www.servicenow.com/docs/access?context=view-ai-assets-lifecycle-stage&family=zurich&ft:locale=en-US)**
+
+You can now modify asset details fields directly on the **Details** tab of your AI asset records.
+
+-   **[Related asset lists in AI asset records](https://www.servicenow.com/docs/access?context=view-ai-assets-lifecycle-stage&family=zurich&ft:locale=en-US)**
+
+The lists of related assets in each AI asset record has moved from the **Related assets** tab to the **Details** tab.
+
+
+ -   **[Security and privacy tab](https://www.servicenow.com/docs/access?context=security-privacy-tab&family=zurich&ft:locale=en-US)**
     -   The Autonomous vs. supervised AI tools chart has been removed.
     -   The Prompt injection, Offensive content, and Sensitive data tabs have been removed and replaced by Access and Guardrails tabs. Metrics have been reorganized into those two tabs.
     -   In **Configurations**, under **Data**, the **Data privacy** tab was renamed to **Security &amp; privacy**. In that tab, the data leak detection and anonymization section was renamed to sensitive data input and anonymization.
-
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
-
-Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
-
--   **[Changes in Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)**
-    -   The AI asset inventory plugin structure has been updated.
-    -   Product owner view: Added a role called AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\], which enables the Product Owner view experience with a personalized home page and enhanced visibility into AI assets to simplify task management.
-    -   AI discovery: The Innovation lab store application \(AWS AI discovery plugin\) is decommissioned. Uninstall the AWS AI discovery plugin prior to installing the AI discovery plugin \(sn\_ai\_disc\).
-    -   AI cases management has moved under the **AI cases** tab on the AI Control Tower home page.
 
 </td></tr><tr><td>
 
@@ -325,13 +208,9 @@ Australia
 
 </td><td>
 
--   **[Additional regulatory frameworks in the AI Risk and Compliance content pack](https://www.servicenow.com/docs/access?context=airc-content-pack&family=australia&ft:locale=en-US)**
+-   **[AI record type label](https://www.servicenow.com/docs/access?context=view-ai-assets-lifecycle-stage&family=australia&ft:locale=en-US)**
 
-After AI Risk and Compliance is updated to version 22.3.0 and the new frameworks are activated, authority documents, agency mappings, and citations for the Transparency in Frontier Artificial Intelligence Act \(SB 53\) and the Colorado Artificial Intelligence Act \(SB 205\) appear in the compliance posture and related views on the **Risk and compliance** tab. For more information, see [AI Risk and Compliance release notes](https://www.servicenow.com/docs/access?context=grc-ai-risk-and-compliance-rn&family=australia&ft:locale=en-US), [Content pack](https://www.servicenow.com/docs/access?context=airc-content-pack&family=australia&ft:locale=en-US), [Activate or update the Transparency in Frontier Artificial Intelligence Act \(SB 53\)](https://www.servicenow.com/docs/access?context=activate-or-update-sb53&family=australia&ft:locale=en-US), and [Activate or update the Colorado Artificial Intelligence Act](https://www.servicenow.com/docs/access?context=activate-or-update-colorado-ai-act&family=australia&ft:locale=en-US).
-
--   **[Impact assessment field auto-population](https://www.servicenow.com/docs/access?context=airc-intake&family=australia&ft:locale=en-US)**
-
-After upgrading to version 22.3.5, if you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] or AI risk and compliance business user \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] role, the screening question responses that capture the AI system's intended use and operational context from the Use and Purpose section of the AI use case request form are automatically populated in the corresponding Use and Purpose fields of a new impact assessment. This synchronization reduces manual entry and helps ensure that impact assessment responses are consistent with the information submitted at intake. For more information, see [AI Risk and Compliance release notes](https://www.servicenow.com/docs/access?context=grc-ai-risk-and-compliance-rn&family=australia&ft:locale=en-US) and [Intake requests](https://www.servicenow.com/docs/access?context=airc-intake&family=australia&ft:locale=en-US).
+The AI assets \(sn\_grc\_ai\_gov\_ai\_system\) table has been renamed to AI records \(sn\_grc\_ai\_gov\_ai\_system\). The **Record type** field on AI system, AI model, and dataset records in the AI Control Tower inventory now displays **AI record** instead of the previous asset-specific labels.
 
 
 </td></tr></tbody>
@@ -361,12 +240,7 @@ Australia
 
 </td><td>
 
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US) The Autonomous vs. supervised AI tools chart has been removed from the Security &amp; privacy tab.
-
-[Early availability](https://www.servicenow.com/docs/access?context=australia-all-other-fixes&family=australia&ft:locale=en-US)
-
--   Adding legacy AI connections via Service Graph Connectors \(SGC\) is deprecated. In AI connections, under Legacy connections, the **New** button has been removed to block users from creating new connections using SGC.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -387,7 +261,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
@@ -395,7 +272,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   AI Control Tower \(legacy\) removed in [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US):
+
+The Autonomous vs. supervised AI tools chart has been removed from the Security &amp; privacy tab.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -416,7 +296,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install AI Control Tower by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -424,7 +307,10 @@ Australia
 
 </td><td>
 
-Install AI Control Tower by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install AI Control Tower by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -482,7 +368,7 @@ Australia
 
 </td><td>
 
-The AI Control Tower application supports all browsers.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -503,7 +389,8 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
+-   **Accessibility information**
+    -   **Dark theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
@@ -514,7 +401,7 @@ Australia
 
 </td><td>
 
-The AI Control Tower application supports all platform accessibility features.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Localization information
@@ -543,7 +430,7 @@ Australia
 
 </td><td>
 
-The AI Control Tower application is localized.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Highlight information
@@ -564,9 +451,46 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 8](https://www.servicenow.com/docs/access?context=zurich-patch-8&family=zurich&ft:locale=en-US)Configure and create automation rules to set AI assets as managed assets.
+AI Control Tower highlights in Zurich patch 13:
 
- [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
+-   Detect unsanctioned AI usage across your enterprise and apply policies to control it.
+-   Apply policies to block AI activity and respond to AI threats.
+-   Add evaluation metrics for a specific AI system without changing your organization's global metric configuration.
+-   Discard session, trace, and span data to reduce storage usage, while retaining quality and safety scores.
+-   Use AI Control Tower on a domain-separated instance.
+-   Starting in the September 2026 release, AI Gateway is available in AI Control Tower.
+-   The MCP and CIMD registered clients can be edited to update their configuration from the AI Gateway Setup tab.
+-   The AI Gateway proxy URL format has changed. The new format is:
+
+`https://<instance-url>/sncapps/aigw/mcp/<mcp-server>`
+
+Previously, the URL format was:
+
+`https://<instance-url>/sncapps/awh/<mcp-server>/mcp`
+
+
+ AI Control Tower highlights in [Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US):
+
+-   Manage your AI governance work in a redesigned AI Control Tower experience that lets you find information and complete tasks using natural language.
+-   Resolve important issues using auto-generated recommendations and AI insights that direct your attention to the AI governance work that matters most.
+-   Detect quality and safety regressions in AI systems before they escalate, using automated scoring and trend analysis for AI interactions in production.
+-   Use ServiceNow Otto premium chat in AI Control Tower for a better conversational experience with unified search and chat capabilities, including integrated web search and file uploads.
+-   Contain rogue AI agents by using kill switch protocol to limit damage, preserve your security posture, and provide business continuity for your users.
+-   Make a managed AI agent discoverable to external systems by publishing it to the External Registry. The Microsoft integration provides two methods to publish an agent so that Microsoft can discover it.
+    -   Publish agents from the AI asset record page.
+    -   Publish agents while onboarding an asset.
+-   Detect AI assets in your inventory that perform the same function using deduplication. Deduplication enables AI stewards to review and consolidate redundant entries instead of governing them independently.
+-   ServiceNow Otto is the new AI experience brand. This change is reflected in AI Control Tower. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   The AI Control Tower home page includes a Guided Setup widget that walks you through the initial configuration of AI Control Tower.
+-   AI Service Graph Connectors integrate with AI Control Tower to create AI connections for discovering AI assets and tracking data usage. For information about connectors, prerequisites, and the configuration process, see [AI Control Tower- AI Discovery Connectors \[KB2986990\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB2986990) article in the Now Support Knowledge Base.
+-   AI Service Graph Connectors and versions available for August 2026 release:
+    -   AI Service Graph Connector for Microsoft \(version 3.1.6\)
+    -   AI Service Graph Connector for GCP Vertex AI \(version 1.2.3\)
+    -   AI Service Graph Connector for Anthropic \(version 2.0.6\)
+
+ AI Control Tower \(legacy\) highlights in [Zurich Patch 8](https://www.servicenow.com/docs/access?context=zurich-patch-8&family=zurich&ft:locale=en-US): Configure and create automation rules to set AI assets as managed assets.
+
+ AI Control Tower \(legacy\) highlights in [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US):
 
 -   Use new security metrics to monitor your LLM and AI agent output for potential security and content policy violations, potential PII, and other potential threats.
 -   Gain visibility into MCP client-server interactions routed through this instance’s AI Gateway.
@@ -584,9 +508,9 @@ Zurich
 -   AI Gateway offers MCP Catalog to choose while adding MCP servers.
 -   MCP server can be added to an AI Asset inventory from AI Control Tower.
 
- [Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich&ft:locale=en-US) Review changes to Now Assist usage measurement.
+ AI Control Tower \(legacy\) highlights in [Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich&ft:locale=en-US): Review changes to Now Assist usage measurement.
 
- [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+ AI Control Tower \(legacy\) highlights in [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US):
 
 -   Identify ServiceNow® AI assets that impact your security posture using the ServiceNow® AI security score and AI insights.
 -   Access and monitor security for AWS Bedrock agents running as privileged users, autonomous vs. Supervised tools, and dormant agents.
@@ -596,14 +520,16 @@ Zurich
 -   Discover AI assets built and deployed in Google Cloud Platform \(GCP\) Vertex AI, Copilot Studio, and Azure AI Foundry.
 -   AI Gateway enables enterprises to actively manage, govern, and observe their MCP traffic, ensuring secure operation of agentic workflows across enterprise boundaries.
 
- [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+ AI Control Tower \(legacy\) highlights in [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US):
 
--   Monitor the performance of guardrails enabled through Now Assist Guardian using the **Health** tab.
+-   Monitor the performance of guardrails enabled through AI Guardian using the **Health** tab.
 -   Measure and improve the quality of interactions with virtual agents using the **Evaluation** tab.
 -   Display data based on the chosen allowed model providers and the status of the fallback in the Impact Summary table on the AI model providers section.
 -   Synchronize AI agents automatically when an AI asset is synchronized.
 
- -   Enhance the Product Owner experience with a personalized home page, value management tools to manage AI investments, and enhanced visibility into AI assets to simplify task management.
+ AI Control Tower \(legacy\) highlights in Zurich:
+
+-   Enhance the Product Owner experience with a personalized home page, value management tools to manage AI investments, and enhanced visibility into AI assets to simplify task management.
 -   Evaluate AI productivity and adoption across the enterprise using defined value metrics and performance indicators to drive data-informed decisions and maximize AI impact.
 -   Access and security monitoring for ServiceNow® AI agents, especially around access issues, agents running as privileged users and dormant agents.
 -   Discover AI assets built and deployed in AWS Bedrock and Azure Foundry.
@@ -612,7 +538,9 @@ Zurich
 -   Monitor performance, track progress, and make informed decisions related to your AI strategies, goals, targets, and the associated work from the **AI strategy** tab.
 -   Track costs of your AI projects, epics, demands, and track key project risks, issues, decisions, actions, and changes from the **AI strategy** tab.
 
- See [AI Governance](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&family=zurich&ft:locale=en-US) for more information.
+ For more information on the new AI Control Tower experience, see [AI Governance](https://www.servicenow.com/docs/access?context=aict-landing&family=zurich&ft:locale=en-US).
+
+ For more information on the legacy AI Control Tower experience, see [AI Governance \(legacy\)](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&family=zurich&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -620,7 +548,59 @@ Australia
 
 </td><td>
 
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+AI Control Tower highlights in Australia patch 6:
+
+-   Detect unsanctioned AI usage across your enterprise and apply policies to control it.
+-   Apply policies to block AI activity and respond to AI threats.
+-   Add evaluation metrics for a specific AI system without changing your organization's global metric configuration.
+-   Discard session, trace, and span data to reduce storage usage, while retaining quality and safety scores.
+-   Use AI Control Tower on a domain-separated instance.
+-   AI Inventory Intelligence Agent analyzes the AI asset inventory, identifies assets with incomplete metadata, and generates enrichment recommendations to improve data quality and governance readiness.
+-   The GCP Vertex AI connector is renamed to Gemini Enterprise Platform Agent
+-   The AI Service Graph Connector for GCP application is renamed to AI Service Graph Connector for Google.
+-   The Salesforce connector is renamed to AI Connector for Salesforce.
+-   The Microsoft connector introduces A365 agent platform to discover and import AI assets into ServiceNow AI Control Tower.
+-   Starting in the September 2026 release, AI Gateway is available in AI Control Tower.
+-   The MCP and CIMD registered clients can be edited to update their configuration from the AI Gateway Setup tab.
+-   The AI Gateway proxy URL format has changed. The new format is:
+
+`https://<instance-url>/sncapps/aigw/mcp/<mcp-server>`
+
+Previously, the URL format was:
+
+`https://<instance-url>/sncapps/awh/<mcp-server>/mcp`
+
+
+ AI Control Tower highlights in [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US):
+
+-   Manage your AI governance work in a redesigned AI Control Tower experience that lets you find information and complete tasks using natural language.
+-   Resolve important issues using auto-generated recommendations and AI insights that direct your attention to the AI governance work that matters most.
+-   Detect quality and safety regressions in AI systems before they escalate, using automated scoring and trend analysis for AI interactions in production.
+-   Use ServiceNow Otto premium chat in AI Control Tower for a better conversational experience with unified search and chat capabilities, including integrated web search and file uploads.
+-   Contain rogue AI agents by using kill switch protocol to limit damage, preserve your security posture, and provide business continuity for your users.
+-   Make a managed AI agent discoverable to external systems by publishing it to the External Registry. The Microsoft integration provides two methods to publish an agent so that Microsoft can discover it.
+    -   Publish agents from the AI asset record page.
+    -   Publish agents while onboarding an asset.
+-   Detect AI assets in your inventory that perform the same function using deduplication. Deduplication enables AI stewards to review and consolidate redundant entries instead of governing them independently.
+-   ServiceNow Otto is the new AI experience brand. This change is reflected in AI Control Tower. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   The AI Control Tower home page includes a Guided Setup widget that walks you through the initial configuration of AI Control Tower.
+-   AI Service Graph Connectors integrate with AI Control Tower to create AI connections for discovering AI assets and tracking data usage. For information about connectors, prerequisites, and the configuration process, see [AI Control Tower- AI Discovery Connectors \[KB2986990\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB2986990) article in the Now Support Knowledge Base.
+-   AI Service Graph Connectors and versions available for August 2026 release:
+    -   AI Service Graph Connector for Microsoft \(version 3.1.7\)
+    -   AI Service Graph Connector for GCP Vertex AI \(version 1.2.4\)
+    -   AI Service Graph Connector for Anthropic \(version 2.0.7\)
+-   Model Preview Program \(MPP\) is an opt-in program that gives eligible users an early access to AI models that aren't yet Generally Available \(GA\).
+
+ AI Control Tower \(legacy\) highlights in [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US):
+
+-   The AI asset list in AI Inventory includes Asset State and Asset Status columns.
+-   The system assigns a unique ID to every asset. The ID appears in the Asset tag field under Asset details.
+-   AI Service Graph Connectors for OpenAI, Moveworks, IBM, and OCI are available in AI Control Tower for AI connections.
+-   The AI Service Graph Connector for OpenAI discovers AI models and tracks model usage.
+-   When you mark a managed asset as unmanaged, the asset's active workflows, tasks, and governance processes are canceled, and the asset is excluded from value tracking.
+-   When you mark an unmanaged asset as managed, the asset is actively monitored and governed, making it visible and eligible for governance workflows and value tracking.
+
+ AI Control Tower \(legacy\) highlights in [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US):
 
 -   Customize the AI asset security score calculation to reflect your security requirements.
 -   Use new security metrics to monitor your LLM and AI agent output for potential security and content policy violations, potential PII, and other potential threats.
@@ -629,16 +609,18 @@ Australia
 -   Manage the end-to-end life cycles of your agentic AI systems.
 -   Define the intended use and purpose of an AI system so that you can determine its benefits and risks.
 
- [Early availability](https://www.servicenow.com/docs/access?context=australia-all-other-fixes&family=australia&ft:locale=en-US)
+ AI Control Tower \(legacy\) highlights in [Early availability](https://www.servicenow.com/docs/access?context=australia-all-other-fixes&family=australia&ft:locale=en-US):
 
 -   AI assets—including AI models, AI systems, prompts, datasets, and MCP servers can be categorized as either managed or unmanaged.
 -   AI connections are introduced in AI Control Tower using Service Graph Connectors \(SGC\).
 -   The AI model providers supported by ServiceNow contains providers such as Now LLM Service, AWS Claude, Now LLM LTS model, and so on.
 -   The AI model providers configured by your organization contains providers such as Perplexity, IBM Watson, and so on.
 -   AI Gateway offers Global MCP clients, which once created can be used across all MCP servers.
--   A Gateway offers MCP Catalog to choose while adding MCP servers into AI Control Tower.
+-   AI Gateway offers MCP Catalog to choose while adding MCP servers into AI Control Tower.
 
- For more information on AI Control Tower, see [AI Governance](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&family=australia&ft:locale=en-US).
+ For more information on the new AI Control Tower experience, see [AI Governance](https://www.servicenow.com/docs/access?context=aict-landing&family=australia&ft:locale=en-US).
+
+ For more information on the legacy AI Control Tower experience, see [AI Governance \(legacy\)](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)

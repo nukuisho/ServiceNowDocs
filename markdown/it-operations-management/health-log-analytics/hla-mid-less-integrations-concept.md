@@ -35,7 +35,7 @@ This architecture relies on two components:
 
 -   **JSON Web Token \(JWT\)**
 
-    A secure, time-limited token used to authenticate the data stream between your log source and the ServiceNow datacenter. JWT authentication removes the requirement to store credentials such as AWS keys directly on your ServiceNow instance. For more information, see [Configure a JSON Web Token \(JWT\) provider and token for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md).
+    A secure, time-limited token used to authenticate the data stream between your log source and the ServiceNow datacenter. JWT authentication removes the requirement to store credentials such as AWS keys directly on your ServiceNow instance. For more information, see [Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md).
 
 
 ## Supported MID-less integrations
@@ -65,12 +65,14 @@ Consider MID-less integrations when your organization wants to:
 -   Stream log data from cloud-native sources, such as Amazon Data Firehose or Microsoft Azure Event Hubs, where a MID Server intermediary adds unnecessary complexity
 -   Avoid storing third-party credentials on the ServiceNow instance
 
-## Considerations
-
 Before choosing a MID-less integration, review the following:
 
 -   MID-less integrations require ITOM Gateway. You must set up and configure ITOM Gateway before activating any MID-less integration. For more information, see [MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md).
 -   If your deployment requires on-premises data collection, bidirectional communication, or integration types not yet supported in MID-less mode, a MID Server based integration may be more appropriate.
+
+## MID-less integration setup from an MCP Client
+
+Set up MID-less integrations for HLA from an AI-enabled MCP Client without opening the ServiceNow UI. This capability requires the ITOM MCP Server Console to be active on your instance. In addition, your MCP Client must be connected to the ITOM MCP Server Console with valid OAuth credentials. For more information, see [MID-less log ingestion for HLA from an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-mcp-server-hla-ingest.md).
 
 **Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
 

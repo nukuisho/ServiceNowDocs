@@ -1,6 +1,6 @@
 ---
-title: Now Assist AI agents
-description: The ServiceNow Now Assist AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
+title: AI Agent Studio \(legacy\)
+description: The ServiceNow AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-ai-agents.html
 release: australia
@@ -10,21 +10,21 @@ reading_time_minutes: 4
 breadcrumb: [Enable AI experiences]
 ---
 
-# Now Assist AI agents
+# AI Agent Studio \(legacy\)
 
-The ServiceNow® Now Assist AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
+The ServiceNow® AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 
-\[Omitted video\] Description: Now Assist AI agents overview video.
+\[Omitted video\] Description: AI Agent Studio overview video.
 
 Learn more about the concepts behind AI agents and how they can help fit your specific business needs.
 
 ## Get started
 
-Select a tile to get started with Now Assist AI agents.
+Select a tile to get started with AI agents.
 
 <table id="table_aj4_wxf_ldc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about AI agents and AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
 
 </td><td>
 
@@ -32,7 +32,7 @@ Select a tile to get started with Now Assist AI agents.
 
 </td><td>
 
-[Create an AI agent\[Omitted image "bus-virtual-agent.svg"\] Alt text:Create your own custom AI agents with advanced multi-agent reasoning frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md)
+[Create an AI agent\[Omitted image "bus-virtual-agent.svg"\] Alt text:Create your own custom AI agents conversationally or manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md)
 
 </td></tr><tr><td>
 
@@ -40,14 +40,14 @@ Select a tile to get started with Now Assist AI agents.
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn more about the user roles, tables, and properties in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn more about the user roles, tables, and properties for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+</table>There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Important:**
 
@@ -66,7 +66,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

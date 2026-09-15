@@ -17,7 +17,7 @@ This page provides detailed information of an engagement including internal and 
 To view this page, follow these steps:
 
 1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
-2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workpace** and select the **List** icon.
+2.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workpace** and select the **List** icon.
 3.  Navigate to **Customer Success** &gt; **All Engagements** and select **Number** column to open the engagement record. You can also navigate to this page from the [Success portfolio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-landing.md).
 
 The following options are available:
@@ -47,9 +47,10 @@ This tab provides a high-level overview of the engagement. It includes the follo
 
 -   Header: The header section shows the health score of the engagement over the last six weeks and the last active touchpoint.
 -   Engagement details: Shows the contract value, engagement stage, go-live date, account with which it’s associated, and the renewal date. Select the Edit icon to modify the engagement details and select **Save**.
--   Customer team: Shows the key customer contact that you have specified for this engagement. This information is also displayed in the Related Items section under Applicable Customer Teams.
+-   Customer team: The key customer contacts for this engagement are available in the contextual side panel. Select the **Customer contacts** icon in the contextual side panel to view contact details.
 -   Squad: Shows the squad members associated with the engagement.
 -   Account team: The team members handling the account. This information is also displayed in the Related Items section under Applicable Account Teams.
+-   Engagement updates: An AI-generated brief that summarizes recent signals for this engagement, organized by category such as Risks, Declining metrics, and Opportunities. The brief loads automatically on page open and is cached for 15 days. Select the refresh icon to generate a new brief. For more information, see [Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md).
 -   Upcoming touchpoints: Shows any upcoming touchpoints for this engagement. Select the link to drill down to the Touchpoint record page.
 -   Risk signals and issues: Shows any new, overdue, high priority, or unaddressed risks or issues.
 -   Work items: This section shows the activities and tasks associated with this engagement. You can sort the list by Priority or Due Date. You can view all the work items or view items belonging to a specific category by selecting one of the following filters from the **View** drop-down list:
@@ -134,7 +135,7 @@ The customer timeline tracks and shows all the related activities of the engagem
 
 \[Omitted image "customer-timeline-engagement.png"\] Alt text: customer timeline.
 
-To configure the activities in the engagement record, see .
+To configure the activities in the engagement record, see [Configure activity types for the Customer History view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-activity-types-ca.md).
 
 ## Contextual side panel component
 
@@ -150,26 +151,21 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-**Recommended Actions**
+**Recommendations**
 
 </td><td>
 
-The Recommended Actions tab includes AI search functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues. The following options are available:-   Suggested actions: A list of recommended success plays available for the engagement are displayed. See [View and execute recommended actions for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-360-view-reco-actions.md) for details.
+-   **Search**: The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. You can enter different search keywords and repeat the search and do the following:
+    -   Select a source to see search results of that type.
+    -   Filter and sort the list of search results.
+    -   Open the search results in full view in a record subtab.
+    -   Take the following actions:
+        -   View and attach article
+        -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
+    -   **Actions History**: Select the History icon to view actions that have been successfully completed.
 
-From the list of search results, agents can do the following:
-
--   Select a source to see search results of that type.
--   Filter the list of search results.
--   Sort the list of search results.
--   Open the search results in full view in a record subtab.
--   Take the following actions:
-    -   View and attach article
-    -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
--   View successful actions by selecting the Actions history icon.
-
-For more information, see .
-
-**Note:** Using Recommended Actions in the contextual side panel requires the Recommended Actions application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 
@@ -203,7 +199,7 @@ The Attachments tab provides access to case-related attachments. From this tab, 
 
 </td><td>
 
-The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body.
+The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. Default values can include recipients \(email addresses in the To, Cc, and Bcc fields\), sender, subject, and message body text.
 
 </td></tr><tr><td>
 
@@ -230,5 +226,10 @@ The Record Information tab shows overview of the engagement record.
 The Customer timeline tab shows visual display of the Engagement records activities.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+</table>-   **[Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md)**  
+The engagement brief summarizes recent signals across risk, adoption, and market activity for a specific engagement.
+-   **[View and execute recommended actions for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-360-view-reco-actions.md)**  
+Open the **Recommendations** panel from an engagement record to review AI-generated success play suggestions and execute or dismiss a recommended play without leaving the engagement context.
+
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

@@ -1,41 +1,28 @@
 ---
-title: Using the asset inventory in Now Assist Center
+title: Managing AI assets in AI Admin Center
 description: The asset inventory lists the AI assets in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-using-asset-inventory.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Use, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
-# Using the asset inventory in Now Assist Center
+# Managing AI assets in AI Admin Center
 
 The asset inventory lists the AI assets in your instance.
 
-These assets include Now Assist AI capabilities such as AI skills, AI agents, and AI agentic workflows. They also include conversational components that you can use to build an LLM conversation such as topics, subflows, actions, and virtual assistants.You can also view your datasets, knowledge graphs, and catalog items in the asset inventory.
+These assets include AI capabilities such as AI skills, AI agents, and AI agentic workflows. They also include conversational components that you can use to build an LLM conversation such as topics, subflows, actions, and virtual assistants.You can also view your datasets, knowledge graphs, and catalog items in the asset inventory.
 
 \[Omitted image "now-assist-center-asset-inventory-overview-2.png"\] Alt text: Asset inventory in Now Assist Center.
 
--   **[View your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-assets.md)**  
-Use the asset library to view the AI assets in your instance.
+-   **[View and manage your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-assets.md)**  
+Use the asset library to view and manage the AI assets in your instance.
 -   **[Create an AI asset in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-create-asset.md)**  
 Use the asset library to create AI assets in your instance.
 
-**Parent Topic:**[Using Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-center.md)
-
-**Related topics**  
-
-
-[Using the conversational experience in Now Assist Center]()
-
-[Activating actionable use cases from Now Assist Center]()
-
-[Using Now Assist Readiness Evaluation in Now Assist Center]()
-
-[Using AI Agent Advisor in Now Assist Center]()
-
-[Using other Now Assist applications and features from Now Assist Center]()
+**Parent Topic:**[Setting up AI capabilities and configurations in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-admin-center-setting-up-ai.md)
 

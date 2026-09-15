@@ -9,7 +9,7 @@ classification: itom-cloud-accelerate
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Cloud Configuration Governance policies, Using Cloud Configuration Governance, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Cloud Configuration Governance policies, Use, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create a configuration collector
@@ -46,7 +46,7 @@ Refer to a base system configuration collector as an example for creating the co
 
         For more information on the available CAL actions, see [Cloud Action Library actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-cal-actions.md).
 
-        If CAL doesn’t have the required action, you can refer to an existing CAL action and use the Integration Hub REST step to implement the custom action. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/rest-request-action-designer.md).
+        If CAL doesn’t have the required action, you can refer to an existing CAL action and use the Integration Hub REST step to implement the custom action. For more information, see REST step.
 
     4.  Add the **CCG – Insert Configuration Settings** action to insert the configuration data to the Configuration Management Database \(CMDB\).
 

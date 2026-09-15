@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Set up additional CSM workspace features
@@ -53,7 +53,7 @@ Use this feature to track the digital services used by your customers and to pro
 
 </td></tr><tr><td>
 
-[Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-playbooks.md)
+[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)
 
 </td><td>
 

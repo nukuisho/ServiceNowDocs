@@ -55,7 +55,7 @@ When you log out of the ServiceNow instance, the message `Disconnected` appears 
 
     The confirmation message appears in the browser extension: `Connected`.
 
-    \[Omitted image "na-ai-wa-install-browser-extension-connectedZ.png"\] Alt text: The browser extension, installed and connected to a ServiceNow instance.
+    \[Omitted image "extension.png"\] Alt text: The browser extension, installed and connected to a ServiceNow instance.
 
     Verify that you're connected to the ServiceNow® instance that has at least one AI agent that uses one or more adaptive desktop actions.
 
@@ -68,5 +68,5 @@ When you log out of the ServiceNow instance, the message `Disconnected` appears 
 
 After installing the browser extension, configure websites that AI agents can access for automating web tasks. For detailed instructions, see [Configure allowed websites for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-configure-allowed-websites.md).
 
-**Parent Topic:**[Configuration for adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-adaptive-path-da.md)
+**Parent Topic:**[Configuration for adaptive path desktop actions for web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-adaptive-path-da.md)
 

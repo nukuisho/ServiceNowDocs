@@ -48,6 +48,10 @@ Moving and resizing bubbles in the bubble chart updates the corresponding values
 
 [Create a demand]()
 
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
+
 [View demands]()
 
 [Add details to demands]()
@@ -62,9 +66,7 @@ Moving and resizing bubbles in the bubble chart updates the corresponding values
 
 [PPM PIWB template - Find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
-
-[Summarize demands with demand summarization skill]()
-
 [Associate AI systems with demands]()
+
+[Work with demands in Employee Slate]()
 

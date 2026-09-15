@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-25"
 reading_time_minutes: 4
-breadcrumb: [Defined desktop actions, Configure, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Defined desktop actions for desktop, Configure, AI Desktop Actions, Enable AI experiences]
 ---
 
 # Enable AI agents to securely access parameters in AI Desktop Actions
@@ -73,7 +73,7 @@ The following rules apply to parameter mapping:
 -   The same Parameter record can be mapped to multiple inputs.
 -   Each input can only be mapped to one Parameter record.
 
-**Note:** If you specify values for inputs configured for parameters in the agent instructions or in the Now Assist panel, the mapped parameter values override them.
+**Note:** If you specify values for inputs configured for parameters in the agent instructions or in the ServiceNow Otto panel, the mapped parameter values override them.
 
 **Important:**
 

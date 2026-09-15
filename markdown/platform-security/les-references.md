@@ -16,6 +16,8 @@ Find all the miscellaneous information about LES in the reference section.
 
 -   **[Log Export Service roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-roles.md)**  
 Log Export Service is installed with these roles.
+-   **[Log Export Service actions and required roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-actions-roles.md)**  
+Log Export Service uses role-based access control to restrict actions to authorized users.
 
 **Parent Topic:**[Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-intro.md)
 

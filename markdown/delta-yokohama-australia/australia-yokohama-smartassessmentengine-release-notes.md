@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-smartassessmentengine-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -130,47 +130,12 @@ Capture data quickly and accurately from physical documents using a new barcode 
 
 Migrate question dependencies with an improved migration utility, which now supports the check box question type and conditional visibility criteria defined on templates.
 
--   **[Combining assessments and copying responses](https://www.servicenow.com/docs/access?context=combine-assessments&family=zurich&ft:locale=en-US)**
-
-Combine assessments from different templates into a single, streamlined view. Eliminating the need to open each assessment separately, preserving context, and improving efficiency.
-
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[Now Assist](https://www.servicenow.com/docs/access?context=now-assist-for-smart-assessment-engine&family=australia&ft:locale=en-US)**
-
-Starting with version 22.3.5, responders can use AI Response Assist to draft answers to assessment questions and auto-apply the top suggestion — drawing from multiple sources with citations instead of starting from scratch.
-
-    -   **Previous assessments:** Reuse answers from past SAE and classic assessments, eliminating re-entry across annual refreshes, new regulations, and recurring questionnaires.
-    -   **Documents:** Generate answers from documents attached to the assessment or pulled from a document management system \(DMS\). Responders can upload or select PDF, Word, and image \(up to 5 documents, 200 pages each\), preview the document, and trace each answer to a source snippet within the original document.
-Responders choose suggestion only mode \(review each suggestion with Apply or Discard\) or Auto-apply mode \(the top suggestion is applied to each question automatically\). Either way, responders can edit any answer before submission.
-
--   **[Embedded assessments](https://www.servicenow.com/docs/access?context=embedded-assessments&family=australia&ft:locale=en-US)**
-
-Starting with version 22.3.X, bring assessments directly into the parent workflow. Embedded assessments run inside host record pages, playbooks, and workflow, letting respondents complete their work without leaving the parent context. Configuration is per template category and doesn't require code change. Embedded assessments inherit read access from the parent record—only users with read access to the parent record can read the embedded assessment.
-
--   **[Template versioning](https://www.servicenow.com/docs/access?context=template-versioning&family=australia&ft:locale=en-US)**
-
-Starting with version 22.3.X, update published assessment templates without copying and deprecating the original. When a template manager publishes a new version, the prior version is automatically retired and future assessments use the new version. Template versioning preserves auditability for in-flight assessments while letting template managers publish new versions to reflect corrections, regulatory changes, or annual content refreshes.
-
-    -   A version-info bar on every published template shows the current version and exposes a create new version action that returns the template to Draft.
-    -   A full version history view captures who created each version, when, and which prior version it was branched from.
-    -   A new Delete template version action is available from the version actions menu.
--   **[SAE Enhancements](https://www.servicenow.com/docs/access?context=sae-template-designer&family=australia&ft:locale=en-US)**
-
-These SAE enhancements are available in version 22.3.X and later:
-
-    -   Flag individual questions that need attention with a single click. Flags move through three states—Flagged, Resolved, and Unflagged—and every transition is captured in the assessment activity log.
-    -   Add comments at the question level so responders, reviewers, and collaborators can resolve clarifications inline instead of relying on email or external tools. A new Work Notes tab next to the Comments tab provides a separate, role-gated conversation for reviewers or administrators.
-    -   Hide conditional questions that don't meet their visibility criteria so responders see only the questions relevant to them, eliminating **Skipped** clutter and reducing assessment fatigue.
-    -   Scroll continuously through questions within a section or sub-section instead of paginating, giving responders an uninterrupted answer flow.
-    -   Apply multiple filters at once on the question list \(for example, **Unanswered** + **Flagged** + **With comments**\) to focus on exactly the questions that need attention.
-    -   View scope item fields directly in the assessment task list so reviewers and assignees can see scope context without opening each assessment.
-    -   Programmatically create a combined assessment from multiple assessment IDs using any custom logic, removing the need for manual combine actions. For example, combine all control attestations belonging to an entity group into a single assessment.
 
 -   **[Collaboration in assessments](https://www.servicenow.com/docs/access?context=collaboration-in-assessments&family=australia&ft:locale=en-US)**
 
@@ -208,7 +173,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Template category field](https://www.servicenow.com/docs/access?context=create-assessment-template-form&family=zurich&ft:locale=en-US)**
+
+The **Purpose** field has replaced the **Template category** field. This single select option streamlines the user experience and improves the accuracy of template categorization.
+
 
 </td></tr><tr><td>
 
@@ -216,13 +184,14 @@ Australia
 
 </td><td>
 
--   **[Hide conditional questions](https://www.servicenow.com/docs/access?context=sae-q-text-create&family=australia&ft:locale=en-US)**
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
-Conditional questions that don't meet their visibility criteria are now fully hidden from the assessment and are no longer displayed as **Skipped**. Respondents see only the questions relevant to them, reducing assessment fatigue and eliminating "Skipped" clutter.
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
--   **[Create an assessment template category](https://www.servicenow.com/docs/access?context=sae-asmnt-template-category-create&family=australia&ft:locale=en-US)**
-
-Enables one or more roles to access a template category with the multiselect **Category Roles** field.
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -318,7 +287,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -326,7 +298,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -334,7 +309,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -355,7 +333,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 Check your entitlements to determine whether you have access to the post-assessment automations and response automation for the SAE application.
+
 
 </td></tr><tr><td>
 
@@ -363,7 +344,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 Check your entitlements to determine whether you have access to the collaboration features in the SAE application.
+
 
 </td></tr><tr><td>
 
@@ -429,7 +413,8 @@ Yokohama
 
 </td><td>
 
--   **Accessibility improvements**
+-   **Accessibility information**
+    -   **Accessibility improvements**
 
 Accessibility improvements were done to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
 
@@ -538,13 +523,15 @@ Australia
 
 </td><td>
 
-[Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)ServiceNow Otto® is the new name for the Now Assist experience in SAE. All Now Assist references have been updated to ServiceNow Otto.
+
+ [Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
 
 -   Collaborate inline with question-level flags, question-level comments, and a new Work Notes tab.
 -   Draft assessment responses automatically with AI Response Assist, which suggests answers from prior assessments and attached documents with full source traceability.
 -   Embed assessments inside any parent record, playbook, or workspace with the new embedded assessments capability and configurable UI Builder properties
 -   Update published templates safely with template versioning while preserving auditability of in-flight assessments.
--   Streamline the responder experience with continuous scrolling inside sections and sub-sections, fully hidden conditional questions, multi-filter support on the question list, and scope item fields visible directly in the assessment task list.
+-   Streamline the responder experience with continuous scrolling inside sections and sub-sections, fully hidden conditional questions, and multi-filter support on the question list. View scope item fields directly in the assessment task list.
 
  [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 

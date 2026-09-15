@@ -18,7 +18,7 @@ The Salesforce spoke is built by Bristlecone, Inc. Access and manage data in the
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Salesforce spoke v2.5.0 is the latest version.
+Salesforce spoke v2.6.1 is the latest version. For version history of the spoke, see [Salesforce spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-salesforce-v1.2.html).
 
 ## Supported version
 
@@ -200,7 +200,7 @@ Create Lead
 
 Creates a lead in Salesforce.
 
-</td></tr><tr><td rowspan="27">
+</td></tr><tr><td rowspan="28">
 
 Metadata Retrieval
 
@@ -210,7 +210,7 @@ Metadata - Check Service Cloud Feature
 
 </td><td>
 
-Checks whether Salesforce Service Cloud is enabled on the target Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
+Checks whether Salesforce Service Cloud is enabled on the target Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integrate-with-salesforce-crm.md).
 
 </td></tr><tr><td>
 
@@ -362,7 +362,7 @@ Metadata - Get Organization Type
 
 </td><td>
 
-Retrieves the organization type of the Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce integration profile section in Integrating with Salesforce.
+Retrieves the organization type of the Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce integration profile section in [Integrating with Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integrate-with-salesforce-crm.md).
 
 </td></tr><tr><td>
 
@@ -422,6 +422,14 @@ Retrieves list of time zones in the Salesforce User object. The value field of t
 
 </td></tr><tr><td>
 
+Metadata - Get Object Schema
+
+</td><td>
+
+Retrieves the schema metadata for a specified Salesforce object, including object details and field definitions.
+
+</td></tr><tr><td>
+
 Opportunity Management
 
 </td><td>
@@ -454,7 +462,7 @@ Look up User Licenses Stream
 
 </td><td>
 
-Retrieves user subscription information that is available in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
+Retrieves user subscription information that is available in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integrate-with-salesforce-crm.md).
 
 </td></tr><tr><td>
 
@@ -462,7 +470,7 @@ Look up Usage Based Entitlements Stream
 
 </td><td>
 
-Retrieves the consumption usage details for the resources.To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
+Retrieves the consumption usage details for the resources.To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integrate-with-salesforce-crm.md).
 
 </td></tr><tr><td rowspan="5">
 
@@ -498,7 +506,7 @@ Look up Users
 
 </td><td>
 
-Retrieves user attributes for Salesforce users. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
+Retrieves user attributes for Salesforce users. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integrate-with-salesforce-crm.md).
 
 </td></tr><tr><td>
 
@@ -506,7 +514,7 @@ Remove User
 
 </td><td>
 
-Reclaims a user account in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
+Reclaims a user account in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integrate-with-salesforce-crm.md).
 
 </td></tr></tbody>
 </table>## Salesforce account requirements

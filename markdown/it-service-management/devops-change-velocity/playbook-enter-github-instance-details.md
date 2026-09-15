@@ -8,7 +8,7 @@ product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 ---
 
@@ -22,19 +22,83 @@ Complete the tasks specified in the [Getting started with DevOps Change Velocity
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
+## About this task
+
+ServiceNow DevOps Change Velocity supports three GitHub offerings. Use the following table to determine which tool Integration type and URL apply to your GitHub setup:
+
+<table id="table_bt2_czx_1kc"><thead><tr><th>
+
+GitHub offering
+
+</th><th>
+
+Tool name
+
+</th><th>
+
+URL of the tool instance
+
+</th></tr></thead><tbody><tr><td>
+
+GitHub \(Standard\)
+
+</td><td>
+
+GitHub
+
+</td><td>
+
+`https://api.github.com`
+
+</td></tr><tr><td>
+
+GitHub Enterprise Cloud
+
+</td><td>
+
+GitHub
+
+</td><td>
+
+`https://api.github.com`
+
+</td></tr><tr><td>
+
+GitHub Enterprise Server
+
+</td><td>
+
+GitHub Enterprise
+
+</td><td>
+
+`https://<your-instance-hostname>` **Note:** Self-hosted instance must be your own server.
+
+</td></tr></tbody>
+</table>**Note:**
+
+Don't use your GitHub Enterprise Cloud account's web address as the tool URL. For example, using `https://github.com/enterprises/<your-org>` as the tool URL fails because this is a browser-only page, not an API endpoint. This error appears as "Tool cannot be created because the tool URL is invalid."
+
+If you use GitHub Enterprise Cloud, follow these rules:
+
+-   Select **GitHub** as the tool.
+-   Enter `https://api.github.com` as the URL of the tool instance.
+
+Only enter a different hostname if you run a self-hosted GitHub Enterprise Server instance on your own server.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard GitHub.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d363445e97">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d376415e238">
 
 Option
 
-</th><th align="left" id="d363445e100">
+</th><th align="left" id="d376415e241">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d363445e106">
+</th></tr></thead><tbody><tr><td id="d376415e247">
 
 **Homepage**
 
@@ -44,7 +108,7 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category \(Orchestration, Code, Plan, or Software quality\). For example, if you want to connect to GitHub as coding tool, you'd select the **Coding tools** category.
 
 
-</td></tr><tr><td id="d363445e133">
+</td></tr><tr><td id="d376415e274">
 
 **Applications module**
 
@@ -56,7 +120,7 @@ Steps
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitHub as coding tool, select GitHub under the **Code** category.
 
 
-</td></tr><tr><td id="d363445e188">
+</td></tr><tr><td id="d376415e329">
 
 **Tools module**
 
@@ -150,6 +214,8 @@ For the installation id, go to Install App section in your GitHub App configurat
 
     3.  Enter a value in the **GitHub app slug name** field to check the permission requirements of the tool before connecting if you have created your Oauth 2.0 credentials using GitHub Apps.
 
+        **Note:** If you are connecting to GitHub Enterprise Server with data residency controls, select your **username + app slug name** in the **GitHub app slug name** field.
+
         You can find the app slug name on the settings page of your app.
 
     4.  If your GitHub instance is attached to a MID Server, select the **MID Server** option and enter its details.
@@ -212,7 +278,7 @@ For the installation id, go to Install App section in your GitHub App configurat
     -   If you're connecting from the Applications module, then repositories and pipelines available are discovered. You can track and import historical data from them.
 7.  Select the plans to track.
 
-    1.  Select the plans for which you want to track updates and associate to the application.
+    1.  Select the plans for which you want to track updates and associate with the application.
 
         After the tool onboarding is complete, the work items only for these selected plans are automatically imported.
 
@@ -222,7 +288,7 @@ For the installation id, go to Install App section in your GitHub App configurat
 
 8.  Select the repositories to track.
 
-    1.  Select the repositories for which you want to track updates and associate to the application.
+    1.  Select the repositories for which you want to track updates and associate with the application.
     2.  Select **Next**.
 
         \[Omitted image "github-plybk-08.png"\] Alt text: Select repositories for tracking.

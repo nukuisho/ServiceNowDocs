@@ -1,6 +1,6 @@
 ---
-title: Modules in Setup Hub \(SPM\)
-description: Module-by-module listing of the setup items that Setup Hub \(SPM\) surfaces, with cross-references to the per-application configuration topic each item launches.
+title: Modules in ServiceNow Otto for Setup \(SPM\)
+description: Module-by-module listing of the setup items that ServiceNow Otto for Setup \(SPM\) surfaces, with cross-references to the per-application configuration topic each item launches.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/spm-config-console-modules.html
 release: australia
@@ -9,12 +9,12 @@ last_updated: "2026-05-25"
 reading_time_minutes: 7
 keywords: [Now Assist Setup, Strategic Portfolio Management, SPM, configuration console, setup modules, common setup, financials, fiscal calendar, demand management, project management, resource management, strategic planning, portfolio planning, enterprise-wide deployment, performance analytics, business units, departments, cost types, project templates, partitions]
 audience: administrator
-breadcrumb: [Setup Hub \(SPM\), Strategic Portfolio Management]
+breadcrumb: [ServiceNow Otto for Setup \(SPM\), Strategic Portfolio Management]
 ---
 
-# Modules in Setup Hub \(SPM\)
+# Modules in ServiceNow Otto for Setup \(SPM\)
 
-Module-by-module listing of the setup items that Setup Hub \(SPM\) surfaces, with cross-references to the per-application configuration topic each item launches.
+Module-by-module listing of the setup items that ServiceNow Otto for Setup \(SPM\) surfaces, with cross-references to the per-application configuration topic each item launches.
 
 The console groups setup items into the modules listed in this topic. The modules that a system administrator sees depend on the Strategic Portfolio Management \(SPM\) applications licensed for the instance. The order of modules shown here matches the order in which the console displays them.
 
@@ -85,11 +85,12 @@ Items that configure Strategic Planning and Portfolio Planning capabilities, inc
 |------|------------------|-----------|
 |Strategic and Portfolio Planning|Set up Strategic Planning or Portfolio Planning|Launch the Strategic Planning or Portfolio Planning guided setup to configure planning capabilities in your SPM environment. The wizard walks you through integrations, alignment settings, portfolio structures, and planning settings, and you can run it multiple times as your configuration needs evolve.|
 
-## Enterprise-Wide Deployment
+## Enterprise-Wide Deployment and Extended Security for Enterprise-Wide Deployment
 
 Items that govern multi-partition deployment of Strategic Portfolio Management \(SPM\).
 
 |Module|Configuration item|Description|
 |------|------------------|-----------|
 |Partitions|Set up partitions|Define data visibility boundaries for teams on the same instance. Create a partition for each function such as team, business unit, or department that requires separate access to project, demand, program, or portfolio records. For more information, see [Create and configure a partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-partition-ewd.md).|
+|Enable additional security|Enable additional ALL enforcement for partitioned tables to strengthen access control validation. Select the tables where you want to apply enhanced security. For more information, see [Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enable-additional-security-extended-security-ewd.md).|
 

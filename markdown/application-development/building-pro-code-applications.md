@@ -108,7 +108,7 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 
     Client scripts enable the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
 
--   **[Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-landing.md)**
+-   **[ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-landing.md)**
 
     Now Assist for code generation allows developers to write scripts quickly with AI-generated code suggestions based on text or code prompts.
 
@@ -156,6 +156,6 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 
 -   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)**
 
-    Use UI Builder to build web user interfaces for CSM Configurable Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
+    Use UI Builder to build web user interfaces for CRM Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
 
 

@@ -1,5 +1,5 @@
 ---
-title: Cloud permissions required to collect the base system Cloud Configuration Governance configuration keys
+title: Cloud permissions for collecting Cloud Configuration Governance keys
 description: The Cloud Configuration Governance requires appropriate cloud permissions to collect the base system configuration keys from the cloud. Therefore, you must set the appropriate permissions in the cloud to suit the needs of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/cloud-permissions-for-collecting-config-keys.html
@@ -9,10 +9,10 @@ classification: itom-cloud-accelerate
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Cloud Configuration Governance reference, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Reference, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Cloud permissions required to collect the base system Cloud Configuration Governance configuration keys
+# Cloud permissions for collecting Cloud Configuration Governance keys
 
 The Cloud Configuration Governance requires appropriate cloud permissions to collect the base system configuration keys from the cloud. Therefore, you must set the appropriate permissions in the cloud to suit the needs of your organization.
 

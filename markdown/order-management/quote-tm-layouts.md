@@ -1,18 +1,18 @@
 ---
 title: Quote transaction layouts
-description: Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in ServiceNow CPQ.
+description: Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-layouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
-reading_time_minutes: 11
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+reading_time_minutes: 12
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote transaction layouts
 
-Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in ServiceNow CPQ.
+Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in CPQ.
 
 Layouts in ServiceNow Quote Experience retain much of the look and feel of the configuration experience. Layouts can be managed in the administration interface using the visual layout editor or directly in YAML. The visual layout editor is selected by default. The option to edit layouts in JSON is retired in favor of the visual editor.
 
@@ -62,7 +62,7 @@ Access layout settings by selecting the gear icon in the layout subheader. The f
 
 -   **Highlight field changes**
 
-    Briefly highlights fields when their values are updated by rules or integrations. Enable this setting when concurrent users are expected or when fields update frequently.
+    Briefly highlights fields when their values are updated by rules or integrations. Enable this setting when concurrent users are expected or when fields update frequently. This setting also highlights pricing fields when their values change after a reprice.
 
 -   **Hide Header**
 
@@ -92,6 +92,8 @@ Layouts are organized using tiers, columnsets, and a line item grid.
     -   **Line item grid header** — buttons that appear above the grid at runtime.
     -   **Line item grid column** — fields that appear as columns in the grid.
     -   **Line level buttons** — buttons that appear on each individual line in the grid.
+    When pricing is enabled, you can surface pricing in the line item grid. Add the **Reprice** event button to the line item grid header or line-level buttons so users can recalculate pricing. Add the line pricing-state field \(`txn.line.pricing.state`\) as a grid column to show which lines need repricing. For more information about the Reprice event, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-events.md).
+
     The following layout properties apply to the line item grid and must be defined in the main YAML editor. Each property is enabled when its value is `true`.
 
     -   `showLineNumbers` — enables user-friendly sequential line numbers for visible lines. Numbering resets when a filter or search is applied.
@@ -110,13 +112,13 @@ Three options are available for displaying line numbers in the quote lines grid.
 
     Displays hierarchical line numbering for all lines — for example, 1, 1.1, 2, 2.1, 2.2, 2.2.1. Numbers do not reset when a filter or search is applied. Maximum of 2,000 lines. The field has the same layout properties as other line-level fields and is added in the `lineGrid` section of the layout.
 
-    **Note:** To enable this field, submit a request to customer support through the ServiceNow CPQ Support portal.
+    **Note:** To enable this field, submit a request to customer support through the CPQ Support portal.
 
 -   **`txn.line.number` system field**
 
     Displays sequential line numbering for all lines \(1, 2, 3\). Numbers do not reset when a filter or search is applied. Maximum of 2,000 lines. The field has the same layout properties as other line-level fields and is added in the `lineGrid` section of the layout.
 
-    **Note:** To enable this field, submit a request to customer support through the ServiceNow CPQ Support portal.
+    **Note:** To enable this field, submit a request to customer support through the CPQ Support portal.
 
 
 ## Line-level button icons
@@ -351,6 +353,15 @@ productList:
     - externallyConfigurable,desc
     - name
 ```
+
+-   **[Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-layout.md)**  
+Create a layout in ServiceNow Quote Experience to define the quote interface for a stage in CPQ.
+-   **[ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-ui-effects.md)**  
+Reference for UI effect types, parameters, access conditions, and YAML and JSON code examples for configuring button behavior in ServiceNow Quote Experience layouts in CPQ.
+-   **[Stage progress chevron](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-stage-progress-chevron.md)**  
+Reference for configuring the Stages Progress Chevron component in ServiceNow Quote Experience layouts, including static and dynamic configuration options, combination rules, and CSS custom property theming in CPQ.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 
 **Related topics**  
 

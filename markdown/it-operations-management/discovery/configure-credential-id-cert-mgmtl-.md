@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Visibility to TLS certificates, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure IDs for Certificate Management credentials
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-To enable external storage credential support for TLS certificate discovery from CA types such as GoDaddy, DigiCert, and Sectigo, set up the credential identifier within the instance for the respective Certificate Management credential type.
+To enable external storage credential support for TLS certificate discovery from CA types such as GoDaddy, DigiCert, and Sectigo, set up the credential identifier within the instance. Configure the identifier for the respective Certificate Management credential type.
 
 ## Procedure
 

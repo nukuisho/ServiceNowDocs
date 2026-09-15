@@ -24,13 +24,13 @@ During the threat investigations the analysts collect the data from internal int
 The Workbench Overview page consists of the Case Tasks and Cases that are under Threat Analysts and their team.
 -   **[Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md)**  
 Cases are used to track information about a campaign or threat actor threatening your organization. After a case is created, you can add artifacts that allow you to review and analyze all related information from a single case or case task.
--   **[Summarize a Case with Now Assist for Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/now-assist-tisc-case-summarization.md)**  
-Use Now Assist for Threat Intelligence Security Center to generate a concise summary of a case, including its key findings and recommended next steps.
+-   **[Summarize a Case using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/now-assist-tisc-case-summarization.md)**  
+Use to generate a concise summary of a case, including its key findings and recommended next steps.
 -   **[Creating case task using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-case-task.md)**  
 Create case tasks to associate with case\(s\).
 -   **[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)**  
 The Investigation Canvas is a key significant feature, which provides more valuable information for the Threat Intelligence \(TI\) analysts. It provides a structured framework by mapping one to one or one to many relationships and visualizing information related to observables, indicators of compromise \(IOCs\), or entities.
--   **[Add artifacts to case\(s\) or case task\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)**  
+-   **[Add artifacts to cases or case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)**  
 After you have created a case, you can view or add artifacts, such as security incidents, CIs, and indicators of compromise, to the case. These artifacts act as clues in solving the case.
 -   **[Run Enrichment Actions within a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/run-enrichment-results.md)**  
 Use this section to understand how enrichments actions are performed on case\(s\).

@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 11
-breadcrumb: [Configure EVAM display settings for search results, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure EVAM display settings for search results, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # List of Search Result EVAM card properties
@@ -151,7 +151,7 @@ Defines whether you want to show or hide the icon on the Search Result card. -  
 -   Default value: false
 -   Supported values:
     -   **false**: Show the configured icon on the Search Result card.
-    -   **true**: Do not show an icon on the Search Result card.
+    -   **true**: Don't show an icon on the Search Result card.
 
 </td></tr><tr><td>
 

@@ -24,7 +24,7 @@ This section displays the detailed information of a change request. For informat
 
 For information about how you can configure fields in this tab, see [Configure a task record form in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-form-layout-task.md).
 
-From the **Compose** section, you can add work notes for the change request.
+From the **Compose** section, you can add work notes and additional comments for the change request.
 
 ## Change tasks tab
 
@@ -69,7 +69,7 @@ Start and conduct a Change Advisory Board meeting in the CAB Workbench in Servic
 
 [Add a user-specific quick link on the ITSM landing page]()
 
-[]()
+[Create a list in Service Operations Workspace]()
 
 [Live Agent chat in Service Operations Workspace]()
 

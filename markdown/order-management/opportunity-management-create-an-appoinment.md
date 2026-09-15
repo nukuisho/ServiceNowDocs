@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Add opportunity tasks, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Add opportunity tasks, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create an appointment from Opportunity Management
@@ -38,8 +38,6 @@ You can create appointments only after creating an opportunity task. To create a
 
     The appointment is added to your opportunity task.
 
-
-**Parent Topic:**[Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md)
 
 **Related topics**  
 

@@ -8,7 +8,7 @@ product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -79,6 +79,9 @@ Using Capacity, you can:
 
 -   View total resource capacity and total estimates.
 -   View the efforts for operational work and efforts for estimates outside of portfolio in the **Additional items** list.
+
+    **Note:** The **Filtered Out Items** and **Estimate outside portfolio** rows display effort only from prioritized planning items. Resource Management Workspace displays effort from all planning items regardless of prioritization state, which may result in different utilization values between the two views. To include planning items in capacity calculations, change their state to **Prioritized**.
+
 -   Redefine the workforce criteria by selecting **Resource criteria** \(\[Omitted image "cp-resource-criteria-button.png"\] Alt text: Resource criteria button.\)
 
 ## Calculation of Operational Resource Assignment in Capacity
@@ -89,7 +92,7 @@ Consider a group with capacity of 2 FTE and resource manager creates a Group typ
 
 When a resource manager creates a Group type operation resource assignment for time off, this doesn't update the **Operational work** line item but reduces the total available capacity.
 
-Consider the same group for which resource manager creates an operation resource assignment for 25% of the capacity for time off, for a quarter from April to June. The total available capacity of the group for the quarter April to June will be 1.5 FTE, which is 75% of the total capacity after reducing the 25% time off.
+Consider the same group for which resource manager creates an operation resource assignment for 25% of the capacity for time off, for a quarter from April to June. The total available capacity of the group for the quarter April to June will be 1.5 FTE. This is 75% of the total capacity after reducing the 25% time off.
 
 0.5 FTE, which is 25% of total capacity of the group will be reduced.
 

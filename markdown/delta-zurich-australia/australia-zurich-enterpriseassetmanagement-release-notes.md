@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterpriseassetmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -38,10 +38,12 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 Starting with Zurich release, a new menu, Asset put away, has been added to the ServiceNow Agent app navigation bar. When upgrading to the Zurich release, a fix script identifies whether the ServiceNow Agent app navigation bar was customized and takes the necessary action.
 
--   If the navigation bar wasn’t customized before the upgrade, a new Asset put away icon \(\[Omitted image "image.asset-putaway-icon-ma"\] Alt text: Asset put away icon\) is included in the navigation bar
--   If the navigation bar was customized before the upgrade, two navigation bars appear: Customized old IT Asset Management and IT Asset Management. The new icon appears in the IT Asset Management navigation bar.
+    -   If the navigation bar wasn’t customized before the upgrade, a new Asset put away icon \(\[Omitted image "image.asset-putaway-icon-ma"\] Alt text: Asset put away icon\) is included in the navigation bar
+    -   If the navigation bar was customized before the upgrade, two navigation bars appear: Customized old IT Asset Management and IT Asset Management. The new icon appears in the IT Asset Management navigation bar.
 
 </td></tr><tr><td>
 
@@ -155,24 +157,6 @@ Australia
 
 </td><td>
 
--   **[Automate enterprise asset sourcing by using an agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-eam-help-manage-enterprise-asset-requests-workflow&family=australia&ft:locale=en-US)**
-
-Use the help manage enterprise asset requests agentic workflow to automate the process of sourcing assets for your enterprise asset requests. The workflow uses AI agents to fulfill these requests by allocating assets from local stockrooms, creating transfer orders to move assets between stockrooms, or generating purchase orders for the requested assets.
-
--   **[Automatically generate instructions for enterprise asset repairs by using an agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-eam-help-repair-enterprise-assets-workflow&family=australia&ft:locale=en-US)**
-
-Use the help repair enterprise assets agentic workflow, which is driven by AI agents, to automatically generate step-by-step troubleshooting, diagnostics, and repair instructions for your enterprise asset repairs in real time.
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
 -   **[Define, schedule, and track complex asset-centric work tasks through work order plans](https://www.servicenow.com/docs/access?context=manage-work-order-plans&family=australia&ft:locale=en-US)**
 
 Manage complex asset-centric work tasks with unified work order plans that can be applied across assets, asset groups, or locations. The work order plans offer the following benefits:
@@ -185,7 +169,7 @@ Manage complex asset-centric work tasks with unified work order plans that can b
 
 Create, track, and manage multimedia production equipment models and assets in the Enterprise Asset Workspace. Get a comprehensive view of these models and assets so that you can manage them effectively throughout their life cycles.
 
--   **[Replace broad admin checks with granular admin roles and ACL updates](https://www.servicenow.com/docs/access?context=eam-roles&family=australia&ft:locale=en-US)**
+-   **[Replace broad admin checks with granular admin roles and ACL updates](https://www.servicenow.com/docs/access?context=installed-with-eam&family=australia&ft:locale=en-US)**
 
 Manage admin access precisely with granular admin roles. Instead of giving full admin privileges to the users, you can assign specific roles based on the tasks they perform.
 
@@ -198,6 +182,10 @@ Streamline and improve your inventory auditing experience with the enhanced and 
     -   The ServiceNow Agent app features selectable audit results, enabling you to view a real-time list of all scanned assets.
     -   When new assets are identified during the single scan audit, essential information is collected in real time through the ServiceNow Agent app to initiate asset creation.
     -   Scanned asset locations are automatically updated to reflect their precise aisle, space, or sub location during the audit, supporting the accuracy and quality of inventory records.
+-   **[Stockroom audit support for Field Service Management](https://www.servicenow.com/docs/access?context=stockroom-audit-access-eam&family=australia&ft:locale=en-US) **
+
+Audit personal stockroom assets as an FSM field agent using the ServiceNow Agent mobile application. Access is controlled through new granular audit roles.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -218,10 +206,6 @@ Zurich
 
 </td><td>
 
--   **[Enterprise Asset Management demo data migration](https://www.servicenow.com/docs/access?context=install-eam-demo-data&family=zurich&ft:locale=en-US)**
-
-All Enterprise Asset Management demo data has migrated from the Enterprise Asset Management application to either the EAM Demo Data application or Indoor Mapping for Assets application. The EAM Demo Data application contains all Enterprise Asset Management demo data except for indoor mapping-related demo data, which is now included in the Indoor Mapping for Assets application.
-
 -   **[Shipment asset table label](https://www.servicenow.com/docs/access?context=view-enterprise-asset-shipments&family=zurich&ft:locale=en-US)**
 
 Starting from the Enterprise Asset Management version 9.1.0, the Shipment asset \[sn\_itam\_common\_m2m\_shipment\_asset\] table label has been renamed to Shipment line \[sn\_itam\_common\_m2m\_shipment\_asset\].
@@ -237,7 +221,22 @@ Australia
 
 </td><td>
 
--   **[Multiple assets and asset groups in a work order](https://www.servicenow.com/docs/access?context=create-eam-work-order-task&family=australia&ft:locale=en-US)**
+-   **[Work order plan reports in the Work management view](https://www.servicenow.com/docs/access?context=work-management-overview-eam&family=australia&ft:locale=en-US)**
+
+The Work management view of the Enterprise Asset Workspace includes work order plan status and task reports.
+
+-   **[Work order plan tabs in the Work management view](https://www.servicenow.com/docs/access?context=work-management-overview-eam&family=australia&ft:locale=en-US)**
+
+The Work management view of the Enterprise Asset Workspace includes two new tabs:
+
+    -   Work order plans- View existing work order plans and create plans
+    -   Work order plan templates- Access available templates and create reusable templates
+-   **[Affected assets tab in work orders and work order tasks](https://www.servicenow.com/docs/access?context=work-management-overview-eam&family=australia&ft:locale=en-US)**
+
+The **Affected assets** tab provides a comprehensive view of all assets associated with a work order. When a work order includes an asset group, the tab lists every asset belonging to that group.
+
+
+ -   **[Multiple assets and asset groups in a work order](https://www.servicenow.com/docs/access?context=create-eam-work-order-task&family=australia&ft:locale=en-US)**
 
 A work order and work order task can now be created for asset groups in addition to individual assets. Additionally, the sn\_eam.enterprise\_asset\_manager role can add more assets to tasks while they're in the draft stage. When technicians start the task, they can take action on all included assets. The Deploy Asset, Swap Asset, and Remove Asset actions within work order tasks support multiple assets and asset groups.
 
@@ -331,13 +330,15 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install the following applications by requesting them from the ServiceNow Store:
 
--   Enterprise Asset Management
--   Enterprise Asset Management for Healthcare
--   OT Asset Management
--   Expanded Model and Asset Classes
-
+    -   Enterprise Asset Management
+    -   Enterprise Asset Management for Healthcare
+    -   OT Asset Management
+    -   Expanded Model and Asset Classes
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -346,16 +347,18 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install the following applications by requesting them from the ServiceNow Store:
 
--   Enterprise Asset Management
--   Enterprise Asset Management for Healthcare
--   Enterprise Asset Management for Facilities
--   OT Asset Management
--   Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)
--   Enterprise Asset Management for Providers
--   Expanded Model and Asset Classes
-
+    -   Enterprise Asset Management
+    -   Enterprise Asset Management for Healthcare
+    -   Enterprise Asset Management for Facilities
+    -   OT Asset Management
+    -   Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)
+    -   Enterprise Asset Management for Providers
+    -   Expanded Model and Asset Classes
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -435,7 +438,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -507,7 +514,11 @@ Australia
 
 </td><td>
 
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 
 -   Streamline the enterprise asset request process by using the help manage enterprise asset requests agentic workflow.
 -   Automatically generate troubleshooting, diagnostics, and repair instructions for your enterprise asset repairs by using the help repair enterprise assets agentic workflow.

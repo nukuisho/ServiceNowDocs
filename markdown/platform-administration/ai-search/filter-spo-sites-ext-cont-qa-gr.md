@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [External Content Q&amp;A Genius Results, Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [External Content Q&amp;A Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Restrict the Microsoft SharePoint Online sites that External Content Q&amp;A Genius Results can search
@@ -19,7 +19,7 @@ Define a Microsoft Keyword Query Language \(KQL\) query to restrict the set of M
 
 ## Before you begin
 
-The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
+The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
 
 Role required: admin
 
@@ -42,7 +42,7 @@ To learn more about KQL property restriction queries and the operators they supp
 2.  Search the list for the **sn\_ais\_assist.sharepoint\_search.query\_filter** system property record.
 
     -   If the system property record appears in the list, open it in form view by selecting it.
-    -   If the system property record does not appear in the list, add it, setting its **Type** to `string`. To learn how to add a new system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    -   If the system property record doesn't appear in the list, add it, setting its **Type** to `string`. To learn how to add a new system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 3.  In the system property record's **Value** field, enter a valid KQL property restriction query expression.
 
     As an example, suppose your Microsoft SharePoint Online source system is `https://example.sharepoint.com`.

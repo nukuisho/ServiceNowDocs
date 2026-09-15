@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-26"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Core Business Suite, Configure Core Business Suite using Now Assist, Configure, Core Business Suite]
+breadcrumb: [ServiceNow Otto for Core Business Suite \(CBS\), Configure Core Business Suite using Otto, Configure, Core Business Suite]
 ---
 
 # Bulk upload
@@ -19,7 +19,7 @@ Upload records in bulk for Core Business Suite business units through the Now As
 Ensure that the following are activated:
 
 -   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-ai-search.md)\)
--   Now Assist panel \([Activate Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)\)
+-   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)\)
 
 Role required: admin, sn\_cbs.admin
 
@@ -79,5 +79,5 @@ Role required: admin, sn\_cbs.admin
 16. Refresh the Core Business Suite Configuration Console to verify that the records are created successfully.
 
 
-**Parent Topic:**[Now Assist for Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
+**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
 

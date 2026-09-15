@@ -1,6 +1,6 @@
 ---
 title: Apigee Edge Enterprise edition discovery
-description: The ServiceNow Discovery application uses the APIGee pattern to find Apigee Edge Enterprise edition versions 4.x.x. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the APIGee pattern to find Apigee Edge Enterprise edition versions 4.x.x. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/apigee-edge-discovery.html
 release: australia
@@ -14,13 +14,13 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Apigee Edge Enterprise edition discovery
 
-The ServiceNow Discovery application uses the APIGee pattern to find Apigee Edge Enterprise edition versions 4.x.x. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the APIGee pattern to find Apigee Edge Enterprise edition versions 4.x.x. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The APIGee pattern uses a built-in cache mechanism that collects data from each API service into a local cache file. Service Mapping performs top-down discovery on these cache files to find outgoing Apigee Edge connections.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 

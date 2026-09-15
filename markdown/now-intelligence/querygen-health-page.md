@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/now-intelligence/querygen-healt
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [AI search, LLM status, semantic layer]
-breadcrumb: [Tuning the semantic layer, Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Query Generation Health page
@@ -57,7 +57,7 @@ The state of Query Generation skills and the LLMs they use. Also the state of AI
 
 </td><td>
 
-For Query Generation skills, if any are inactive, navigate to Now Assist Admin. Activate skills there as described in [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md). If you have error messages, contact your Generative AI Controller administrator or Now Support.For AI Search, consult your organization's AI Search administrators.
+For Query Generation skills, if any are inactive, navigate to AI Admin Hub. Activate skills there as described in [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md). If you have error messages, contact your Generative AI Controller administrator or Now Support.For AI Search, consult your organization's AI Search administrators.
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Query Generation enabled products
 
 </td><td>
 
-Installed products that use Query Generation and their statusThe Now Assist Explorer entry refers to AI Data Explorer.
+Installed products that use Query Generation and their status
 
 </td><td>
 

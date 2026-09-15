@@ -1,6 +1,6 @@
 ---
 title: Oracle Linux Virtualization Manager and Red Hat Virtualization discovery
-description: The ServiceNow Discovery application uses patterns to find Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\) components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses patterns to find Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\) components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/red-hat-virtualization-discovery.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Oracle Linux Virtualization Manager and Red Hat Virtualization discovery
 
-The ServiceNow Discovery application uses patterns to find Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\) components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses patterns to find Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\) components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Starting with version 1.28.0, Discovery and Service Mapping Patterns supports both OLVM and RHV discovery. Note that the RHV patterns, tables, and related items have been renamed to oVirt.
 
@@ -29,7 +29,7 @@ Discovery uses the following patterns for OLVM and RHV discovery:
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## OLVM and RHV data model
 

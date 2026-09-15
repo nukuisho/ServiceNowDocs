@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/rn-combi
 release: australia
 topic_type: concept
 last_updated: "2025-06-02"
-reading_time_minutes: 53
+reading_time_minutes: 57
 ---
 
 # Products combined by family
@@ -25,6 +25,8 @@ Consolidated page of all release notes for Adoption Services from Xanadu to Aust
 Consolidated page of all release notes for Advanced AI Search Management Tools from Xanadu to Australia.
 -   **[Combined Advanced Approval Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-advancedapprovalmanagement-release-notes.md)**  
 Consolidated page of all release notes for Advanced Approval Management from Xanadu to Australia.
+-   **[Combined Advanced Approval Management AI release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-advancedapprovalmanagementai-release-notes.md)**  
+Consolidated page of all release notes for Advanced Approval Management AI from Xanadu to Australia.
 -   **[Combined Advanced Risk release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-advancedrisk-release-notes.md)**  
 Consolidated page of all release notes for Advanced Risk from Xanadu to Australia.
 -   **[Combined Advanced Work Assignment release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-advancedworkassignment-release-notes.md)**  
@@ -43,10 +45,16 @@ Consolidated page of all release notes for Agentic Contact Center for Banking fr
 Consolidated page of all release notes for Agentic Contact Center for Insurance from Xanadu to Australia.
 -   **[Combined Agent Workspace for HR Case Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-agentworkspaceforhrcasemanagement-release-notes.md)**  
 Consolidated page of all release notes for Agent Workspace for HR Case Management from Xanadu to Australia.
--   **[Combined Agile Development 2.0 release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-agiledevelopment20-release-notes.md)**  
-Consolidated page of all release notes for Agile Development 2.0 from Xanadu to Australia.
+-   **[Combined AI Admin Center release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-aiadmincenter-release-notes.md)**  
+Consolidated page of all release notes for AI Admin Center from Xanadu to Australia.
+-   **[Combined AI Admin Hub release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-aiadminhub-release-notes.md)**  
+Consolidated page of all release notes for AI Admin Hub from Xanadu to Australia.
 -   **[Combined AI Agent Advisor release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-aiagentadvisor-release-notes.md)**  
 Consolidated page of all release notes for AI Agent Advisor from Xanadu to Australia.
+-   **[Combined AI Agent Studio release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-aiagentstudio-release-notes.md)**  
+Consolidated page of all release notes for AI Agent Studio from Xanadu to Australia.
+-   **[Combined AI Analytics release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-aianalytics-release-notes.md)**  
+Consolidated page of all release notes for AI Analytics from Xanadu to Australia.
 -   **[Combined AI Control Tower release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-aicontroltower-release-notes.md)**  
 Consolidated page of all release notes for AI Control Tower from Xanadu to Australia.
 -   **[Combined AI Desktop Actions release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-aidesktopactions-release-notes.md)**  
@@ -57,12 +65,16 @@ Consolidated page of all release notes for AIOps LEAP from Xanadu to Australia.
 Consolidated page of all release notes for AI Risk and Compliance from Xanadu to Australia.
 -   **[Combined AI Search release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-aisearch-release-notes.md)**  
 Consolidated page of all release notes for AI Search from Xanadu to Australia.
+-   **[Combined AI Skill Kit release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-aiskillkit-release-notes.md)**  
+Consolidated page of all release notes for AI Skill Kit from Xanadu to Australia.
 -   **[Combined Alumni Center release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-alumnicenter-release-notes.md)**  
 Consolidated page of all release notes for Alumni Center from Xanadu to Australia.
 -   **[Combined Analytics, Intelligence, and Reporting release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-analyticsintelligenceandreporting-release-notes.md)**  
 Consolidated page of all release notes for Analytics, Intelligence, and Reporting from Xanadu to Australia.
 -   **[Combined API release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-api-release-notes.md)**  
 Consolidated page of all release notes for API from Xanadu to Australia.
+-   **[Combined App Engine ERP Rapid Deployment Packs release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-appengineerprapiddeploymentpacks-release-notes.md)**  
+Consolidated page of all release notes for App Engine ERP Rapid Deployment Packs from Xanadu to Australia.
 -   **[Combined App Engine Management Center release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-appenginemanagementcenter-release-notes.md)**  
 Consolidated page of all release notes for App Engine Management Center from Xanadu to Australia.
 -   **[Combined App Engine Studio release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-appenginestudio-release-notes.md)**  
@@ -85,6 +97,8 @@ Consolidated page of all release notes for Authentication from Xanadu to Austral
 Consolidated page of all release notes for Automated Test Framework from Xanadu to Australia.
 -   **[Combined Automation Discovery release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-automationdiscovery-release-notes.md)**  
 Consolidated page of all release notes for Automation Discovery from Xanadu to Australia.
+-   **[Combined Autonomous Workforce release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-autonomousworkforce-release-notes.md)**  
+Consolidated page of all release notes for Autonomous Workforce from Xanadu to Australia.
 -   **[Combined Benchmarks release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-benchmarks-release-notes.md)**  
 Consolidated page of all release notes for Benchmarks from Xanadu to Australia.
 -   **[Combined Build Agent release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-buildagent-release-notes.md)**  
@@ -121,12 +135,10 @@ Consolidated page of all release notes for Classic Workflow from Xanadu to Austr
 Consolidated page of all release notes for Clone Admin Console from Xanadu to Australia.
 -   **[Combined Cloud Account Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-cloudaccountmanagement-release-notes.md)**  
 Consolidated page of all release notes for Cloud Account Management from Xanadu to Australia.
--   **[Combined Cloud Cost Management 10.0 release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-cloudcostmanagement100-release-notes.md)**  
-Consolidated page of all release notes for Cloud Cost Management 10.0 from Xanadu to Australia.
+-   **[Combined Cloud Cost Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-cloudcostmanagement-release-notes.md)**  
+Consolidated page of all release notes for Cloud Cost Management from Xanadu to Australia.
 -   **[Combined Cloud Cost Management 8.0.0 release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-cloudcostmanagement800-release-notes.md)**  
 Consolidated page of all release notes for Cloud Cost Management 8.0.0 from Xanadu to Australia.
--   **[Combined Cloud Cost Management 9.0 release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-cloudcostmanagement90-release-notes.md)**  
-Consolidated page of all release notes for Cloud Cost Management 9.0 from Xanadu to Australia.
 -   **[Combined Cloud Exposure View release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-cloudexposureview-release-notes.md)**  
 Consolidated page of all release notes for Cloud Exposure View from Xanadu to Australia.
 -   **[Combined Code Signing release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-codesigning-release-notes.md)**  
@@ -147,8 +159,8 @@ Consolidated page of all release notes for Configuration Compliance from Xanadu 
 Consolidated page of all release notes for Configuration Management Database \(CMDB\) from Xanadu to Australia.
 -   **[Combined Container Vulnerability Response release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-containervulnerabilityresponse-release-notes.md)**  
 Consolidated page of all release notes for Container Vulnerability Response from Xanadu to Australia.
--   **[Combined Content Management System release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-contentmanagementsystem-release-notes.md)**  
-Consolidated page of all release notes for Content Management System from Xanadu to Australia.
+-   **[Combined Content Understanding release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-contentunderstanding-release-notes.md)**  
+Consolidated page of all release notes for Content Understanding from Xanadu to Australia.
 -   **[Combined Continual Improvement Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-continualimprovementmanagement-release-notes.md)**  
 Consolidated page of all release notes for Continual Improvement Management from Xanadu to Australia.
 -   **[Combined Continuous Authorization and Monitoring release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-continuousauthorizationandmonitoring-release-notes.md)**  
@@ -183,6 +195,8 @@ Consolidated page of all release notes for Customer Service Problem Management f
 Consolidated page of all release notes for Customer Success Management from Xanadu to Australia.
 -   **[Combined Data Catalog release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-datacatalog-release-notes.md)**  
 Consolidated page of all release notes for Data Catalog from Xanadu to Australia.
+-   **[Combined Data Center and Network Asset Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-datacenterandnetworkassetmanagement-release-notes.md)**  
+Consolidated page of all release notes for Data Center and Network Asset Management from Xanadu to Australia.
 -   **[Combined Data Loss Prevention Incident Response release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-datalosspreventionincidentresponse-release-notes.md)**  
 Consolidated page of all release notes for Data Loss Prevention Incident Response from Xanadu to Australia.
 -   **[Combined Data Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-datamanagement-release-notes.md)**  
@@ -235,6 +249,8 @@ Consolidated page of all release notes for Employee Center Pro from Xanadu to Au
 Consolidated page of all release notes for Employee Relations from Xanadu to Australia.
 -   **[Combined Employee Slate release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-employeeslate-release-notes.md)**  
 Consolidated page of all release notes for Employee Slate from Xanadu to Australia.
+-   **[Combined EMR Provider Directory Sync Sync release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-emrproviderdirectorysyncsync-release-notes.md)**  
+Consolidated page of all release notes for EMR Provider Directory Sync Sync from Xanadu to Australia.
 -   **[Combined Encryption release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-encryption-release-notes.md)**  
 Consolidated page of all release notes for Encryption from Xanadu to Australia.
 -   **[Combined Encryption Key Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-encryptionkeymanagement-release-notes.md)**  
@@ -267,8 +283,8 @@ Consolidated page of all release notes for Financial Services Operations Integra
 Consolidated page of all release notes for Financial Services Operations Integration with Verifi from Xanadu to Australia.
 -   **[Combined Financial Services Operations Integration with Visa release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-financialservicesoperationsintegrationwithvisa-release-notes.md)**  
 Consolidated page of all release notes for Financial Services Operations Integration with Visa from Xanadu to Australia.
--   **[Combined Flows, Subflows, and Actions release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-flowssubflowsandactions-release-notes.md)**  
-Consolidated page of all release notes for Flows, Subflows, and Actions from Xanadu to Australia.
+-   **[Combined Flows, subflows, and actions release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-flowssubflowsandactions-release-notes.md)**  
+Consolidated page of all release notes for Flows, subflows, and actions from Xanadu to Australia.
 -   **[Combined Flows, subflows, and actions in Workflow Studio release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-flowssubflowsandactionsinworkflowstudio-release-notes.md)**  
 Consolidated page of all release notes for Flows, subflows, and actions in Workflow Studio from Xanadu to Australia.
 -   **[Combined Generative AI Controller release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-generativeaicontroller-release-notes.md)**  
@@ -293,6 +309,10 @@ Consolidated page of all release notes for Health Log Analytics from Xanadu to A
 Consolidated page of all release notes for Hermes Messaging Service from Xanadu to Australia.
 -   **[Combined Hiring release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-hiring-release-notes.md)**  
 Consolidated page of all release notes for Hiring from Xanadu to Australia.
+-   **[Combined HL7 FHIR Spoke release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-hl7fhirspoke-release-notes.md)**  
+Consolidated page of all release notes for HL7 FHIR Spoke from Xanadu to Australia.
+-   **[Combined HL7 v2.x Integration release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-hl7v2xintegration-release-notes.md)**  
+Consolidated page of all release notes for HL7 v2.x Integration from Xanadu to Australia.
 -   **[Combined HR Multi Instance Integration release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-hrmultiinstanceintegration-release-notes.md)**  
 Consolidated page of all release notes for HR Multi Instance Integration from Xanadu to Australia.
 -   **[Combined HR Service Delivery for Healthcare release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-hrservicedeliveryforhealthcare-release-notes.md)**  
@@ -345,8 +365,10 @@ Consolidated page of all release notes for ITOM Cloud Accelerate from Xanadu to 
 Consolidated page of all release notes for ITOM Optimization from Xanadu to Australia.
 -   **[Combined ITOM Visibility release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-itomvisibility-release-notes.md)**  
 Consolidated page of all release notes for ITOM Visibility from Xanadu to Australia.
--   **[Combined IT Service Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-itservicemanagement-release-notes.md)**  
-Consolidated page of all release notes for IT Service Management from Xanadu to Australia.
+-   **[Combined ITSM Employee Slate for Moveworks release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-itsmemployeeslateformoveworks-release-notes.md)**  
+Consolidated page of all release notes for ITSM Employee Slate for Moveworks from Xanadu to Australia.
+-   **[Combined ITSM MCP Server release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-itsmmcpserver-release-notes.md)**  
+Consolidated page of all release notes for ITSM MCP Server from Xanadu to Australia.
 -   **[Combined ITSM Mobile Agent release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-itsmmobileagent-release-notes.md)**  
 Consolidated page of all release notes for ITSM Mobile Agent from Xanadu to Australia.
 -   **[Combined ITSM Predictive Intelligence Workbench release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-itsmpredictiveintelligenceworkbench-release-notes.md)**  
@@ -363,6 +385,8 @@ Consolidated page of all release notes for Knowledge Center from Xanadu to Austr
 Consolidated page of all release notes for Knowledge Graph from Xanadu to Australia.
 -   **[Combined Knowledge Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-knowledgemanagement-release-notes.md)**  
 Consolidated page of all release notes for Knowledge Management from Xanadu to Australia.
+-   **[Combined L1 IT Service Desk AI Specialist release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-l1itservicedeskaispecialist-release-notes.md)**  
+Consolidated page of all release notes for L1 IT Service Desk AI Specialist from Xanadu to Australia.
 -   **[Combined Leader Hub release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-leaderhub-release-notes.md)**  
 Consolidated page of all release notes for Leader Hub from Xanadu to Australia.
 -   **[Combined Lead Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-leadmanagement-release-notes.md)**  
@@ -383,12 +407,12 @@ Consolidated page of all release notes for Legal Hold Notification from Xanadu t
 Consolidated page of all release notes for Legal Matter Management from Xanadu to Australia.
 -   **[Combined Legal Request Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-legalrequestmanagement-release-notes.md)**  
 Consolidated page of all release notes for Legal Request Management from Xanadu to Australia.
--   **[Combined Legal Virtual Agent Conversations release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-legalvirtualagentconversations-release-notes.md)**  
-Consolidated page of all release notes for Legal Virtual Agent Conversations from Xanadu to Australia.
 -   **[Combined Lifecycle Events release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-lifecycleevents-release-notes.md)**  
 Consolidated page of all release notes for Lifecycle Events from Xanadu to Australia.
 -   **[Combined Listening Posts release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-listeningposts-release-notes.md)**  
 Consolidated page of all release notes for Listening Posts from Xanadu to Australia.
+-   **[Combined Live Connect release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-liveconnect-release-notes.md)**  
+Consolidated page of all release notes for Live Connect from Xanadu to Australia.
 -   **[Combined Localization Framework release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-localizationframework-release-notes.md)**  
 Consolidated page of all release notes for Localization Framework from Xanadu to Australia.
 -   **[Combined Localization Workspace release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-localizationworkspace-release-notes.md)**  
@@ -423,24 +447,8 @@ Consolidated page of all release notes for Notifications from Xanadu to Australi
 Consolidated page of all release notes for Notify from Xanadu to Australia.
 -   **[Combined Now Assist release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassist-release-notes.md)**  
 Consolidated page of all release notes for Now Assist from Xanadu to Australia.
--   **[Combined Now Assist AI Agents release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistaiagents-release-notes.md)**  
-Consolidated page of all release notes for Now Assist AI Agents from Xanadu to Australia.
--   **[Combined Now Assist Analytics release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistanalytics-release-notes.md)**  
-Consolidated page of all release notes for Now Assist Analytics from Xanadu to Australia.
--   **[Combined Now Assist Center release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistcenter-release-notes.md)**  
-Consolidated page of all release notes for Now Assist Center from Xanadu to Australia.
--   **[Combined Now Assist for App Engine release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforappengine-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for App Engine from Xanadu to Australia.
--   **[Combined Now Assist for CMDB release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforcmdb-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for CMDB from Xanadu to Australia.
--   **[Combined Now Assist for Collaborative Work Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforcollaborativeworkmanagement-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Collaborative Work Management from Xanadu to Australia.
--   **[Combined Now Assist for Collaborative Work Management \(CWM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforcollaborativeworkmanagementcwm-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Collaborative Work Management \(CWM\) from Xanadu to Australia.
--   **[Combined Now Assist for Configuration Management Database \(CMDB\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforconfigurationmanagementdatabasecmdb-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Configuration Management Database \(CMDB\) from Xanadu to Australia.
--   **[Combined Now Assist for Configure, Price, Quote \(CPQ\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforconfigurepricequotecpq-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Configure, Price, Quote \(CPQ\) from Xanadu to Australia.
+-   **[Combined Now Assist AI agents release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistaiagents-release-notes.md)**  
+Consolidated page of all release notes for Now Assist AI agents from Xanadu to Australia.
 -   **[Combined Now Assist for Creator release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforcreator-release-notes.md)**  
 Consolidated page of all release notes for Now Assist for Creator from Xanadu to Australia.
 -   **[Combined Now Assist for Customer Service Management \(CSM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforcustomerservicemanagementcsm-release-notes.md)**  
@@ -453,56 +461,24 @@ Consolidated page of all release notes for Now Assist for Enterprise Architectur
 Consolidated page of all release notes for Now Assist for Field Service Management \(FSM\) from Xanadu to Australia.
 -   **[Combined Now Assist for Financial Services Operations \(FSO\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforfinancialservicesoperationsfso-release-notes.md)**  
 Consolidated page of all release notes for Now Assist for Financial Services Operations \(FSO\) from Xanadu to Australia.
--   **[Combined Now Assist for FSM release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforfsm-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for FSM from Xanadu to Australia.
 -   **[Combined Now Assist for Hardware Asset Management \(HAM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforhardwareassetmanagementham-release-notes.md)**  
 Consolidated page of all release notes for Now Assist for Hardware Asset Management \(HAM\) from Xanadu to Australia.
--   **[Combined Now Assist for HR Service Delivery \(HRSD\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforhrservicedeliveryhrsd-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for HR Service Delivery \(HRSD\) from Xanadu to Australia.
 -   **[Combined Now Assist for IT Operations Management \(ITOM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforitoperationsmanagementitom-release-notes.md)**  
 Consolidated page of all release notes for Now Assist for IT Operations Management \(ITOM\) from Xanadu to Australia.
 -   **[Combined Now Assist for IT Service Management \(ITSM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforitservicemanagementitsm-release-notes.md)**  
 Consolidated page of all release notes for Now Assist for IT Service Management \(ITSM\) from Xanadu to Australia.
--   **[Combined Now Assist for Legal Service Delivery \(LSD\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforlegalservicedeliverylsd-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Legal Service Delivery \(LSD\) from Xanadu to Australia.
--   **[Combined Now Assist for Manufacturing Commercial Operations \(MCO\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistformanufacturingcommercialoperationsmco-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Manufacturing Commercial Operations \(MCO\) from Xanadu to Australia.
--   **[Combined Now Assist for Operational Sustainability Management Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforoperationalsustainabilitymanagementmanagement-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Operational Sustainability Management Management from Xanadu to Australia.
--   **[Combined Now Assist for Operational Technology Service Management \(OTSM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforoperationaltechnologyservicemanagementotsm-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Operational Technology Service Management \(OTSM\) from Xanadu to Australia.
--   **[Combined Now Assist for Order Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforordermanagement-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Order Management from Xanadu to Australia.
--   **[Combined Now Assist for Retail Service Management \(RSM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforretailservicemanagementrsm-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Retail Service Management \(RSM\) from Xanadu to Australia.
 -   **[Combined Now Assist for Sales CRM for Telecommunications release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforsalescrmfortelecommunications-release-notes.md)**  
 Consolidated page of all release notes for Now Assist for Sales CRM for Telecommunications from Xanadu to Australia.
--   **[Combined Now Assist for Sales Force Automation \(SFA\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforsalesforceautomationsfa-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Sales Force Automation \(SFA\) from Xanadu to Australia.
--   **[Combined Now Assist for Security Incident Response release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforsecurityincidentresponse-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Security Incident Response from Xanadu to Australia.
--   **[Combined Now Assist for Security Incident Response \(SIR\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforsecurityincidentresponsesir-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Security Incident Response \(SIR\) from Xanadu to Australia.
 -   **[Combined Now Assist for Security Operations release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforsecurityoperations-release-notes.md)**  
 Consolidated page of all release notes for Now Assist for Security Operations from Xanadu to Australia.
--   **[Combined Now Assist for Software Asset Management \(SAM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforsoftwareassetmanagementsam-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Software Asset Management \(SAM\) from Xanadu to Australia.
 -   **[Combined Now Assist for Source-to-Pay Operations release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforsourcetopayoperations-release-notes.md)**  
 Consolidated page of all release notes for Now Assist for Source-to-Pay Operations from Xanadu to Australia.
 -   **[Combined Now Assist for Strategic Portfolio Management \(SPM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforstrategicportfoliomanagementspm-release-notes.md)**  
 Consolidated page of all release notes for Now Assist for Strategic Portfolio Management \(SPM\) from Xanadu to Australia.
 -   **[Combined Now Assist for Telecommunications, Media and Technology \(TMT\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistfortelecommunicationsmediaandtechnologytmt-release-notes.md)**  
 Consolidated page of all release notes for Now Assist for Telecommunications, Media and Technology \(TMT\) from Xanadu to Australia.
--   **[Combined Now Assist for Third-party Risk Management \(TPRM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforthirdpartyriskmanagementtprm-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Third-party Risk Management \(TPRM\) from Xanadu to Australia.
--   **[Combined Now Assist for Vault release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforvault-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Vault from Xanadu to Australia.
 -   **[Combined Now Assist for Vulnerability Response release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforvulnerabilityresponse-release-notes.md)**  
 Consolidated page of all release notes for Now Assist for Vulnerability Response from Xanadu to Australia.
--   **[Combined Now Assist for Workplace Service Delivery \(WSD\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforworkplaceservicedeliverywsd-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Workplace Service Delivery \(WSD\) from Xanadu to Australia.
--   **[Combined Now Assist for Zero Copy Connector release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistforzerocopyconnector-release-notes.md)**  
-Consolidated page of all release notes for Now Assist for Zero Copy Connector from Xanadu to Australia.
 -   **[Combined Now Assist in AI Search release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistinaisearch-release-notes.md)**  
 Consolidated page of all release notes for Now Assist in AI Search from Xanadu to Australia.
 -   **[Combined Now Assist in Contract Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistincontractmanagement-release-notes.md)**  
@@ -513,8 +489,6 @@ Consolidated page of all release notes for Now Assist in Document Intelligence f
 Consolidated page of all release notes for Now Assist in Platform Analytics from Xanadu to Australia.
 -   **[Combined Now Assist in Virtual Agent release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistinvirtualagent-release-notes.md)**  
 Consolidated page of all release notes for Now Assist in Virtual Agent from Xanadu to Australia.
--   **[Combined Now Assist Skill Kit release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowassistskillkit-release-notes.md)**  
-Consolidated page of all release notes for Now Assist Skill Kit from Xanadu to Australia.
 -   **[Combined Now Mobile release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-nowmobile-release-notes.md)**  
 Consolidated page of all release notes for Now Mobile from Xanadu to Australia.
 -   **[Combined On-Call Scheduling release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-oncallscheduling-release-notes.md)**  
@@ -537,6 +511,8 @@ Consolidated page of all release notes for Operational Technology Manager from X
 Consolidated page of all release notes for Operational Technology \(OT\) Manager Foundation from Xanadu to Australia.
 -   **[Combined Operational Technology Request Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-operationaltechnologyrequestmanagement-release-notes.md)**  
 Consolidated page of all release notes for Operational Technology Request Management from Xanadu to Australia.
+-   **[Combined Operational Technology Setup release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-operationaltechnologysetup-release-notes.md)**  
+Consolidated page of all release notes for Operational Technology Setup from Xanadu to Australia.
 -   **[Combined Operational Technology Vulnerability Response release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-operationaltechnologyvulnerabilityresponse-release-notes.md)**  
 Consolidated page of all release notes for Operational Technology Vulnerability Response from Xanadu to Australia.
 -   **[Combined Opportunity Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-opportunitymanagement-release-notes.md)**  
@@ -571,8 +547,6 @@ Consolidated page of all release notes for Portfolio Planning from Xanadu to Aus
 Consolidated page of all release notes for Predictive AI for CSM from Xanadu to Australia.
 -   **[Combined Predictive Intelligence release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-predictiveintelligence-release-notes.md)**  
 Consolidated page of all release notes for Predictive Intelligence from Xanadu to Australia. Predictive Intelligence was previously called Agent Intelligence.
--   **[Combined Predictive intelligence for Legal Service Delivery release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-predictiveintelligenceforlegalservicedelivery-release-notes.md)**  
-Consolidated page of all release notes for Predictive intelligence for Legal Service Delivery from Xanadu to Australia.
 -   **[Combined Pre-Visit Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-previsitmanagement-release-notes.md)**  
 Consolidated page of all release notes for Pre-Visit Management from Xanadu to Australia.
 -   **[Combined Privacy Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-privacymanagement-release-notes.md)**  
@@ -677,6 +651,90 @@ Consolidated page of all release notes for ServiceNow AI Platform core feature f
 Consolidated page of all release notes for ServiceNow CLI from Xanadu to Australia.
 -   **[Combined ServiceNow IDE release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowide-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow IDE from Xanadu to Australia.
+-   **[Combined ServiceNow Lux Lab for VS Code release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowluxlabforvscode-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Lux Lab for VS Code from Xanadu to Australia.
+-   **[Combined ServiceNow Otto release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowotto-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for App Engine release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforappengine-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for App Engine from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Care Team Operations release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforcareteamoperations-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Care Team Operations from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for CMDB release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforcmdb-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for CMDB from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Collaborative Work Management \(CWM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforcollaborativeworkmanagementcwm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Collaborative Work Management \(CWM\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforcollaborativeworkmanagementcwmcwm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Configuration Management Database \(CMDB\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforconfigurationmanagementdatabasecmdb-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Configuration Management Database \(CMDB\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Configure, Price, Quote \(CPQ\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforconfigurepricequotecpq-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Configure, Price, Quote \(CPQ\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Contract Management Pro release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforcontractmanagementpro-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Contract Management Pro from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Creator release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforcreator-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Creator from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Customer Service Management \(CSM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforcustomerservicemanagementcsm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Customer Service Management \(CSM\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Enterprise Architecture \(EA\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforenterprisearchitectureea-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Enterprise Architecture \(EA\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Field Service Management \(FSM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforfieldservicemanagementfsm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Field Service Management \(FSM\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Financial Services Operations \(FSO\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforfinancialservicesoperationsfso-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Financial Services Operations \(FSO\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for FSM release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforfsm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for FSM from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Hardware Asset Management \(HAM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforhardwareassetmanagementham-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Hardware Asset Management \(HAM\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for HR Service Delivery \(HRSD\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforhrservicedeliveryhrsd-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for HR Service Delivery \(HRSD\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for IT Operations Management \(ITOM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforitoperationsmanagementitom-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for IT Operations Management \(ITOM\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for IT Service Management \(ITSM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforitservicemanagementitsm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for IT Service Management \(ITSM\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Legal Service Delivery \(LSD\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforlegalservicedeliverylsd-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Legal Service Delivery \(LSD\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoformanufacturingcommercialoperationsmco-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Operational Sustainability Management Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforoperationalsustainabilitymanagementmanagement-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Operational Sustainability Management Management from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Operational Technology \(OT\) Service Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforoperationaltechnologyotservicemanagement-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Operational Technology \(OT\) Service Management from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Order Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforordermanagement-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Order Management from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Platform Analytics release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforplatformanalytics-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Platform Analytics from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Retail Service Management \(RSM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforretailservicemanagementrsm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Retail Service Management \(RSM\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Sales Automation release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforsalesautomation-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Sales Automation from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Sales Customer Relationship Management for Telecommunications release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforsalescustomerrelationshipmanagementfortelecommunications-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Sales Customer Relationship Management for Telecommunications from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Security Incident Response \(SIR\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforsecurityincidentresponsesir-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Security Incident Response \(SIR\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Security Incident Response \(SIR\) \(SIR\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforsecurityincidentresponsesirsir-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Security Incident Response \(SIR\) \(SIR\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Setup release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforsetup-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Setup from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Software Asset Management \(SAM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforsoftwareassetmanagementsam-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Software Asset Management \(SAM\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Source-to-Pay Operations release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforsourcetopayoperations-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Source-to-Pay Operations from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Strategic Portfolio Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforstrategicportfoliomanagement-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Strategic Portfolio Management from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottofortelecommunicationsmediaandtechnologytmt-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforthirdpartyriskmanagementtprm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Third-party Risk Management \(TPRM\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Unified Security Exposure Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforunifiedsecurityexposuremanagement-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Unified Security Exposure Management from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Vault release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforvault-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Vault from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Workplace Service Delivery \(WSD\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforworkplaceservicedeliverywsd-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Workplace Service Delivery \(WSD\) from Xanadu to Australia.
+-   **[Combined ServiceNow Otto for Zero Copy Connector release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoforzerocopyconnector-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Zero Copy Connector from Xanadu to Australia.
+-   **[Combined ServiceNow Otto in Platform Analytics release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowottoinplatformanalytics-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto in Platform Analytics from Xanadu to Australia.
 -   **[Combined ServiceNow SDK release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowsdk-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow SDK from Xanadu to Australia.
 -   **[Combined ServiceNow Studio release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicenowstudio-release-notes.md)**  
@@ -693,10 +751,10 @@ Consolidated page of all release notes for Service Portal from Xanadu to Austral
 Consolidated page of all release notes for Service Portfolio Management from Xanadu to Australia.
 -   **[Combined Service Reliability Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-servicereliabilitymanagement-release-notes.md)**  
 Consolidated page of all release notes for Service Reliability Management from Xanadu to Australia.
--   **[Combined Setup Hub release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-setuphub-release-notes.md)**  
-Consolidated page of all release notes for Setup Hub from Xanadu to Australia.
 -   **[Combined Sidebar release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-sidebar-release-notes.md)**  
 Consolidated page of all release notes for Sidebar from Xanadu to Australia.
+-   **[Combined Simplified IT Service Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-simplifieditservicemanagement-release-notes.md)**  
+Consolidated page of all release notes for Simplified IT Service Management from Xanadu to Australia.
 -   **[Combined Site Reliability Operations release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-sitereliabilityoperations-release-notes.md)**  
 Consolidated page of all release notes for Site Reliability Operations from Xanadu to Australia.
 -   **[Combined Skills Foundation release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-skillsfoundation-release-notes.md)**  
@@ -745,6 +803,8 @@ Consolidated page of all release notes for Task Intelligence for ITSM from Xanad
 Consolidated page of all release notes for Telecommunications Customer 360 from Xanadu to Australia.
 -   **[Combined Telecommunications Network Inventory release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-telecommunicationsnetworkinventory-release-notes.md)**  
 Consolidated page of all release notes for Telecommunications Network Inventory from Xanadu to Australia.
+-   **[Combined Telecommunications Service Operations Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-telecommunicationsserviceoperationsmanagement-release-notes.md)**  
+Consolidated page of all release notes for Telecommunications Service Operations Management from Xanadu to Australia.
 -   **[Combined Telecommunications Service Operations Management \(TSOM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-telecommunicationsserviceoperationsmanagementtsom-release-notes.md)**  
 Consolidated page of all release notes for Telecommunications Service Operations Management \(TSOM\) from Xanadu to Australia.
 -   **[Combined Theme Builder release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-themebuilder-release-notes.md)**  
@@ -759,6 +819,8 @@ Consolidated page of all release notes for UI Builder from Xanadu to Australia.
 Consolidated page of all release notes for UI Component CLI Extension from Xanadu to Australia.
 -   **[Combined Unified Security Exposure Management release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-unifiedsecurityexposuremanagement-release-notes.md)**  
 Consolidated page of all release notes for Unified Security Exposure Management from Xanadu to Australia.
+-   **[Combined Unified Security Exposure Management \(USEM\) release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-unifiedsecurityexposuremanagementusem-release-notes.md)**  
+Consolidated page of all release notes for Unified Security Exposure Management \(USEM\) from Xanadu to Australia.
 -   **[Combined Universal Request release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-universalrequest-release-notes.md)**  
 Consolidated page of all release notes for Universal Request from Xanadu to Australia.
 -   **[Combined Upgrade Center release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-upgradecenter-release-notes.md)**  
@@ -791,8 +853,6 @@ Consolidated page of all release notes for Workflow Studio from Xanadu to Austra
 Consolidated page of all release notes for Workforce Optimization for CSM from Xanadu to Australia.
 -   **[Combined Workforce Optimization for Customer Service CSM release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-workforceoptimizationforcustomerservicecsm-release-notes.md)**  
 Consolidated page of all release notes for Workforce Optimization for Customer Service CSM from Xanadu to Australia.
--   **[Combined Workforce Optimization for HR release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-workforceoptimizationforhr-release-notes.md)**  
-Consolidated page of all release notes for Workforce Optimization for HR from Xanadu to Australia.
 -   **[Combined Workforce Optimization for ITSM release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-workforceoptimizationforitsm-release-notes.md)**  
 Consolidated page of all release notes for Workforce Optimization for ITSM from Xanadu to Australia.
 -   **[Combined Workspace release notes for upgrades from Xanadu to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/australia-xanadu-workspace-release-notes.md)**  

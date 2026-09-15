@@ -8,7 +8,7 @@ product: Resource Management
 classification: resource-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 16
+reading_time_minutes: 15
 keywords: [resource assignments, resource management, resource allocation]
 breadcrumb: [Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -25,7 +25,7 @@ Quickly create multiple portfolios using resource cards and navigate between the
 
 ## Overview dashboard
 
-Resource Management Workspace overview dashboard provides a high-level interactive resource assignment details that help Resource managers to focus on where to prioritize the efforts, identify conflicts, and review the upcoming or pending assignments. Using this dashboard, Resource managers can view the data around their resources and work for efficient resource forecast planning.
+Resource Management Workspace overview dashboard provides a high-level interactive resource assignment details. Resource managers can use these details to focus on where to prioritize the efforts, identify conflicts, and review the upcoming or pending assignments. Using this dashboard, Resource managers can view the data around their resources and work for efficient resource forecast planning.
 
 The Overview dashboard is crafted to reduce the effort of navigate between different resource boards to view the unassigned work, pend activities, and prioritize day-today tasks.
 
@@ -38,6 +38,8 @@ You can edit the dashboard based on:
 
 \[Omitted image "rmw-dashboard.png"\] Alt text: Dashboard view of Resource Management Workspace displaying the resource assignments stats.
 
+For more details about the dashboard, see [Resource dashboard widget details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-dashboard-widget-details.md).
+
 The interactive dashboard creates a resource board for any selected data helping you to directly access the customized board view from the dashboard. For example, if you select the Unassigned tasks widget, this creates and navigates you to a resource board view with the list of unassigned tasks from the widget.
 
 On the board view, you can get the drill down view of all the assigned assignments to the users. The timeline range in the board view matches with the date range of the dashboard.
@@ -46,139 +48,7 @@ By accessing these custom boards, Resource managers can assign and approve the a
 
 \[Omitted image "rmw-interactive-dashboard-gif.gif"\] Alt text: GIF showing the interactive dashboard selection navigating to resource board view.
 
-<table id="table_am1_hdr_1fc"><thead><tr><th>
-
-Widget title
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Resources over allocated
-
-</td><td>
-
-Number of over-allocated users.
-
-</td></tr><tr><td>
-
-Resources under utilized
-
-</td><td>
-
-Number of users with available bandwidth.
-
-</td></tr><tr><td>
-
-Unassigned assignment requests
-
-</td><td>
-
-Number of unassigned tasks.
-
-</td></tr><tr><td>
-
-Pending resource requests
-
-</td><td>
-
-Total number of requests in Pending state.
-
-</td></tr><tr><td>
-
-Upcoming pending assignments
-
-</td><td>
-
-Number of assignments starting by next month.There are two views for this widget. A pie chart and a list view.
-
-Selecting Pie chart navigates you to the resource board view.
-
-Selecting the table values.
-
--   Start date - opens resource assignment record view.
--   Resource - opens to resource details page.
--   Task - opens project task details in record view.
--   Top task - opens the top task details in record view.
-
-Select **View all** to see the simple list view of assignments.
-
-</td></tr><tr><td>
-
-Assignments ending soon
-
-</td><td>
-
-Number of assignments ending from current date to next month.
-
-</td></tr><tr><td>
-
-Ready for review
-
-</td><td>
-
-Number of assignments that are in ready for review state.
-
-</td></tr><tr><td>
-
-Overdue assignments
-
-</td><td>
-
-Number of assignments with past end dates.
-
-</td></tr><tr><td>
-
-Unapproved assignments
-
-</td><td>
-
-Number of unapproved assignments.
-
-</td></tr><tr><td>
-
-Utilization percentage
-
-</td><td>
-
-Average of the utilization % of the users based on the selected primary attributes.Example: You can select a primary group to view the average utilization % of the entire group. This helps Project Managers to better plan the resource requests. Resource Managers can use this data while approving the assignments.
-
-</td></tr><tr><td>
-
-Assignments status
-
-</td><td>
-
-Breakdown view of the resource assignments based on the status.
-
-</td></tr><tr><td>
-
-Total efforts
-
-</td><td>
-
-Bar chart displaying the monthly breakdown view of allocated hours vs capacity. Select the chart to get the drill down view of the resource allocations in the resource board.
-
-</td></tr><tr><td>
-
-Total resource work by type
-
-</td><td>
-
-Displays the allocated hours based on the task type.Example: Operation work, Project Task, and so on.
-
-</td></tr><tr><td>
-
-Role allocation
-
-</td><td>
-
-Bar chart displaying monthly breakdown view of the total number of allocated hours based on the user roles. Select the chart to get the drill down view of the resource allocations in the resource board.
-
-</td></tr></tbody>
-</table>## Resource board
+## Resource board
 
 Using this intuitive workspace, Resource Managers can:
 
@@ -228,7 +98,7 @@ Indicates changes to start or end date, allocated hours, and so on, to the appro
 </td></tr></tbody>
 </table>-   Understand of the status of the assigned tasks rolled up to resource level using the Resource status column.
 -   View the primary attributes such as Group, Role, and Skill of each resource in the top tray. These come in handy while working on reassigning a task to different user with the same primary attributes.
--   View the priority and state of the project, demand, or epic in the Priority and State columns in the resource board and allocate resources to priority or high-risk planning items.
+-   View the priority and state of the project, demand, or epic in the Priority and State columns in the resource board. Allocate resources to priority or high-risk planning items.
 -   View the actual hours vs allocated hours for a task.
 
     Enable the **Show actuals** toggle \(\[Omitted image "rmw-show-actuals-toggle.png"\] Alt text: Toggle button to view actual hours in Resource Management Workspace\) from the settings side panel \(\[Omitted image "rmw-settings-panel-icon.png"\] Alt text: Gear icon to view or hide settings side panel.\) to view the efforts captured for a task via time cards. Approved time cards are reflected in the resource board view as actual hours.
@@ -279,7 +149,7 @@ Quick filters help you filter and build a personalized view to narrow down datas
 
 ## Resource allocations and heatmap view
 
-The resource allocation view in the top tray provides you with a nested view of the assigned work items rolling up to resource level and the resource allocation breakdown view based on the time-frame \(weekly or monthly\) and by work efforts \(hours, FTE, or person days\).
+The resource allocation view in the top tray provides you with a nested view of the assigned work items rolling up to resource level. It also provides a resource allocation breakdown view based on the time-frame \(weekly or monthly\) and by work efforts \(hours, FTE, or person days\).
 
 Select the arrow \(\[Omitted image "icon-expand-arrow.png"\] Alt text: Right pointed arrow head to expand resource details icon.\) icon to get details at the individual task level \(epics, demands, and so on\) assigned to the resources. This helps you to get a breakdown view to understand:
 
@@ -298,13 +168,13 @@ Define custom statuses to calculate and view resource capacity in the allocation
 
 Allocation heatmap modal gives you an overview of the resource utilization to identify the over allocated and the available resources. The allocations are color-coded to display the availability of the resources and help you to identify the availability of the resource for the filtered time frame.
 
-The new heatmap modal gives you the following insights for a resource such as the assigned tasks with their respective project owner, resource status, efforts for each task, total utilization percentage for the approved tasks, and the remaining capacity.
+The new heatmap modal gives you the following insights for a resource. These insights include the assigned tasks with their respective project owner, resource status, efforts for each task, total utilization percentage for the approved tasks, and the remaining capacity.
 
 \[Omitted image "rmw-heatmap-legend.png"\] Alt text: Legend for resource allocation view.
 
 \[Omitted image "rmw-allocation-modal.png"\] Alt text: Heatmap modal explaining different parameter values of resource allocation.
 
-From the preceding example, you can see the breakdown of the approved work items along with the rolled up efforts, Utilization percentage, and the Remaining capacity for the month of January 2025. The approved work is within the resource capacity as the remaining capacity is 120 hours. A Resource manager can use these insights to decide and allocate the pending work items to another resource with available effort.
+From the preceding example, you can see the breakdown of the approved work items. This includes the rolled up efforts, Utilization percentage, and the Remaining capacity for the month of January 2025. The approved work is within the resource capacity as the remaining capacity is 120 hours. A Resource manager can use these insights to decide and allocate the pending work items to another resource with available effort.
 
 **Important:** Resource efforts calculations are driven by the `com.snc.resource_management.exclude_status_from_capacity` property. Admin can configure this property to calculate efforts for certain defined resource assignments only. For more information, see [Resource Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_ResourceProperties.md).
 
@@ -324,7 +194,7 @@ For example, when you group a resource board by Primary Group to view the alloca
 
 -   **AI-powered resource matching**
 
-    Resource Finder is a Now Assist for SPM skill that evaluates resources against the requirements of an unassigned assignment. The skill considers multiple dimensions simultaneously such as resource's planning attributes \(role, skills, or group\) align with the requirement of assignment, how much capacity the resource has during the assignment period, and the resource's historical allocation patterns compare to the requested effort.
+    Resource Finder is a ServiceNow Otto for SPM skill that evaluates resources against the requirements of an unassigned assignment. The skill considers multiple dimensions simultaneously. These include whether a resource's planning attributes \(role, skills, or group\) align with the requirement of assignment, how much capacity the resource has during the assignment period. They also include the resource's historical allocation patterns compared to the requested effort.
 
 -   **Fit scoring**
 
@@ -346,20 +216,26 @@ For example, when you group a resource board by Primary Group to view the alloca
 
     Resource Finder lists each candidate's available capacity against the effort the assignment requires, giving you a quick comparison view. Effort values honors the user preferences configured in your workspace such as hours, FTE, or person days on a weekly or monthly basis.
 
-    The availability heatmap uses color coding to make this comparison instant. A green cell means the resource has enough capacity to meet the requested effort for that period. A red cell means they fall short. For example, if the requested effort is 1 FTE per month and a candidate shows 1 for April and 0 for May, April appears green and May appears red giving your the availability instantly without doing any mental math.
+    The availability heatmap uses color coding to make this comparison instant. A green cell means the resource has enough capacity to meet the requested effort for that period. A red cell means they fall short. For example, if the requested effort is 1 FTE per month and a candidate shows 1 for April and 0 for May. April appears green and May appears red, giving you the availability instantly without doing any mental math.
 
 
 ## Group resources on resource board
 
 The resource board provides a comprehensive list of resources, which are fetched depending on various resource attribute types, projects, and work items. You can group these resources to gain an accurate perspective on specific attributes, owner, or the parent items associated with the projects. You can group the resources by **Primary Group**, **Primary Role**, **Primary Skill**, **Owner** of the task, or **Parent Item** of the work.
 
-If you group the resource board by **Primary Group**, you see the list of primary groups that the resources are associated with and a drop-down of the list of resources in that group and the work item they're working on. In this view, you also get the rolled up values of the efforts at resource level and group level. The rolled up values can be viewed at a monthly or weekly breakdown.
+If you group the resource board by **Primary Group**, you see the list of primary groups that the resources are associated with. It also shows a drop-down of the list of resources in that group and the work item they're working on. In this view, you also get the rolled up values of the efforts at resource level and group level. The rolled up values can be viewed at a monthly or weekly breakdown.
 
 Resource Managers can use this information to plan the resources and manage assignments.
 
 **Tip:** Grouping the resources based on the primary attributes helps Resource Managers to easily reassign the work as the primary attributes should match to reassign work. For more information on how to reassign a work, see [Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-reassign-unassign-work.md).
 
 \[Omitted image "rmw-board-groupby-primary-group.png"\] Alt text: Resource board grouped by Primary Group attribute.
+
+## Resource efforts termination
+
+Capacity is generated only for the date range between employment start date and employment end date specified in the employee profile. This information is available when the Employee Profile plugin is installed. If the start and end date are unavailable for an employee, manually specify these dates.
+
+Availability for terminated resources is automatically updated to 0 when you run the [resource termination handler job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/resource-termination-scheduled-job.md). This update occurs when the termination date is after the date on which the job is run. If resources are booked for a time period beyond the user's termination dates, those bookings are also updated to 0 in the resource assignments.
 
 -   **[Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-create-rsrc-card.md)**  
 Create a custom resource card to view resources and unassigned tasks, and work on resource mapping for your persistent and focused portfolios.
@@ -386,7 +262,7 @@ Splitting a resource assignment at a specific date creates a resource assignment
 -   **[Manage resource allocations in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/manage-resource-allocations-rmw.md)**  
 Manage resource allocations to change efforts, start and end dates, extend and so on to adjust resources based on their availability and the priority of the tasks.
 -   **[Export resource portfolio view to Excel or CSV format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/export-rmw-card-view.md)**  
-Export your resource portfolio view in Resource Management Workspace as Microsoft Excel or CSV format to review or share the resource status with stakeholders, even if they don't have access to your instance.
+Export your resource portfolio view in Resource Management Workspace as Microsoft Excel or CSV format to review or share the resource status with stakeholders. This works even if they don't have access to your instance.
 
 **Parent Topic:**[Use resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/use-resource-assignment.md)
 

@@ -18,7 +18,7 @@ Amazon SQS spoke automates various actions on the Amazon SQS based on a trigger 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -28,7 +28,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 Amazon SQS spoke v1.0.1
 
-is the latest version.
+is the latest version. For version history of the spoke, see [Amazon SQS Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-sqs-spoke.html).
 
 ## Spoke dependencies
 

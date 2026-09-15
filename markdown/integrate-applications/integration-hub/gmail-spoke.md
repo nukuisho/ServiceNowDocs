@@ -18,7 +18,7 @@ Set up an outbound integration between the ServiceNow instance and the Google AP
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -30,7 +30,7 @@ API version v1.
 
 ## Spoke version
 
-Gmail spoke v1.3.3 is the latest version.
+Gmail spoke v1.3.3 is the latest version. For version history of the spoke, see [Gmail spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-gmail.html).
 
 ## Spoke subflows
 

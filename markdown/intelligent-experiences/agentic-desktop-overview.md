@@ -17,7 +17,7 @@ The Design workspace is an interactive environment within AI Desktop Actions tha
 **Important:** Access to the Design workspace and Execution workspace depends on the user’s role.
 
 -   When users with the AI Agent Admin \(sn\_aia.admin\) role sign in from their desktop, they can access the Home page and Design workspace to create desktop actions. When they test a desktop action, the Execution workspace launches automatically.
--   When users with the Now Assist panel user \(now\_assist\_panel\_user\) role trigger an automation from the Now Assist panel, the Execution workspace launches automatically to run the desktop action.
+-   When users with the ServiceNow Otto panel user \(now\_assist\_panel\_user\) role trigger an automation from the ServiceNow Otto panel, the Execution workspace launches automatically to run the desktop action.
 
 You don’t open the Execution workspace directly. It launches automatically when you test or run a desktop action.
 
@@ -62,7 +62,7 @@ When you log in to AI Desktop Actions, the home page is the first screen you see
 
 ## What AI generates after recording
 
-When you use record with AI option, AI badge, AI analysis retry option, and screen context are shows in the properties panel for each screen. If you aren't satisfied with the results, you can regenerate anchors and screen context by selecting **Retry** \[Omitted image "icon-retry.png"\] Alt text:.
+When you use record with AI option, AI badge, AI analysis retry option, and screen context are shown in the properties panel for each screen. If you aren't satisfied with the results, you can regenerate anchors and screen context by selecting **Retry** \[Omitted image "icon-retry.png"\] Alt text:.
 
 \[Omitted image "ad-screen-ai-tag.png"\] Alt text: AI badge, retry option, and screen context for screens in the properties panel.
 
@@ -252,7 +252,7 @@ Screen capture options
 </table>**Related topics**  
 
 
-[Defined path desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
+[Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
 
 [Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/auto-create-desktop-action-ad.md)
 

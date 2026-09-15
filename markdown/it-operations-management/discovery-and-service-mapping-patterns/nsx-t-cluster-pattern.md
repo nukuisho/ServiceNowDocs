@@ -1,6 +1,6 @@
 ---
 title: VMware NSX-T cluster pattern-based discovery
-description: Discovery and Service Mapping Patterns uses the NSX Cluster pattern to find VMware NSX-T infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns uses the NSX Cluster pattern to find VMware NSX-T infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/nsx-t-cluster-pattern.html
 release: australia
@@ -15,11 +15,11 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # VMware NSX-T cluster pattern-based discovery
 
-Discovery and Service Mapping Patterns uses the NSX Cluster pattern to find VMware NSX-T infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns uses the NSX Cluster pattern to find VMware NSX-T infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## NSX Cluster data model
 
@@ -263,7 +263,7 @@ On the Dependency Views map, you can view discovered NSX-T cluster resources and
 
 \[Omitted image "nsx-management-cluster-ci-dependency-view.png"\] Alt text: NSX Management Cluster CI and connection on a Dependency Views map
 
-## CI relationships
+## CI relationships and references
 
 The NSX Cluster pattern creates the following relationships and references to support NSX-T cluster discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 

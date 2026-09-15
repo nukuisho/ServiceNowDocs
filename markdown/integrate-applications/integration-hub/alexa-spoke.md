@@ -18,7 +18,7 @@ Manage intents, skills, vendors, and slots in your Amazon Alexa account from you
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -30,7 +30,7 @@ This spoke was built for Amazon Alexa API version v1, but may be compatible with
 
 ## Spoke version
 
-Amazon Alexa v1.3.0 is the latest version.
+Amazon Alexa v1.3.0 is the latest version. For version history of the spoke, see [Amazon Alexa spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-alexa.html).
 
 ## Spoke requirements
 

@@ -8,8 +8,8 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+reading_time_minutes: 4
+breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure event collection from SolarWinds monitor
@@ -34,7 +34,7 @@ Role required: evt\_mgmt\_admin and evt\_mgmt\_integration
 
 ## About this task
 
-This connector has the **debug** and **logPayloadForDebug** log parameters enabled. The **debug** parameter logs debug messages, such as calls made to the source system to retrieve events. The **logPayloadForDebug** parameter logs event and metric payloads from the source system. Once debugging is complete, set this parameter to **false** to prevent overloading the system.
+This connector has the **debug** and **logPayloadForDebug** log parameters enabled. The **debug** parameter logs debug messages, such as calls made to the source system to retrieve events. The **logPayloadForDebug** parameter logs event and metric payloads from the source system. Once debugging is complete, set this parameter to **false** to prevent overloading the system. By default, the vRealize\_V2 connector communicates with the vRealize Operations API using JSON. To use the legacy XML format, set the **useXMLResponse** parameter to **true**.
 
 ## Procedure
 

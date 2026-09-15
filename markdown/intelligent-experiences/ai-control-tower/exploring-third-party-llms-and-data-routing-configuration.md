@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Explore the third-party LLMs and regions
@@ -31,7 +31,7 @@ These are the few scenarios to consider when configuring LLMs:
 
 Activating Fallback enables AI systems supported by your approved providers to stay active by using their default providers. Manually deactivating Fallback ensures that these AI systems remain inactive.
 
-For information about Data routing, Fallback, Spillover and Impact summary, see [Explore AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md)
+For information about Data routing, Fallback, Spillover and Impact summary, see [AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md)
 
 For information on configuring of third-party LLMs for APJC region, see [Configure third-party LLMs using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md)
 

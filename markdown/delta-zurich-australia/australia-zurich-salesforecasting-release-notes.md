@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-salesforecasting-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -95,12 +95,12 @@ Enhance forecast accuracy, reduce latency in pipeline views, and support faster,
 Improve parallel forecasting across different product lines or business structures by configuring Forecast Owner and Rollup Owner in the Forecast Model to define ownership and roll‑up responsibility.
 
 
--   **[Support for multiple configurable forecast models](https://www.servicenow.com/docs/access?context=configure-forecast-model&family=australia&ft:locale=en-US)**
+ -   **[Support for multiple configurable forecast models](https://www.servicenow.com/docs/access?context=configure-forecast-model&family=australia&ft:locale=en-US)**
 
 Define and manage forecasting rules beyond the default model by configuring up to ten forecast models to support different forecasting structures.
 
 
--   **[Multi-Period forecast rollups within a single Forecast Model](https://www.servicenow.com/docs/access?context=configure-forecast-model&family=australia&ft:locale=en-US)**
+ -   **[Multi-Period forecast rollups within a single Forecast Model](https://www.servicenow.com/docs/access?context=configure-forecast-model&family=australia&ft:locale=en-US)**
 
 Achieve better planning and strategy by configuring and managing forecasting for multiple time periods \(weekly, monthly, quarterly\) within a single forecast model for flexible data reporting.
 
@@ -111,6 +111,14 @@ Enable forecast owners to configure forecasting with product family as a seconda
 -   **[Enable forecasting at base forecast source](https://www.servicenow.com/docs/access?context=using-sales-forecasting&family=australia&ft:locale=en-US)**
 
 Provide forecast owners and managers with visibility into the opportunities and line items contributing to each forecast number, directly from the dashboard. Support forecast creation, submissions, and adjustments at the individual record level, such as opportunity and opportunity lines.
+
+-   **[Resubmit forecast submissions](https://www.servicenow.com/docs/access?context=reopening-and-resubmitting-a-forecast&family=australia&ft:locale=en-US)**
+
+Enable users to reopen and modify completed forecast submissions in the current submission window. After making adjustments to the forecast values, users can resubmit a forecast. Admins can enable or disable resubmission for each forecast model.
+
+-   **[Customize the forecast dashboard view](https://www.servicenow.com/docs/access?context=using-sales-forecasting&family=australia&ft:locale=en-US)**
+
+Enable forecast viewers to customize their dashboard view by selecting which columns to display and saving their preferences for future sessions. The grid automatically adjusts column widths to distinguish forecast categories. Users can choose different sets of columns for different forecast models.
 
 
 </td></tr></tbody>
@@ -219,7 +227,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -227,7 +238,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -306,7 +320,8 @@ Zurich
 
 </td><td>
 
--   **Dark Theme**
+-   **Accessibility information**
+    -   **Dark Theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 

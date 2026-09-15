@@ -1,6 +1,6 @@
 ---
 title: Manage quick links widgets
-description: Select and display Quick Links on the Employee Slate home page and Canvas by capturing sys\_ids and updating each widget.
+description: Select and display Quick Links on the EmployeeWorks Web App home page and Canvas by capturing sys\_ids and updating each widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-quick-links.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-06-09"
 reading_time_minutes: 2
 keywords: [quick links, homepage widget, canvas widget, sys\_id, background script, Employee Slate]
-breadcrumb: [Configure quick links widget, Quick Links widgets, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure quick links widget, Quick Links widgets, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Manage quick links widgets
 
-Select and display Quick Links on the Employee Slate home page and Canvas by capturing sys\_ids and updating each widget.
+Select and display Quick Links on the EmployeeWorks Web App home page and Canvas by capturing sys\_ids and updating each widget.
 
 ## Before you begin
 
@@ -26,6 +26,8 @@ Create and configure the Quick Links to display in Employee Center before starti
 ## About this task
 
 Both widgets use sys\_ids from the Employee Center Quick Links table \(`sn_ex_sp_quick_link`\). Complete Section 1 first, then configure the home page widget, the Canvas widget, or both.
+
+**Note:** [Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md) helps you configure quick links using the interface.
 
 ## Procedure
 
@@ -115,4 +117,6 @@ Both widgets use sys\_ids from the Employee Center Quick Links table \(`sn_ex_sp
 
 
 [Quick links widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-quick-links.md)
+
+[Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md)
 

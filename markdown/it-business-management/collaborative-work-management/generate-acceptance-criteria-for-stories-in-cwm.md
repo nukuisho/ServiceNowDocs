@@ -28,7 +28,7 @@ Role required: sn\_cwm\_ai.cwm\_ai\_user
 
 3.  Select the story to open its details in the side panel.
 
-4.  From the Acceptance criteria field in the side panel, select the **Use Now Assist to...** menu \(\[Omitted image "icon-eap-na-context-menu.png"\] Alt text:\).
+4.  From the Acceptance criteria field in the side panel, select the **Use ServiceNow Otto to...** menu \(\[Omitted image "icon-eap-na-context-menu.png"\] Alt text:\).
 
 5.  Select **Generate acceptance criteria**.
 
@@ -36,7 +36,7 @@ Role required: sn\_cwm\_ai.cwm\_ai\_user
 
 6.  Review the generated acceptance criteria.
 
-7.  You can choose to further refine the generated content using the Now Assist context menu \(\[Omitted image "icon-eap-na-context-menu.png"\] Alt text:\) or generate a new criteria.
+7.  You can choose to further refine the generated content using the ServiceNow Otto context menu \(\[Omitted image "icon-eap-na-context-menu.png"\] Alt text:\) or generate a new criteria.
 
 8.  Select **Update** to save the acceptance criteria in the Story form.
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [analytics dashboard, service delivery overview, SLA performance, account metrics, account 360]
-breadcrumb: [Review customer or partner accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
+breadcrumb: [Explore, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Service delivery overview
@@ -69,7 +69,7 @@ The SLA performance tab displays metrics that provide you with a summary of the 
 |Team opened SLAs|Total number of SLAs that are either in progress or paused, specific to a team and filtered according to the assignment groups of the logged-in user.|
 |Team SLA analysis achieved|Percentage of SLAs successfully met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
 |Team SLAs expiring today|Total number of SLAs within a specific team scheduled to reach their deadline or expire today, filtered based on the assignment groups linked to the logged-in user.|
-|Team average SLAs age|Average duration between start time and end time for all SLAs marked as achieved or completed within a specific team, filtered by the assignment groups associated with the logged-in user.|
+|Team average SLAs age|Average duration between start time and end time for all SLAs marked as achieved or completed within a specific team. Filtered by the assignment groups associated with the logged-in user.|
 |Team SLA analysis breached|Percentage of SLAs that weren’t met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
 |Overdue SLAs|Number of open SLAs with the **Has breached** field activated.|
 |Opened SLAs|Total number of SLAs that are in In progress or paused state.|
@@ -99,5 +99,5 @@ The Service management tab provides metrics that deliver actionable insights, en
 |---------|-----------|
 |sn\_ind\_tsm\_sdwan.PSEW\_USER|Can view and edit the dashboard and manage users, groups, and roles for the dashboard.|
 
-**Parent Topic:**[Reviewing customer or partner accounts in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
+**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 

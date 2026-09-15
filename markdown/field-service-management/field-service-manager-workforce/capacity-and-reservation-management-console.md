@@ -8,7 +8,7 @@ product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Capacity, Managing workforce, Use, Field Service Management]
 ---
 
@@ -18,7 +18,10 @@ The Capacity Console is a tool designed for monitoring, managing, and optimizing
 
 It provides an intuitive, visual representation of capacity utilization, empowering capacity planners to make data-driven decisions and improve operational efficiency.
 
-**Note:** To use Capacity Console, you must activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) plugin. For more information, see [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
+**Note:** To use Capacity Console, you must activate the following:
+
+-   Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) plugin. For more information, see [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
+-   Field Service territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 -   **Comprehensive capacity view**
 
@@ -43,7 +46,7 @@ It provides an intuitive, visual representation of capacity utilization, empower
 
     -   Save filter preferences: Save your chosen filter settings for quick and easy access in future sessions.
     -   Customize calendar capacity data parameters: Update the calendar to prioritize specific metrics:
-        -   Replace existing metrics \(for example, "Used Capacity" with "Unused Capacity"\).
+        -   Replace existing metrics by customizing the fields shown on events \(for example, "Used Capacity" with "Unused Capacity"\). You can also customize the summary operator used in the event \(for example, replace "+" with "-", "\*", or "/"\).
         -   Add new fields using the **Application Field Set**: Capacity Console events fields. For more information, see [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
 -   **Refining data with the filters**
 

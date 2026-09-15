@@ -20,13 +20,13 @@ The Australia release includes new products.
 
 -   **Employee Service Management**
 
-    [Now Assist for Employee Center Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-employee-center-pro-rn.md)
+    [Now Assist for Employee Center Pro release notes]()
 
 -   **Healthcare and Life Sciences**
 
     [Care Team Work Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hco-ctwm-rn.md)
 
-    [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-healthcare-operations-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-healthcare-operations-rn.md)
+    [ServiceNow Otto for Care Team Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-healthcare-operations-rn.md)
 
 -   **HR Service Delivery**
 
@@ -46,9 +46,13 @@ The Australia release includes new products.
 
 
 
+-   **IT Operations Management**
+
+    [ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/itom-visibility-rn.md)
+
 -   **Operational Technology**
 
-    [Now Assist for Operational Technology Service Management \(OTSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-operational-technology-service-management-otsm-rn.md)
+    [ServiceNow Otto for Operational Technology \(OT\) Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-operational-technology-service-management-otsm-rn.md)
 
 
 
@@ -68,7 +72,7 @@ The Australia release includes new products.
 
 -   **Source-to-Pay Operations**
 
-    [Now Assist for Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-source-to-pay-operations-rn.md)
+    [ServiceNow Otto for Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-source-to-pay-operations-rn.md)
 
 -   **Telecommunications, Media, and Technology**
 
@@ -87,6 +91,8 @@ AI Experiences has new and updated features in the Australia release.
 ServiceNow® APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the Australia release.
 -   **[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)**  
 The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Australia release.
+-   **[Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-asset-management-rn-landing.md)**  
+Asset Management has new and updated features in the Australia release.
 -   **[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/conversational-interfaces-rn-landing.md)**  
 Conversational Interfaces includes enhancements and changes in the Xanadu release.
 -   **[Core Business Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/cbs-rn.md)**  
@@ -113,14 +119,12 @@ ServiceNow® Impact is built on the ServiceNow AI Platform and combines customiz
 Industrial Connected Workforce has new and updated application and features in the Australia release.
 -   **[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)**  
 Healthcare and Life Sciences has new and updated features in the Australia release.
--   **[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-asset-management-rn-landing.md)**  
-IT Asset Management has new and updated features in the Australia release
 -   **[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-operations-management-rn-landing.md)**  
 IT Operations Management has new and updated features in the Australia release.
 -   **[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)**  
 IT Service Management has new and updated features in the Australia release.
 -   **[Manufacturing Commercial Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/manufacturing-commercial-operations-rn.md)**  
-The ServiceNow® Manufacturing Commercial Operations enables manufacturers, agents, and Dealers \(internal and channel partners\) to connect and track services and manage repair, recall, sales promotion campaigns, and quality management. Manufacturing Commercial Operations is a new application in the Australia release.
+The ServiceNow® Manufacturing Commercial Operations enables manufacturers, agents, and dealers \(internal and channel partners\) to connect and track services and manage repair, recall, sales promotion campaigns, and quality management. Manufacturing Commercial Operations is a new application in the Australia release.
 -   **[Mobile Platform release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/mobile-rn.md)**  
 The ServiceNow® Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Australia release.
 -   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)**  

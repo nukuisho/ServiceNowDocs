@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a checklist template, My promotions, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a checklist template, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a visibility criteria
@@ -48,7 +48,7 @@ Condition
 
 </td><td>
 
-Required service organization condition.To learn more about the Service Organization Criteria, see .
+Required service organization condition.To learn more about the Service Organization Criteria, see [Create the criteria for a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-service-organization-criteria.md).
 
 </td></tr></tbody>
 </table>4.  Select **Save**.
@@ -57,5 +57,5 @@ Required service organization condition.To learn more about the Service Organiza
 **Related topics**  
 
 
-[bundle-csm.associate-services-to-service-organization]
+[Associate service organizations with a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-services-to-service-organization.md)
 

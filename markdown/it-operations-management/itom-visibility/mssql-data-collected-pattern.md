@@ -1,6 +1,6 @@
 ---
 title: Microsoft SQL Server and Cluster discovery
-description: The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/mssql-data-collected-pattern.html
 release: australia
@@ -15,11 +15,11 @@ breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 # Microsoft SQL Server and Cluster discovery
 
-The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 For detailed information on SQL Server supported versions see: [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md)
 
@@ -71,7 +71,7 @@ For detailed information on SQL Server supported versions see: [Detailed informa
 
 ## SQL failover cluster instance \(FCI\)
 
-Updating the version 1.6.1 set of Patterns available from the ServiceNow® Store starting August 2023 enables an appropriate discovery of the Always On availability group details and the SQL Failover Clusters. When the failover scenario is occurring, the MSSql DB On Windows pattern discovers the failover cluster \(Node 2\). Then a new MSFT SQL instance and databases are created.
+Starting with version 1.6.1 of the Patterns available from the ServiceNow® Store \(August 2023\), discovery of Always On availability group details and SQL Failover Clusters is supported. When a failover scenario occurs, the MSSql DB On Windows pattern discovers the failover cluster \(Node 2\). A new MSFT SQL instance and databases are then created.
 
 \[Omitted image "sql\_cluster\_discovery.png"\] Alt text: Node 2 is a duplicate of Node 1
 
@@ -480,7 +480,7 @@ Failover state.Possible values:
     |Availability Group \[availability\_group\]|References the MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\] table.|
 
 
-## CI relationships
+## CI relationships and references
 
 The MSSql DB On Windows pattern creates the following relationships and references to support Microsoft SQL Server and Cluster discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 

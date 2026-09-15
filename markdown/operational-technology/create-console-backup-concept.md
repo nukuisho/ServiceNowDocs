@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-04-23"
 reading_time_minutes: 2
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Create a backup for the Console
@@ -90,4 +90,6 @@ To create a backup of the Discovery Console for OT:
 
 11. Select the **Download** button and the ZIP is downloaded to your local system.
 12. Once the file is downloaded, select the delete icon \(trash can\) to remove the archive and free up disk space on the Console.
+
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
 

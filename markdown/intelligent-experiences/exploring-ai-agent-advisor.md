@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/exploring-ai-agent-advisor.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-06"
+last_updated: "2026-07-30"
 reading_time_minutes: 2
-keywords: [explore]
-breadcrumb: [AI Agent Advisor, Enable AI experiences]
+keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
+breadcrumb: [AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # Exploring AI Agent Advisor
@@ -19,7 +19,7 @@ AI Agent Advisor automatically discovers automation opportunities in your instan
 
 AI Agent Advisor analyzes your instance data to identify the most frequent and impactful opportunities for efficiency gains in your workflows. For each identified opportunity, it proposes AI agents that can automate the solution, and generates new agents when no existing match is available.
 
-This gives the Now Assist administrator a data-driven starting point for AI adoption, eliminating the guesswork of deciding where to apply automation.
+This gives the AI administrator a data-driven starting point for AI adoption, eliminating the guesswork of deciding where to apply automation.
 
 ## AI Agent Advisor users
 
@@ -35,11 +35,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Now Assist Administrators
+AI Administrators
 
 </td><td>
 
-Now Assist administrators responsible for organization-wide AI deployment and management
+AI administrators responsible for organization-wide AI deployment and management
 
 </td></tr><tr><td>
 
@@ -105,11 +105,11 @@ Quickly discover automation opportunities for your instance. AI Agent Advisor an
 
 </td><td>
 
-[Automation discovery with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
+Automation discovery with AI Agent Advisor
 
 </td><td>
 
-Now Assist administrator
+AI administrator
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Matches identified automation opportunities to existing AI agents on the platfor
 
 </td><td>
 
-Now Assist administrator
+AI administrator
 
  AI developer
 

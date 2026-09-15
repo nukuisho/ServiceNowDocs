@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-classicworkflow-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -69,7 +69,7 @@ Zurich
 
 -   **[Restrict access to Workflow Editor with a new role](https://www.servicenow.com/docs/access?context=r_WorkflowRoles&family=zurich&ft:locale=en-US)**
 
-Grant access to the Workflow editor by giving users the snc\_required\_script\_writer role.
+Grant access to the Workflow editor by giving users the snc\_required\_script\_writer\_permission role.
 
 
 </td></tr><tr><td>
@@ -128,8 +128,7 @@ Zurich
 
 </td><td>
 
--   Removed the legacy workflows created and published by ServiceNow, Inc. for new customers who start on the Zurich release.
--   Retained the legacy workflows created and published by ServiceNow, Inc. for customers who upgraded from versions prior to the Zurich release.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -158,7 +157,8 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   Support for classic workflows is in Planned Deprecation. For more information about application and plugin deprecation, see [KB0867184 on Support](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184).
+-   Use Workflow Studio flows and subflows instead of classic Workflow.
 
 </td></tr><tr><td>
 
@@ -187,7 +187,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Workflow is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -332,7 +335,7 @@ Zurich
 
 </td><td>
 
--   Added the snc\_required\_script\_writer role to all Workflow tasks.
+-   Added the snc\_required\_script\_writer\_permission role to all Workflow tasks.
 -   Removed the legacy workflows created and published by ServiceNow, Inc. from new customer installations.
 
  See [Classic Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&family=zurich&ft:locale=en-US) for more information.

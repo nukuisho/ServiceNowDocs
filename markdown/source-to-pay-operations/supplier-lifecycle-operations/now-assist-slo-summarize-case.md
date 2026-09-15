@@ -1,6 +1,6 @@
 ---
-title: Summarize a case by using Now Assist for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace
-description: Summarize supplier-related cases to learn more about their status, progress, and action items by using the supplier case summarization skill in the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
+title: Summarize a case by using ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace
+description: Summarize supplier-related cases to learn more about their status, progress, and action items by using the supplier case summarization skill in the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.html
 release: australia
@@ -8,18 +8,18 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Use, Now Assist for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
+reading_time_minutes: 3
+keywords: [generative AI, gen AI, genai, artificial intelligence, supplier case summarization skill, Record summary]
+breadcrumb: [Use, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Summarize a case by using Now Assist for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace
+# Summarize a case by using ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace
 
-Summarize supplier-related cases to learn more about their status, progress, and action items by using the supplier case summarization skill in the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
+Summarize supplier-related cases to learn more about their status, progress, and action items by using the supplier case summarization skill in the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_supplier\_gen\_ai.now\_assist\_fulfiller
 
@@ -52,18 +52,19 @@ You can use the supplier case summarization skill in either Core UI or Source-to
 
     -   **Overview**: Provides information about the case.
     -   **Actions Completed**: Lists all the actions that have been taken so far.
-    -   **Next steps**: Lists the actions that the supplier managers must take next.
+    -   **Next steps**: Lists the actions that the supplier managers must take next \(only for open cases\).
+    -   **Close notes**: Provides complete summary of case resolution \(applicable for closed cases when Advanced Work Assignment for Source-to-Pay Operations is installed\).
 7.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d123586e232">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d133194e244">
 
 Option
 
-</th><th align="left" id="d123586e235">
+</th><th align="left" id="d133194e247">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d123586e241">
+</th></tr></thead><tbody><tr><td id="d133194e253">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -74,7 +75,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d123586e268">
+</td></tr><tr><td id="d133194e280">
 
 **Expand or collapse the summary**
 
@@ -82,7 +83,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d123586e289">
+</td></tr><tr><td id="d133194e301">
 
 **Provide feedback for the summary**
 
@@ -90,7 +91,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d123586e312">
+</td></tr><tr><td id="d133194e324">
 
 **Copy the record summary**
 
@@ -98,7 +99,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d123586e328">
+</td></tr><tr><td id="d133194e340">
 
 **View the information about the record summary**
 
@@ -106,7 +107,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d123586e343">
+</td></tr><tr><td id="d133194e355">
 
 **Refresh the record summary**
 
@@ -123,7 +124,7 @@ The generated summary appears under the record summary and is saved automaticall
 **Related topics**  
 
 
-[Use Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
+[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
 
-[Use Now Assist for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.md)
+[Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.md)
 

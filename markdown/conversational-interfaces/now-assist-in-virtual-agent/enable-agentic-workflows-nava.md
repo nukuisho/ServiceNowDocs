@@ -9,18 +9,12 @@ classification: now-assist-in-virtual-agent
 topic_type: reference
 last_updated: "2026-04-29"
 reading_time_minutes: 1
-breadcrumb: [Now Assist in Virtual Agent reference, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [ServiceNow Otto for Virtual Agent reference, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Enable agentic workflows in Virtual Agent
 
 Perform the following if you're trying to trigger an agentic workflow, but don't see the Virtual Agent option in the configuration.
-
--   Change system property:
-
-    Set the **Value** field of the system property **sn\_aia.enable\_va\_conversation** to **True**.
-
-    **Note:** Ensure your application scope is set to Now Assist AI Agents when making this change.
 
 -   Enable in AI Agent Studio:
 

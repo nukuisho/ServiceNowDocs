@@ -26,22 +26,22 @@ Build Agent supports the following development tasks:
 -   Support governance: Work inside platform scopes, roles, and testing workflows rather than as a detached external bot.
 -   Enable developer learning: Answer ServiceNow development questions, summarize documents, and provide practical examples.
 
--   **[Accessing Build Agent in ServiceNow Studio and the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-build-agent.md)**  
-Build Agent is available in ServiceNow Studio \(UI-first, declarative workflows\) and the ServiceNow IDE \(code-first, autonomous full-stack development\).
+-   **[Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-build-agent.md)**  
+Build Agent is available in ServiceNow Studio for UI-first, declarative workflows. You can also use Build Agent the ServiceNow IDE within ServiceNow Studio for code-first, autonomous full-stack development.
 -   **[Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-a-new-application-using-build-agent.md)**  
-Build custom ServiceNow applications by describing your requirements in plain language to Build Agent. The AI agent generates and builds the application code automatically.
+Create a custom application by describing your requirements in plain language to Build Agent. The AI agent generates and builds the application code based on your input.
 -   **[Edit an existing application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-an-existing-application-using-build-agent.md)**  
-Modify existing ServiceNow applications using natural language prompts with Build Agent.
+Use natural language prompts to modify an existing application in Build Agent. You can describe changes in plain language and review, refine, and approve updates before the application is built and installed.
 -   **[Creating or updating an app file with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creating-or-updating-an-app-file.md)**  
-Use Build Agent to add new files or modify existing files in ServiceNow applications to assist with ongoing metadata and app development and maintenance.
+ Use Build Agent to add new files or modify existing files in ServiceNow applications to support ongoing app development and maintenance.
 -   **[Agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-about-creating-in-app-agents.md)**  
 Build Agent can generate agentic workflows, agents, and skills scoped to your custom app. Turn business requirements into configured AI artifacts without building from scratch.
 -   **[Create agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-custom-ai-agent.md)**  
 Build custom agentic workflows, AI agents, and skills for your applications using automated generation tools with Build Agent. You can streamline development by creating the necessary instructions, tools, and access controls based on your requirements.
 -   **[Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/revert-app-changes-using-build-agent.md)**  
 Restore your development to a previous state when you want to undo recent changes. Use checkpoints created during Build Agent conversations to revert both code and chat history.
--   **[Testing what you built](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-testing.md)**  
-Test Agent generates test coverage for code created by Build Agent, executes tests, and performs root cause analysis on failures. Prompt Test Agent to complete build-to-test workflows in a single development session without manual test authoring or failure investigation.
+-   **[Test what you built](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-testing.md)**  
+Test Agent generates test coverage for code created by Build Agent, executes tests, and performs root cause analysis \(RCA\) on failures. Prompt Test Agent to complete build-to-test workflows in a single development session without manual test authoring or failure investigation.
 -   **[Document an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-document-an-app.md)**  
 Generate documentation for the structure, tables, and UI components of an application. Build Agent reads the codebase and creates a README file describing the application architecture.
 -   **[Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-conversational-change-log.md)**  

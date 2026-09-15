@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-telecommunicationsserviceoperationsmanagementtsom-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,29 +67,6 @@ Zurich
 
 </td><td>
 
--   **[Telecom Discovery Builder framework](https://www.servicenow.com/docs/access?context=exploring-the-telco-generic-schema-etl-framework&family=zurich&ft:locale=en-US)**
-
-Leverage a standardized Extract, Transform, Load \(ETL\) framework to streamline the processing and storage of telecom network data on the ServiceNow AI Platform.
-
-This reusable framework simplifies implementation by removing the need to manually build ETLs. It enables you to focus on connectivity logic while confirming consistent and reliable mapping of network elements such as equipment, cards, ports, LAGs, logical ports, and logical connections into predefined CMDB structures.
-
-Use Telecom Discovery Builder Framework to do the following:
-
-    -   Simplify data transformation tasks by duplicating the common ETL and configuring essential fields and settings for specific connector applications.
-    -   Deploy new Service Graph Connector \(SGC\) using existing ETLs to maintain consistent data transformation practices.
-    -   Help to ensure data integrity and support the automatic creation of TNI Entities through configured Before and After scripts.
-    -   The standardized CMDB/TNI data model enables ETL reusability across multiple connectors.
-    -   Allocate predefined storage locations for both physical and logical inventory elements.
-    -   Maintain consistent data model hierarchies across connectors to support unified network inventory management.
-    -   Improve Discovery SGC quality by providing an OOTB Data Source Validation tools.
--   **[Identify and reconcile discrepancies](https://www.servicenow.com/docs/access?context=exploring-telecom-reconciliation&family=zurich&ft:locale=en-US)**
-
-Use enhanced discrepancy identification and reconciliation features to keep your discovery data accurate and up to date on the ServiceNow AI Platform. These features give you better control over detected changes and improve overall audit performance.
-
-    -   Identify attribute value mismatches during discovery, such as bandwidth changes on ports \(for example, from 10 Mbps to 100 Mbps\).
-    -   Display previous and current attribute values, enabling you to decide whether to accept the new value, retain the old one, or manually raise a remediation task.
-    -   Detect discrepancies in logical entities alongside physical entities for comprehensive discrepancy management for newly discovered logical network elements.
-    -   Generate audit results using filtering conditions—such as specific IP ranges, device vendors, or port types—to focus on relevant subsets of data and significantly enhance audit performance and usability.
 -   **[Fault Management: Events and alerts](https://www.servicenow.com/docs/access?context=fault-management-events-and-alerts&family=zurich&ft:locale=en-US)**
 
 You can monitor your SD-WAN network health and resolve issues faster with automated alerts and event detection.
@@ -103,10 +80,6 @@ The following capabilities have been added to Cisco Meraki and Fortinet:
 
     -   Provides a centralized management of physical infrastructure and logical network relationships within the ServiceNow AI Platform®.
     -   Supports automated, telecom-aware discovery and real-time CMDB synchronization, along with visual network mapping, guided setup, and a dashboard for monitoring integration health.
--   **[Granular admin roles](https://www.servicenow.com/docs/access?context=exploring-the-telco-generic-schema-etl-framework&family=zurich&ft:locale=en-US)**
-
-The granular admin role enables developers and administrators to complete administrative configuration tasks for TSOM without requiring the full admin role.
-
 
 </td></tr><tr><td>
 
@@ -114,7 +87,30 @@ Australia
 
 </td><td>
 
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+-   **[Elastic connector for MPN alerts](https://www.servicenow.com/docs/access?context=set-up-connector-instance-nokia-mpn&family=australia&ft:locale=en-US)**
+
+Collect fault management alarm data from a Mobile Private Network \(MPN\) Elastic index and forward events to Event Management by configuring a connector instance.
+
+-   **[Elastic connector for MPN metrics](https://www.servicenow.com/docs/access?context=configure-mpn-connectors-for-events-and-metrics&family=australia&ft:locale=en-US)**
+
+The MPN connector now supports flexible metrics collection and network-level aggregation for MPN environments.
+
+-   **[MPN data model](https://www.servicenow.com/docs/access?context=mpn-data-model&family=australia&ft:locale=en-US)**
+
+Model your MPN topology in the CMDB with new CI classes and relationships for physical hardware and virtual network functions. The expanded data model captures connectivity between physical objects \(servers, firewalls, and appliances\) and virtual network functions \(UPF, UDM, and 5G core functions\). MPN infrastructure can be represented, related, and reported on alongside your telecom service operations data.
+
+-   **[Network Packet Broker CI class](https://www.servicenow.com/docs/access?context=telecom-data-model&family=australia&ft:locale=en-US)**
+
+Model network packet broker devices in the CMDB with the new Network Packet Broker class \(`cmdb_ci_network_packet_broker`\), a child of Telco Equipment \(`cmdb_ci_telco_equipment`\). Network packet brokers sit between network TAPs or SPAN ports and your security and monitoring tools. They aggregate, filter, and distribute traffic so each tool receives only the data it needs. Example devices include the Iris Packet Broker IPB220 and IPB420, and APCON IntellaFlex XR monitoring switches.
+
+-   **[Bind MPN metrics to configuration items automatically](https://www.servicenow.com/docs/access?context=metric-to-ci-binding-tsom-sgc&family=australia&ft:locale=en-US)**
+
+The MPN pull connector now ships with a preconfigured event field mapping rule that binds collected metrics to CMDB configuration items automatically. The rule uses a scripted extension to resolve the CI from event fields such as name, distinguished name, serial number, and hardware ID.
+
+-   **[KPI aggregation capability](https://www.servicenow.com/docs/access?context=nokia-mpn-formula-engine&family=australia&ft:locale=en-US)**
+
+Use the Formula Engine to process raw KPI formulas into formatted expressions. The expressions are stored in the Formatted KPI Formula field and validated for balanced parentheses before the metric calculation engine references them.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -157,14 +153,9 @@ Australia
 
 </td><td>
 
--   **SD-WAN Discovery connectors [SD-WAN data model](https://www.servicenow.com/docs/access?context=sd-wan-data-model&family=australia&ft:locale=en-US)**
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
-Enable comprehensive SD-WAN visibility by using new Telecom Discovery connectors. Standardize data processing through the SD-WAN Data Model integrated into the Telecom Discovery Builder Framework ETL pipeline.
-
-
--   **[Types of discrepancies](https://www.servicenow.com/docs/access?context=discrepancy-identification-types-of-discrepancies&family=australia&ft:locale=en-US)**
-
-Enhance discovery accuracy and data quality with SD-WAN-specific discrepancy audits that validate discovery results against the CMDB. Reconcile discrepancies manually or automatically using the remediation engine. When the audit detects a newly discovered CI not present in the CMDB, a single follow-on task is created at the equipment level for resolution.
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
 </td></tr></tbody>
@@ -245,7 +236,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Telecommunications Service Operations Management applications and plugins by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -253,7 +247,10 @@ Australia
 
 </td><td>
 
-Install Telecommunications Service Operations Management \(TSOM\) applications and plugins by requesting them from ServiceNow Store. 
+-   **Activation information**
+
+Install Telecommunications Service Operations Management \(TSOM\) applications and plugins by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -401,6 +398,17 @@ Zurich
 Australia
 
 </td><td>
+
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   Reduce API call volume and enforce per-API scheduling constraints for Meraki and Fortinet pull connectors with new granularity and schedule window controls.
+-   Define custom KPI calculations on top of raw metrics using the metric aggregation scripted extension point.
+
+ [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 
 -   Gain comprehensive SD-WAN visibility with new Telecom Discovery connectors for Cisco Meraki and Fortinet FortiManager.
 -   Extend discovery pattern capabilities with support for switch stacks, card models, life-cycle attributes, and improved error handling.

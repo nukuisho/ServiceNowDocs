@@ -34,6 +34,13 @@ A workflow in the Business Continuity Management application involves steps for 
 8.  Manage alerts from the Crisis map and initiate response workflows.
 9.  Send emergency notifications in Everbridge notifications system to alert stakeholders.
 
+## Accessibility compliance
+
+Starting with BCM core version 12.0.x, Accessibility improvements were made to Business Continuity Management \(BCM\) pages and components:
+
+-   Updates include accessible names for buttons and interactive elements across Crisis map, Gantt view, Event tasks, Asset dependencies, and Business continuity planning pages. Keyboard navigation was corrected for forms and recovery task pages. These updates benefit users who rely on screen readers, keyboard-only users, and users of other Assistive Technology \(AT\).
+-   Reflow support for BCM: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
+
 ## Business Continuity Management benefits
 
 The Business Continuity Management application provides these benefits:

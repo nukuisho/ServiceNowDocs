@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-service-management/configuri
 release: australia
 topic_type: concept
 last_updated: "2026-04-30"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Configuring the fulfiller experience in Simplified IT Service Manag
 
 Configure Change Management through a guided experience that walks you through the core setup areas required to make Change Management operational.
 
-The setup provides an opinionated, wizard-driven experience with defaults pre-applied in some steps. Rather than building your configuration from scratch, you can configure by exception, accepting defaults where they apply and customizing only where your organization's needs differ.
+The setup provides an opinionated, wizard-driven experience with defaults pre-applied in some steps. Rather than building your configuration from scratch, you can configure by exception, accepting defaults where they apply and customizing only where your organization's needs differ.\[Omitted video\] Description: Change Management made simple
 
 ## Simplified Change Management overview
 
@@ -40,6 +40,14 @@ Simplified Change Management is intended for organizations that are new to Servi
 ## Configuration areas
 
 Navigate the setup across the core configuration areas within the Configuration Console, each accessible from the **ITSM fulfiller experience** &gt; **Change Management** section. You can move through the areas in any order, skip an area and return to it later as needed.
+
+-   **Forms**
+
+    Configures the change forms that IT fulfiller staff use to create and manage changes. For more information, see [Configure team roles for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-team-roles-for-change-management.md)
+
+-   **Lists**
+
+    Configures which columns appear in the change lists for the IT fulfiller staff. For more information, see [Configure risk for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-risk-change-mgmt.md)
 
 -   **Team roles**
 
@@ -70,8 +78,12 @@ Navigate the setup across the core configuration areas within the Configuration 
 
 You must have the Change Management Setup Administrator \(sn\_itsm\_chg\_admin.admin\) role to configure all the sections of the Change Management setup. This role contains the following roles that can be assigned for access to specific sections:
 
+**Note:** The following roles no longer automatically inherit the sn\_ia\_config.ia\_user role. Users who need to configure the console must now be assigned both the appropriate Change Management role \(for example, sn\_itsm\_chg\_admin.forms\_config\) and the sn\_ia\_config.ia\_user role explicitly. Existing roles aren't modified during upgrade, allowing you to maintain full control over assignment of elevated privileges. After upgrading, if you have previously relied on inherited access, you won't be able to configure the console until the sn\_ia\_config.ia\_user role is assigned explicitly.
+
 |Role|Description|
 |----|-----------|
+|sn\_itsm\_chg\_admin.forms\_config|Grants access to review and configure change forms.|
+|sn\_chg\_setup.lists\_config|Grants access to configure which columns appear in change lists.|
 |sn\_itsm\_chg\_admin.team\_roles\_config|Grants access to configure team roles and group assignments.|
 |sn\_itsm\_chg\_admin.risk\_config|Grants access to configure risk assessment questions, scoring, and risk threshold bands.|
 |sn\_itsm\_chg\_admin.cab\_config|Grants access to configure Change Advisory Board membership, meeting schedules, and approval policies.|
@@ -81,6 +93,10 @@ You must have the Change Management Setup Administrator \(sn\_itsm\_chg\_admin.a
 
 **Note:** The parent role \(sn\_itsm\_chg\_admin.admin\) uses the dotted suffix pattern, while child roles follow a underscore suffix pattern \(for example, sn\_itsm\_chg\_admin.team\_roles\_config\). This is an intentional naming convention, not a typo.
 
+-   **[Configure forms for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-forms-change-management.md)**  
+Review and configure the change forms that IT fulfiller staff use to create and manage changes. Use the Form Builder to customize form layouts, fields, and sections to match your organization's change processes.
+-   **[Configure lists for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-lists-change-management.md)**  
+Configure which columns appear in the change lists for your IT fulfiller staff.
 -   **[Configure team roles for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-team-roles-for-change-management.md)**  
 Assign the right people to the right roles in Change Management so your team can approve, implement, and manage changes with the correct access. Team roles control who can approve, build, or review a change.
 -   **[Configure risk for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-risk-change-mgmt.md)**  

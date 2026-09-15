@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-30"
 reading_time_minutes: 1
-breadcrumb: [Manage allocations, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Manage allocations, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Split opportunity allocation
@@ -20,7 +20,7 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_allocation\_writer
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Opportunity** &gt; **All**, open the opportunity record, and select the **Allocations** tab.
 
@@ -53,12 +53,10 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_allocation\_writer
     The allocation is split into two rows. Both rows are saved and displayed in the Allocations tab under the relevant allocation type.
 
 
-**Parent Topic:**[Manage allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-allocations.md)
-
 **Related topics**  
 
 
-[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
 
 [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

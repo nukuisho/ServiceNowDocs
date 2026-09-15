@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-09"
 reading_time_minutes: 1
-breadcrumb: [Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Compose emails
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and select a lead that you want to work with.
 
@@ -49,7 +49,7 @@ Role required: sales\_agent
 **Related topics**  
 
 
-[Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
 
 [Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
 

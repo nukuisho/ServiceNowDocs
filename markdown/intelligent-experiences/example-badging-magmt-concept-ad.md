@@ -16,7 +16,7 @@ Automate various tasks related to badge requests through desktop actions using A
 
 Your HR representatives manage repetitive badge-related tasks. For example, issuing new badges, distributing temporary badges, replacing lost badges, and disabling badges during offboarding. To streamline and automate this work, you can create a desktop action for each task and assign these actions to an AI Agent in AI Agent Studio.
 
-When new requests come in, HR representatives can trigger the AI agent from the Now Assist panel. The AI Agent automatically selects and runs the appropriate desktop action. This automation reduces manual effort and enables them to focus on higher-value work.
+When new requests come in, HR representatives can trigger the AI agent from the ServiceNow Otto panel. The AI Agent automatically selects and runs the appropriate desktop action. This automation reduces manual effort and enables them to focus on higher-value work.
 
 ## Create badge desktop action in AI Desktop Actions
 
@@ -27,7 +27,7 @@ Automate various badge-related tasks through desktop actions in AI Desktop Actio
 To access the AI Desktop Actions functionality, perform the following steps:
 
 -   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
--   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+-   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 Confirm that the following system requirements are met:
 
@@ -320,7 +320,7 @@ List of steps
 
 ### What to do next
 
-Enable your HR representatives to trigger AI agents from the Now Assist panel to address badge-related requests.
+Enable your HR representatives to trigger AI agents from the ServiceNow Otto panel to address badge-related requests.
 
 For more information, see [Example: Use AI agents to process badge-related requests automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-badging-ai-agent-ad.md).
 

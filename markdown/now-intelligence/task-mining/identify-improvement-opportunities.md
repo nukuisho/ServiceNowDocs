@@ -18,11 +18,15 @@ Initiate an automation request from a Task Mining task timeline analysis.
 
 ## Before you begin
 
+Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admin
+
+Automation Center must be installed to initiate an automation request. To use the ServiceNow Otto feature in the integration, you must install ServiceNow Otto for Platform and activate the User Task Step Summarization skill. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integration-with-automation-center.md).
+
 The project requires a task timeline analysis to take task improvement actions. A task timeline analysis contains tasks with sequential task time steps of user interactions. Use these task steps as the basis of your improvement opportunities. For more information, see [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md).
 
-Automation Center must be installed to initiate an automation request. To use the Now Assist feature in the integration, you must install Now Assist for Platform and activate the User Task Step Summarization skill. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integration-with-automation-center.md).
+Submitting an automation request from Task Mining is the entry point to building a complete desktop automation. Automatically convert desktop processes into executable AI agents: capture the task \(desktop processes\) in Task Mining, create desktop actions \(automation blocks\) and AI agent in Automation Center, and test and deploy the AI agent in AI Agent Studio.
 
-Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admin
+For more information, see [Building desktop automations from Task Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/creating-desktop-actions-tm-ac.md).
 
 ## About this task
 
@@ -82,7 +86,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
         **Note:** If an automation request has already been made for this task, a message with a link to the existing automation request is provided.
 
-    \[Omitted image "tm-io-generate-ai.png"\] Alt text: Screenshot showing the UI option to generate details with AI.
+        \[Omitted image "tm-io-generate-ai.png"\] Alt text: Screenshot showing the AI generation UI.
 
 9.  Select **Regenerate details** to populate the **Description** and **Detailed sequence of steps** fields with data from the tasks again.
 
@@ -90,7 +94,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
     A maximum of 250 steps can be generated. If your task has more than 250 steps, try selecting a more appropriate task. If you want to continue with the task, you can simplify the steps to reduce their number. Alternatively, you can manually populate the **Description** field with step details and complete the automation request form.
 
-    **Note:** The generate details option is available only if Now Assist for Platform is installed and the User Task Step Summarization skill is activated.
+    **Note:** The generate details option is available only if ServiceNow Otto for Platform is installed and the User Task Step Summarization skill is activated.
 
     \[Omitted image "tm-automation-request-done.png"\] Alt text: Screenshot showing the New Automation Request form.
 
@@ -113,4 +117,6 @@ Create an automation request agent to efficiently manage the tasks of the Task M
 [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integration-with-automation-center.md)
 
 [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
+
+[Building desktop automations from Task Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/creating-desktop-actions-tm-ac.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-list-dv-with-var-col.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 8
 breadcrumb: [List visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -190,7 +190,7 @@ Group by \(optional\)
 The field to group by. For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportRanges.md).
+-   For fields with continuous values, such as date or integer, values are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportRanges.md).
 
 
 </td></tr><tr id="alternative-group-by"><td>
@@ -367,7 +367,7 @@ Show column filtering
 
 </td><td>
 
-Enable users to apply filters from column headings at runtime.
+Enable users to apply filters from column headings at runtime. To show or hide filters, the user selects a icon at the beginning of the row of column headers.
 
 </td></tr><tr><td>
 
@@ -419,6 +419,14 @@ Show 'view all' footer
 </td><td>
 
 Enables the user to view all the rows in the visualization, not just the maximum number specified.
+
+</td></tr><tr><td>
+
+Show record count
+
+</td><td>
+
+Show the number of rows in the list \(taking filters into account\) at the top of the visualization.
 
 </td></tr><tr><td>
 

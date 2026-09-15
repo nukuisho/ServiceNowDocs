@@ -9,7 +9,7 @@ classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customizing the result-card, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Customizing the result-card interface of an AI Search application by using EVAM, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Track how your EVAM view configurations are used
@@ -39,7 +39,7 @@ Tracking the usage of view configuration enables you to do the following tasks:
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
-5.  Hover over the view configuration and select the **More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More Actions.\)** &gt; **View usage**.
+5.  Hover over the view configuration and select the **More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More Actions.** &gt; **View usage**.
 
 6.  In the View usage dialog box, review the values.
 

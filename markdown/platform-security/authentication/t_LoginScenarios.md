@@ -20,13 +20,11 @@ You can direct all users to the same page after login.
 
 Role required: admin
 
+This procedure requires the Content Management \(CMS\) plugin to be active. If you're using a Personal Developer Instance \(PDI\) or a basic instance without CMS enabled, the following navigation path may not be available. Verify that the **com.glide.cms** plugin is active before proceeding.
+
 ## About this task
 
-When users log on to an instance directly, such as going to http://\{instance\_name\}.service-now.com/, the system does the following:
-
-1.  Accesses the value in the property **glide.entry.page.script**. The default value of the property is derived from a script include named CMSEntryPage.
-2.  Directs the user to the instance login page if the entry page requires a login.
-3.  Applies login rules, if any, to the user.
+When users log on to an instance directly, the system accesses the value in the property **glide.entry.page.script**. The default value of this property uses the CMSEntryPage script include. Verify that this script include exists in your instance before following the procedure.
 
 To force the system to direct all users to the same page after login:
 

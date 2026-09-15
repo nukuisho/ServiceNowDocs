@@ -31,7 +31,7 @@ Increase the impact of your cross‑enterprise workflows by automating manual pr
 
 </td></tr><tr><td>
 
-[Workflow Studio playbook experience \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Interact with a business workflow in real time from within Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md)
+Workflow Studio playbook experience \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Interact with a business workflow in real time from within Workspace.
 
 </td><td>
 
@@ -113,7 +113,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     Workflow Studio decision tables enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 
--   **[Playbook experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md)**
+-   **Playbook experience**
 
     Interact with a business workflow in real time from within Workspace. Agents can use Playbook to update records, upload attachments, and complete tasks across multiple workflow activities.
 
@@ -170,6 +170,6 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 -   **Virtual Agent Designer**
 
-    The Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
+    The Assistant Designer Asset library includes a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
 
 

@@ -1,18 +1,18 @@
 ---
 title: Configure forms and lists
-description: Configure forms to add the fields and related lists that are necessary to support the business location and household data models.
+description: Configure forms to add the fields and related lists that are necessary to support the business organization \(formerly business location\) and household data models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-data-model-forms.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure forms and lists
 
-Configure forms to add the fields and related lists that are necessary to support the business location and household data models.
+Configure forms to add the fields and related lists that are necessary to support the business organization \(formerly business location\) and household data models.
 
 ## Before you begin
 
@@ -20,6 +20,8 @@ Role required: One of the following:
 
 -   admin
 -   csm\_guided\_setup\_user designated as a delegated developer
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
@@ -39,7 +41,7 @@ Role required: One of the following:
     -   Sold Products
 5.  Add the **Service Organization** field to the Case form for these views: Case and Workspace.
 
-6.  Add the **Requesting Service Organization** field to the Case form for these views: Case and Workspace.
+6.  Add the **Requestor Organization \(formerly Requesting Service Organization\)** field to the Case form for these views: Case and Workspace.
 
 7.  Add the **Updated by** field to the Case form for these views: Case and Workspace.
 

@@ -8,7 +8,7 @@ product: Investment Funding
 classification: investment-funding
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [Investment funding, Investments, Funds, Top-down funding, Bottom-up funding, Funding process]
 breadcrumb: [Strategic Portfolio Management]
 ---
@@ -22,8 +22,6 @@ You can use the Investment Funding \(sn\_invst\_pln\) application to do the foll
 -   Create investments for entities.
 -   Allocate funds to an investment to meet a business requirement or strategic objective.
 -   Request funds from one or more funding sources to achieve business goals.
-
-**Note:** Starting with the Rome release, Investment Funding will be found in the ServiceNow Store. The legacy plugins \(com.snc.investment\_planning, com.snc.investment\_planning\_pmo\) will be prepared for future deprecation in September 2022. The plugins will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Investment entities and investments
 
@@ -40,7 +38,7 @@ Keeping the investment and investment entity separate provides the following adv
 
 A generic investment is an investment that is tied an owner without being associated to any entity. You can fund any entity or other generic investment from a generic investment.
 
-For example, as the CEO of a company you might want to set aside some funds for a training or research initiative and there might not be a transaction table to enable such an entity. You could then create a generic entity to fund the investment.
+For example, as the CEO of a company you might want to set aside some funds for a training or research initiative. However, there might not be a transaction table to enable such an entity. You could then create a generic entity to fund the investment.
 
 ## Top-down and bottom-up funding
 
@@ -69,13 +67,13 @@ Investment co-owners manage, request, and allocate funds on your behalf to the i
 -   **[Request funds for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/request-funds-for-investment.md)**  
 Request funds from a funding source for your investment.
 -   **[Plan fund allocations for investments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/plan-fund-allocations-for-investments.md)**  
-Plan your fund allocations if you are not yet ready to finalize the allocation of your funds.
+Plan your fund allocations if you aren't yet ready to finalize the allocation of your funds.
 -   **[Allocate funds to an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/allocate-funds-to-investment.md)**  
 Allocate funds to investments based on your business goals and available funds.
 -   **[Enter actual spends for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/enter-actuals-for-investment.md)**  
 Enter actual spends for your investments to track fund utilization.
 -   **[Reject a fund request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/reject-fund-requests.md)**  
-You can reject an incoming fund request based on your business priorities or if you do not have sufficient funds.
+You can reject an incoming fund request based on your business priorities or if you don't have sufficient funds.
 -   **[Review the use of your funds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/track-funds.md)**  
 Review the flow of your funds from your investment to other investments to make an informed decision when you allocate or request funds.
 -   **[View past funding details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/view-past-funding-details.md)**  

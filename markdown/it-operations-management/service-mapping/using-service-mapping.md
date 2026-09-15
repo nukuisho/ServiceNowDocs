@@ -16,8 +16,6 @@ breadcrumb: [Service Mapping, ITOM Visibility, IT Operations Management]
 
 As the Service Mapping administrator, you support companies in their efforts to map and maintain critical application services so that they remain service-aware.
 
--   **[AI capabilities in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/ai-workflows-service-mapping.md)**  
-Service Mapping AI capabilities helps Service Mapping Administrators speed-up mapping processes and manage team flows more efficiently.
 -   **[Create a service instance from various data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-create-service-instance.md)**  
 Search for mapped and unmapped services to unify. The flow is available using the Service Mapping workspace.
 -   **[Edit a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-edit-unified-service.md)**  
@@ -36,6 +34,8 @@ View a hierarchical map of CIs and the relationships between them by adding acce
 You can perform initial mapping of multiple or single application services in your organization using a method that best suits you.
 -   **[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)**  
 Service Mapping creates maps to help you see the architecture and organization of application services. These maps are useful for planning change or migration, as well as analyzing the continuity and availability of services.
+-   **[Convert a service instance to Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/convert-service-instance-lightweight.md)**  
+Convert a Service Mapping service instance to Lightweight to minimize storage footprint and optimize performance.
 
 **Parent Topic:**[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-retail-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -108,6 +108,16 @@ Australia
 </td><td>
 
 This section describes new features and enhancements in this release.
+
+ -   **[\[Placeholder link text to key rahi-retail-smart-assessment-questionnaires\]](https://www.servicenow.com/docs/access?context=rahi-retail-smart-assessment-questionnaires&family=australia&ft:locale=en-US)**
+
+Create and publish smart assessment templates for store operations with Smart Assessment support for conditional logic and role-based visibility.
+
+
+ -   **[Manage store plans](https://www.servicenow.com/docs/access?context=rahi-retail-manage-store-plans&family=australia&ft:locale=en-US)**
+
+Store plans provide new capabilities for HQ and regional managers to create operational plans, schedule recurring tasks, and fulfill the tasks through the Retail mobile application.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -287,7 +297,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install the Retail applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -512,6 +525,9 @@ Australia
 
 </td><td>
 
+-   Enable store staff and HQ support agents to report, resolve, and track equipment failures through a structured break-fix workflow.
+-   Enable HQ to publish standardized audit plans that automatically generate store audit cases and tasks for field auditors.
+-   Enable Moveworks to notify store associates in real time when a break-fix case is assigned, resolved, or needs more information.
 -   Enable HQ to create and distribute standardized questionnaires with stores to capture audit results and operational insights.
 -   Build smart store task questionnaires for Retail with conditional logic, attachment support, and role-based response visibility.
 -   Complete store task questionnaires for Retail directly from the Retail mobile app.

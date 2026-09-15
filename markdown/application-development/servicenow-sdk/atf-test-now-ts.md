@@ -16,7 +16,7 @@ breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Buildin
 
 The Automated Test Framework Test API defines automated tests \[sys\_atf\_test\] that you can run to confirm that your instance works after making a change.
 
-**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
+**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
 For general information about Automated Test Framework tests, see [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md).
 
@@ -360,6 +360,14 @@ Steps
 -   atf.catalog\_SP.validatePriceAndRecurringPrice\_SP
 -   atf.catalog\_SP.variableStateValidation\_SP
 -   atf.catalog\_SP.validateVariableValue\_SP
+
+</td></tr><tr><td>
+
+[UI category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-ui-category.md)
+
+</td><td>
+
+atf.uiTestScript.runTest
 
 </td></tr></tbody>
 </table>

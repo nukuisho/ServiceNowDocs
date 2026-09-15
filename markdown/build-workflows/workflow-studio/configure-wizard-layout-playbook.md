@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 2
-breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Configure a Wizard layout playbook

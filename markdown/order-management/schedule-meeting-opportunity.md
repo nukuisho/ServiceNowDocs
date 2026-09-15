@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-09"
 reading_time_minutes: 1
-breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Schedule a meeting from an opportunity
@@ -27,7 +27,7 @@ When you schedule a meeting from an opportunity, the system automatically associ
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  In the **Opportunity - All** list, open the opportunity record.
 
@@ -53,8 +53,6 @@ The meeting is created and linked to the opportunity. It appears in the **Meetin
 To view all meetings for the opportunity, select the **Meetings** tab.
 
 **Note:** The **Meetings** tab displays both meetings linked directly to the opportunity and meetings linked to the opportunity's touchpoints.
-
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
 
 **Related topics**  
 

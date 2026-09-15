@@ -22,7 +22,7 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Select Lists view icon** \(\[Omitted image "icon-list-menu-icw.png"\] Alt text:\).
+1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Select Lists view icon** \(\[Omitted image "icon-list-menu-icw.png"\] Alt text: List menu icon.\).
 
 2.  From the list of breakdowns, select the breakdown task for which you want to initiate the root cause analysis.
 
@@ -34,7 +34,7 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 5.  Select **Save**.
 
-    The Playbook opens that helps you get to the root of the breakdown. To learn more about Playbook Experience, see [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
+    The Playbook opens that helps you get to the root of the breakdown. To learn more about Playbook Experience, see .
 
 6.  From the Recommendations sidebar, attach a standard related to the breakdown analysis.
 

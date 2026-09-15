@@ -45,7 +45,7 @@ For a description of the field values and information about the available tabs o
 
     Typically, the state of the newly created invoice processing case is New and the status of the invoice associated with this case is either Draft or Received, depending on how it was processed by the Accounts Payable Operations integration with Document Intelligence application.
 
-    For more information about invoice statuses, see [Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
+    For more information about invoice statuses, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 5.  In the **Assigned to** field, specify a user that you want to assign the invoice processing case to.
 
@@ -89,14 +89,14 @@ If a transformation error occurs in Document Intelligence, the invoice processin
 
  `Required information for invoice has one or more errors. Review required fields and currency in "Details" tab to continue processing.`
 
- For more information, see [Enter the missing required invoice information and submit an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/enter-missing-docintel.md).
+ For more information, see [Enter missing invoice information and submit an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/enter-missing-docintel.md).
 
 </td></tr></tbody>
 </table>8.  Submit the invoice.
 
     After you submit the invoice, the status of the invoice updates to Received and the invoice processing case remains in the Work in progress state.
 
-    The automated duplicate check process is run and if the process suspects that the invoice is a duplicate, the invoice moves to the Suspected duplicate status, and the invoice processing case displays the following error.
+    The automated duplicate check process is run. If the process suspects that the invoice is a duplicate, the invoice moves to the Suspected duplicate status and the invoice processing case displays the following error.
 
     `Invoice is a potential duplicate. Review invoices in "Potential duplicate invoices" tab to confirm or reject duplicate.`
 
@@ -108,9 +108,9 @@ If a transformation error occurs in Document Intelligence, the invoice processin
 
     If you confirm that the invoice is a duplicate, the invoice moves to the Confirmed duplicate status and the invoice processing case moves to the Closed incomplete state.
 
-    **Note:** When the invoice is in the Confirmed duplicate status, the **Reset to Received** option becomes available. If you've confirmed an invoice as duplicate by mistake, you can reset the status back to the Received status. For more information, see [Reset an invoice to the Received status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/reset-invoice-to-received.md).
+    **Note:** When the invoice is in the Confirmed duplicate status, the **Reset to Received** option is set to available. If you have confirmed an invoice as duplicate by mistake, you can reset the status back to the Received status. For more information, see [Reset an invoice to the Received status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/reset-invoice-to-received.md).
 
-    If you confirm that the invoice is not a duplicate, the invoice moves to the Accepted status, and the invoice processing case remains in the Work in progress state.
+    If you confirm that the invoice is not a duplicate, the invoice moves to the Accepted status. The invoice processing case remains in the Work in progress state.
 
     After the invoice moves to the Accepted status, the automated PO matching process is run and one of the following occurs:
 
@@ -160,7 +160,9 @@ If a transformation error occurs in Document Intelligence, the invoice processin
     -   If the invoice is approved, the invoice moves to the Approved status and the invoice processing case moves to the Closed complete state.
 
 -   **[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)**  
-Manual tasks in Accounts Payable Operations are actions that specialists complete when automated invoice processing workflows require human review or intervention to proceed.
+Manual tasks in Accounts Payable Operations are actions specialists complete when automated invoice workflows require human review.
+-   **[Case exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/case-exclusion-rules.md)**  
+Case exclusion rules let an AP admin define conditions that stop Invoice Case Management from creating a case from an inbound email. Use exclusion rules to filter out emails that don't need agent attention, so that AP agents focus on genuine invoice inquiries.
 
 **Parent Topic:**[Invoice processing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-ingestion-cases.md)
 

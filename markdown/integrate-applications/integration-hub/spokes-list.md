@@ -18,7 +18,7 @@ Activate spokes to enhance your Workflow Studio experience with integration-spec
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Note:** For information about which spokes are included with different Integration Hub subscriptions, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
@@ -33,9 +33,9 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |Spoke name|Spoke version|Compatibility|
 |----------|-------------|-------------|
 |[Adobe Experience Platform Spoke]()|2.1.1|Australia, Zurich, Yokohama, Xanadu|
-|[Adobe Sign Spoke]()|2.10.0|Australia, Zurich, Yokohama, Xanadu|
+|[Adobe Sign Spoke]()|2.10.1|Australia, Zurich, Yokohama, Xanadu|
 |[Agent Client Collector Spoke]()|1.2.0|Australia, Zurich, Yokohama, Xanadu|
-|[Aha! Spoke]()|1.9.0|Australia, Zurich, Yokohama, Xanadu|
+|[Aha! Spoke]()|1.9.1|Australia, Zurich, Yokohama, Xanadu|
 |[AI Search Spoke]()|2.0.3|Australia, Zurich, Yokohama, Xanadu|
 |[Amazon Alexa Spoke]()|1.3.0|Australia, Zurich, Yokohama, Xanadu|
 |[Amazon CloudWatch Spoke]()|1.0.2|Australia, Zurich, Yokohama, Xanadu|
@@ -46,11 +46,11 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[Amazon Elastic Container Service Spoke]()|1.0.2|Australia, Zurich, Yokohama, Xanadu|
 |[Amazon RDS Spoke]()|1.0.5|Australia, Zurich, Yokohama, Xanadu|
 |[Amazon Route 53 Spoke]()|1.0.2|Australia, Zurich, Yokohama, Xanadu|
-|[Amazon S3 Spoke]()|1.2.1|Australia, Zurich, Yokohama, Xanadu|
-|[Amazon SNS Spoke]()|1.1.0|Australia, Zurich, Yokohama, Xanadu|
+|[Amazon S3 Spoke]()|1.3.2|Australia, Zurich, Yokohama, Xanadu|
+|[Amazon SNS Spoke]()|1.1.4|Australia, Zurich, Yokohama, Xanadu|
 |[Amazon SQS Spoke]()|1.0.1|Australia, Zurich, Yokohama, Xanadu|
 |[Amazon VPC Spoke]()|1.0.3|Australia, Zurich, Yokohama, Xanadu|
-|[Ansible Spoke]()|2.3.0|Australia, Zurich, Yokohama, Xanadu|
+|[Ansible Spoke]()|2.4.0|Australia, Zurich, Yokohama, Xanadu|
 |[Asana Spoke]()|1.0.2|Australia, Zurich, Yokohama, Xanadu|
 |[Atlassian Administration Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/atlassian-administration-spoke.md)|1.0.0|Yokohama, Australia, Zurich, Yokohama, Xanadu|
 |[Automation Anywhere Spoke]()|1.3.0|Australia, Zurich, Yokohama, Xanadu|
@@ -61,7 +61,7 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[AWS IAM Spoke]()|1.2.0|Australia, Zurich, Yokohama, Xanadu|
 |[AWS Lambda Spoke]()|1.1.3|Australia, Zurich, Yokohama, Xanadu|
 |[AWS OpsWorks Spoke]()|1.0.2|Australia, Zurich, Yokohama, Xanadu|
-|[AWS Translate Spoke]()|1.0.0|Australia, Zurich, Yokohama, Xanadu|
+|[AWS Translate Spoke]()|1.0.3|Australia, Zurich, Yokohama, Xanadu|
 |[BigFix Inventory Spoke]()|1.6.0|Australia, Zurich, Yokohama, Xanadu|
 |[Blue Prism Spoke]()|1.0.2|Australia, Zurich, Yokohama, Xanadu|
 |[BMC Remedy Spoke]()|1.5.0|Australia, Zurich, Yokohama, Xanadu|
@@ -70,24 +70,25 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[Cisco Webex Meetings Spoke]()|2.3.3|Australia, Zurich, Yokohama, Xanadu|
 |[Cisco Webex Teams Spoke]()|2.3.6|Australia, Zurich, Yokohama, Xanadu|
 |[Confluence Cloud Spoke]()|2.1.1|Australia, Zurich, Yokohama, Xanadu|
-|[Confluent Kafka REST Proxy Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-kafka-spoke.md)|1.0.0|Australia, Zurich, Yokohama, Xanadu|
+|[Confluent Kafka REST Proxy Spoke]()|1.0.0|Australia, Zurich, Yokohama, Xanadu|
 |[Continuous Integration and Continuous Delivery \(CICD\) Spoke]()|1.0.11| |
 |[Cornerstone Spoke]()|1.4|Australia, Zurich, Yokohama, Xanadu|
-|[Coupa Spoke]()|4.16.0|Australia, Zurich, Yokohama, Xanadu|
+|[Coupa Spoke]()|4.17.0|Australia, Zurich, Yokohama, Xanadu|
 |[Craft spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/craft-spoke.md)|1.1.0|Australia, Zurich, Yokohama, Xanadu|
 |[Credly spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/credly-spoke.md)|1.0.0|Australia, Zurich, Yokohama, Xanadu|
 |[CrowdStrike Spoke]()|1.1.0|Australia, Zurich, Yokohama, Xanadu|
-|[Docker Spoke]()|2.4.0|Australia, Zurich, Yokohama, Xanadu|
-|[Docusign eSignature Spoke]()|4.4.3|Australia, Zurich, Yokohama, Xanadu|
+|[Databricks Spoke]()|1.0.1|Australia, Zurich, Yokohama, Xanadu|
+|[Docker Spoke]()|2.4.3|Australia, Zurich, Yokohama, Xanadu|
+|[Docusign eSignature Spoke]()|4.5.1|Australia, Zurich, Yokohama, Xanadu|
 |[Dropbox Business Spoke]()|1.1.0|Australia, Zurich, Yokohama, Xanadu|
 |[Dun and Bradstreet DirectPlus Spoke]()|1.1.0|Australia, Zurich, Yokohama, Xanadu|
 |[Ethoca spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ethoca-spoke.md)|1.0.0|Australia, Zurich, Yokohama, Xanadu|
-|[Equifax Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/equifax-spoke.md)|1.0.0|Australia, Zurich, Yokohama, Xanadu|
+|[Equifax Spoke]()|1.0.0|Australia, Zurich, Yokohama, Xanadu|
 |[F5 BIG-IP Spoke]()|1.3.0|Australia, Zurich, Yokohama, Xanadu|
 |[First Advantage Spoke]()|1.9.0|Australia, Zurich, Yokohama, Xanadu|
-|[FRISS Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/friss-spoke.md)|1.0.0|Australia, Zurich, Yokohama, Xanadu|
-|[GitHub Spoke]()|3.6.0|Australia, Zurich, Yokohama, Xanadu|
-|[GitLab Spoke]()|2.5.0|Australia, Zurich, Yokohama, Xanadu|
+|[FRISS Spoke]()|1.2.0|Australia, Zurich, Yokohama, Xanadu|
+|[GitHub Spoke]()|3.6.4|Australia, Zurich, Yokohama, Xanadu|
+|[GitLab Spoke]()|2.5.3|Australia, Zurich, Yokohama, Xanadu|
 |[Gmail Spoke]()|1.3.3|Australia, Zurich, Yokohama, Xanadu|
 |[Google Calendar Spoke]()|2.7.0|Australia, Zurich, Yokohama, Xanadu|
 |[Google Chat spoke]()|1.2.0|Australia, Zurich, Yokohama, Xanadu|
@@ -98,7 +99,7 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[Google Cloud Pub Sub Spoke]()|1.0.4|Australia, Zurich, Yokohama, Xanadu|
 |[Google Cloud SQL Spoke]()|1.0.1|Australia, Zurich, Yokohama, Xanadu|
 |[Google Cloud Storage Spoke]()|1.1.1|Australia, Zurich, Yokohama, Xanadu|
-|[Google Cloud Translator Service Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/google-translator-spoke.md)|3.1.1|Australia, Zurich, Yokohama, Xanadu|
+|[Google Cloud Translator Service Spoke]()|3.2.8|Australia, Zurich, Yokohama, Xanadu|
 |[Google Cloud Virtual Network Spoke]()|1.0.4|Australia, Zurich, Yokohama, Xanadu|
 |[Google Cloud VPC Access Spoke]()|1.0.1|Australia, Zurich, Yokohama, Xanadu|
 |[Google Compute Engine Spoke]()|1.0.5|Australia, Zurich, Yokohama, Xanadu|
@@ -113,18 +114,18 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[GoTo Spoke]()|2.0.1|Australia, Zurich, Yokohama, Xanadu|
 |[GovNotify Spoke]()|1.3.0|Australia, Zurich, Yokohama, Xanadu|
 |[Gremlin Spoke]()|1.0.3|Australia, Zurich, Yokohama, Xanadu|
-|[Guidewire Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/guidewire-spoke.md)|1.2.0|Australia, Zurich, Yokohama, Xanadu|
+|[Guidewire Spoke]()|1.3.0|Australia, Zurich, Yokohama, Xanadu|
 |[iManage Spoke]()|1.1.0|Australia, Zurich, Yokohama, Xanadu|
 |[Infoblox Spoke]()|2.1.0|Australia, Zurich, Yokohama, Xanadu|
-|[Jack Henry jXchange Spoke]()|2.0.3|Australia, Zurich, Yokohama, Xanadu|
+|[Jack Henry jXchange Spoke]()|3.0.2|Australia, Zurich, Yokohama, Xanadu|
 |[Jamf Spoke]()| |Australia, Zurich, Yokohama, Xanadu|
 |[Jenkins Spoke]()|2.3.1|Australia, Zurich, Yokohama, Xanadu|
-|[Jenkins v2 Spoke]()|1.4.0|Australia, Zurich, Yokohama, Xanadu|
+|[Jenkins v2 Spoke]()|1.4.1|Australia, Zurich, Yokohama, Xanadu|
 |[Jira Service Management Spoke]()|2.0.1|Australia, Zurich, Yokohama, Xanadu|
 |[Jira Spoke]()|6.1.3|Australia, Zurich, Yokohama, Xanadu|
 |[Kubernetes Spoke]()|1.4.0|Australia, Zurich, Yokohama, Xanadu|
 |[Legal Tracker Spoke]()|1.0.2|Australia, Zurich, Yokohama, Xanadu|
-|[Lenovo Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/lenovo-spoke.md)|1.0.0|Australia, Zurich, Yokohama, Xanadu|
+|[Lenovo Spoke]()|1.0.0|Australia, Zurich, Yokohama, Xanadu|
 |[Looker Spoke]()|1.0.0|Australia, Zurich, Yokohama, Xanadu|
 |[Lucidchart Diagramming Spoke]()|1.1.1|Australia, Zurich, Yokohama, Xanadu|
 |[Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/metrikus-spoke.md)|1.0.1|Australia, Zurich, Yokohama, Xanadu|
@@ -136,10 +137,10 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[Microsoft Active Directory Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-ad-spoke.md)|3.1.5| |
 |[Microsoft Azure Application Insights Spoke]()|1.0.1|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft Azure Artifacts Spoke]()|1.0.3|Australia, Zurich, Yokohama, Xanadu|
-|[Microsoft Azure Automation Spoke]()|2.0.0|Australia, Zurich, Yokohama, Xanadu|
+|[Microsoft Azure Automation Spoke]()|2.0.2|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft Azure Blob Storage Spoke]()|2.0.0|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft Azure Cosmos DB Spoke]()|2.0.0|Australia, Zurich, Yokohama, Xanadu|
-|[Microsoft Azure DevOps Boards Spoke]()|3.1.0|Australia, Zurich, Yokohama, Xanadu|
+|[Microsoft Azure DevOps Boards Spoke]()|3.1.3|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft Azure DevOps Pipelines Spoke]()|1.0.0|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft Azure Managed Storage Spoke]()|2.0.0|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft Azure Notification Hub Spoke]()|2.0.0|Australia, Zurich, Yokohama, Xanadu|
@@ -150,24 +151,25 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[Microsoft Azure Virtual Machine Spoke]()|2.0.0|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft Azure Virtual Network Spoke]()|2.0.0|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft Dynamics 365 for Finance and Operations Spoke]()|2.5.0|Australia, Zurich, Yokohama, Xanadu|
-|[Microsoft Dynamics CRM Spoke]()|1.10.0|Australia, Zurich, Yokohama, Xanadu|
+|[Microsoft Dynamics CRM Spoke]()|1.10.1|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft Endpoint Configuration Manager Spoke]()|1.10.2|Australia, Zurich, Yokohama, Xanadu|
-|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)]()|4.7.5|Australia, Zurich, Yokohama, Xanadu|
-|[Microsoft Exchange Online Spoke]()|4.0.2|Australia, Zurich, Yokohama, Xanadu|
+|[Microsoft Entra Entitlement Management Spoke]()|1.0.0|Australia, Zurich, Yokohama, Xanadu|
+|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)]()|4.8.2|Australia, Zurich, Yokohama, Xanadu|
+|[Microsoft Exchange Online Spoke]()|4.1.0|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft Exchange Server Spoke]()|2.6.0|Australia, Zurich, Yokohama, Xanadu|
-|[Microsoft Intune Spoke]()|2.0.0|Australia, Zurich, Yokohama, Xanadu|
-|[Microsoft OneDrive Spoke]()|2.9.0|Australia, Zurich, Yokohama, Xanadu|
+|[Microsoft Intune Spoke]()|2.0.1|Australia, Zurich, Yokohama, Xanadu|
+|[Microsoft OneDrive Spoke]()|2.9.1|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft SCCM Spoke]()|1.1.2| |
 |[Microsoft Security Response Center Spoke]()|1.3.0|Australia, Zurich, Yokohama, Xanadu|
-|[Microsoft SharePoint Online Spoke]()|2.11.2|Australia, Zurich, Yokohama, Xanadu|
+|[Microsoft SharePoint Online Spoke]()|2.11.5|Australia, Zurich, Yokohama, Xanadu|
 |[Microsoft Teams Spoke]()|1.1.3| |
-|[Microsoft Teams Communications Spoke]()|1.5.1|Australia, Zurich, Yokohama, Xanadu|
-|[Microsoft Teams Graph Spoke]()|4.5.0|Australia, Zurich, Yokohama, Xanadu|
+|[Microsoft Teams Communications Spoke]()|1.6.2|Australia, Zurich, Yokohama, Xanadu|
+|[Microsoft Teams Graph Spoke]()|4.5.2|Australia, Zurich, Yokohama, Xanadu|
 |[Miro Spoke]()|3.4.0|Australia, Zurich, Yokohama, Xanadu|
-|[monday.com Spoke]()|1.2.0|Australia, Zurich, Yokohama, Xanadu|
+|[monday.com Spoke]()|1.2.1|Australia, Zurich, Yokohama, Xanadu|
 |[Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/metrikus-spoke.md)|Beta v1.0|Australia|
 |[Navex EthicsPoint Spoke]()|1.0.3|Australia, Zurich, Yokohama, Xanadu|
-|[Okta Spoke]()|4.8.0|Australia, Zurich, Yokohama, Xanadu|
+|[Okta Spoke]()|4.8.3|Australia, Zurich, Yokohama, Xanadu|
 |[OneLogin Spoke]()|1.0.2|Australia, Zurich, Yokohama, Xanadu|
 |[Oracle Autonomous DB Spoke]()|1.0.6|Australia, Zurich, Yokohama, Xanadu|
 |[Oracle Block Storage Spoke]()|1.0.4|Australia, Zurich, Yokohama, Xanadu|
@@ -175,7 +177,7 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[Oracle Cloud IAM Spoke]()|1.1.4|Australia, Zurich, Yokohama, Xanadu|
 |[Oracle Compute Engine Spoke]()|1.0.4|Australia, Zurich, Yokohama, Xanadu|
 |[Oracle EBS Spoke]()|1.14.0|Australia, Zurich, Yokohama, Xanadu|
-|[Oracle Financial Cloud Spoke]()|1.6.0|Australia, Zurich, Yokohama, Xanadu|
+|[Oracle Financial Cloud Spoke]()|1.7.1|Australia, Zurich, Yokohama, Xanadu|
 |[Oracle HCM Cloud Spoke]()|4.5.0|Australia, Zurich, Yokohama, Xanadu|
 |[Oracle NetSuite Spoke]()|1.2.0|Xanadu, Australia, Zurich, Yokohama|
 |[Oracle Object Storage Management Spoke]()|1.0.3|Australia, Zurich, Yokohama, Xanadu|
@@ -184,56 +186,56 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[PagerDuty Spoke]()|1.6.0|Australia, Zurich, Yokohama, Xanadu|
 |[Plivo Spoke]()|1.3.0|Australia, Zurich, Yokohama, Xanadu|
 |[Pluralsight Spoke]()|1.2.0|Australia, Zurich, Yokohama, Xanadu|
-|[Qualtrics Spoke]()|1.4.0|Australia, Zurich, Yokohama, Xanadu|
+|[Qualtrics Spoke]()|1.4.2|Australia, Zurich, Yokohama, Xanadu|
 |[Rally Spoke]()|1.0.3|Australia, Zurich, Yokohama, Xanadu|
 |[Redox Electronic Health Record Spoke]()|1.0.3|Australia, Zurich, Yokohama, Xanadu|
 |[Roadmunk Spoke]()|1.7.1|Australia, Zurich, Yokohama, Xanadu|
 |[Saba Spoke]()|1.1.0|Australia, Zurich, Yokohama, Xanadu|
-|[Salesforce Marketing Cloud Spoke]()|1.6.1|Australia, Zurich, Yokohama, Xanadu|
-|[Salesforce Spoke]()|2.5.0|Australia, Zurich, Yokohama, Xanadu|
+|[Salesforce Marketing Cloud Spoke]()|1.6.2|Australia, Zurich, Yokohama, Xanadu|
+|[Salesforce Spoke]()|2.6.1|Australia, Zurich, Yokohama, Xanadu|
 |[SAP Ariba Spoke]()|1.15.0|Australia, Zurich, Yokohama, Xanadu|
 |[SAP Commerce Cloud Spoke]()|1.1.0|Australia, Zurich, Yokohama, Xanadu|
-|[SAP Concur Spoke]()|2.3.2|Australia, Zurich, Yokohama, Xanadu|
+|[SAP Concur Spoke]()|2.3.3|Australia, Zurich, Yokohama, Xanadu|
 |[SAP ECC IDoc Spoke]()|1.5.1|Australia, Zurich, Yokohama, Xanadu|
-|[SAP ECC RFC Spoke]()|2.10.0|Australia, Zurich, Yokohama, Xanadu|
-|[SAP Fieldglass Spoke]()|1.3.0|Australia, Zurich, Yokohama, Xanadu|
+|[SAP ECC RFC Spoke]()|2.11.0|Australia, Zurich, Yokohama, Xanadu|
+|[SAP Fieldglass Spoke]()|1.3.1|Australia, Zurich, Yokohama, Xanadu|
 |[SAP S4 HANA IDoc Spoke]()|1.2.0|Australia, Zurich, Yokohama, Xanadu|
 |[SAP S4 HANA OData spoke]()|1.12.0|Australia, Zurich, Yokohama, Xanadu|
 |[SAP S4 HANA Public Cloud Spoke]()|1.3.0|Australia, Zurich, Yokohama, Xanadu|
 |[SAP S4 HANA RFC Spoke]()|2.7.0|Australia, Zurich, Yokohama, Xanadu|
 |[SCCM Usage Metering Spoke]()|1.0.2|Australia, Zurich, Yokohama, Xanadu|
 |[Secureworks CTP Spoke]()|1.0.3|Australia, Zurich, Yokohama, Xanadu|
-|[ServiceNow Remote Instance Spoke]()|2.3.0|Australia, Zurich, Yokohama, Xanadu|
+|[ServiceNow Remote Instance Spoke]()|2.3.2|Australia, Zurich, Yokohama, Xanadu|
 |[ServiceNow University Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-learning-spoke.md)| |Australia, Zurich, Yokohama, Xanadu|
 |[Shodan Spoke]()|1.1.0|Australia, Zurich, Yokohama, Xanadu|
-|[Slack Spoke]()|1.9.2|Australia, Zurich, Yokohama, Xanadu|
-|[SmartRecruiters Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/smartrecruiters-spoke.md)|1.0.0|Australia, Zurich, Yokohama, Xanadu|
-|[Smartsheet Spoke]()|2.7.0|Australia, Zurich, Yokohama, Xanadu|
+|[Slack Spoke]()|1.9.3|Australia, Zurich, Yokohama, Xanadu|
+|[SmartRecruiters Spoke]()|1.0.0|Australia, Zurich, Yokohama, Xanadu|
+|[Smartsheet Spoke]()|2.8.0|Australia, Zurich, Yokohama, Xanadu|
 |[Snowflake Spoke]()|1.0.3|Australia, Zurich, Yokohama, Xanadu|
 |[Socure Spoke]()|1.1.0|Australia, Zurich, Yokohama, Xanadu|
-|[SuccessFactors Learning Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/successfactors-learning-spoke.md)| |Australia, Zurich, Yokohama, Xanadu|
-|[SuccessFactors spoke]()|4.11.0|Australia, Zurich, Yokohama, Xanadu|
+|[SuccessFactors Learning Spoke]()|1.0.0|Australia, Zurich, Yokohama, Xanadu|
+|[SuccessFactors spoke]()|4.11.1|Australia, Zurich, Yokohama, Xanadu|
 |[SumTotal Spoke]()|1.0.2|Australia, Zurich, Yokohama, Xanadu|
 |[SurveyMonkey Spoke]()|2.0.6|Australia, Zurich, Yokohama, Xanadu|
 |[Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/tableau-spoke.md)| |Australia, Zurich, Yokohama, Xanadu|
-|[Trello Spoke]()|1.5.0|Australia, Zurich, Yokohama, Xanadu|
+|[Trello Spoke]()|1.5.1|Australia, Zurich, Yokohama, Xanadu|
 |[Twilio Spoke]()|1.2.0|Australia, Zurich, Yokohama, Xanadu|
 |[UCF Spoke]()|1.1.0|Australia, Zurich, Yokohama, Xanadu|
 |[Udemy Spoke]()|1.0.2|Australia, Zurich, Yokohama, Xanadu|
 |[UiPath Spoke]()|2.6.0|Australia, Zurich, Yokohama, Xanadu|
 |[UKG Spoke]()|3.6.1|Australia, Zurich, Yokohama, Xanadu|
-|[Utility Actions Spoke]()|1.4.0|Australia, Zurich, Yokohama, Xanadu|
+|[Utility Actions Spoke]()|1.4.1|Australia, Zurich, Yokohama, Xanadu|
 |[Verifi Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/verifi-spoke.md)|1.0.0|Australia, Zurich, Yokohama, Xanadu|
 |[Visa Spoke]()|2.5.2|Australia, Zurich, Yokohama, Xanadu|
 |[Vonage Spoke]()|2.1.0|Australia, Zurich, Yokohama, Xanadu|
 |[Workday Financials Spoke]()|2.2.0|Australia, Zurich, Yokohama, Xanadu|
-|[Workday HR Spoke]()|3.0.1|Australia, Zurich, Yokohama, Xanadu|
+|[Workday HR Spoke]()|3.0.2|Australia, Zurich, Yokohama, Xanadu|
 |[Workday Learning Spoke]()|1.1.4|Australia, Zurich, Yokohama, Xanadu|
-|[Workfront Spoke]()|1.4.0|Australia, Zurich, Yokohama, Xanadu|
+|[Workfront Spoke]()|1.4.3|Australia, Zurich, Yokohama, Xanadu|
 |[Workplace from Facebook Spoke]()|4.2.0|Australia, Zurich, Yokohama, Xanadu|
 |[Wrike Spoke]()|1.3.0|Australia, Zurich, Yokohama, Xanadu|
 |[X Spoke \(formerly Twitter Spoke\)]()|2.4.0|Australia, Zurich, Yokohama, Xanadu|
 |[YouTube Spoke]()|1.0.5|Australia, Zurich, Yokohama, Xanadu|
-|[Zendesk Spoke]()|1.9.0|Australia, Zurich, Yokohama, Xanadu|
-|[Zoom Spoke]()|4.8.0|Australia, Zurich, Yokohama, Xanadu|
+|[Zendesk Spoke]()|1.9.2|Australia, Zurich, Yokohama, Xanadu|
+|[Zoom Spoke]()|5.0.0|Australia, Zurich, Yokohama, Xanadu|
 

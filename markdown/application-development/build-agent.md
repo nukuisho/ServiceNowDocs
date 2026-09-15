@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-30"
+last_updated: "2026-07-24"
 reading_time_minutes: 2
 keywords: [Build Agent, AI agent, autonomous AI, application development, ServiceNow applications, conversational interface, natural language, application lifecycle management, Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
@@ -55,5 +55,5 @@ Use Build Agent, an autonomous AI agent, for creating and updating ServiceNow® 
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-08-25"
 reading_time_minutes: 3
 breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configu
 You can configure the user access for Service Operations Workspace \(SOW\) pages using various roles.
 
 **Important:** Install and activate the ITSM Roles plugin `(com.snc.itsm.roles)` before assigning the SOW user roles. Without this plugin, role inheritance chains such as \(`sn_incident_read` inheriting `sn_sow.sow_home` and `sn_sow.sow_list`\) may not function correctly and users may not be able to access the SOW workspace even with the expected roles assigned.
+
+The following table lists the roles available in Service Operations Workspace for ITSM. Rows with a shaded sub-heading indicate role categories.
 
 <table id="table_qkn_j4g_1cc"><thead><tr><th>
 
@@ -77,6 +79,10 @@ Provides access to SOW list pages.
 </td><td>
 
 sn\_sow.sow\_user
+
+</td></tr><tr><td class="sub-head" colspan="3">
+
+SOW Admin Center
 
 </td></tr><tr><td>
 
@@ -363,6 +369,20 @@ Provides the read access to Schedules page.
 </td><td>
 
 Users with the oc\_read role can access the On-call Schedules, Experts On-call, Escalation Tracking, and other On-call features in Service Operations Workspace.
+
+</td></tr><tr><td>
+
+rota\_admin
+
+</td><td>
+
+Provides full access to manage on-call shifts, rosters, and schedules. Controls access to the on-call onboarding wizard.
+
+</td><td>
+
+-   sn\_sow.sow\_home
+-   sn\_sow.sow\_list
+-   sn\_sd.success\_dashboard\_details\_read
 
 </td></tr></tbody>
 </table>**Tip:** If the user has a role that inherits SOW access \(such as `sn_incident_read`\) but cannot access the workspace, verify that:

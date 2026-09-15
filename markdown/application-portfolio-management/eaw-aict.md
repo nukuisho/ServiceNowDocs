@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: concept
 last_updated: "2026-04-14"
-reading_time_minutes: 8
+reading_time_minutes: 9
 keywords: [AI governance, business applications, enterprise architecture, AI systems, portfolio management, AI steward, risk classification, lifecycle management, enterprise architecture workspace]
 breadcrumb: [Exploring the application portfolio, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -25,7 +25,7 @@ The integration between the AI Control Tower and business applications is built 
 
 ## Why AI systems are connected with business applications
 
-Enterprise Architecture manages business applications by tracking their costs, business value, functional fitness, and risk. AI systems embedded in or supporting those applications introduce a new category of risk — one that requires dedicated governance beyond what traditional Enterprise Architecture covers. Without visibility into which AI systems are associated with each business application, an enterprise architect cannot form a complete picture of that application's risk profile, conformance, or operational dependencies.
+Enterprise Architecture manages business applications by tracking their costs, business value, functional fitness, and risk. AI systems embedded in or supporting those applications introduce a new category of risk — one that requires dedicated governance beyond what traditional Enterprise Architecture covers. Without visibility into which AI systems are associated with each business application, an enterprise architect cannot form a complete picture of that application's risk profile. This includes conformance and operational dependencies.
 
 At the same time, AI Control Tower governs AI systems through their full lifecycle — from onboarding and risk assessment through build, test, and deployment. However, AI governance is most effective when AI systems are understood in their business context: which applications depend on them, which business processes they support, and what the organizational impact would be if they were changed or decommissioned. That context lives in the Enterprise Architecture Workspace.
 
@@ -64,7 +64,7 @@ Without this integration, an AI steward reviewing a submitted AI system sees onl
 
 By associating AI systems with business applications, AI Stewards and AI Asset Owners gain visibility into the business scope of each AI system before they begin governance activities. This reduces the risk of approving or escalating an AI system without understanding which business processes and applications it affects.
 
-The business application associations on an AI system record also support audit readiness. During an AI risk assessment or conformance review, being able to show which business applications an AI system supports — and that those applications are active, non-retired, and within scope — is a key part of the evidence trail.
+The business application associations on an AI system record also support audit readiness. During an AI risk assessment or conformance review, you can show which business applications an AI system supports. Demonstrating that those applications are active, non-retired, and within scope is a key part of the evidence trail.
 
 ## Managed and unmanaged AI systems
 
@@ -79,7 +79,7 @@ AI systems in the **AI systems** tab appear under one of two sections:
     AI systems created in AI Control Tower that have not yet been submitted for AI Steward review and have not entered the governance lifecycle.
 
 
-Both sections are visible on the business application record so that enterprise architects can see not only the AI systems that have cleared governance review, but also those still awaiting it. An application with several unmanaged AI systems warrants closer attention during portfolio assessments and rationalization exercises.
+Both sections are visible on the business application record. Enterprise architects can see the AI systems that have cleared governance review and those still awaiting it. An application with several unmanaged AI systems warrants closer attention during portfolio assessments and rationalization exercises.
 
 The tab displays the following information for each AI system:
 
@@ -96,6 +96,10 @@ The tab displays the following information for each AI system:
 
 ## How associations are created
 
+Enterprise Architecture supports domain separation at the data level. If your instance uses domain separation, such as a managed service provider hosting multiple client tenants, the available business applications reflect the domain hierarchy. You can select business applications in the global domain and in the domain you're currently operating in. Viewing the association from a parent domain shows the AI systems and business application associations created in that domain and in all of its child domains. A child domain's view shows only its own associations.
+
+An organization has a business application in the global domain and two business applications, one each in the Domain A and Domain B child domains. A user operating in Domain A can associate an AI system with the global business application, the Domain A business application, or both. The user can't select the Domain B business application. A user at the parent domain can see the AI system associations created in both Domain A and Domain B. These associations are rolled up together wherever they involve the shared global business application.
+
 An AI system is associated with a business application in one of two ways:
 
 -   A user submits the **Request an AI Use Case** catalog item in the service portal and selects one or more business applications in the **Business Applications** field. This is the recommended intake path because it creates the AI system record in AI Control Tower and establishes the business application association in a single step.
@@ -108,7 +112,7 @@ An AI system is associated with a business application in one of two ways:
 
 -   A user with the APM user \(sn\_apm.apm\_user\) role manually adds an AI system from the **AI systems** tab on a business application record in the Enterprise Architecture Workspace. This is useful for associating AI systems that were not submitted through the service portal intake form. For information, see [Add an existing AI system to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-ai-system-to-ba.md).
 
-Only active business applications are available for association. Business applications with a status of Retired or a lifecycle stage of End of Life are excluded automatically, so the associations on an AI system record reflect only applications that are currently in scope for portfolio management.
+Only active business applications are available for association. Business applications with a status of Retired or a lifecycle stage of End of Life are excluded automatically. The associations on an AI system record reflect only applications that are currently in scope for portfolio management.
 
 Removing an AI system association from a business application record does not delete the AI system record from AI Control Tower. The AI system continues through its governance lifecycle independently of its application associations.
 
@@ -116,7 +120,7 @@ Removing an AI system association from a business application record does not de
 
 The association between AI systems and business applications is bidirectional. To view linked business applications in AI Control Tower, navigate to **Workspaces** &gt; **AI Control Tower** &gt; **AI Assets** &gt; **AI systems** &gt; **Select an AI system** &gt; **Details** &gt; **Business applications**. This view is read-only in AI Control Tower; to add or remove associations, use the **Related assets** &gt; **Business applications** &gt; **AI systems** tab on the business application record in the Enterprise Architecture Workspace.
 
-For enterprise architects who work primarily in the Enterprise Architecture Workspace and AI stewards who work primarily in AI Control Tower, this bidirectionality means each team sees the same associations from their own workspace without requiring the other team to maintain a separate record.\[Omitted image "ai-system-aict-related-list.png"\] Alt text: Business applications related list displayed for an AI system in the AI Control Tower workspace.
+Enterprise architects work primarily in the Enterprise Architecture Workspace, while AI stewards work primarily in AI Control Tower. This bidirectionality means each team sees the same associations from their own workspace. Each team can view and work with the associations without maintaining a separate record.\[Omitted image "ai-system-aict-related-list.png"\] Alt text: Business applications related list displayed for an AI system in the AI Control Tower workspace.
 
 ## Required roles
 

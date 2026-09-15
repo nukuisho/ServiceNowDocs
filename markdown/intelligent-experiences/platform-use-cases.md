@@ -1,18 +1,18 @@
 ---
 title: Platform agentic workflows
-description: You can use the available Now Assist AI agents Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
+description: You can use the available Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platform-use-cases.html
 release: australia
 topic_type: concept
 last_updated: "2025-09-17"
 reading_time_minutes: 2
-breadcrumb: [Now Assist agentic workflows, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Platform agentic workflows
 
-You can use the available Now Assist AI agents Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
+You can use the available Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
 
 Use the following agentic workflows that are available with ServiceNow AI Platform.
 
@@ -151,6 +151,18 @@ Suggests answers for survey questions.
 -   Survey response suggestion AI agent
 -   Survey filling data collection AI agent
 
+</td></tr><tr><td>
+
+Task closure
+
+</td><td>
+
+Triages tickets for closure eligibility and guides through reviewing, documenting, and closing them.
+
+</td><td>
+
+Task closure AI agent
+
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read only.
 
@@ -177,5 +189,5 @@ To enable users to access agentic workflows with UI actions, you can open the ag
 
 If you don't see your UI actions after configuring it in AI Agent Studio, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`.
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 

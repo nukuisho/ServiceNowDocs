@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_Avai
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 144
+reading_time_minutes: 145
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow 
 
 Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Sometimes, the property does not exist in a base instance, but can be added if you change the value.
 
-**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see [Instance Security Hardening Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/update-security-hardening-params.md).
+**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see Instance Security Hardening Settings.
 
 -   **cdu.record.watcher.timeout**
 
@@ -2323,7 +2323,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.par.export.ppt.max\_visualizations\_allowed**
 
-    For the Now Assist Platform skill "dashboard and visualization export," this property sets the maximum number of visualizations, and thus slides, that you can export from a Platform Analytics dashboard to Microsoft PowerPoint.
+    For the ServiceNow Otto Data and Analytics skill "dashboard and visualization export," this property sets the maximum number of visualizations, and thus slides, that you can export from a Platform Analytics dashboard to Microsoft PowerPoint.
 
     -   Type: integer
     -   Default value: 150
@@ -2755,7 +2755,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.script.use.sandbox**
 
-    Enables the "script sandbox" feature. The script sandbox is mainly used when executing client-generated scripts such as query conditions and GlideAjax expressions. For more information, see .
+    Enables the "script sandbox" feature. The script sandbox is mainly used when executing client-generated scripts such as query conditions and GlideAjax expressions. For more information, see [Enable script sandbox \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-client-generated-scripts-sandbox.md).
 
     -   Type: true \| false
     -   Default: true
@@ -3107,6 +3107,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: true
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.translated\_html.sanitize\_all\_fields**
+
+    If **true**, all translated\_html elements are sanitized using an HTML sanitizer. If **false**, an element is sanitized only if the dictionary attribute **html\_sanitize** is set to **true**.
+
+    -   Type: true \| false
+    -   Default value: false
+    -   Location: System Property \[sys\_properties\] table
 -   **glide.ts.index.attachment.debug**
 
     If **true**, enables log messages for exceptions that occur when indexing attachments. You can leave this property enabled during normal operations to capture stack trace information about any exceptions.
@@ -3635,10 +3642,10 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **glide.ui.mentions.default\_limit**
 
-    Number of users with same name displayed in Activity Stream Compose editor. When set to true, the default limit takes in a number which determines how many users with the same name are displayed.
+    Number of users with same name displayed in Activity Stream Compose editor.
 
-    -   Type: string
-    -   Default value: true
+    -   Type: integer
+    -   Default value: 5
     -   Location: System Property \[sys\_properties\] table
 -   **glide.ui.mobile\_agents**
 
@@ -4395,10 +4402,21 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Default value: true
 -   **sn\_acc\_vis\_content.persist\_sam\_usage\_metrics**
 
-    Enable to leverage the SAM Basic metering functionality. If this flag is set to True, after fetching details about all the software installed, including the last accessed time via osquery, the information goes into the Software Usage \[samp\_sw\_usage\] table. The SAM plugin also needs to be enabled to persist the information.
+    Controls how SAM usage metrics are stored based on reclamation rules. If **true**, store usage according to defined reclamation rules and store usage for all licensable software for which no reclamation rule is defined. If **false**, store SAM usage only according to defined reclamation rules.
 
     -   Type: Boolean
     -   Default value: true
+-   **sn\_analytics\_list.pagination\_max\_value**
+
+    Maximum number of records per page in a List visualization in Platform Analytics experience.
+
+    **Danger**
+
+    Raising this property above 100 might lead to memory issues.
+
+    -   Type: integer
+    -   Default value: 100
+    -   Location: System Property \[sys\_properties\] table
 -   **sn\_app\_insights.minutes\_between\_triggers**
 
     How many minutes to wait before sending out a notification for an identical metric trigger.

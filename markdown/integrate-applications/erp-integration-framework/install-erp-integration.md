@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, install, store]
-breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Install Zero Copy Connector for ERP
@@ -62,6 +62,4 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 -   After enabling the property, Zero Copy Connector for ERP retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.
 -   The property must be configured for either a non-production or production state. \(Enabling the property on a production instance can create metadata records when new models and fields are added in Zero Copy Connector for ERP.\)
 -   System properties are maintained in the System Property table \[sys\_properties\], which you can access by entering `sys_properties.list` directly in the Navigator Filter.
-
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

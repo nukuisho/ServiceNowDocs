@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-agentworkspaceforhrcasemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -80,7 +80,7 @@ Yokohama
 View employee responses collected from an employee via the survey form sent through an HR task.
 
 
--   **[Response templates](https://www.servicenow.com/docs/access?context=hr-agent-ws-using-response-template&family=yokohama&ft:locale=en-US)**
+ -   **[Response templates](https://www.servicenow.com/docs/access?context=hr-agent-ws-using-response-template&family=yokohama&ft:locale=en-US)**
 
 Display response templates based on the language preference of selected user.
 
@@ -97,22 +97,22 @@ View your teams' case assignments based on categories such as priority, HR servi
 Provide a convenient and efficient way for users to seek in-person or remote assistance, report issues, and receive guidance from HR agents through designated walk-up centers.
 
 
--   **[Page configurations](https://www.servicenow.com/docs/access?context=page-configurations&family=yokohama&ft:locale=en-US)**
+ -   **[Page configurations](https://www.servicenow.com/docs/access?context=page-configurations&family=yokohama&ft:locale=en-US)**
 
 Configure the layout and functionality of the HR Agent landing page or HR case page. You can preview your settings before implementing them.
 
 
--   **[PDF template preview](https://www.servicenow.com/docs/access?context=hr-agent-ws-create-temp&family=yokohama&ft:locale=en-US)**
+ -   **[PDF template preview](https://www.servicenow.com/docs/access?context=hr-agent-ws-create-temp&family=yokohama&ft:locale=en-US)**
 
 Preview a PDF document template attached to an HR case rather than being able to preview only HTML document templates.
 
 
--   **[Link child cases](https://www.servicenow.com/docs/access?context=t_CreateAnHRCase&family=yokohama&ft:locale=en-US)**
+ -   **[Link child cases](https://www.servicenow.com/docs/access?context=t_CreateAnHRCase&family=yokohama&ft:locale=en-US)**
 
 Associate child cases to an HR case.
 
 
--   **[Delegation list](https://www.servicenow.com/docs/access?context=hr-agent-ws-lists&family=yokohama&ft:locale=en-US)**
+ -   **[Delegation list](https://www.servicenow.com/docs/access?context=hr-agent-ws-lists&family=yokohama&ft:locale=en-US)**
 
 View cases delegated to you or that you have delegated to other HR agents. The Delegation list appears only when you have activated the Granular Delegation \(com.glide.granular\_service\_delegation\) plugin.
 
@@ -120,7 +120,7 @@ View cases delegated to you or that you have delegated to other HR agents. The D
     -   Apply template values to the HR case without having to fill in values manually.
     -   Download or delete multiple attachments at once.
 
--   **[Configure fields for Bulk case request](https://www.servicenow.com/docs/access?context=segment-group-aws&family=yokohama&ft:locale=en-US)**
+ -   **[Configure fields for Bulk case request](https://www.servicenow.com/docs/access?context=segment-group-aws&family=yokohama&ft:locale=en-US)**
 
 Configure fields that you want to view in the User segment group form in bulk case request through the Case Creation Configuration form.
 
@@ -141,22 +141,22 @@ Australia
 
 -   **[Integration with Contact Center as a Service \(CCaaS\)](https://www.servicenow.com/docs/access?context=enable-hr-icc&family=australia&ft:locale=en-US)**
 
-Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow voice reference architecture. The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voice and callback integrations so HR agents can manage customer calls directly from HR Agent Workspace. HR agents are provided a brief wrap-up period at the end of customer conversations to complete their work before moving on to assist other customers.
+Implement prebuilt, certified integrations with CCaaS providers using the ServiceNow voice reference architecture. The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voice and callback integrations so that HR agents can manage customer calls directly from HR Agent Workspace. HR agents are provided a brief wrap-up period at the end of customer conversations to complete their work before moving on to assist other customers.
 
 -   **[Recommended Actions for HRSD](https://www.servicenow.com/docs/access?context=recommended-actions-hrsd&family=australia&ft:locale=en-US)**
 
 Recommend actions based on the context of the HR case, helping agents resolve case faster.
 
-    -   Lists KB articles and similar cases in the context of the current case.
+    -   Lists Knowledge Base articles and similar cases in the context of the current case.
     -   Suggests to add an approval to the case only when an approval is required.
 -   **[Case creation configuration](https://www.servicenow.com/docs/access?context=agent-ws-configurable-hr-create-case&family=australia&ft:locale=en-US)**
 
 Enable an HR agent to quickly review the HR profiles of both **subject person** and **opened for** during the case creation process.
 
 
--   **[Advanced Knowledge Editor](https://www.servicenow.com/docs/access?context=advance-knowledge-editor&family=australia&ft:locale=en-US)**
+ -   **[Advanced Knowledge Editor](https://www.servicenow.com/docs/access?context=advance-knowledge-editor&family=australia&ft:locale=en-US)**
 
-Streamline Knowledge article creation and editing with AI support in an improved, intuitive editor. Leverage AI powered Article optimizations recommendations to improve the knowledge content quality.
+Streamline Knowledge article creation and editing with AI support in an improved, intuitive editor. Leverage AI-powered article optimizations recommendations to improve the knowledge content quality.
 
 
 </td></tr></tbody>
@@ -289,7 +289,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Agent Workspace for HR Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -305,7 +308,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Agent Workspace for HR Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -493,7 +499,7 @@ Australia
 
 </td><td>
 
--   Enable CCaaS providers to display native voice and callback integrations so that HR agents can manage customer calls directly from HR Agent Workspace.
+-   Enable Contact Center as a Service \(CCaaS\) providers to display native voice and callback integrations so that HR agents can manage customer calls directly from HR Agent Workspace.
 -   Recommend actions based on the context of the case, helping HR agents resolve HR cases efficiently.
 
  See [Agent Workspace](https://www.servicenow.com/docs/access?context=agent-ws-hr-case-mgmt-landing-page&family=australia&ft:locale=en-US) for more information.

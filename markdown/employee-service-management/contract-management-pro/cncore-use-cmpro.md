@@ -31,21 +31,21 @@ Use Contract Management Pro to submit contract requests that will generate contr
 Use Contract Management Pro to submit non self-served contract requests for review of contracts based on third-party templates.
 -   **[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-amend-landing.md)**  
 The contract amendment workflow enables you to initiate, manage, and track changes to existing contracts through amendment requests.
+-   **[Linking parent-child contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-linking-parent-child.md)**  
+The contract family hierarchy in the Related contract requests tab shows all related contract requests and lets you link, inherit from, and unlink parent contract requests.
 -   **[Send email to stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-send-email.md)**  
 As a contract fulfiller, set up an email to stakeholders to request review of the contract document reviewed and confirm the changes.
 -   **[Add clauses during authoring or negotiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-add-clauses-from-library.md)**  
 As a contract fulfiller or reviewer, while authoring or negotiating a contract revision, add clauses from the clause library listed in the Microsoft Word add-in for ServiceNow Contracts.
 -   **[Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-doc-rev.md)**  
 As a contract fulfiller, create a document revision to upload an updated version of the contract that contains the latest changes in the contract request, corrections, or suggestions from a third party.
--   **[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expert-review.md)**  
-Get your contract document reviewed by internal subject matter experts who have the expertise you need.
--   **[Linking parent-child contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-linking-parent-child.md)**  
-The contract family hierarchy in the Related contract requests tab shows all related contract requests and lets you link, inherit from, and unlink parent contract requests.
+-   **[Review contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-methods-land.md)**  
+Review contract documents using AI-powered analysis or manual review to identify non-compliant terms, remediate them using clause library and validate before execution.
 -   **[Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md)**  
 Initiate an ad hoc approval for a contract document revision from a user or a user group.
 -   **[Compare contract revisions in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-compare-docs.md)**  
 Streamline the contract negotiation process by comparing two contract revisions to quickly identify and review all changes between the two versions, thereby reducing manual effort and minimizing the risk of missing critical updates.
--   **[Ask Now Assist to generate summary of contract documents in a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-summarize-contract-cmr.md)**  
+-   **[Ask ServiceNow Otto for summary of contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-summarize-contract-cmr.md)**  
 Generate summaries, frequently asked questions \(FAQs\), or ask questions to retrieve specific information from contract documents in Contract Management Pro.
 -   **[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signature-workflow.md)**  
 Contract Management Pro supports electronic signature, wet \(manual\) signature, and offline signature for a contract request.
@@ -54,7 +54,13 @@ Cancel a contract request if it is no longer necessary.
 -   **[Preview and download a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-preview-contract.md)**  
 View and download a signed contract document.
 -   **[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-obligation-management.md)**  
-Obligation Management in Contract Management Pro enables you to track and fulfill the responsibilities specified in a contract.
+Obligation Management in Contract Management Pro enables you to track and fulfill contractual responsibilities by creating obligation records and managing associated tasks.
+-   **[Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)**  
+As a contract fulfiller, use ServiceNow Otto for Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
+-   **[Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-reminder-agentic-wf.md)**  
+Use the manage contract repository agentic workflow to improve productivity by extracting metadata and obligations automatically from signed contracts and setting the contract reminder dates for contract renewal or termination.
+-   **[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-agentic-use-conv-search.md)**  
+Search for contract information using natural language queries to quickly find relevant contracts, clauses, and insights.
 -   **[Search for keywords in contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-search-in-doct.md)**  
 Search for keywords in contract templates easily.
 -   **[Search in Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-search-addin.md)**  

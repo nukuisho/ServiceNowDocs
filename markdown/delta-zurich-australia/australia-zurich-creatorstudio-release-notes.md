@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-creatorstudio-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -128,7 +128,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[ServiceNow Otto rebrand](https://www.servicenow.com/docs/access?context=creator-studio-text-to-form&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Creator Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -207,7 +210,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -215,7 +221,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -236,7 +245,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 You must have the App Engine Enterprise license to use Creator Studio.
+
 
 </td></tr><tr><td>
 
@@ -244,7 +256,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 Check your entitlements to determine whether you have access to Creator Studio.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -294,12 +309,14 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
+-   **Accessibility information**
+
+    -   **Dark theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
+For more information, see [Dark mode in Creator Studio](https://www.servicenow.com/docs/access?context=crs-enabling-dark-mode&family=zurich&ft:locale=en-US).
 
- For more information, see [Dark mode in Creator Studio](https://www.servicenow.com/docs/access?context=crs-enabling-dark-mode&family=zurich&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -307,12 +324,14 @@ Australia
 
 </td><td>
 
+-   **Accessibility information**
+
 The following updates were made to support accessibility:
 
--   Form elements now have accurate interactive ARIA roles, enabling screen readers to identify and announce them accurately.
--   Rich text area and form elements are now accurately labeled so screen readers can announce them correctly when focused.
--   Keyboard focus now remains within the expanded template preview modal for the duration of the modal interaction.
--   The rich text frame **Long Description** now has the correct label, enabling screen readers to identify and announce it correctly.
+    -   Form elements now have accurate interactive ARIA roles, enabling screen readers to identify and announce them accurately.
+    -   Rich text area and form elements are now accurately labeled so screen readers can announce them correctly when focused.
+    -   Keyboard focus now remains within the expanded template preview modal for the duration of the modal interaction.
+    -   The rich text frame **Long Description** now has the correct label, enabling screen readers to identify and announce it correctly.
 
 </td></tr></tbody>
 </table>## Localization information

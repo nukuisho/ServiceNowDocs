@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-addtl-reqs.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -26,19 +26,37 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Admin Hub
+
+</td><td>
+
+The Next Experience UI Framework must be enabled before you can use the Now Assist panel.
+
+</td></tr><tr><td>
+
+AI Agent Studio
+
+</td><td>
+
+You must first install the supported version of the ServiceNow AI Platform to be able to use AI agents and AI Agent Studio. For more information, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+
+Next Experience UI Framework must be enabled before you can use the ServiceNow Otto panel.
+
+</td></tr><tr><td>
+
 AI Desktop Actions
 
 </td><td>
 
-The following are required to use AI Desktop Actions:
+The following are required to use defined AI Desktop Actions:
 
 -   Operating system: Microsoft Windows 11.
 -   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
 -   No extended monitors are connected.
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+You must first install the supported ServiceNow Otto version of ServiceNow to be able to use the ServiceNow Otto AI agents. For more information, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
-You must enable Next Experience UI Framework before you can use the Now Assist panel.
+You must enable Next Experience UI Framework before you can use the ServiceNow Otto panel.
 
 </td></tr><tr><td>
 
@@ -46,7 +64,7 @@ Agentic Contact Center for Banking
 
 </td><td>
 
-This application is dependent on Now Assist for Financial Services Operations \(FSO\). For more information, see [Now Assist for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
+This application is dependent on ServiceNow Otto for Financial Services Operations \(FSO\). For more information, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
 
 </td></tr><tr><td>
 
@@ -54,7 +72,7 @@ Agentic Contact Center for Insurance
 
 </td><td>
 
-This application requires Now Assist for Financial Services Operations \(FSO\). For activation and configuration details, see [Now Assist for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
+This application requires ServiceNow Otto for Financial Services Operations \(FSO\). For activation and configuration details, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
 
 </td></tr><tr><td>
 
@@ -70,7 +88,7 @@ Customer Service Problem Management
 
 </td><td>
 
-You must install Case Playbook for Complaints \(sn\_complaint\) plugin to use the ADR case type.
+You must install Case Playbook for Complaints \(sn\_complaint\) plugin to use the CDM case type.
 
 </td></tr><tr><td>
 
@@ -98,29 +116,11 @@ The Hiring Core application provides essential data models and shared components
 
 </td></tr><tr><td>
 
-Now Assist
+Live Connect
 
 </td><td>
 
-The Next Experience UI Framework must be enabled before you can use the Now Assist panel.
-
-</td></tr><tr><td>
-
-Now Assist AI Agents
-
-</td><td>
-
-You must first install the supported Now Assist version of the ServiceNow AI Platform to be able to use Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
-
-Next Experience UI Framework must be enabled before you can use the Now Assist panel.
-
-</td></tr><tr><td>
-
-Now Assist for FSM
-
-</td><td>
-
-The Now Assist for FSM application requires Field Service Management.
+You must download the SQL API ODBC and JDBC drivers on your client machine. These drivers enable your BI tools and data analysis platforms to connect to your ServiceNow data and run the Live Connect queries. You can download the ODBC and JDBC drivers from ServiceNow Store.
 
 </td></tr><tr><td>
 
@@ -224,19 +224,19 @@ The Project Workspace application must be installed before installing the Retail
 
 </td></tr><tr><td>
 
-SQL API
-
-</td><td>
-
-You must download the SQL API ODBC and JDBC drivers on your client machine. These drivers enable your BI tools and data analysis platforms to connect to your ServiceNow data and run the SQL API queries. You can download the ODBC and JDBC drivers from ServiceNow Store.
-
-</td></tr><tr><td>
-
 ServiceNow IDE
 
 </td><td>
 
 ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see .
+
+</td></tr><tr><td>
+
+ServiceNow Otto for FSM
+
+</td><td>
+
+The ServiceNow Otto for FSM application requires Field Service Management.
 
 </td></tr><tr><td>
 
@@ -260,7 +260,7 @@ Zero Copy Connector for ERP
 
 </td><td>
 
-SAP ECC and SAP S/4 HANA are currently the only available systems that integrate with Zero Copy Connector for ERP.
+SAP ECC, SAP S/4 HANA, and Oracle E-Business Suite \(12.2 and later\) are the available systems that integrate with Zero Copy Connector for ERP.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)

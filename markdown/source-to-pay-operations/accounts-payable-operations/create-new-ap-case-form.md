@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [APO, Accounts Payable Operations, invoice automation, invoice management, AP automation]
+keywords: [APO, Accounts Payable Operations, Expedite payment request, invoice automation, invoice management, Payment inquiry, Invoice Case Form]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -63,7 +63,7 @@ Duplicate case
 
 </td><td>
 
-The case that is similar to the currently opened case.
+The case similar to the opened case.
 
 </td></tr><tr><td>
 
@@ -204,6 +204,8 @@ Reference information for invoice status messages and the conditions that trigge
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Outbound cost allocation staging table]()
@@ -227,6 +229,8 @@ Reference information for invoice status messages and the conditions that trigge
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

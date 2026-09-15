@@ -1,6 +1,6 @@
 ---
 title: Using Sales Customer Relationship Management applications
-description: As agents and managers, you use the CSM Configurable Workspace to complete various tasks when using the Sales Customer Relationship Management applications.
+description: As agents and managers, you use the CRM Workspace to complete various tasks when using the Sales Customer Relationship Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-using.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Sales Customer Relationship Management]
 
 # Using Sales Customer Relationship Management applications
 
-As agents and managers, you use the CSM Configurable Workspace to complete various tasks when using the Sales Customer Relationship Management applications.
+As agents and managers, you use the CRM Workspace to complete various tasks when using the Sales Customer Relationship Management applications.
 
 From the workspace you can access product catalogs to see the product offerings available in your organization and select them for Sales Customer Relationship Management transactions. You use a configurator interface, either the [CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md) or the Configurator to customize configurable products that you add to opportunities, quotes, and orders or to make changes in sold products and product inventory.
 
@@ -20,7 +20,7 @@ From the workspace you can access product catalogs to see the product offerings 
 
 <table id="table_ywk_fhy_khc" class="nav-card presentation"><tbody><tr><td>
 
-[Lead and opportunity management\[Omitted image "bus-funnel.svg"\] Alt text:Win more deals by capturing leads, tracking opportunities, forecasting sales, managing territories and buying groups.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
+[Sales automation\[Omitted image "bus-funnel.svg"\] Alt text:Win more deals by capturing leads, tracking opportunities, forecasting sales, managing territories and buying groups.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
 
 </td><td>
 
@@ -55,8 +55,8 @@ From the workspace you can access product catalogs to see the product offerings 
  
 
 </td></tr></tbody>
-</table>-   **[Using lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)**  
-Learn how to use lead and opportunity management applications.
+</table>-   **[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)**  
+Learn how to use sales automation applications.
 -   **[Using configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-cpq.md)**  
 Learn how to use configure, price, quote applications.
 -   **[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)**  
@@ -66,11 +66,11 @@ Learn how to use order operations applications.
 -   **[Using post-sales engagement applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-post-sales-engagement.md)**  
 Learn how to use post-sales engagement applications.
 -   **[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)**  
-Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\) to enable administrators and channel partners to collaborate through the Partner portal and PRM workspace. As an Enterprise Partner Relationship Manager, you can manage partner relationships, approvals, and sales activity. As a channel partner, you can access the Partner portal to register deals, create quotes, and track opportunities—all from a single, branded experience.
+Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\) to enable admins and channel partners to use the self-service Partner portal.
 -   **[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-foundation.md)**  
 Learn how to use lead-to-cash foundation applications.
--   **[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)**  
-Business-to-business \(B2B\) customers can use the Business Portal to browse product catalogs, create product orders, create and view order cases, manage invoice and invoice cases, and request for quotes.
+-   **[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)**  
+Business-to-business \(B2B\) customers can use the Business Portal to browse product catalogs, create orders, create and view order cases, manage invoice and invoice cases, and request for quotes.
 
 **Parent Topic:**[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md)
 

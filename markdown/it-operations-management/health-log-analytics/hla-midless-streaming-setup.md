@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2026-05-04"
 reading_time_minutes: 3
-breadcrumb: [MID-less log streaming, MID-less integrations, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [MID-less log streaming via ITOM Gateway, MID-less integrations, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Set up log streaming via ITOM Gateway for Health Log Analytics
@@ -22,7 +22,7 @@ Set up log streaming via ITOM Gateway to enable Health Log Analytics \(HLA\) to 
 -   Verify that Health Log Analytics version 36.0.19 or higher is installed on your instance.
 -   Verify that HLA provisioning is complete. Confirm that the AI Engine and Elasticsearch show green status at: `https://<instance>.service-now.com/xmlstats.do?include=services_status`.
 -   Verify that ITOM Cloud Services Core is installed on your instance.
--   Verify that a JWT provider and token are configured on your instance. For more information, see [Configure a JSON Web Token \(JWT\) provider and token for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md).
+-   Verify that a JWT provider and token are configured on your instance. For more information, see [Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md).
 -   \(High-volume deployments only\) If you expect 30,000 or more log events per second, contact ServiceNow Support to request infrastructure scaling. Proceed to the log streaming via ITOM Gateway setup procedure only after ServiceNow confirms that scaling is complete.
 
     Provide the following information:

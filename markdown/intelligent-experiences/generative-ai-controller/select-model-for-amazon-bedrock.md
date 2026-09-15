@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [aws bedrock]
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Select a model for Amazon Bedrock
@@ -56,5 +56,7 @@ Your chosen model with the Amazon Bedrock provider will be used for custom skill
 
 ## What to do next
 
-You can create custom skills with the Amazon Bedrock provider in Now Assist Skill Kit and perform step 6 to set the new model.
+You can create custom skills with the Amazon Bedrock provider in AI Skill Kit and perform step 6 to set the new model.
+
+Configure generative AI skills in the AI Admin Hub console to use this capability. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

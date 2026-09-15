@@ -1,9 +1,9 @@
 ---
 title: Sales Forecasting release notes
-description: The ServiceNow Sales Forecasting application helps you project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting was enhanced and updated in the Australia release.
+description: The ServiceNow Sales Forecasting application helps you project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting was enhanced and updated in the Australia release.The ServiceNow Sales Forecasting application helps you project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Sales Forecasting application helps you project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting was enhanced and updated in the Australia release.
 
-## Sales Forecasting Highlights for the Australia release
+## About Sales Forecasting
 
 -   Recalculate the forecasts on the Sales Forecast dashboard on demand.
 -   Define individual forecast owners and rollup owners based on their unique forecasting hierarchies.
@@ -23,9 +23,22 @@ The ServiceNow® Sales Forecasting application helps you project your future sal
 
 See [Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Sales Forecasting is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
+
+
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Sales Forecasting application helps you project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Real-time forecast rollup updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)**
 
@@ -53,21 +66,12 @@ See [Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     Provide forecast owners and managers with visibility into the opportunities and line items contributing to each forecast number, directly from the dashboard. Support forecast creation, submissions, and adjustments at the individual record level, such as opportunity and opportunity lines.
 
+-   **[Resubmit forecast submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reopening-and-resubmitting-a-forecast.md)**
 
-## Activation information
+    Enable users to reopen and modify completed forecast submissions in the current submission window. After making adjustments to the forecast values, users can resubmit a forecast. Admins can enable or disable resubmission for each forecast model.
 
-Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
+-   **[Customize the forecast dashboard view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)**
 
-## Related ServiceNow applications and features
+    Enable forecast viewers to customize their dashboard view by selecting which columns to display and saving their preferences for future sessions. The grid automatically adjusts column widths to distinguish forecast categories. Users can choose different sets of columns for different forecast models.
 
--   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/exploring-csm.md)**
-
-    The Customer Service Management \(CSM\) application can help your organization resolve customer issues and requests for your customers. Adopting a proactive customer service approach helps increase your customer satisfaction and retention.
-
--   **[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)**
-
-    The Opportunity Management application provides sales agents and account executives with product recommendations for customers based on a needs analysis. Seamlessly convert sales opportunities to quotes when the customer is ready.
-
-
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
 

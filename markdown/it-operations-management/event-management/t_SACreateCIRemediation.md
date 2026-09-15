@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CI Remediation, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [CI Remediation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create or edit CI remediation
@@ -30,7 +30,7 @@ Then submit the workflow definition, and add the following conditions to the wor
     **\[Workflow\]\[is\]\[CI remediation\]**
 
 
-After you finish configuring the workflow, make sure that you publish it. For more details, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/t_CreateAWorkflow.md).
+After you finish configuring the workflow, make sure that you publish it. For more details, see Create a workflow.
 
 Role required: evt\_mgmt\_admin
 

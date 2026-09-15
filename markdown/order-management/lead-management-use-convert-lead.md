@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Convert a lead into an opportunity
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  In the **Leads - All** list, select the lead that you’re working with.
 
@@ -106,7 +106,7 @@ Details to create an opportunity. To learn more, see [Create an opportunity](htt
 **Related topics**  
 
 
-[Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
 
 [Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
 

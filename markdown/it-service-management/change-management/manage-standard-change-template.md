@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Standard change catalog, Configure, Change Management, IT Service Management]
 ---
 
@@ -26,17 +26,19 @@ Role required: admin, change\_manager, sn\_change\_write or itil
 
 2.  Select the template you want to modify or retire and perform the following steps.
 
-<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d118549e73">
+<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d122039e73">
 
 **Modify a standard change template**
 
 </td><td>
 
-1.  Select**Modify Template** under **Related Links**.
+1.  Select **Modify Template** under **Related Links**.
 2.  Enter your modifications in the **Modify a Standard Change Template** form.
  **Note:** You can modify any field in the standard change template, and send for approval. After the modifications are saved and approved, a new version of the standard change template is created. Change requests created from the modified standard change template reflects the modifications made.
 
-</td></tr><tr><td id="d118549e106">
+ **Important:** You can change fields such as **Assignment group** and **Assigned to** on the template. The updated values apply only to change requests created after the new template version is approved. For more information on how the default and copied field values are configured see [Configure standard change catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md).
+
+</td></tr><tr><td id="d122039e125">
 
 **Retire a standard change template**
 
@@ -62,4 +64,10 @@ Role required: admin, change\_manager, sn\_change\_write or itil
 [Create a standard change task template]()
 
 [Attach files to a standard change template]()
+
+[Propose a standard change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/propose-standard-change-sow.md)
+
+[Create a standard change task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-standard-change-task-template.md)
+
+[Create a standard change request from the catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_RaiseNewStdCngeFmTempl.md)
 

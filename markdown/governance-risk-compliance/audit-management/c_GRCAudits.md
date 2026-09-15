@@ -18,11 +18,11 @@ The ServiceNow® Audit Management application involves a set of activities relat
 
 ## Audit Workspace
 
-As of version 13.0.2, there are two interfaces available for Audit Management users. They are the Classic model and Audit workspace. The Audit workspace offers a single-pane view for the audit supervisors and auditors to view the overall audit timeline and status, track budget and resources for engagement, and monitor control tests and audit task progress. For more information on the new workspace, see [Risk workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-management-overview-ws.md).
+As of version 13.0.2, there are two interfaces available for Audit Management users. They are the Classic model and Audit workspace. The Audit workspace offers a single-pane view for audit supervisors and auditors. It enables you to view the overall audit timeline and status, track budget and resources for engagement, and monitor control tests and audit task progress. For more information on the new workspace, see [Risk workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-management-overview-ws.md).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 The GRC: Audit Management product allows you to schedule internal audits, conduct resource planning, and scope engagements. You can also conduct audit activities, review continuous monitoring results, and report findings.
 

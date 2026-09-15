@@ -24,7 +24,7 @@ For card or non-card dispute management cases, tasks are generated for each tran
 
 When a dispute is initiated, the case begins in the Initiate stage.
 
-Dispute cases can be initiated from the Dispute Workspace by contributors on behalf of the customer, or by customers through the portal or through virtual agent disputes with Now Assist for Financial Services Operations \(FSO\) with the Virtual Agent  skill. Dispute agents can also create cases when needed.
+Dispute cases can be initiated from the Dispute Workspace by contributors on behalf of the customer, by customers through the portal, or through virtual agent disputes with ServiceNow Otto for Financial Services Operations \(FSO\) with the Virtual Agent  skill. Dispute agents can also create cases when needed.
 
 During this phase, the system identifies the initial transaction. You’re then guided through the "Select dispute reason" activity, which involves a tiered questioning process \(Level 1, Level 2, and optionally Level 3\) to accurately determine the dispute category and its corresponding reason code.
 
@@ -38,11 +38,9 @@ The system evaluates decision rules and determines policy rules for each transac
 
 The system generates tasks based on the policy rules that are evaluated when a case is submitted. For instance, when a case has a dispute category of Fraud, the system creates a task to block and reissue the card.
 
-Chargeback eligibility rules depend on the dispute category \(for card disputes\). In cases of fraud, these rules are evaluated during the Investigate stage, specifically after the Fraud Report task is submitted. For non-fraud categories, the evaluation happens at the Submit action, whether from Initiate or Review. For ACH disputes, the eligibility for chargeback is evaluated during investigation and can be assisted by Now Assist agents.
+Chargeback eligibility rules depend on the dispute category \(for card disputes\). In cases of fraud, these rules are evaluated during the Investigate stage, specifically after the Fraud Report task is submitted. For non-fraud categories, the evaluation happens at the Submit action, whether from Initiate or Review. For ACH disputes, the eligibility for chargeback is evaluated during investigation and can be assisted by ServiceNow Otto agents.
 
-For information about Now Assist for FSO, see [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md).
-
-For information about configuring business rules, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md).
+For information about configuring business rules, see [Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md).
 
 ## Review
 
@@ -84,7 +82,7 @@ During this stage, the card network, card issuing bank, merchant bank or acquire
 
 **Note:** Issuer banks don’t contact merchants directly about disputed transactions. However, merchants enrolled in Ethoca Alerts or Verifi CDRN receive notifications of potential disputes, enabling them to work with cardholders to resolve issues and help prevent chargebacks.
 
-In this stage, agents can also work on transactions identified as friendly fraud. For more information, see [Detect friendly fraud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-friendly-fraud.md).
+In this stage, agents can also work on transactions identified as friendly fraud. For more information, see [Resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-friendly-fraud.md).
 
 ## Chargeback
 

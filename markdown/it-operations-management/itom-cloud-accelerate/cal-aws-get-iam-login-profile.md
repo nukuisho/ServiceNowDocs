@@ -9,7 +9,7 @@ classification: itom-cloud-accelerate
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Cloud Action Library reference, Cloud Action Library, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Reference, Cloud Action Library, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # AWS Get IAM Login Profile action
@@ -24,7 +24,7 @@ Action that retrieves the user name for the specified Amazon Web Services \(AWS\
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
+    This action requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
 
 
 ## Cloud permission

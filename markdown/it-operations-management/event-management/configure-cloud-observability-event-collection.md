@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure ServiceNow Cloud Observability event collection
@@ -80,7 +80,9 @@ Authenticate ServiceNow Cloud Observability as a data source to enable Event Man
 
     3.  In the Alert Configuration area, define the threshold.
 
-    4.  In the Notification Rules area, in the Send Notifications to fields, select the notification destination as **webhook** and search for the destination name for the webhook that you created in step 2.
+    4.  In the Notification Rules area, in the Send Notifications to fields, select the notification destination as **webhook**.
+
+        Search for the destination name for the webhook that you created in step 2.
 
     5.  Select **Save**.
 

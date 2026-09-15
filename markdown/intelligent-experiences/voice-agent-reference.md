@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/voice-a
 release: australia
 topic_type: reference
 last_updated: "2025-08-14"
-reading_time_minutes: 13
-breadcrumb: [Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
+reading_time_minutes: 15
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # AI voice agent reference
@@ -16,7 +16,7 @@ Reference information for AI voice agents.
 
 ## AI voice agent roles
 
-The following table lists the roles installed with the Voice for Now Assist plugin.
+The following table lists the roles installed with the ServiceNow Otto for Voice Agents plugin.
 
 |Roles|Description|
 |-----|-----------|
@@ -34,7 +34,56 @@ The following table lists the attributes related to AI voice agent configuration
 |---------|-----------|
 |voice\_max\_retries|The maximum number of retries allowed for successful authentication before the user account is locked. The default value is 3.|
 |voice\_minutes\_account\_is\_locked|The number of minutes the user account is locked for, following maximum retries. The default value is 1440 minutes.|
-|persist\_context\_data|Controls whether interaction context data is persisted to Glide after a call. Set to `true` to enable context data storage, which is required for Amazon Connect integrations. The default value is `false`. This attribute is scoped per voice assistant deployment.|
+|persist\_context\_data|Controls whether interaction context data is persisted after a call ends. Set to `true` to enable context data storage. The default value is `false`. This attribute is scoped per voice assistant deployment. For details about the stored data, see the Bot context data section.|
+
+## Bot context data
+
+When the `persist_context_data` attribute is enabled, the voice assistant saves the session context as an `interaction_context` record after each call. The record includes the following fields.
+
+|Field|Value|
+|-----|-----|
+|name|`bot_context_data`|
+|interaction|sys\_id of the related interaction record.|
+|value|JSON string containing the session context. See the following tables for field descriptions.|
+
+The `value` field is a JSON string that contains the following base fields.
+
+|Field|Type|Description|
+|-----|----|-----------|
+|conversationId|string|Conversation identifier.|
+|interactionId|string|sys\_id of the related interaction record.|
+|completed|boolean|Set to `true` when the bot session completed normally.|
+|sessionVariables|object|Key-value pairs describing the session state. See the following table for details.|
+
+|Key|Description|
+|---|-----------|
+|snStatusCode|HTTP status code from the voice session.|
+|snTransferReason|Reason for the conversation end state. Set to `user_requested` when a live agent transfer is required.|
+|snConversationId|sys\_id of the conversation record for the call.|
+|snInteractionId|sys\_id of the interaction record for the call.|
+|snIsAuthenticated|Indicates whether the caller was successfully authenticated.|
+|snFirstName, snLastName|First and last name of the caller. Present only when the interaction is authenticated and the caller is verified.|
+
+Additional keys can appear in `sessionVariables` when custom data is added to the session cache by the voice agent.
+
+The following example shows the JSON stored in the `value` field of a `bot_context_data` record.
+
+```json
+{
+  "conversationId": "e7dc929a3b714bd04eae2a8693e45afe",
+  "interactionId": "27dcd29a3b714bd04eae2a8693e45a01",
+  "completed": true,
+  "sessionVariables": {
+    "snStatusCode": "200",
+    "snTransferReason": "auto_closed",
+    "snConversationId": "e7dc929a3b714bd04eae2a8693e45afe",
+    "snInteractionId": "27dcd29a3b714bd04eae2a8693e45a01",
+    "snIsAuthenticated": "true",
+    "snFirstName": "System",
+    "snLastName": "Administrator"
+  }
+}
+```
 
 ## AI voice agent system properties
 
@@ -290,7 +339,7 @@ async function getAccessToken(basePath, voiceServiceId) {
 
 // ─── Call context ─────────────────────────────────────────────────────────────
 
-function getCallContext(accessToken, contactData, voiceServiceId) {
+async function getCallContext(accessToken, contactData, voiceServiceId) {
 	const payload = JSON.stringify({
 		call_correlation_id: contactData.ContactId,
 		voice_service_id: voiceServiceId,
@@ -302,16 +351,43 @@ function getCallContext(accessToken, contactData, voiceServiceId) {
 		hostname: process.env.voice_service_host_name,
 		path: process.env.call_context_api_path,
 		method: 'POST',
-		agent: new https.Agent({ rejectUnauthorized: false }),
 		headers: {
 			'Content-Type': 'application/json',
 			'Authorization': `Bearer ${accessToken}`,
 			'Content-Length': Buffer.byteLength(payload)
 		}
 	};
-
+    
 	log('INFO', 'Requesting call context', { contactId: contactData.ContactId, voiceServiceId });
-	return sendHttpsRequest(options, payload);
+
+	const RETRY_DELAYS_MS = [500, 800, 1000];
+	const MAX_RETRIES = RETRY_DELAYS_MS.length;
+
+	for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+		try {
+			const response = await sendHttpsRequest(options, payload);
+			const { dnis, tracing_id } = JSON.parse(response);
+
+			if (!dnis) {
+				log('WARN', 'No dnis returned', { attempt, contactId: contactData.ContactId });
+				if (attempt < MAX_RETRIES) {
+					await new Promise(resolve => setTimeout(resolve, RETRY_DELAYS_MS[attempt - 1]));
+					continue;
+				}
+				log('ERROR', 'No dnis returned after all retries', { contactId: contactData.ContactId });
+				return { statusCode: 502, body: JSON.stringify({ error: 'No dnis returned after all retries' }) };
+			}
+
+			return response;
+		} catch (e) {
+			log('ERROR', 'getCallContext request failed', { attempt, error: e.message, contactId: contactData.ContactId });
+			if (attempt < MAX_RETRIES) {
+				await new Promise(resolve => setTimeout(resolve, RETRY_DELAYS_MS[attempt - 1]));
+			} else {
+				return { statusCode: 502, body: JSON.stringify({ error: `getCallContext failed after ${MAX_RETRIES} attempts: ${e.message}` }) };
+			}
+		}
+	}
 }
 
 // ─── Interaction context ──────────────────────────────────────────────────────
@@ -555,7 +631,8 @@ Import the following JSON to create the Voice AI inbound contact flow in Amazon 
           }
         },
         "dynamicMetadata": {
-          "operation": false
+          "operation": false,
+          "voice_service_id": false
         }
       },
       "8f634a38-6e73-45b5-8db9-0235190f33af": {
@@ -778,7 +855,8 @@ Import the following JSON to create the Voice AI inbound contact flow in Amazon 
         "InvocationTimeLimitSeconds": "3",
         "InvocationType": "SYNCHRONOUS",
         "LambdaInvocationAttributes": {
-          "operation": "getInteractionContext"
+          "operation": "getInteractionContext",
+          "voice_service_id": "<voice-service-sys-id>"
         },
         "ResponseValidation": {
           "ResponseType": "STRING_MAP"

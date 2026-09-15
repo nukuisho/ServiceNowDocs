@@ -1,6 +1,6 @@
 ---
-title: Source control in ServiceNow Studio
-description: Use source control in ServiceNow Studio to manage app versions, commit changes, and collaborate with other developers through a linked Git repository.
+title: Metadata source control in ServiceNow Studio
+description: Use metadata source control in ServiceNow Studio to manage app versions, commit changes, and collaborate with other developers through a linked Git repository.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.html
 release: australia
@@ -9,12 +9,12 @@ classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-05-19"
 reading_time_minutes: 2
-breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
-# Source control in ServiceNow Studio
+# Metadata source control in ServiceNow Studio
 
-Use source control in ServiceNow Studio to manage app versions, commit changes, and collaborate with other developers through a linked Git repository.
+Use metadata source control in ServiceNow Studio to manage app versions, commit changes, and collaborate with other developers through a linked Git repository.
 
 After an admin links an app to source control, all application developers on a non-production instance can perform the following actions:
 
@@ -30,8 +30,8 @@ For more information, see [Link an app to source control in ServiceNow Studio](h
 
 -   **[Source control operations in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-operations-in-sn-studio.md)**  
 Most source control operations in ServiceNow Studio run from within the platform. Some operations — such as creating branches and tags — can also be performed directly from the Git repository.
--   **[Import an app from source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-import-app-source-control.md)**  
-Import an application from a Git repository into ServiceNow Studio to create a local copy of the app on your non-production instance. The repository must contain a valid ServiceNow application, and your credentials must have read access.
+-   **[Edit a Git repository configuration in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-edit-git-repo-configuration.md)**  
+Edit a Git repository configuration in ServiceNow Studio to update the network protocol, credentials, or other connection details.
 -   **[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)**  
 Pull and commit changes in a Git repository directly from ServiceNow Studio to keep app development in sync across your team.
 -   **[Create versions and branches in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-create-versions-branches-git.md)**  
@@ -41,5 +41,5 @@ View the commit history of apps linked to a source control repository in Service
 -   **[Move application files in a Git repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-move-app-files-in-git-repo.md)**  
 Move application files linked to source control to any folder in the repository from ServiceNow Studio to store supporting content, such as automated tests, alongside the applications they support.
 
-**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
+**Parent Topic:**[Source control integration in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-integration.md)
 

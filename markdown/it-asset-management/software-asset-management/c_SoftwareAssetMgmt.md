@@ -57,6 +57,8 @@ For the ITSM Software Asset Management feature of Asset Management, see [ITSM So
 The Software Asset Management application's user interface is enhanced to make it more user friendly and intuitive, allowing you to better manage your software installations.
 -   **[Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md)**  
 Configure the various aspects of the Software Asset Management application based on the needs of your organization.
+-   **[Using AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-ai-in-software-asset-workspace.md)**  
+Streamline your software asset operations by using the ServiceNow Otto for Software Asset Management \(SAM\) agentic AI workflows and generative AI skills.
 -   **[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)**  
 Use the Software Asset Workspace, the intuitive and streamlined user interface of the Software Asset Management application, to manage software licenses, compliance, and optimization.
 -   **[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)**  
@@ -68,15 +70,15 @@ With Software Asset Management, there are several publisher packs that can be us
 -   **[Engineering license management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/concurrent-licenses.md)**  
 Monitor engineering licenses and usage through OpenLM and Open iT to eliminate audit risks, verify license optimization, reduce inaccurate forecasting, and prevent denials. These license management services support accurate forecasting for software in industries such as aerospace, oil and gas, and construction.
 -   **[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)**  
-SaaS License Management helps organizations track and control cloud-based applications and service subscriptions as part of Software Asset Management \(SAM\). It promotes ownership, visibility, agility, and accountability, enabling better cost control and efficient use of resources.
+SaaS License Management tracks and controls cloud-based application subscriptions within Software Asset Management \(SAM\). This capability helps organizations manage subscriptions, monitor usage, and control costs across hybrid and direct SaaS models.
 -   **[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)**  
-Use the ServiceNow Software Spend Detection application to track, analyze, and optimize software spending from imported financial data.
+Use the ServiceNow Software Spend Detection feature to track, analyze, and optimize software spending from imported financial data.
 -   **[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)**  
 Software Asset Management administration tasks include adding custom part number records and custom license metrics. You can also refresh processor definitions and migrate software installations. Software Asset Management content service can be enabled, and migration procedures are also included.
 -   **[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)**  
 This Platform Analytics Solution contains preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 -   **[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)**  
 Use the descriptions provided to help you fill in the Software Asset Management forms.
--   **[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)**  
-Use the Now Assist for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
+-   **[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)**  
+Use the ServiceNow Otto for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
 

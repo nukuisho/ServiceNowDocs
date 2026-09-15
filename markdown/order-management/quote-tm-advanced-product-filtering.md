@@ -1,18 +1,18 @@
 ---
 title: Advanced product filtering for quotes
-description: Advanced product filtering dynamically controls which products appear in the quote catalog based on admin-defined business rules and transaction context in ServiceNow CPQ.
+description: Advanced product filtering dynamically controls which products appear in the quote catalog based on admin-defined business rules and transaction context in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-advanced-product-filtering.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 1
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Advanced product filtering for quotes
 
-Advanced product filtering dynamically controls which products appear in the quote catalog based on admin-defined business rules and transaction context in ServiceNow CPQ.
+Advanced product filtering dynamically controls which products appear in the quote catalog based on admin-defined business rules and transaction context in CPQ.
 
 Advanced product filtering enables administrators to dynamically filter the product catalog using business rules. Filtering logic runs during the Add Lines operation in ServiceNow Quote Experience. The feature supports real-time data synchronization from managed tables and maintains sub-second search performance even with catalogs of more than a million products.
 
@@ -46,4 +46,9 @@ The following must be enabled before using advanced product filtering.
 Product filter rules that reference managed tables do not need to be redeployed when only the managed table data changes. This behavior is enabled when the `filterrules.scheduler.enable = true` setting is active. The system syncs updated managed table data every 15 minutes, making the latest information available during product filtering.
 
 **Note:** Any change made to a product filter rule itself — not just the referenced table data — must be redeployed for it to take effect.
+
+-   **[Create a product filter rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-product-filter-rule.md)**  
+Create a product filter rule in CPQ to dynamically include or exclude products from the quote catalog based on managed table data and transaction context.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Fortinet firewall and FortiGate VDOM REST-based discovery
-description: The Discovery and Service Mapping Patterns application uses the Next Generation Fortinet Network Firewall - REST pattern to find Fortinet firewalls through REST API calls. Additionally, the pattern extension VDOM Discovery finds FortiGate Virtual Domains \(VDOMs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Next Generation Fortinet Network Firewall - REST pattern to find Fortinet firewalls through REST API calls. Additionally, the pattern extension VDOM Discovery finds FortiGate Virtual Domains \(VDOMs\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Fortinet firewall and FortiGate VDOM REST-based discovery
 
-The Discovery and Service Mapping Patterns application uses the Next Generation Fortinet Network Firewall - REST pattern to find Fortinet firewalls through REST API calls. Additionally, the pattern extension VDOM Discovery finds FortiGate Virtual Domains \(VDOMs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Next Generation Fortinet Network Firewall - REST pattern to find Fortinet firewalls through REST API calls. Additionally, the pattern extension VDOM Discovery finds FortiGate Virtual Domains \(VDOMs\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The Next Generation Fortinet Network Firewall - REST pattern uses a set of REST API calls to find the Fortinet firewalls. For FortiGate VDOM discovery, only multi-VDOM mode is supported.
 
@@ -22,7 +22,7 @@ The Next Generation Fortinet Network Firewall - REST pattern uses a set of REST 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 To learn about Fortinet Firewalls and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
@@ -45,7 +45,7 @@ The Next Generation Fortinet Network Firewall - REST pattern and VDOM Discovery 
     -   CMDB CI Class Models
 -   **Create API Token**
 
-    Create an API Token in Fortinet. For instructions on creating an API Token, go to the [Fortinet Document Library](https://docs.fortinet.com/) and search for the "Connect FortiGate device via API Token - Online Help" article under the FortiConverter Tool product family.
+    Create an API Token in Fortinet. For instructions, go to the [Fortinet Document Library](https://docs.fortinet.com/). Search for the "Connect FortiGate device via API Token - Online Help" article under the FortiConverter Tool product family.
 
 -   **Verify API access and permissions**
 

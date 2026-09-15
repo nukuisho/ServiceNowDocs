@@ -1,6 +1,6 @@
 ---
 title: Oracle Tuxedo discovery
-description: The ServiceNow Discovery application uses the Tuxedo pattern to find Oracle Tuxedo resources. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the Tuxedo pattern to find Oracle Tuxedo resources. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-OracleTuxedo.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 # Oracle Tuxedo discovery
 
-The ServiceNow Discovery application uses the Tuxedo pattern to find Oracle Tuxedo resources. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the Tuxedo pattern to find Oracle Tuxedo resources. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Discovery uses the **Tuxedo** pattern to run horizontal discovery.
 

@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Sales CRM for Telecommunications AI agent Move order voice AI agent
+title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent Move order voice AI agent
 description: Use this agent to automatically create a customer move order capture journey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-move-order-somt.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Standalone AI agents, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Standalone AI agents, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Sales CRM for Telecommunications AI agent Move order voice AI agent
+# ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent Move order voice AI agent
 
 Use this agent to automatically create a customer move order capture journey.
 
@@ -42,7 +42,7 @@ Role required: sn\_customerservice.consumer
 To configure the AI agent:
 
 1.  Navigate to **All** &gt; **Assistant Designer** &gt; **Assistants**.
-2.  In Now Assist Voice Deployment tile, select **Edit**.
+2.  In ServiceNow Otto Voice Deployment tile, select **Edit**.
 3.  Select **Settings** tab and review the details.
 
 To create SoftPIN, see [Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-soft-pin.md).

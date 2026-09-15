@@ -7,8 +7,8 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-07-30"
+reading_time_minutes: 4
 breadcrumb: [Telecommunications Service Operations Management]
 ---
 
@@ -29,14 +29,14 @@ Telecommunications Service Operations Management simplifies telecom operations b
 -   Service Impact Analysis to assess and trace service disruptions based on impacted infrastructure and business services.
 -   Service Graph Connectors and Discovery to build a dynamic, telecom-aware CMDB.
 
-## TSOM Architecture and Telecom Applications
+\[Omitted image "exploring-telecom.png"\] Alt text: Architecture diagram showing Service Graph Connectors feeding into AI-Powered Platform Architecture with TNI, TSOM Visibility, CMDB, and MID Server, alongside Horizontal Discovery and IT/Cloud Discovery Patterns
 
 ## Key features
 
 |Capability|Description|
 |----------|-----------|
 |Real-time event monitoring|Ingest alarms and events from multi-domain network monitoring systems using External event management via Telecommunications API notifications.|
-|Event correlation &amp; analysis|Leverage Event Management and Metric Intelligence to correlate related events, reduce noise, and detect anomalies. For more information, see [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/event_open-api.md).|
+|Event correlation &amp; analysis|Use Event Management and Metric Intelligence to correlate related events, reduce noise, and detect anomalies. For more information, see [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/event_open-api.md).|
 |Telecom Visibility|Gain end-to-end visualization of network and service health, including impact traceability.|
 |Service Impact Analysis|Understand how network or infrastructure issues affect services and prioritize remediation based on business impact.|
 |Metric Intelligence|Monitor performance trends, detect threshold breaches and anomalies in metrics to proactively identify issues. For more information, see [Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/operational-metrics.md).|
@@ -51,7 +51,7 @@ Telecommunications Service Operations Management simplifies telecom operations b
 -   Improve operational efficiency: Noise reduction and streamline operations with guided workflows.
 -   Gain End-to-End Visibility: Understand how infrastructure issues impact customer-facing services.
 -   Integrate seamlessly: Ingest data from legacy and modern NMS/EMS tools with open standards.
--   Ensure compliance: Align with TM Forum standards for telecom service assurance.
+-   Verify compliance: Align with TM Forum standards for telecom service assurance.
 
 ## Key personas
 
@@ -62,7 +62,7 @@ Telecommunications Service Operations Management simplifies telecom operations b
 
 ## Integration with the ServiceNow AI Platform
 
-TSOM is embedded into the Now Platform and integrates seamlessly with core capabilities such as:
+TSOM is embedded into the ServiceNow AI Platform and integrates seamlessly with core capabilities such as:
 
 -   Discovery
 -   Service Mapping
@@ -77,4 +77,6 @@ This integration confirms consistent workflows, accurate service models, and uni
 [External event management via Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
 
 [Telecom Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/tsom-visibility.md)
+
+[Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-assurance.md)
 

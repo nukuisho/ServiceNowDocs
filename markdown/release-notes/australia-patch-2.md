@@ -38,9 +38,9 @@ Australia Patch 2 includes fixes for security-related problems that affected cer
 
 ## Changes in Australia Patch 2
 
--   **[Add the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-nacm.md)**
+-   **[Add the ServiceNow Otto context menu to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-nacm.md)**
 
-    Use the Now Assist context menu to enable Now Assist skills to be displayed directly in the dashboard.
+    Use the ServiceNow Otto context menu to enable ServiceNow Otto skills to be displayed directly in the dashboard.
 
 -   **[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md)**
 
