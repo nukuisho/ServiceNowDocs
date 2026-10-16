@@ -383,7 +383,7 @@
     }   
 
 　　　/*
-     * 6. Final result
+     * 7. Final result
      *
      * Excelのシート、列、行、IPアドレスなどの
      * 内容検証はValidate IP Address Excelで行う。
