@@ -1,0 +1,334 @@
+(function execute(inputs, outputs) {
+    outputs.valid = false;
+    outputs.error_code = '';
+    outputs.error_message = '';
+    outputs.resolved_attachment_sys_id = '';
+
+    /*
+     * Excelファイルとして許可する最大件数。
+     *
+     * 1件に限定することで、どのファイルを処理するかが
+     * 不明確になることを防止する。
+     */
+    var MAX_EXCEL_ATTACHMENTS = 1;
+
+    /*
+     * エラー出力を設定する。
+     */
+    function fail(code, message) {
+        outputs.valid = false;
+        outputs.error_code = String(code || '');
+        outputs.error_message = String(message || '');
+        outputs.resolved_attachment_sys_id = '';
+    }
+
+    /*
+     * Sys ID形式を確認する。
+     */
+    function isValidSysId(value) {
+        return /^[0-9a-f]{32}$/i.test(
+            String(value || '').trim()
+        );
+    }
+
+    /*
+     * 対象ファイルがExcelか確認する。
+     *
+     * 現在の既存処理との互換性を維持するため、
+     * .xlsおよび.xlsxを許可している。
+     *
+     * 後続のValidate IP Address Excelが.xlsxのみ対応する
+     * 場合は、次の正規表現へ変更すること。
+     *
+     * /\.xlsx$/i
+     */
+    function isExcelFile(fileName) {
+        return /\.xlsx?$/i.test(
+            String(fileName || '').trim()
+        );
+    }
+
+    /*
+     * 指定されたテーブルとレコードに紐づく
+     * Excel添付を検索する。
+     *
+     * Excel以外の添付は無視する。
+     */
+    function findExcelAttachments(
+        tableName,
+        tableSysId
+    ) {
+        var results = [];
+
+        if (!tableName || !isValidSysId(tableSysId)) {
+            return results;
+        }
+
+        var attachment =
+            new GlideRecord('sys_attachment');
+
+        attachment.addQuery(
+            'table_name',
+            tableName
+        );
+
+        attachment.addQuery(
+            'table_sys_id',
+            tableSysId
+        );
+
+        attachment.orderByDesc('sys_created_on');
+        attachment.query();
+
+        while (attachment.next()) {
+            var fileName = String(
+                attachment.getValue('file_name') || ''
+            ).trim();
+
+            if (!isExcelFile(fileName)) {
+                continue;
+            }
+
+            results.push({
+                sys_id: attachment.getUniqueValue(),
+                file_name: fileName,
+                table_name: String(
+                    attachment.getValue(
+                        'table_name'
+                    ) || ''
+                ),
+                table_sys_id: String(
+                    attachment.getValue(
+                        'table_sys_id'
+                    ) || ''
+                )
+            });
+
+            /*
+             * 2件見つかった時点で複数ファイルエラーに
+             * できるため、それ以上は読み込まない。
+             */
+            if (
+                results.length >
+                MAX_EXCEL_ATTACHMENTS
+            ) {
+                break;
+            }
+        }
+
+        return results;
+    }
+
+    /*
+     * RITMまたはREQからExcel添付を解決する。
+     *
+     * 優先順位:
+     * 1. sc_req_item
+     * 2. sc_request
+     *
+     * RITMにExcelが存在する場合はREQ側を検索しない。
+     * これにより、注文時の添付コピーによる重複判定を
+     * 避ける。
+     */
+    function resolveExcelAttachment(ritm) {
+        var ritmSysId =
+            ritm.getUniqueValue();
+
+        var ritmAttachments =
+            findExcelAttachments(
+                'sc_req_item',
+                ritmSysId
+            );
+
+        if (
+            ritmAttachments.length >
+            MAX_EXCEL_ATTACHMENTS
+        ) {
+            return {
+                success: false,
+                code:
+                    'MULTIPLE_EXCEL_ATTACHMENTS',
+                message:
+                    'Only one Excel attachment ' +
+                    'is allowed on the Requested Item.'
+            };
+        }
+
+        if (ritmAttachments.length === 1) {
+            return {
+                success: true,
+                attachment:
+                    ritmAttachments[0]
+            };
+        }
+
+        /*
+         * RITM直下にExcelがない場合のみ、
+         * 親REQの添付を確認する。
+         */
+        var requestSysId = String(
+            ritm.getValue('request') || ''
+        ).trim();
+
+        if (!isValidSysId(requestSysId)) {
+            return {
+                success: false,
+                code:
+                    'EXCEL_ATTACHMENT_MISSING',
+                message:
+                    'An Excel attachment is required.'
+            };
+        }
+
+        var requestAttachments =
+            findExcelAttachments(
+                'sc_request',
+                requestSysId
+            );
+
+        if (
+            requestAttachments.length >
+            MAX_EXCEL_ATTACHMENTS
+        ) {
+            return {
+                success: false,
+                code:
+                    'MULTIPLE_EXCEL_ATTACHMENTS',
+                message:
+                    'Only one Excel attachment ' +
+                    'is allowed on the Request.'
+            };
+        }
+
+        if (requestAttachments.length === 1) {
+            return {
+                success: true,
+                attachment:
+                    requestAttachments[0]
+            };
+        }
+
+        return {
+            success: false,
+            code: 'EXCEL_ATTACHMENT_MISSING',
+            message:
+                'An Excel attachment is required.'
+        };
+    }
+
+    /*
+     * 1. Requested Item Sys ID
+     */
+    var requestedItemSysId = String(
+        inputs.requested_item_sys_id || ''
+    ).trim();
+
+    if (!requestedItemSysId) {
+        fail(
+            'REQUESTED_ITEM_MISSING',
+            'Requested Item Sys ID is required.'
+        );
+        return;
+    }
+
+    if (!isValidSysId(requestedItemSysId)) {
+        fail(
+            'REQUESTED_ITEM_SYS_ID_INVALID',
+            'Requested Item Sys ID is invalid.'
+        );
+        return;
+    }
+
+    /*
+     * 2. Requested Item
+     */
+    var ritm = new GlideRecord('sc_req_item');
+
+    if (!ritm.get(requestedItemSysId)) {
+        fail(
+            'REQUESTED_ITEM_NOT_FOUND',
+            'Requested Item could not be found.'
+        );
+        return;
+    }
+
+    /*
+     * 3. Input Method
+     */
+    var inputMethod = String(
+        inputs.input_method || ''
+    ).trim().toLowerCase();
+
+    if (
+        inputMethod !== 'manual' &&
+        inputMethod !== 'excel'
+    ) {
+        fail(
+            'INPUT_METHOD_INVALID',
+            'Input method must be either ' +
+            'manual or excel.'
+        );
+        return;
+    }
+
+    /*
+     * 4. Manual
+     *
+     * Manual方式ではExcel関連変数を確認しない。
+     * MRVSの内容検証は後続の
+     * Prepare Manual Update Rowsで実施する。
+     */
+    if (inputMethod === 'manual') {
+        outputs.valid = true;
+        return;
+    }
+
+    /*
+     * 5. Excel attachment
+     *
+     * excel_import_completed、
+     * excel_attachment_sys_id、
+     * excel_import_session_id、
+     * excel_import_hashには依存しない。
+     *
+     * RITM、または親REQに紐づくExcel添付を
+     * サーバー側で検索する。
+     */
+    var resolved =
+        resolveExcelAttachment(ritm);
+
+    if (!resolved.success) {
+        fail(
+            resolved.code,
+            resolved.message
+        );
+        return;
+    }
+
+    var resolvedAttachment =
+        resolved.attachment;
+
+    if (
+        !resolvedAttachment ||
+        !isValidSysId(
+            resolvedAttachment.sys_id
+        )
+    ) {
+        fail(
+            'EXCEL_ATTACHMENT_RESOLUTION_FAILED',
+            'The Excel attachment could not be resolved.'
+        );
+        return;
+    }
+
+    /*
+     * 6. Final result
+     *
+     * Excelのシート、列、行、IPアドレスなどの
+     * 内容検証はValidate IP Address Excelで行う。
+     */
+    outputs.valid = true;
+    outputs.resolved_attachment_sys_id =
+        resolvedAttachment.sys_id;
+
+})(inputs, outputs);
