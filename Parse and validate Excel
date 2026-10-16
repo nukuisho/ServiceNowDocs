@@ -1,0 +1,1673 @@
+(function execute(inputs, outputs) {
+    /*
+     * ============================================================
+     * Configuration
+     * ============================================================
+     */
+
+    /*
+     * 更新対象となるIP Addressテーブル。
+     */
+    var IP_TABLE = 'u_ip_address';
+
+    /*
+     * IP Addressテーブル内のIPアドレスフィールド。
+     */
+    var IP_FIELD = 'ip_address';
+
+    /*
+     * サーバー管理項目。
+     */
+    var IP_PATTERN_FIELD = 'u_ip_pattern';
+    var USE_FIELD = 'u_use';
+    var COMMENTS_FIELD = 'comments';
+    var STATE_FIELD = 'u_state';
+    var ORDER_NUMBER_FIELD = 'u_order_number';
+
+    /*
+     * u_ip_patternが参照するレコード上の備考フィールド。
+     *
+     * u_ip_pattern.commentsの「comments」に相当する。
+     */
+    var IP_PATTERN_COMMENTS_FIELD = 'comments';
+
+    /*
+     * Excelファイルに要求するヘッダー。
+     *
+     * ヘッダー名だけでなく、列順もこの配列どおりであることを
+     * 必須とする。
+     */
+    var EXPECTED_HEADERS = [
+        'IP アドレス',
+        'モデルパターンによる想定利用用途',
+        'IPパターン : 備考',
+        '実際の利用用途',
+        '実際の利用用途 : 備考',
+        'ステータス',
+        'IPアドレス並び替え'
+    ];
+
+    /*
+     * u_ip_patternはReferenceフィールドを想定する。
+     *
+     * Excelにはユーザー向けの表示値が出力される想定のため、
+     * 既存レコードのgetDisplayValue('u_ip_pattern')と比較する。
+     *
+     * ExcelにSys IDが出力される仕様の場合はfalseへ変更する。
+     */
+    var COMPARE_IP_PATTERN_BY_DISPLAY_VALUE = true;
+
+    /*
+     * 既知のu_state表示値を内部値へ変換する。
+     *
+     * 未知の値はエラーにせず、そのまま後続へ渡す。
+     * 後続のValidate All IP Address Update Rowsで
+     * 状態値の妥当性を検証する前提。
+     */
+    var STATE_VALUE_MAP = {
+        '未使用': '1',
+        '使用中': '2'
+    };
+
+    /*
+     * ============================================================
+     * Internal state
+     * ============================================================
+     */
+
+    var errors = [];
+    var rows = [];
+    var seenIp = {};
+    var rowCount = 0;
+    var skippedCount = 0;
+    var failedCount = 0;
+    
+
+    /*
+     * ============================================================
+     * Output initialization
+     * ============================================================
+     */
+
+    outputs.valid = false;
+    outputs.rows = [];
+    outputs.errors = [];
+    outputs.row_count = 0;
+    outputs.skipped_count = 0;
+    outputs.attachment_sys_id = '';
+    outputs.error_code = '';
+    outputs.error_message = '';
+    outputs.failed_count = 0;
+    outputs.total_count = 0;
+
+    /*
+     * ============================================================
+     * Utility functions
+     * ============================================================
+     */
+
+    /*
+     * nullおよびundefinedを空文字へ変換し、
+     * 前後の空白を除去する。
+     */
+    function valueOf(value) {
+        if (
+            value === null ||
+            value === undefined
+        ) {
+            return '';
+        }
+
+        return String(value).trim();
+    }
+
+    /*
+     * 複数行文字列の改行コードをLFへ統一する。
+     *
+     * ExcelとServiceNowでCRLF/LFが異なることによる
+     * 誤検出を防止する。
+     */
+    function multilineValueOf(value) {
+        return valueOf(value)
+            .replace(/\r\n/g, '\n')
+            .replace(/\r/g, '\n');
+    }
+
+    /*
+     * 並び替え番号を比較用に正規化する。
+     *
+     * 空値は空値のままとする。
+     * 数値へ変換できる場合は、001と1を同一として扱う。
+     * 数値に変換できない場合は元の文字列を返す。
+     */
+    function orderNumberValueOf(value) {
+        var normalizedValue = valueOf(value);
+
+        if (!normalizedValue) {
+            return '';
+        }
+
+        var parsedValue = parseInt(
+            normalizedValue,
+            10
+        );
+
+        if (isNaN(parsedValue)) {
+            return normalizedValue;
+        }
+
+        return String(parsedValue);
+    }
+
+    function isValidSysId(value) {
+        return /^[0-9a-f]{32}$/i.test(
+            valueOf(value)
+        );
+    }
+
+    function hasOwn(object, property) {
+        return Object.prototype.hasOwnProperty.call(
+            object,
+            property
+        );
+    }
+
+    /*
+     * 構造化エラーを追加する。
+     */
+    function addError(
+        rowNumber,
+        column,
+        code,
+        message
+    ) {
+        errors.push({
+            row_number:
+                parseInt(rowNumber, 10) || 0,
+
+            column:
+                valueOf(column),
+
+            code:
+                valueOf(code),
+
+            message:
+                valueOf(message)
+        });
+    }
+
+/*
+ * errors配列を、Flowへ渡す単一のエラーメッセージへ変換する。
+ */
+function buildErrorMessage() {
+    var messages = [];
+
+    for (
+        var errorIndex = 0;
+        errorIndex < errors.length;
+        errorIndex++
+    ) {
+        var error = errors[errorIndex];
+        var parts = [];
+
+        if (
+            error.row_number &&
+            parseInt(
+                error.row_number,
+                10
+            ) > 0
+        ) {
+            parts.push(
+                String(error.row_number) +
+                '行目'
+            );
+        }
+
+        if (valueOf(error.column)) {
+            parts.push(
+                '項目: ' +
+                valueOf(error.column)
+            );
+        }
+
+        if (valueOf(error.code)) {
+            parts.push(
+                'コード: ' +
+                valueOf(error.code)
+            );
+        }
+
+        var prefix = '';
+
+        if (parts.length > 0) {
+            prefix =
+                '[' +
+                parts.join(' / ') +
+                '] ';
+        }
+
+        messages.push(
+            prefix +
+            valueOf(error.message)
+        );
+    }
+
+    return messages.join('\n');
+}
+
+/*
+ * Flowへ渡す代表エラーコードを決定する。
+ *
+ * エラーが1件だけの場合:
+ *   そのエラー固有のコードを返す。
+ *
+ * エラーが複数ある場合:
+ *   EXCEL_VALIDATION_FAILEDを返す。
+ */
+function buildErrorCode() {
+    if (errors.length === 0) {
+        return '';
+    }
+
+    if (errors.length === 1) {
+        return valueOf(
+            errors[0].code
+        );
+    }
+
+    return 'EXCEL_VALIDATION_FAILED';
+}
+
+    /*
+     * 失敗結果を出力する。
+     *
+     * 1行でもエラーがある場合は、部分更新を防止するため
+     * rowsを必ず空配列にする。
+     */
+function publishFailure() {
+    outputs.valid = false;
+    outputs.rows = [];
+    outputs.errors = errors;
+    outputs.row_count = rowCount;
+    outputs.skipped_count = skippedCount;
+    outputs.failed_count = failedCount;
+
+    outputs.error_code =
+        buildErrorCode();
+
+    outputs.error_message =
+        buildErrorMessage();
+}
+
+    function publishSuccess() {
+        outputs.valid = true;
+        outputs.rows = rows;
+        outputs.errors = [];
+        outputs.row_count = rowCount;
+        outputs.skipped_count = skippedCount;
+        outputs.failed_count = failedCount;
+
+    }
+
+    /*
+     * ヘッダーの外側の空白だけを除去する。
+     *
+     * 日本語ヘッダーは厳密に比較するため、
+     * コロン、途中の空白、全角・半角は変換しない。
+     *
+     * 例:
+     * 「IPパターン : 備考」と
+     * 「IPパターン：備考」は別のヘッダーとして扱う。
+     */
+    function normalizeHeader(value) {
+        return valueOf(value);
+    }
+
+    /*
+     * JavaScript Array、Java配列、Java Listなどを
+     * JavaScript Arrayへ変換する。
+     */
+    function toArray(source) {
+        var result = [];
+
+        if (!source) {
+            return result;
+        }
+
+        /*
+         * JavaScript ArrayまたはJava配列。
+         */
+        if (
+            typeof source.length === 'number'
+        ) {
+            for (
+                var arrayIndex = 0;
+                arrayIndex < source.length;
+                arrayIndex++
+            ) {
+                result.push(
+                    valueOf(source[arrayIndex])
+                );
+            }
+
+            return result;
+        }
+
+        /*
+         * Java List。
+         */
+        if (
+            typeof source.size === 'function' &&
+            typeof source.get === 'function'
+        ) {
+            for (
+                var listIndex = 0;
+                listIndex < source.size();
+                listIndex++
+            ) {
+                result.push(
+                    valueOf(source.get(listIndex))
+                );
+            }
+
+            return result;
+        }
+
+        /*
+         * Iteratorを持つJava Collection。
+         */
+        if (
+            typeof source.iterator === 'function'
+        ) {
+            var iterator = source.iterator();
+
+            while (iterator.hasNext()) {
+                result.push(
+                    valueOf(iterator.next())
+                );
+            }
+
+            return result;
+        }
+
+        return result;
+    }
+
+    /*
+     * Excelヘッダーを検証する。
+     *
+     * 列数、列名、列順のすべてを検証する。
+     */
+    function validateHeaders(rawHeaders) {
+        var actualHeaders = toArray(rawHeaders);
+        var headerIsValid = true;
+
+        if (
+            actualHeaders.length !==
+            EXPECTED_HEADERS.length
+        ) {
+            addError(
+                1,
+                '',
+                'INVALID_HEADER_COUNT',
+                'Excelの列数が正しくありません。' +
+                '期待値: ' +
+                EXPECTED_HEADERS.length +
+                '、実際: ' +
+                actualHeaders.length
+            );
+
+            headerIsValid = false;
+        }
+
+        /*
+         * 列数が異なる場合でも、存在する範囲について
+         * 個別の差分を記録する。
+         */
+        var comparisonLength =
+            actualHeaders.length >
+            EXPECTED_HEADERS.length
+                ? actualHeaders.length
+                : EXPECTED_HEADERS.length;
+
+        for (
+            var headerIndex = 0;
+            headerIndex < comparisonLength;
+            headerIndex++
+        ) {
+            var actualHeader =
+                headerIndex < actualHeaders.length
+                    ? normalizeHeader(
+                        actualHeaders[headerIndex]
+                    )
+                    : '';
+
+            var expectedHeader =
+                headerIndex < EXPECTED_HEADERS.length
+                    ? EXPECTED_HEADERS[headerIndex]
+                    : '';
+
+            if (
+                actualHeader !== expectedHeader
+            ) {
+                addError(
+                    1,
+                    expectedHeader ||
+                        actualHeader,
+                    'INVALID_HEADER',
+                    String(
+                        headerIndex + 1
+                    ) +
+                    '列目のヘッダーが正しくありません。' +
+                    '期待値:「' +
+                    expectedHeader +
+                    '」、実際:「' +
+                    actualHeader +
+                    '」'
+                );
+
+                headerIsValid = false;
+            }
+        }
+
+        return headerIsValid;
+    }
+
+    /*
+     * 行データから、完全一致する日本語ヘッダーのセルを取得する。
+     *
+     * ヘッダー検証を事前に実施するため、旧英語名や別名は
+     * 受け付けない。
+     */
+    function getCell(
+        source,
+        headerName
+    ) {
+        if (!source) {
+            return '';
+        }
+
+        if (
+            hasOwn(
+                source,
+                headerName
+            )
+        ) {
+            return valueOf(
+                source[headerName]
+            );
+        }
+
+        /*
+         * GlideExcelParserの戻り値に外側の空白が含まれる場合に
+         * 備え、プロパティ名をtrimして再確認する。
+         */
+        for (var propertyName in source) {
+            if (
+                !hasOwn(
+                    source,
+                    propertyName
+                )
+            ) {
+                continue;
+            }
+
+            if (
+                normalizeHeader(propertyName) ===
+                headerName
+            ) {
+                return valueOf(
+                    source[propertyName]
+                );
+            }
+        }
+
+        return '';
+    }
+
+    /*
+     * IP Addressレコードを最大2件検索する。
+     */
+    function findIpAddress(ipAddress) {
+        var result = {
+            count: 0,
+            sys_id: '',
+            configuration_error: ''
+        };
+
+        if (!valueOf(ipAddress)) {
+            return result;
+        }
+
+        var record =
+            new GlideRecord(IP_TABLE);
+
+        if (!record.isValid()) {
+            result.configuration_error =
+                'IP Address table is invalid: ' +
+                IP_TABLE;
+
+            return result;
+        }
+
+        if (!record.isValidField(IP_FIELD)) {
+            result.configuration_error =
+                'IP Address field is invalid: ' +
+                IP_TABLE +
+                '.' +
+                IP_FIELD;
+
+            return result;
+        }
+
+        record.addQuery(
+            IP_FIELD,
+            ipAddress
+        );
+
+        record.setLimit(2);
+        record.query();
+
+        while (record.next()) {
+            result.count++;
+
+            if (result.count === 1) {
+                result.sys_id =
+                    record.getUniqueValue();
+            }
+        }
+
+        return result;
+    }
+
+    /*
+     * 取得したIP Addressレコードについて、
+     * 今回使用するフィールドが存在することを検証する。
+     */
+    function validateIpRecordFields(record) {
+        var requiredFields = [
+            IP_FIELD,
+            IP_PATTERN_FIELD,
+            USE_FIELD,
+            COMMENTS_FIELD,
+            STATE_FIELD,
+            ORDER_NUMBER_FIELD
+        ];
+
+        var valid = true;
+
+        for (
+            var fieldIndex = 0;
+            fieldIndex < requiredFields.length;
+            fieldIndex++
+        ) {
+            var fieldName =
+                requiredFields[fieldIndex];
+
+            if (!record.isValidField(fieldName)) {
+                addError(
+                    0,
+                    fieldName,
+                    'INVALID_SERVER_FIELD',
+                    'サーバー側フィールドが存在しません。' +
+                    IP_TABLE +
+                    '.' +
+                    fieldName
+                );
+                failedCount++;
+                valid = false;
+            }
+        }
+
+        return valid;
+    }
+
+    /*
+     * u_ip_patternの比較値を取得する。
+     *
+     * Excelに表示値が出力される場合は表示値を取得する。
+     * ExcelにSys IDが出力される場合は内部値���取得する。
+     */
+    function getCurrentIpPatternValue(
+        ipRecord
+    ) {
+        if (
+            COMPARE_IP_PATTERN_BY_DISPLAY_VALUE
+        ) {
+            return valueOf(
+                ipRecord.getDisplayValue(
+                    IP_PATTERN_FIELD
+                )
+            );
+        }
+
+        return valueOf(
+            ipRecord.getValue(
+                IP_PATTERN_FIELD
+            )
+        );
+    }
+
+    /*
+     * u_ip_pattern参照先レコードのcommentsを取得する。
+     *
+     * u_ip_pattern.commentsのドットウォークに相当する。
+     */
+    function getCurrentIpPatternComments(
+        ipRecord
+    ) {
+        var patternSysId =
+            valueOf(
+                ipRecord.getValue(
+                    IP_PATTERN_FIELD
+                )
+            );
+
+        if (!patternSysId) {
+            return '';
+        }
+
+        var patternRecord;
+
+        try {
+            patternRecord =
+                ipRecord[
+                    IP_PATTERN_FIELD
+                ].getRefRecord();
+        } catch (referenceError) {
+            return '';
+        }
+
+        if (
+            !patternRecord ||
+            !patternRecord.isValidRecord()
+        ) {
+            return '';
+        }
+
+        if (
+            !patternRecord.isValidField(
+                IP_PATTERN_COMMENTS_FIELD
+            )
+        ) {
+            return '';
+        }
+
+        return multilineValueOf(
+            patternRecord.getValue(
+                IP_PATTERN_COMMENTS_FIELD
+            )
+        );
+    }
+
+    /*
+     * サーバー管理項目を既存レコードと比較する。
+     *
+     * 比較対象:
+     * - u_ip_address
+     * - u_ip_pattern
+     * - u_ip_pattern.comments
+     * - u_order_number
+     */
+    function validateServerControlledFields(
+        row,
+        ipRecord
+    ) {
+        var valid = true;
+
+        var currentIpAddress =
+            valueOf(
+                ipRecord.getValue(
+                    IP_FIELD
+                )
+            );
+
+        var currentIpPattern =
+            getCurrentIpPatternValue(
+                ipRecord
+            );
+
+        var currentIpPatternComments =
+            getCurrentIpPatternComments(
+                ipRecord
+            );
+
+        var currentOrderNumber =
+            orderNumberValueOf(
+                ipRecord.getValue(
+                    ORDER_NUMBER_FIELD
+                )
+            );
+
+        if (
+            row.u_ip_address !==
+            currentIpAddress
+        ) {
+            addError(
+                row.row_number,
+                'u_ip_address',
+                'SERVER_VALUE_MISMATCH',
+                '「IP アドレス」が既存レコードと' +
+                '一致しません。' +
+                'Excel値:「' +
+                row.u_ip_address +
+                '」、既存値:「' +
+                currentIpAddress +
+                '」'
+            );
+            failedCount++;
+
+            valid = false;
+        }
+
+        if (
+            row.u_ip_pattern !==
+            currentIpPattern
+        ) {
+            addError(
+                row.row_number,
+                'u_ip_pattern',
+                'SERVER_VALUE_MISMATCH',
+                '「モデルパターンによる想定利用用途」が' +
+                '既存レコードと一致しません。' +
+                'Excel値:「' +
+                row.u_ip_pattern +
+                '」、既存値:「' +
+                currentIpPattern +
+                '」'
+            );
+            failedCount++;
+
+            valid = false;
+        }
+
+        if (
+            row.u_ip_pattern_comments !==
+            currentIpPatternComments
+        ) {
+            addError(
+                row.row_number,
+                'u_ip_pattern_comments',
+                'SERVER_VALUE_MISMATCH',
+                '「IPパターン : 備考」が' +
+                '既存レコードと一致しません。' +
+                'Excel値:「' +
+                row.u_ip_pattern_comments +
+                '」、既存値:「' +
+                currentIpPatternComments +
+                '」'
+            );
+            failedCount++;
+
+            valid = false;
+        }
+
+        if (
+            row.u_order_number !==
+            currentOrderNumber
+        ) {
+            addError(
+                row.row_number,
+                'u_order_number',
+                'SERVER_VALUE_MISMATCH',
+                '「IPアドレス並び替え」が' +
+                '既存レコードと一致しません。' +
+                'Excel値:「' +
+                row.u_order_number +
+                '」、既存値:「' +
+                currentOrderNumber +
+                '」'
+            );
+            failedCount++;
+
+            valid = false;
+        }
+
+        return valid;
+    }
+
+    /*
+     * 更新対象3項目について、既存値との差分を判定する。
+     *
+     * 比較対象:
+     * - u_use
+     * - comments
+     * - u_state
+     */
+    function setUpdateFlags(
+        row,
+        ipRecord
+    ) {
+        var currentUse =
+            valueOf(
+                ipRecord.getValue(
+                    USE_FIELD
+                )
+            );
+
+        var currentComments =
+            multilineValueOf(
+                ipRecord.getValue(
+                    COMMENTS_FIELD
+                )
+            );
+
+        var currentState =
+            valueOf(
+                ipRecord.getValue(
+                    STATE_FIELD
+                )
+            );
+
+        row.update_u_use =
+            row.u_use !== currentUse;
+
+        row.update_comments =
+            row.comments !==
+            currentComments;
+
+        row.update_u_state =
+            row.u_state !==
+            currentState;
+
+        row.skip =
+            !row.update_u_use &&
+            !row.update_comments &&
+            !row.update_u_state;
+    }
+
+    /*
+     * 添付が対象RITMまたは親REQに属するか確認する。
+     */
+    function attachmentBelongsToRequest(
+        attachment,
+        ritm
+    ) {
+        var attachmentTable =
+            valueOf(
+                attachment.getValue(
+                    'table_name'
+                )
+            );
+
+        var attachmentTableSysId =
+            valueOf(
+                attachment.getValue(
+                    'table_sys_id'
+                )
+            );
+
+        var ritmSysId =
+            ritm.getUniqueValue();
+
+        if (
+            attachmentTable ===
+                'sc_req_item' &&
+            attachmentTableSysId ===
+                ritmSysId
+        ) {
+            return true;
+        }
+
+        var requestSysId =
+            valueOf(
+                ritm.getValue('request')
+            );
+
+        if (
+            requestSysId &&
+            attachmentTable ===
+                'sc_request' &&
+            attachmentTableSysId ===
+                requestSysId
+        ) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /*
+     * getSheetNames()の戻り値から最初のシート名を取得する。
+     */
+    function getFirstSheetName(
+        rawSheetNames
+    ) {
+        var firstSheetName = '';
+
+        /*
+         * JavaScript ArrayまたはJava配列。
+         */
+        if (
+            rawSheetNames &&
+            typeof rawSheetNames.length ===
+                'number' &&
+            rawSheetNames.length > 0
+        ) {
+            firstSheetName =
+                valueOf(
+                    rawSheetNames[0]
+                );
+        }
+
+        /*
+         * Java List。
+         */
+        if (
+            !firstSheetName &&
+            rawSheetNames &&
+            typeof rawSheetNames.size ===
+                'function' &&
+            typeof rawSheetNames.get ===
+                'function' &&
+            rawSheetNames.size() > 0
+        ) {
+            firstSheetName =
+                valueOf(
+                    rawSheetNames.get(0)
+                );
+        }
+
+        /*
+         * 文字列表現。
+         */
+        if (
+            !firstSheetName &&
+            rawSheetNames
+        ) {
+            var sheetNamesText =
+                valueOf(rawSheetNames);
+
+            if (sheetNamesText) {
+                sheetNamesText =
+                    sheetNamesText
+                        .replace(/^\[/, '')
+                        .replace(/\]$/, '');
+
+                firstSheetName =
+                    valueOf(
+                        sheetNamesText.split(',')[0]
+                    );
+            }
+        }
+
+        return firstSheetName;
+    }
+
+    /*
+     * ============================================================
+     * 1. Requested Item validation
+     * ============================================================
+     */
+
+    var ritmSysId =
+        valueOf(
+            inputs.request_item_sys_id
+        );
+
+    if (!ritmSysId) {
+        addError(
+            0,
+            '',
+            'RITM_SYS_ID_MISSING',
+            'The Requested Item sys_id is required.'
+        );
+
+        publishFailure();
+        return;
+    }
+
+    if (!isValidSysId(ritmSysId)) {
+        addError(
+            0,
+            '',
+            'INVALID_RITM_SYS_ID',
+            'The Requested Item sys_id is invalid.'
+        );
+
+        publishFailure();
+        return;
+    }
+
+    var ritm =
+        new GlideRecord('sc_req_item');
+
+    if (!ritm.get(ritmSysId)) {
+        addError(
+            0,
+            '',
+            'RITM_NOT_FOUND',
+            'The Requested Item was not found.'
+        );
+
+        publishFailure();
+        return;
+    }
+
+    /*
+     * ============================================================
+     * 2. Attachment validation
+     * ============================================================
+     */
+
+    var attachmentSysId =
+        valueOf(
+            inputs.attachment_sys_id
+        );
+
+    if (!attachmentSysId) {
+        addError(
+            0,
+            '',
+            'ATTACHMENT_SYS_ID_MISSING',
+            'The attachment sys_id is required.'
+        );
+
+        publishFailure();
+        return;
+    }
+
+    if (!isValidSysId(attachmentSysId)) {
+        addError(
+            0,
+            '',
+            'ATTACHMENT_SYS_ID_INVALID',
+            'The attachment sys_id is invalid.'
+        );
+
+        publishFailure();
+        return;
+    }
+
+    var attachment =
+        new GlideRecord('sys_attachment');
+
+    if (!attachment.get(attachmentSysId)) {
+        addError(
+            0,
+            '',
+            'ATTACHMENT_NOT_FOUND',
+            'The attachment was not found. ' +
+            'Attachment sys_id: ' +
+            attachmentSysId
+        );
+
+        publishFailure();
+        return;
+    }
+
+    if (
+        !attachmentBelongsToRequest(
+            attachment,
+            ritm
+        )
+    ) {
+        addError(
+            0,
+            '',
+            'ATTACHMENT_REQUEST_MISMATCH',
+            'The attachment does not belong ' +
+            'to this Requested Item or Request.'
+        );
+
+        publishFailure();
+        return;
+    }
+
+    var fileName =
+        valueOf(
+            attachment.getValue(
+                'file_name'
+            )
+        );
+
+    outputs.attachment_sys_id =
+        attachmentSysId;
+
+    /*
+     * ============================================================
+     * 3. Workbook sheet inspection
+     * ============================================================
+     */
+
+    var firstSheetName = '';
+    var inspectionStream;
+    var inspectionParser;
+    var rawSheetNames;
+
+    try {
+        inspectionStream =
+            new GlideSysAttachment()
+                .getContentStream(
+                    attachmentSysId
+                );
+
+        if (!inspectionStream) {
+            addError(
+                0,
+                '',
+                'ATTACHMENT_READ_FAILED',
+                'The attachment could not be read ' +
+                'for sheet inspection.'
+            );
+
+            publishFailure();
+            return;
+        }
+
+        inspectionParser =
+            new sn_impex.GlideExcelParser();
+
+        inspectionParser.setSource(
+            inspectionStream
+        );
+
+        rawSheetNames =
+            inspectionParser.getSheetNames();
+
+        firstSheetName =
+            getFirstSheetName(
+                rawSheetNames
+            );
+    } catch (inspectionError) {
+        var inspectionErrorMessage =
+            valueOf(
+                inspectionError &&
+                inspectionError.message
+                    ? inspectionError.message
+                    : inspectionError
+            );
+
+        gs.error(
+            '[Validate IP Address Excel - Japanese Headers] ' +
+            'Failed to inspect workbook sheets. ' +
+            'RITM=' +
+            ritmSysId +
+            ', Attachment=' +
+            attachmentSysId +
+            ', File=' +
+            fileName +
+            ', Error=' +
+            inspectionErrorMessage
+        );
+
+        /*
+         * シート一覧取得に失敗しても、
+         * parserのデフォルトシートでparse()を試す。
+         */
+        firstSheetName = '';
+    }
+
+    /*
+     * ============================================================
+     * 4. Workbook parsing
+     * ============================================================
+     */
+
+    var parseStream;
+    var parser;
+
+    try {
+        /*
+         * シート一覧取得用Streamとは別のStreamを使用する。
+         */
+        parseStream =
+            new GlideSysAttachment()
+                .getContentStream(
+                    attachmentSysId
+                );
+
+        if (!parseStream) {
+            addError(
+                0,
+                '',
+                'ATTACHMENT_READ_FAILED',
+                'The attachment could not be read ' +
+                'for row parsing.'
+            );
+
+            publishFailure();
+            return;
+        }
+
+        parser =
+            new sn_impex.GlideExcelParser();
+
+        parser.setSource(
+            parseStream
+        );
+
+        if (firstSheetName) {
+            parser.setSheetName(
+                firstSheetName
+            );
+        }
+
+        if (!parser.parse()) {
+            addError(
+                0,
+                '',
+                'PARSE_FAILED',
+                'The attachment could not be parsed. ' +
+                'File: ' +
+                fileName +
+                ', Selected sheet: ' +
+                (
+                    firstSheetName ||
+                    '(parser default)'
+                )
+            );
+
+            publishFailure();
+            return;
+        }
+    } catch (parseError) {
+        var parseErrorMessage =
+            valueOf(
+                parseError &&
+                parseError.message
+                    ? parseError.message
+                    : parseError
+            );
+
+        gs.error(
+            '[Validate IP Address Excel - Japanese Headers] ' +
+            'Failed to parse attachment. ' +
+            'RITM=' +
+            ritmSysId +
+            ', Attachment=' +
+            attachmentSysId +
+            ', File=' +
+            fileName +
+            ', Selected sheet=' +
+            (
+                firstSheetName ||
+                '(parser default)'
+            ) +
+            ', Error=' +
+            parseErrorMessage
+        );
+
+        addError(
+            0,
+            '',
+            'PARSE_EXCEPTION',
+            'The attachment could not be parsed. ' +
+            'System error: ' +
+            (
+                parseErrorMessage ||
+                'Unknown parser error'
+            )
+        );
+
+        publishFailure();
+        return;
+    }
+
+    /*
+     * ============================================================
+     * 5. Header validation
+     * ============================================================
+     */
+
+    var rawHeaders;
+
+    try {
+        rawHeaders =
+            parser.getColumnHeaders();
+    } catch (headerError) {
+        addError(
+            1,
+            '',
+            'HEADER_READ_FAILED',
+            'Excelヘッダーを取得できませんでした。' +
+            'System error: ' +
+            valueOf(
+                headerError &&
+                headerError.message
+                    ? headerError.message
+                    : headerError
+            )
+        );
+
+        publishFailure();
+        return;
+    }
+
+    if (!validateHeaders(rawHeaders)) {
+        publishFailure();
+        return;
+    }
+
+    /*
+     * ============================================================
+     * 6. Row processing
+     * ============================================================
+     */
+
+    var excelRow = 1;
+
+    while (parser.next()) {
+        excelRow++;
+
+        var source =
+            parser.getRow() || {};
+
+        /*
+         * 日本語ヘッダーから値を取得し、
+         * 英数字の内部名へマッピングする。
+         */
+        var ipAddress =
+            getCell(
+                source,
+                'IP アドレス'
+            );
+
+        var ipPattern =
+            getCell(
+                source,
+                'モデルパターンによる想定利用用途'
+            );
+
+        var ipPatternComments =
+            multilineValueOf(
+                getCell(
+                    source,
+                    'IPパターン : 備考'
+                )
+            );
+
+        var useName =
+            getCell(
+                source,
+                '実際の利用用途'
+            );
+
+        var actualUseComments =
+            multilineValueOf(
+                getCell(
+                    source,
+                    '実際の利用用途 : 備考'
+                )
+            );
+
+        var stateName =
+            getCell(
+                source,
+                'ステータス'
+            );
+
+        var orderNumber =
+            orderNumberValueOf(
+                getCell(
+                    source,
+                    'IPアドレス並び替え'
+                )
+            );
+
+        /*
+         * 全項目が空の行はデータ行として数えず、
+         * 読み飛ばす。
+         */
+        if (
+            !ipAddress &&
+            !ipPattern &&
+            !ipPatternComments &&
+            !useName &&
+            !actualUseComments &&
+            !stateName &&
+            !orderNumber
+        ) {
+            continue;
+        }
+
+        rowCount++;
+
+        var errorCountBefore =
+            errors.length;
+
+        var targetSysId = '';
+
+        /*
+         * 更新用の内部値。
+         */
+        var useValue = useName;
+        var stateValue = stateName;
+
+        /*
+         * IP Addressは更新対象レコードを特定するため必須。
+         */
+        if (!ipAddress) {
+            addError(
+                excelRow,
+                'u_ip_address',
+                'EMPTY_KEY',
+                '「IP アドレス」は必須です。'
+            );
+            failedCount++;
+        } else {
+            var duplicateKey =
+                '_' + ipAddress;
+
+            if (seenIp[duplicateKey]) {
+                addError(
+                    excelRow,
+                    'u_ip_address',
+                    'DUPLICATE_KEY',
+                    'IP アドレス「' +
+                    ipAddress +
+                    '」がExcel内で重複しています。'
+                );
+                failedCount++;
+            } else {
+                seenIp[duplicateKey] = true;
+
+                var ipResult =
+                    findIpAddress(
+                        ipAddress
+                    );
+
+                if (
+                    ipResult.configuration_error
+                ) {
+                    addError(
+                        excelRow,
+                        'u_ip_address',
+                        'SERVER_CONFIGURATION_ERROR',
+                        ipResult.configuration_error
+                    );
+                    failedCount++
+                } else if (
+                    ipResult.count === 0
+                ) {
+                    addError(
+                        excelRow,
+                        'u_ip_address',
+                        'NOT_FOUND',
+                        'IP アドレス「' +
+                        ipAddress +
+                        '」に一致する既存レコードが' +
+                        '存在しません。'
+                    );
+                    failedCount++;
+                } else if (
+                    ipResult.count > 1
+                ) {
+                    addError(
+                        excelRow,
+                        'u_ip_address',
+                        'MULTIPLE_MATCHES',
+                        'IP アドレス「' +
+                        ipAddress +
+                        '」に複数の既存レコードが' +
+                        '一致しました。'
+                    );
+                    failedCount++;
+
+                } else {
+                    targetSysId =
+                        ipResult.sys_id;
+                }
+            }
+        }
+
+        /*
+         * 既知のu_state表示値だけ内部値へ変換する。
+         */
+        if (
+            stateName &&
+            hasOwn(
+                STATE_VALUE_MAP,
+                stateName
+            )
+        ) {
+            stateValue =
+                STATE_VALUE_MAP[stateName];
+        }
+
+        /*
+         * IP検索までにエラーがなければ、
+         * 対象レコードを取得してサーバー管理項目を比較する。
+         */
+        var ipRecord = null;
+
+        if (
+            errors.length ===
+                errorCountBefore &&
+            targetSysId
+        ) {
+            ipRecord =
+                new GlideRecord(IP_TABLE);
+
+            if (!ipRecord.get(targetSysId)) {
+                addError(
+                    excelRow,
+                    'u_ip_address',
+                    'TARGET_RECORD_NOT_FOUND',
+                    '検索後に対象IP Addressレコードを' +
+                    '取得できませんでした。'
+                );
+                failedCount++;
+            } else if (
+                !validateIpRecordFields(
+                    ipRecord
+                )
+            ) {
+                /*
+                 * validateIpRecordFields内で
+                 * 詳細エラーを追加済み。
+                 */
+            } else {
+                var normalizedRow = {
+                    row_number:
+                        excelRow,
+
+                    target_sys_id:
+                        targetSysId,
+
+                    /*
+                     * サーバー管理項目。
+                     */
+                    u_ip_address:
+                        ipAddress,
+
+                    u_ip_pattern:
+                        ipPattern,
+
+                    u_ip_pattern_comments:
+                        ipPatternComments,
+
+                    u_order_number:
+                        orderNumber,
+
+                    /*
+                     * 更新対象項目。
+                     */
+                    u_use:
+                        useValue,
+
+                    comments:
+                        actualUseComments,
+
+                    u_state:
+                        stateValue,
+
+                    /*
+                     * 更新フラグ。
+                     */
+                    update_u_use:
+                        false,
+
+                    update_comments:
+                        false,
+
+                    update_u_state:
+                        false,
+
+                    skip:
+                        false
+                };
+
+                /*
+                 * サーバー管理項目に1つでも差分がある場合は、
+                 * このAction全体をValid=falseとする。
+                 */
+                validateServerControlledFields(
+                    normalizedRow,
+                    ipRecord
+                );
+
+                /*
+                 * サーバー管理項目に差分がなければ、
+                 * 更新対象3項目の差分を判定する。
+                 */
+                if (
+                    errors.length ===
+                    errorCountBefore
+                ) {
+                    setUpdateFlags(
+                        normalizedRow,
+                        ipRecord
+                    );
+
+                    rows.push(
+                        normalizedRow
+                    );
+
+                    if (
+                        normalizedRow.skip
+                    ) {
+                        skippedCount++;
+                    }
+                }
+            }
+        }
+    }
+
+    /*
+     * ============================================================
+     * 7. Final result
+     * ============================================================
+     */
+
+    outputs.row_count =
+        rowCount;
+
+    outputs.skipped_count =
+        skippedCount;
+
+    outputs.errors =
+        errors;
+
+    /*
+     * 1件でもエラーがある場合、部分更新を防止するため
+     * rowsを空にしてValid=falseを返す。
+     */
+    if (errors.length > 0) {
+        publishFailure();
+        return;
+    }
+
+    publishSuccess();
+
+})(inputs, outputs);
