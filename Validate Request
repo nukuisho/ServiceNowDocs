@@ -322,6 +322,61 @@
     }
 
     /*
+     * 6. Attachment readability and Excel parsing
+     *
+     * パーサーの既定シートを使用する。
+     */
+    try {
+        var parseStream =
+            new GlideSysAttachment()
+                .getContentStream(
+                    resolvedAttachment.sys_id
+                );
+
+        if (!parseStream) {
+            fail(
+                'ATTACHMENT_READ_FAILED',
+                '添付ファイルを読み取れませんでした。'
+            );
+            return;
+        }
+
+        var parser =
+            new sn_impex.GlideExcelParser();
+
+        parser.setSource(parseStream);
+
+        if (!parser.parse()) {
+            fail(
+                'PARSE_FAILED',
+                '添付ファイルをExcelとして解析できませんでした。'
+            );
+            return;
+        }
+    } catch (parseError) {
+        var parseErrorMessage = String(
+            parseError && parseError.message
+                ? parseError.message
+                : parseError || 'Unknown parser error'
+        ).trim();
+
+        gs.error(
+            '[Validate Request] ' +
+            'Failed to read or parse attachment. ' +
+            'RITM=' + requestedItemSysId +
+            ', Attachment=' + resolvedAttachment.sys_id +
+            ', Error=' + parseErrorMessage
+        );
+
+        fail(
+            'PARSE_EXCEPTION',
+            '添付ファイルの読み取り・Excel解析中に' +
+            'エラーが発生しました。'
+        );
+        return;
+    }
+
+    /*
      * 6. Final result
      *
      * Excelのシート、列、行、IPアドレスなどの
