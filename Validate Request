@@ -31,19 +31,11 @@
         );
     }
 
-    /*
-     * 対象ファイルがExcelか確認する。
-     *
-     * 現在の既存処理との互換性を維持するため、
-     * .xlsおよび.xlsxを許可している。
-     *
-     * 後続のValidate IP Address Excelが.xlsxのみ対応する
-     * 場合は、次の正規表現へ変更すること。
-     *
-     * /\.xlsx$/i
+      /*
+     * GlideExcelParserに合わせ、.xlsxのみ許可する。
      */
     function isExcelFile(fileName) {
-        return /\.xlsx?$/i.test(
+        return /\.xlsx$/i.test(
             String(fileName || '').trim()
         );
     }
@@ -326,6 +318,8 @@
      *
      * パーサーの既定シートを使用する。
      */
+    var parser = null;
+
     try {
         var parseStream =
             new GlideSysAttachment()
@@ -341,9 +335,7 @@
             return;
         }
 
-        var parser =
-            new sn_impex.GlideExcelParser();
-
+        parser = new sn_impex.GlideExcelParser();
         parser.setSource(parseStream);
 
         if (!parser.parse()) {
@@ -374,9 +366,23 @@
             'エラーが発生しました。'
         );
         return;
-    }
+    } finally {
+        if (parser) {
+            try {
+                parser.close();
+            } catch (closeError) {
+                gs.error(
+                    '[Validate Request] ' +
+                    'Failed to close Excel parser. ' +
+                    'RITM=' + requestedItemSysId +
+                    ', Attachment=' + resolvedAttachment.sys_id +
+                    ', Error=' + String(closeError)
+                );
+            }
+        }
+    }   
 
-    /*
+　　　/*
      * 6. Final result
      *
      * Excelのシート、列、行、IPアドレスなどの
