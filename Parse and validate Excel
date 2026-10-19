@@ -19,36 +19,21 @@
 
     /*
      * ============================================================
-     * Configuration
+     * 変数の設定
      * ============================================================
-     */
 
-    /*
-     * 更新対象となるIP Addressテーブル。
-     */
     var IP_TABLE = 'u_ip_address';
-
-    /*
-     * IP Addressテーブル内のIPアドレスフィールド。
-     */
     var IP_FIELD = 'ip_address';
 
     /*
-     * サーバー管理項目。
+     * 編集不可項目。
      */
     var IP_PATTERN_FIELD = 'u_ip_pattern';
     var USE_FIELD = 'u_use';
     var COMMENTS_FIELD = 'comments';
     var STATE_FIELD = 'u_state';
     var ORDER_NUMBER_FIELD = 'u_order_number';
-
-    /*
-     * u_ip_patternが参照するレコード上の備考フィールド。
-     *
-     * u_ip_pattern.commentsの「comments」に相当する。
-     */
     var IP_PATTERN_COMMENTS_FIELD = 'comments';
-
 
     /*
      * u_ip_patternはReferenceフィールドを想定する。
@@ -56,13 +41,11 @@
      * Excelにはユーザー向けの表示値が出力される想定のため、
      * 既存レコードのgetDisplayValue('u_ip_pattern')と比較する。
      *
-     * ExcelにSys IDが出力される仕様の場合はfalseへ変更する。
      */
     var COMPARE_IP_PATTERN_BY_DISPLAY_VALUE = true;
 
     /*
      * 既知のu_state表示値を内部値へ変換する。
-     *
      * 状態値の妥当性は行処理内で差分判定後に検証する。
      */
     var STATE_VALUE_MAP = {
@@ -72,7 +55,7 @@
 
     /*
      * ============================================================
-     * Internal state
+     * 内部変数の初期化
      * ============================================================
      */
 
@@ -86,7 +69,7 @@
 
     /*
      * ============================================================
-     * Output initialization
+     * 出力値の初期化
      * ============================================================
      */
 
@@ -103,7 +86,7 @@
 
     /*
      * ============================================================
-     * Utility functions
+     * ユーティリティ関数
      * ============================================================
      */
 
@@ -123,10 +106,8 @@
     }
 
     /*
-     * 複数行文字列の改行コードをLFへ統一する。
-     *
-     * ExcelとServiceNowでCRLF/LFが異なることによる
-     * 誤検出を防止する。
+     * 改行コードをLFへ統一する。
+     * ExcelとServiceNowでCRLF/LFが異なることによる誤検出を防止する。
      */
     function multilineValueOf(value) {
         return valueOf(value)
@@ -174,7 +155,7 @@
     }
 
     /*
-     * 構造化エラーを追加する。
+     * エラーを構造化する。
      */
     function addError(
         rowNumber,
@@ -282,8 +263,7 @@ function buildErrorCode() {
     /*
      * 失敗結果を出力する。
      *
-     * 1行でもエラーがある場合は、部分更新を防止するため
-     * rowsを必ず空配列にする。
+     * 1行でもエラーがある場合は、部分更新を防止するためrowsを必ず空配列にする。
      */
 function publishFailure() {
     outputs.total_count = rowCount;
@@ -352,7 +332,7 @@ function publishFailure() {
                     0,
                     fieldName,
                     'INVALID_SERVER_FIELD',
-                    'サーバー側フィールドが存在しません。' +
+                    'テーブル側に該当するフィールドが存在しません。' +
                     IP_TABLE +
                     '.' +
                     fieldName
@@ -369,7 +349,7 @@ function publishFailure() {
      * u_ip_patternの比較値を取得する。
      *
      * Excelに表示値が出力される場合は表示値を取得する。
-     * ExcelにSys IDが出力される場合は内部値���取得する。
+     * 
      */
     function getCurrentIpPatternValue(
         ipRecord
@@ -393,8 +373,7 @@ function publishFailure() {
 
     /*
      * u_ip_pattern参照先レコードのcommentsを取得する。
-     *
-     * u_ip_pattern.commentsのドットウォークに相当する。
+     *（u_ip_pattern.commentsのドットウォークに相当）
      */
     function getCurrentIpPatternComments(
         ipRecord
@@ -444,7 +423,7 @@ function publishFailure() {
     }
 
     /*
-     * サーバー管理項目を既存レコードと比較する。
+     * 編集不可の項目を既存レコードと比較する。
      *
      * 比較対象:
      * - u_ip_address
@@ -1008,7 +987,7 @@ function publishFailure() {
 
         /*
          * IP検索までにエラーがなければ、
-         * 対象レコードを取得してサーバー管理項目を比較する。
+         * 対象レコードを取得して編集不可項目を比較する。
          */
         var ipRecord = null;
 
@@ -1089,7 +1068,7 @@ function publishFailure() {
                 };
 
                 /*
-                 * サーバー管理項目に1つでも差分がある場合は、
+                 * 編集不可項目に1つでも差分がある場合は、
                  * このAction全体をValid=falseとする。
                  */
                 validateServerControlledFields(
@@ -1141,7 +1120,7 @@ function publishFailure() {
 
     /*
      * ============================================================
-     * Final result
+     * 最終結果
      * ============================================================
      */
 
