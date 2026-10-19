@@ -383,10 +383,6 @@ function publishFailure() {
     }
 
     /*
-     * IP Addressレコードを最大2件検索する。
-     */
-
-    /*
      * 取得したIP Addressレコードについて、
      * 今回使用するフィールドが存在することを検証する。
      */
@@ -883,10 +879,6 @@ function publishFailure() {
             update_u_state: inputState !== currentState
         };
     }
-
-
-
-
 
     /*
      * Preconditions are validated by Validate Request.
