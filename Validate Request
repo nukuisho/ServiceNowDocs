@@ -31,11 +31,19 @@
         );
     }
 
-      /*
-     * GlideExcelParserに合わせ、.xlsxのみ許可する。
+    /*
+     * 対象ファイルがExcelか確認する。
+     *
+     * 現在の既存処理との互換性を維持するため、
+     * .xlsおよび.xlsxを許可している。
+     *
+     * 後続のValidate IP Address Excelが.xlsxのみ対応する
+     * 場合は、次の正規表現へ変更すること。
+     *
+     * /\.xlsx$/i
      */
     function isExcelFile(fileName) {
-        return /\.xlsx$/i.test(
+        return /\.xlsx?$/i.test(
             String(fileName || '').trim()
         );
     }
@@ -314,76 +322,7 @@
     }
 
     /*
-     * 6. Attachment readability and Excel parsing
-     *
-     * パーサーの既定シートを使用する。
-     */
-    var parser = null;
-
-    try {
-        var parseStream =
-            new GlideSysAttachment()
-                .getContentStream(
-                    resolvedAttachment.sys_id
-                );
-
-        if (!parseStream) {
-            fail(
-                'ATTACHMENT_READ_FAILED',
-                '添付ファイルを読み取れませんでした。'
-            );
-            return;
-        }
-
-        parser = new sn_impex.GlideExcelParser();
-        parser.setSource(parseStream);
-
-        if (!parser.parse()) {
-            fail(
-                'PARSE_FAILED',
-                '添付ファイルをExcelとして解析できませんでした。'
-            );
-            return;
-        }
-    } catch (parseError) {
-        var parseErrorMessage = String(
-            parseError && parseError.message
-                ? parseError.message
-                : parseError || 'Unknown parser error'
-        ).trim();
-
-        gs.error(
-            '[Validate Request] ' +
-            'Failed to read or parse attachment. ' +
-            'RITM=' + requestedItemSysId +
-            ', Attachment=' + resolvedAttachment.sys_id +
-            ', Error=' + parseErrorMessage
-        );
-
-        fail(
-            'PARSE_EXCEPTION',
-            '添付ファイルの読み取り・Excel解析中に' +
-            'エラーが発生しました。'
-        );
-        return;
-    } finally {
-        if (parser) {
-            try {
-                parser.close();
-            } catch (closeError) {
-                gs.error(
-                    '[Validate Request] ' +
-                    'Failed to close Excel parser. ' +
-                    'RITM=' + requestedItemSysId +
-                    ', Attachment=' + resolvedAttachment.sys_id +
-                    ', Error=' + String(closeError)
-                );
-            }
-        }
-    }   
-
-　　　/*
-     * 7. Final result
+     * 6. Final result
      *
      * Excelのシート、列、行、IPアドレスなどの
      * 内容検証はValidate IP Address Excelで行う。
