@@ -313,73 +313,14 @@ function publishFailure() {
     }
 
     /*
-     * ヘッダーの外側の空白だけを除去する。
-     *
-     * 日本語ヘッダーは厳密に比較するため、
-     * コロン、途中の空白、全角・半角は変換しない。
-     *
-     * 例:
-     * 「IPパターン : 備考」と
-     * 「IPパターン：備考」は別のヘッダーとして扱う。
+     * 完全一致する日本語ヘッダーのセルを取得する。
      */
-    function normalizeHeader(value) {
-        return valueOf(value);
-    }
-
-
-
-
-
-    /*
-     * 行データから、完全一致する日本語ヘッダーのセルを取得する。
-     *
-     * ヘッダー検証を事前に実施するため、旧英語名や別名は
-     * 受け付けない。
-     */
-    function getCell(
-        source,
-        headerName
-    ) {
-        if (!source) {
+    function getCell(source, headerName) {
+        if (!source || !hasOwn(source, headerName)) {
             return '';
         }
 
-        if (
-            hasOwn(
-                source,
-                headerName
-            )
-        ) {
-            return valueOf(
-                source[headerName]
-            );
-        }
-
-        /*
-         * GlideExcelParserの戻り値に外側の空白が含まれる場合に
-         * 備え、プロパティ名をtrimして再確認する。
-         */
-        for (var propertyName in source) {
-            if (
-                !hasOwn(
-                    source,
-                    propertyName
-                )
-            ) {
-                continue;
-            }
-
-            if (
-                normalizeHeader(propertyName) ===
-                headerName
-            ) {
-                return valueOf(
-                    source[propertyName]
-                );
-            }
-        }
-
-        return '';
+        return valueOf(source[headerName]);
     }
 
     /*
