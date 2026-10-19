@@ -10,6 +10,70 @@
      */
     var MAX_EXCEL_ATTACHMENTS = 1;
 
+    var EXPECTED_HEADERS = [
+        'IP アドレス',
+        'モデルパターンによる想定利用用途',
+        'IPパターン : 備考',
+        '実際の利用用途',
+        '実際の利用用途 : 備考',
+        'ステータス',
+        'IPアドレス並び替え'
+    ];
+
+    function headerValue(value) {
+        return value === null || value === undefined
+            ? '' : String(value).trim();
+    }
+
+    function headerArray(source) {
+        var result = [];
+        var i;
+        if (!source) return result;
+        if (typeof source.length === 'number') {
+            for (i = 0; i < source.length; i++) {
+                result.push(headerValue(source[i]));
+            }
+        } else if (typeof source.size === 'function' &&
+                   typeof source.get === 'function') {
+            for (i = 0; i < source.size(); i++) {
+                result.push(headerValue(source.get(i)));
+            }
+        } else if (typeof source.iterator === 'function') {
+            var iterator = source.iterator();
+            while (iterator.hasNext()) {
+                result.push(headerValue(iterator.next()));
+            }
+        }
+        return result;
+    }
+
+    function validateHeaders(rawHeaders) {
+        var actual = headerArray(rawHeaders);
+        var messages = [];
+        var countInvalid = actual.length !== EXPECTED_HEADERS.length;
+        if (countInvalid) {
+            messages.push('Excelの列数が正しくありません。期待値: ' +
+                EXPECTED_HEADERS.length + '、実際: ' + actual.length);
+        }
+        var length = Math.max(actual.length, EXPECTED_HEADERS.length);
+        for (var i = 0; i < length; i++) {
+            var expected = i < EXPECTED_HEADERS.length ? EXPECTED_HEADERS[i] : '';
+            var found = i < actual.length ? actual[i] : '';
+            if (found !== expected) {
+                messages.push(String(i + 1) +
+                    '列目のヘッダーが正しくありません。期待値:「' +
+                    expected + '」、実際:「' + found + '」');
+            }
+        }
+        if (messages.length) {
+            fail(countInvalid ? 'INVALID_HEADER_COUNT' : 'INVALID_HEADER',
+                messages.join('\n'));
+            return false;
+        }
+        return true;
+    }
+
+
     /*
      * エラー出力を設定する。
      */
@@ -358,6 +422,23 @@
             );
             return;
         }
+
+        // パーサーをcloseする前にヘッダーを取得・検証する。
+        var rawHeaders;
+        try {
+            rawHeaders = parser.getColumnHeaders();
+        } catch (headerError) {
+            fail(
+                'HEADER_READ_FAILED',
+                'Excelヘッダーを取得できませんでした。System error: ' +
+                headerValue(headerError && headerError.message
+                    ? headerError.message : headerError)
+            );
+            return;
+        }
+        if (!validateHeaders(rawHeaders)) {
+            return;
+        }
     } catch (parseError) {
         var parseErrorMessage = String(
             parseError && parseError.message
@@ -398,7 +479,7 @@
     /*
      * 7. Final result
      *
-     * Excelのシート、列、行、IPアドレスなどの
+     * Excelの行データ、IPアドレスなどの
      * 内容検証はValidate IP Address Excelで行う。
      */
     outputs.valid = true;
