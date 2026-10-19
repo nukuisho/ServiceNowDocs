@@ -3,6 +3,8 @@
     outputs.error_code = '';
     outputs.error_message = '';
     outputs.resolved_attachment_sys_id = '';
+    outputs.validated_executed_user = '';
+    outputs.executed_user_opcompany = '';
 
     /*
      * Excelファイルとして許可する最大件数。
@@ -82,6 +84,8 @@
         outputs.error_code = String(code || '');
         outputs.error_message = String(message || '');
         outputs.resolved_attachment_sys_id = '';
+    outputs.validated_executed_user = '';
+    outputs.executed_user_opcompany = '';
     }
 
     /*
@@ -139,9 +143,10 @@
         }
 
         // 5. 事業会社情報の必須チェック
-        if (!headerValue(
+        var userOpCompany = headerValue(
             userRecord.getValue('u_opcompany_code')
-        )) {
+        );
+        if (!userOpCompany) {
             fail(
                 'USER_OPCOMPANY_MISSING',
                 'Executed User does not have operating company information.'
@@ -149,6 +154,8 @@
             return false;
         }
 
+        outputs.validated_executed_user = userSysId;
+        outputs.executed_user_opcompany = userOpCompany;
         return true;
     }
 
