@@ -1,4 +1,11 @@
 (function execute(inputs, outputs) {
+
+    /*
+     * ============================================================
+     * 出力値の初期化
+     * ============================================================
+     */
+
     outputs.valid = false;
     outputs.error_code = '';
     outputs.error_message = '';
@@ -7,9 +14,11 @@
     outputs.executed_user_opcompany = '';
 
     /*
-     * Excelファイルとして許可する最大件数。
-     *
-     */
+     * ============================================================
+     * 変数の設定
+     * ============================================================
+    /*
+
     var MAX_EXCEL_ATTACHMENTS = 1;
 
     var EXPECTED_HEADERS = [
@@ -21,6 +30,12 @@
         'ステータス',
         'IPアドレス並び替え'
     ];
+
+　　　/*
+     * ============================================================
+     * ユーティリティ関数
+     * ============================================================
+     */
 
     function headerValue(value) {
         return value === null || value === undefined
@@ -174,8 +189,7 @@
     }
     /*
      * 指定されたテーブルとレコードに紐づくExcel添付を検索する。
-     *
-     * 対象外の添付はエラーとする。
+     *対象外の添付はエラーとする。
      */
     function findExcelAttachments(
         tableName,
@@ -229,14 +243,12 @@
             });
 
         }
-
-        return results;
+       return results;
     }
 
     /*
      * RITMからExcel添付を解決し、REQの添付は検索しない。
-     *
-     * RITM側の添付検証と、既存のREQ Sys ID確認は維持する。
+     * RITM側の添付検証と、既存のREQ Sys ID確認を行う。
      */
     function resolveExcelAttachment(ritm) {
         var ritmSysId =
@@ -395,8 +407,7 @@
      * excel_import_session_id、
      * excel_import_hashには依存しない。
      *
-     * RITMに紐づくExcel添付を
-     * サーバー側で検索する。
+     * RITMに紐づくExcel添付を検索する。
      */
     var resolved =
         resolveExcelAttachment(ritm);
@@ -511,12 +522,15 @@
         }
     }
 
+
     /*
-     * 7. Final result
-     *
-     * Excelの行データ、IPアドレスなどの
-     * 内容検証はValidate IP Address Excelで行う。
+     * ============================================================
+     * 最終結果
+    　* Excelの行データ、IPアドレスなどの
+     * 行単位の内容検証IPUPD_Validate IP Address Excel - Japanese Headersで行う。
+     * ============================================================
      */
+
     outputs.valid = true;
     outputs.resolved_attachment_sys_id =
         resolvedAttachment.sys_id;
