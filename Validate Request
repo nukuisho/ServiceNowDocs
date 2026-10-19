@@ -31,23 +31,14 @@
         );
     }
 
-    /*
-     * 対象ファイルがExcelか確認する。
-     *
-     * 現在の既存処理との互換性を維持するため、
-     * .xlsおよび.xlsxを許可している。
-     *
-     * 後続のValidate IP Address Excelが.xlsxのみ対応する
-     * 場合は、次の正規表現へ変更すること。
-     *
-     * /\.xlsx$/i
+       /*
+     * .xlsx形式のファイルのみ許可する。
      */
     function isExcelFile(fileName) {
-        return /\.xlsx?$/i.test(
+        return /\.xlsx$/i.test(
             String(fileName || '').trim()
         );
     }
-
     /*
      * 指定されたテーブルとレコードに紐づく
      * Excel添付を検索する。
@@ -85,8 +76,9 @@
                 attachment.getValue('file_name') || ''
             ).trim();
 
-            if (!isExcelFile(fileName)) {
-                continue;
+                  if (!isExcelFile(fileName)) {
+                // nullは許可されていない拡張子の検出を表す。
+                return null;
             }
 
             results.push({
@@ -104,16 +96,6 @@
                 )
             });
 
-            /*
-             * 2件見つかった時点で複数ファイルエラーに
-             * できるため、それ以上は読み込まない。
-             */
-            if (
-                results.length >
-                MAX_EXCEL_ATTACHMENTS
-            ) {
-                break;
-            }
         }
 
         return results;
@@ -139,6 +121,15 @@
                 'sc_req_item',
                 ritmSysId
             );
+
+        if (ritmAttachments === null) {
+            return {
+                success: false,
+                code: 'INVALID_ATTACHMENT_EXTENSION',
+                message:
+                    '.xlsx形式のファイルを添付してください'
+            };
+        }
 
         if (
             ritmAttachments.length >
@@ -185,6 +176,15 @@
                 'sc_request',
                 requestSysId
             );
+
+        if (requestAttachments === null) {
+            return {
+                success: false,
+                code: 'INVALID_ATTACHMENT_EXTENSION',
+                message:
+                    '.xlsx形式のファイルを添付してください'
+            };
+        }
 
         if (
             requestAttachments.length >
