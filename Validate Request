@@ -41,7 +41,7 @@
      * 指定されたテーブルとレコードに紐づく
      * Excel添付を検索する。
      *
-     * Excel以外の添付は無視する。
+     * 対象外の添付はエラーとする。
      */
     function findExcelAttachments(
         tableName,
