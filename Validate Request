@@ -27,7 +27,7 @@
             ? '' : String(value).trim();
     }
 
-    /* ヘッダー専用：前後の空白を含め、文字列をそのまま比較する。 */
+    /* ヘッダー名：文字列をそのまま比較する。 */
     function exactHeaderValue(value) {
         return value === null || value === undefined
             ? '' : String(value);
@@ -81,7 +81,6 @@
         return true;
     }
 
-
     /*
      * エラー出力を設定する。
      */
@@ -104,8 +103,8 @@
     }
 
        /*
-     * Excuted UserのSysID・ユーザーレコードの有無
-     * 事業会社情報のフィールドの有無、Excuted Userに事業会社情報が割り振られているか検証する。
+     * Excuted UserのSysID・レコードの有無の確認。
+     * 事業会社情報のフィールドの有無、Excuted Userに事業会社情報が設定されているか検証する。
      */
         function validateExecutedUser(rawUserSysId) {
         var userSysId = headerValue(rawUserSysId);
@@ -119,7 +118,7 @@
             return false;
         }
 
-        // 2. 形式チェック：32桁の16進数
+        // 2. 形式チェック
         if (!isValidSysId(userSysId)) {
             fail(
                 'EXECUTED_USER_SYS_ID_INVALID',
@@ -128,7 +127,7 @@
             return false;
         }
 
-        // 3. ユーザーの存在チェック
+        // 3. レコ―ドの存在チェック
         var userRecord = new GlideRecord('sys_user');
 
         if (!userRecord.get(userSysId)) {
@@ -174,8 +173,7 @@
         );
     }
     /*
-     * 指定されたテーブルとレコードに紐づく
-     * Excel添付を検索する。
+     * 指定されたテーブルとレコードに紐づくExcel添付を検索する。
      *
      * 対象外の添付はエラーとする。
      */
@@ -236,15 +234,9 @@
     }
 
     /*
-     * RITMまたはREQからExcel添付を解決する。
+     * RITMからExcel添付を解決し、REQの添付は検索しない。
      *
-     * 優先順位:
-     * 1. sc_req_item
-     * 2. sc_request
-     *
-     * RITMにExcelが存在する場合はREQ側を検索しない。
-     * これにより、注文時の添付コピーによる重複判定を
-     * 避ける。
+     * RITM側の添付検証と、既存のREQ Sys ID確認は維持する。
      */
     function resolveExcelAttachment(ritm) {
         var ritmSysId =
@@ -289,7 +281,7 @@
 
         /*
          * RITM直下にExcelがない場合のみ、
-         * 親REQの添付を確認する。
+         * 既存の親REQ Sys ID確認を行う。
          */
         var requestSysId = String(
             ritm.getValue('request') || ''
@@ -313,48 +305,12 @@
             };
         }
 
-        var requestAttachments =
-            findExcelAttachments(
-                'sc_request',
-                requestSysId
-            );
-
-        if (requestAttachments === null) {
-            return {
-                success: false,
-                code: 'INVALID_ATTACHMENT_EXTENSION',
-                message:
-                    '.xlsx形式のファイルを添付してください'
-            };
-        }
-
-        if (
-            requestAttachments.length >
-            MAX_EXCEL_ATTACHMENTS
-        ) {
-            return {
-                success: false,
-                code:
-                    'MULTIPLE_EXCEL_ATTACHMENTS',
-                message:
-                    'Only one Excel attachment ' +
-                    'is allowed on the Request.'
-            };
-        }
-
-        if (requestAttachments.length === 1) {
-            return {
-                success: true,
-                attachment:
-                    requestAttachments[0]
-            };
-        }
-
+        // REQの添付は検索・検証しない。
+        // ここに到達するのはRITMに対象の添付がない場合。
         return {
             success: false,
             code: 'EXCEL_ATTACHMENT_MISSING',
-            message:
-                'An Excel attachment is required.'
+            message: 'An Excel attachment is required.'
         };
     }
 
@@ -439,7 +395,7 @@
      * excel_import_session_id、
      * excel_import_hashには依存しない。
      *
-     * RITM、または親REQに紐づくExcel添付を
+     * RITMに紐づくExcel添付を
      * サーバー側で検索する。
      */
     var resolved =
@@ -566,3 +522,4 @@
         resolvedAttachment.sys_id;
 
 })(inputs, outputs);
+
