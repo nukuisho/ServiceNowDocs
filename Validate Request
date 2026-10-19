@@ -159,13 +159,21 @@
             ritm.getValue('request') || ''
         ).trim();
 
+         // 1. 必須チェック
+        if (!requestSysId) {
+            return {
+                success: false,
+                code: 'REQUEST_SYS_ID_MISSING',
+                message: 'Request Sys ID is required.'
+            };
+        }
+
+        // 2. 形式チェック
         if (!isValidSysId(requestSysId)) {
             return {
                 success: false,
-                code:
-                    'EXCEL_ATTACHMENT_MISSING',
-                message:
-                    'An Excel attachment is required.'
+                code: 'REQUEST_SYS_ID_INVALID',
+                message: 'Request Sys ID is invalid.'
             };
         }
 
