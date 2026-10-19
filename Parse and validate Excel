@@ -1,4 +1,23 @@
 (function execute(inputs, outputs) {
+    var inspectionParser = null;
+    var parser = null;
+
+    function closeExcelParser(instance, label) {
+        if (!instance) return;
+        try {
+            instance.close();
+        } catch (closeError) {
+            gs.error(
+                '[Parse and validate Excel] Failed to close ' + label +
+                '. RITM=' + String(inputs.request_item_sys_id || '') +
+                ', Attachment=' + String(inputs.attachment_sys_id || '') +
+                ', Error=' + String(closeError)
+            );
+        }
+    }
+
+    try {
+
     /*
      * ============================================================
      * Configuration
@@ -283,6 +302,7 @@ function buildErrorCode() {
      * rowsを必ず空配列にする。
      */
 function publishFailure() {
+    outputs.total_count = rowCount;
     outputs.valid = false;
     outputs.rows = [];
     outputs.errors = errors;
@@ -298,6 +318,7 @@ function publishFailure() {
 }
 
     function publishSuccess() {
+        outputs.total_count = rowCount;
         outputs.valid = true;
         outputs.rows = rows;
         outputs.errors = [];
@@ -1320,7 +1341,6 @@ function publishFailure() {
 
     var firstSheetName = '';
     var inspectionStream;
-    var inspectionParser;
     var rawSheetNames;
 
     try {
@@ -1393,7 +1413,6 @@ function publishFailure() {
      */
 
     var parseStream;
-    var parser;
 
     try {
         /*
@@ -1848,5 +1867,11 @@ function publishFailure() {
     }
 
     publishSuccess();
+
+    } finally {
+        // Each cleanup is guarded so one failure does not prevent the other.
+        closeExcelParser(parser, 'row parser');
+        closeExcelParser(inspectionParser, 'sheet inspection parser');
+    }
 
 })(inputs, outputs);
