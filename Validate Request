@@ -27,23 +27,29 @@
             ? '' : String(value).trim();
     }
 
+    /* ヘッダー専用：前後の空白を含め、文字列をそのまま比較する。 */
+    function exactHeaderValue(value) {
+        return value === null || value === undefined
+            ? '' : String(value);
+    }
+
     function headerArray(source) {
         var result = [];
         var i;
         if (!source) return result;
         if (typeof source.length === 'number') {
             for (i = 0; i < source.length; i++) {
-                result.push(headerValue(source[i]));
+                result.push(exactHeaderValue(source[i]));
             }
         } else if (typeof source.size === 'function' &&
                    typeof source.get === 'function') {
             for (i = 0; i < source.size(); i++) {
-                result.push(headerValue(source.get(i)));
+                result.push(exactHeaderValue(source.get(i)));
             }
         } else if (typeof source.iterator === 'function') {
             var iterator = source.iterator();
             while (iterator.hasNext()) {
-                result.push(headerValue(iterator.next()));
+                result.push(exactHeaderValue(iterator.next()));
             }
         }
         return result;
