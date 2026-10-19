@@ -60,9 +60,7 @@
     /*
      * 既知のu_state表示値を内部値へ変換する。
      *
-     * 未知の値はエラーにせず、そのまま後続へ渡す。
-     * 後続のValidate All IP Address Update Rowsで
-     * 状態値の妥当性を検証する前提。
+     * 状態値の妥当性は行処理内で差分判定後に検証する。
      */
     var STATE_VALUE_MAP = {
         '未使用': '1',
@@ -528,57 +526,6 @@ function publishFailure() {
     /*
      * IP Addressレコードを最大2件検索する。
      */
-    function findIpAddress(ipAddress) {
-        var result = {
-            count: 0,
-            sys_id: '',
-            configuration_error: ''
-        };
-
-        if (!valueOf(ipAddress)) {
-            return result;
-        }
-
-        var record =
-            new GlideRecord(IP_TABLE);
-
-        if (!record.isValid()) {
-            result.configuration_error =
-                'IP Address table is invalid: ' +
-                IP_TABLE;
-
-            return result;
-        }
-
-        if (!record.isValidField(IP_FIELD)) {
-            result.configuration_error =
-                'IP Address field is invalid: ' +
-                IP_TABLE +
-                '.' +
-                IP_FIELD;
-
-            return result;
-        }
-
-        record.addQuery(
-            IP_FIELD,
-            ipAddress
-        );
-
-        record.setLimit(2);
-        record.query();
-
-        while (record.next()) {
-            result.count++;
-
-            if (result.count === 1) {
-                result.sys_id =
-                    record.getUniqueValue();
-            }
-        }
-
-        return result;
-    }
 
     /*
      * 取得したIP Addressレコードについて、
@@ -826,54 +773,295 @@ function publishFailure() {
         return valid;
     }
 
-    /*
-     * 更新対象3項目について、既存値との差分を判定する。
-     *
-     * 比較対象:
-     * - u_use
-     * - comments
-     * - u_state
-     */
-    function setUpdateFlags(
-        row,
-        ipRecord
-    ) {
-        var currentUse =
-            valueOf(
-                ipRecord.getValue(
-                    USE_FIELD
-                )
+    function containsSysId(rawValues, expectedSysId) {
+        var expected = valueOf(expectedSysId);
+        var valuesText = valueOf(rawValues);
+
+        if (!expected || !valuesText) {
+            return false;
+        }
+
+        var values = valuesText.split(',');
+
+        for (var valueIndex = 0;
+            valueIndex < values.length;
+            valueIndex++) {
+
+            if (valueOf(values[valueIndex]) === expected) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    function getUserOpCompany(executedUserSysId) {
+        var result = {
+            valid: false,
+            value: '',
+            message: ''
+        };
+
+        var userSysId = valueOf(executedUserSysId);
+
+        if (!isValidSysId(userSysId)) {
+            result.message = 'Executed User sys_id is invalid.';
+            return result;
+        }
+
+        var userRecord = new GlideRecord('sys_user');
+
+        if (!userRecord.get(userSysId)) {
+            result.message = 'Executed User was not found.';
+            return result;
+        }
+
+        if (!userRecord.isValidField('u_opcompany_code')) {
+            result.message =
+                'sys_user.u_opcompany_code is not a valid field.';
+            return result;
+        }
+
+        result.value = valueOf(
+            userRecord.getValue('u_opcompany_code')
+        );
+
+        if (!result.value) {
+            result.message =
+                'Executed User does not have operating company information.';
+            return result;
+        }
+
+        result.valid = true;
+        return result;
+    }
+
+    function getIpOpCompany(target, rowNumber) {
+        var result = {
+            valid: false,
+            value: '',
+            message: ''
+        };
+
+        if (!target.isValidField('u_segment')) {
+            result.message =
+                'u_segment is not a valid field at Excel row ' +
+                rowNumber + '.';
+            return result;
+        }
+
+        var segmentRecord = target.u_segment.getRefRecord();
+
+        if (!segmentRecord || !segmentRecord.isValidRecord()) {
+            result.message =
+                'Segment record was not found at Excel row ' +
+                rowNumber + '.';
+            return result;
+        }
+
+        if (!segmentRecord.isValidField('u_store_code')) {
+            result.message =
+                'u_store_code is not a valid field at Excel row ' +
+                rowNumber + '.';
+            return result;
+        }
+
+        var storeRecord =
+            segmentRecord.u_store_code.getRefRecord();
+
+        if (!storeRecord || !storeRecord.isValidRecord()) {
+            result.message =
+                'Store record was not found at Excel row ' +
+                rowNumber + '.';
+            return result;
+        }
+
+        if (!storeRecord.isValidField('u_company_code')) {
+            result.message =
+                'u_company_code is not a valid field at Excel row ' +
+                rowNumber + '.';
+            return result;
+        }
+
+        var companyRecord =
+            storeRecord.u_company_code.getRefRecord();
+
+        if (!companyRecord || !companyRecord.isValidRecord()) {
+            result.message =
+                'Company record was not found at Excel row ' +
+                rowNumber + '.';
+            return result;
+        }
+
+        if (!companyRecord.isValidField('u_opcompany_code')) {
+            result.message =
+                'u_opcompany_code is not a valid field at Excel row ' +
+                rowNumber + '.';
+            return result;
+        }
+
+        var opCompanyRecord =
+            companyRecord.u_opcompany_code.getRefRecord();
+
+        if (!opCompanyRecord || !opCompanyRecord.isValidRecord()) {
+            result.message =
+                'Operating company record was not found at Excel row ' +
+                rowNumber + '.';
+            return result;
+        }
+
+        result.value = valueOf(
+            opCompanyRecord.getUniqueValue()
+        );
+
+        if (!result.value) {
+            result.message =
+                'Operating company sys_id is empty at Excel row ' +
+                rowNumber + '.';
+            return result;
+        }
+
+        result.valid = true;
+        return result;
+    }
+
+    function findTargetRecord(row, rowNumber) {
+        var result = {
+            valid: false,
+            record: null,
+            message: ''
+        };
+
+        var target = new GlideRecordSecure(IP_TABLE);
+
+        if (!target.isValid()) {
+            result.message =
+                IP_TABLE + ' is not a valid table.';
+            return result;
+        }
+
+        if (!target.isValidField(IP_FIELD)) {
+            result.message =
+                IP_FIELD + ' is not a valid field at Excel row ' +
+                rowNumber + '.';
+            return result;
+        }
+
+        var targetSysId = valueOf(row.target_sys_id);
+        var ipAddress = valueOf(row.u_ip_address);
+
+        if (targetSysId) {
+            if (!isValidSysId(targetSysId)) {
+                result.message =
+                    'target_sys_id is invalid at Excel row ' +
+                    rowNumber + '.';
+                return result;
+            }
+
+            if (!target.get(targetSysId)) {
+                result.message =
+                    'Target IP Address record was not found at Excel row ' +
+                    rowNumber + '.';
+                return result;
+            }
+
+            var currentIpAddress = valueOf(
+                target.getValue(IP_FIELD)
             );
 
-        var currentComments =
-            multilineValueOf(
-                ipRecord.getValue(
-                    COMMENTS_FIELD
-                )
-            );
+            if (currentIpAddress !== ipAddress) {
+                result.message =
+                    'target_sys_id and IP address do not match at Excel row ' +
+                    rowNumber + '.';
+                return result;
+            }
 
-        var currentState =
-            valueOf(
-                ipRecord.getValue(
-                    STATE_FIELD
-                )
-            );
+            result.valid = true;
+            result.record = target;
+            return result;
+        }
 
-        row.update_u_use =
-            row.u_use !== currentUse;
+        if (!ipAddress) {
+            result.message =
+                rowNumber + '行目のIPアドレスが未入力です。';
+            return result;
+        }
 
-        row.update_comments =
-            row.comments !==
-            currentComments;
+        target.addQuery(IP_FIELD, ipAddress);
+        target.setLimit(2);
+        target.query();
 
-        row.update_u_state =
-            row.u_state !==
-            currentState;
+        if (!target.next()) {
+            result.message =
+                '対象のIPアドレスが見つかりません。' +
+                ' Excel row: ' + rowNumber + '.';
+            return result;
+        }
 
-        row.skip =
-            !row.update_u_use &&
-            !row.update_comments &&
-            !row.update_u_state;
+        var firstSysId = target.getUniqueValue();
+
+        if (target.next()) {
+            result.message =
+                '対象のIPアドレスに複数のレコードが一致しました。' +
+                ' Excel row: ' + rowNumber + '.';
+            return result;
+        }
+
+        if (!target.get(firstSysId)) {
+            result.message =
+                '対象IP Addressレコードを再取得できませんでした。' +
+                ' Excel row: ' + rowNumber + '.';
+            return result;
+        }
+
+        result.valid = true;
+        result.record = target;
+        return result;
+    }
+
+    function normalizeState(rawState) {
+        var state = valueOf(rawState);
+
+        if (
+            state === '未使用' ||
+            state === 'Unused' ||
+            state === '1'
+        ) {
+            return '1';
+        }
+
+        if (
+            state === '使用中' ||
+            state === 'Used' ||
+            state === '2'
+        ) {
+            return '2';
+        }
+
+        return state;
+    }
+
+    function getExcelUpdateFlags(row, target) {
+        var inputComments = multilineValueOf(row.comments);
+        var currentComments = multilineValueOf(
+            target.getValue('comments')
+        );
+
+        var inputUse = valueOf(row.u_use);
+        var currentUse = valueOf(
+            target.getValue('u_use')
+        );
+
+        var inputState = normalizeState(row.u_state);
+        var currentState = normalizeState(
+            target.getValue('u_state')
+        );
+
+        return {
+            update_comments: inputComments !== currentComments,
+            update_u_use: inputUse !== currentUse,
+            update_u_state: inputState !== currentState
+        };
     }
 
     /*
@@ -1345,6 +1533,16 @@ function publishFailure() {
      * ============================================================
      */
 
+    var executedUser = valueOf(inputs.executed_user);
+    var userOpCompanyResult = getUserOpCompany(executedUser);
+    if (!userOpCompanyResult.valid) {
+        addError(0, 'executed_user', 'EXECUTED_USER_INVALID',
+            userOpCompanyResult.message);
+        publishFailure();
+        return;
+    }
+    var userOpCompany = userOpCompanyResult.value;
+
     var excelRow = 1;
 
     while (parser.next()) {
@@ -1427,6 +1625,7 @@ function publishFailure() {
             errors.length;
 
         var targetSysId = '';
+        var targetResult = null;
 
         /*
          * 更新用の内部値。
@@ -1462,51 +1661,17 @@ function publishFailure() {
             } else {
                 seenIp[duplicateKey] = true;
 
-                var ipResult =
-                    findIpAddress(
-                        ipAddress
-                    );
-
-                if (
-                    ipResult.configuration_error
-                ) {
-                    addError(
-                        excelRow,
-                        'u_ip_address',
-                        'SERVER_CONFIGURATION_ERROR',
-                        ipResult.configuration_error
-                    );
-                    failedCount++
-                } else if (
-                    ipResult.count === 0
-                ) {
-                    addError(
-                        excelRow,
-                        'u_ip_address',
-                        'NOT_FOUND',
-                        'IP アドレス「' +
-                        ipAddress +
-                        '」に一致する既存レコードが' +
-                        '存在しません。'
-                    );
+                var targetResult = findTargetRecord(
+                    { u_ip_address: ipAddress }, excelRow
+                );
+                if (!targetResult.valid) {
+                    addError(excelRow, 'u_ip_address',
+                        'TARGET_RECORD_INVALID', targetResult.message);
                     failedCount++;
-                } else if (
-                    ipResult.count > 1
-                ) {
-                    addError(
-                        excelRow,
-                        'u_ip_address',
-                        'MULTIPLE_MATCHES',
-                        'IP アドレス「' +
-                        ipAddress +
-                        '」に複数の既存レコードが' +
-                        '一致しました。'
-                    );
-                    failedCount++;
-
                 } else {
-                    targetSysId =
-                        ipResult.sys_id;
+                    targetSysId = valueOf(
+                        targetResult.record.getUniqueValue()
+                    );
                 }
             }
         }
@@ -1536,16 +1701,15 @@ function publishFailure() {
                 errorCountBefore &&
             targetSysId
         ) {
-            ipRecord =
-                new GlideRecord(IP_TABLE);
+            // Reuse the record retrieved through GlideRecordSecure.
+            ipRecord = targetResult.record;
 
-            if (!ipRecord.get(targetSysId)) {
+            if (valueOf(ipRecord.getValue(IP_FIELD)) !== ipAddress) {
                 addError(
                     excelRow,
                     'u_ip_address',
-                    'TARGET_RECORD_NOT_FOUND',
-                    '検索後に対象IP Addressレコードを' +
-                    '取得できませんでした。'
+                    'TARGET_IP_MISMATCH',
+                    '対象レコードとIPアドレスが一致しません。'
                 );
                 failedCount++;
             } else if (
@@ -1617,28 +1781,43 @@ function publishFailure() {
                     ipRecord
                 );
 
-                /*
-                 * サーバー管理項目に差分がなければ、
-                 * 更新対象3項目の差分を判定する。
-                 */
-                if (
-                    errors.length ===
-                    errorCountBefore
-                ) {
-                    setUpdateFlags(
-                        normalizedRow,
-                        ipRecord
-                    );
-
-                    rows.push(
-                        normalizedRow
-                    );
-
-                    if (
-                        normalizedRow.skip
-                    ) {
-                        skippedCount++;
+                if (errors.length === errorCountBefore) {
+                    var ipOpCompanyResult = getIpOpCompany(ipRecord, excelRow);
+                    if (!ipOpCompanyResult.valid) {
+                        addError(excelRow, '', 'TARGET_OPCOMPANY_INVALID',
+                            ipOpCompanyResult.message);
+                        failedCount++;
+                        continue;
                     }
+                    if (!containsSysId(userOpCompany, ipOpCompanyResult.value)) {
+                        addError(excelRow, '', 'OPCOMPANY_MISMATCH',
+                            excelRow + '行目は更新できないレコードです。');
+                        failedCount++;
+                        continue;
+                    }
+                    normalizedRow.executed_by = executedUser;
+                    normalizedRow.comments = multilineValueOf(normalizedRow.comments);
+                    normalizedRow.u_use = valueOf(normalizedRow.u_use);
+                    normalizedRow.u_state = normalizeState(normalizedRow.u_state);
+
+                    var flags = getExcelUpdateFlags(normalizedRow, ipRecord);
+                    if (flags.update_u_state &&
+                        normalizedRow.u_state !== '' &&
+                        normalizedRow.u_state !== '1' &&
+                        normalizedRow.u_state !== '2') {
+                        addError(excelRow, 'u_state', 'INVALID_STATE',
+                            excelRow + '行目のStateが不正です。' +
+                            '使用中、未使用、またはブランクを指定してください。');
+                        failedCount++;
+                        continue;
+                    }
+                    normalizedRow.update_comments = flags.update_comments;
+                    normalizedRow.update_u_use = flags.update_u_use;
+                    normalizedRow.update_u_state = flags.update_u_state;
+                    normalizedRow.skip = !flags.update_comments &&
+                        !flags.update_u_use && !flags.update_u_state;
+                    if (normalizedRow.skip) skippedCount++;
+                    rows.push(normalizedRow);
                 }
             }
         }
