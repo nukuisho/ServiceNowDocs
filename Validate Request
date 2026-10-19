@@ -97,29 +97,58 @@
      * Excuted UserのSysID・ユーザーレコードの有無
      * 事業会社情報のフィールドの有無、Excuted Userに事業会社情報が割り振られているか検証する。
      */
-    function validateExecutedUser(rawUserSysId) {
+        function validateExecutedUser(rawUserSysId) {
         var userSysId = headerValue(rawUserSysId);
+
+        // 1. 必須チェック
+        if (!userSysId) {
+            fail(
+                'EXECUTED_USER_SYS_ID_MISSING',
+                'Executed User sys_id is required.'
+            );
+            return false;
+        }
+
+        // 2. 形式チェック：32桁の16進数
         if (!isValidSysId(userSysId)) {
-            fail('EXECUTED_USER_SYS_ID_INVALID',
-                'Executed User sys_id is invalid.');
+            fail(
+                'EXECUTED_USER_SYS_ID_INVALID',
+                'Executed User sys_id is invalid.'
+            );
             return false;
         }
+
+        // 3. ユーザーの存在チェック
         var userRecord = new GlideRecord('sys_user');
+
         if (!userRecord.get(userSysId)) {
-            fail('EXECUTED_USER_NOT_FOUND',
-                'Executed User was not found.');
+            fail(
+                'EXECUTED_USER_NOT_FOUND',
+                'Executed User was not found.'
+            );
             return false;
         }
+
+        // 4. 事業会社フィールドの存在チェック
         if (!userRecord.isValidField('u_opcompany_code')) {
-            fail('USER_OPCOMPANY_FIELD_INVALID',
-                'sys_user.u_opcompany_code is not a valid field.');
+            fail(
+                'USER_OPCOMPANY_FIELD_INVALID',
+                'sys_user.u_opcompany_code is not a valid field.'
+            );
             return false;
         }
-        if (!headerValue(userRecord.getValue('u_opcompany_code'))) {
-            fail('USER_OPCOMPANY_MISSING',
-                'Executed User does not have operating company information.');
+
+        // 5. 事業会社情報の必須チェック
+        if (!headerValue(
+            userRecord.getValue('u_opcompany_code')
+        )) {
+            fail(
+                'USER_OPCOMPANY_MISSING',
+                'Executed User does not have operating company information.'
+            );
             return false;
         }
+
         return true;
     }
 
