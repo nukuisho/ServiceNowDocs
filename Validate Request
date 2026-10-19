@@ -94,6 +94,36 @@
     }
 
        /*
+     * Excuted UserのSysID・ユーザーレコードの有無
+     * 事業会社情報のフィールドの有無、Excuted Userに事業会社情報が割り振られているか検証する。
+     */
+    function validateExecutedUser(rawUserSysId) {
+        var userSysId = headerValue(rawUserSysId);
+        if (!isValidSysId(userSysId)) {
+            fail('EXECUTED_USER_SYS_ID_INVALID',
+                'Executed User sys_id is invalid.');
+            return false;
+        }
+        var userRecord = new GlideRecord('sys_user');
+        if (!userRecord.get(userSysId)) {
+            fail('EXECUTED_USER_NOT_FOUND',
+                'Executed User was not found.');
+            return false;
+        }
+        if (!userRecord.isValidField('u_opcompany_code')) {
+            fail('USER_OPCOMPANY_FIELD_INVALID',
+                'sys_user.u_opcompany_code is not a valid field.');
+            return false;
+        }
+        if (!headerValue(userRecord.getValue('u_opcompany_code'))) {
+            fail('USER_OPCOMPANY_MISSING',
+                'Executed User does not have operating company information.');
+            return false;
+        }
+        return true;
+    }
+
+    /*
      * .xlsx形式のファイルのみ許可する。
      */
     function isExcelFile(fileName) {
@@ -338,6 +368,13 @@
             'Input method must be either ' +
             'manual or excel.'
         );
+        return;
+    }
+
+    /*
+     * ユーザー検証：manual / excel の両方に適用する。
+     */
+    if (!validateExecutedUser(inputs.executed_user)) {
         return;
     }
 
