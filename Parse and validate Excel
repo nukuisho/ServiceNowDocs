@@ -1,21 +1,22 @@
 (function execute(inputs, outputs) {
-    var parser = null;
 
-    function closeExcelParser(instance, label) {
-        if (!instance) return;
-        try {
-            instance.close();
-        } catch (closeError) {
-            gs.error(
-                '[Parse and validate Excel] Failed to close ' + label +
-                '. RITM=' + String(inputs.request_item_sys_id || '') +
-                ', Attachment=' + String(inputs.attachment_sys_id || '') +
-                ', Error=' + String(closeError)
-            );
-        }
-    }
+    /*
+     * ============================================================
+     * 出力値の初期化
+     * ============================================================
+     */
 
-    try {
+    outputs.valid = false;
+    outputs.rows = [];
+    outputs.errors = [];
+    outputs.row_count = 0;
+    outputs.skipped_count = 0;
+    outputs.attachment_sys_id = '';
+    outputs.error_code = '';
+    outputs.error_message = '';
+    outputs.failed_count = 0;
+    outputs.total_count = 0;
+
 
     /*
      * ============================================================
@@ -23,17 +24,19 @@
      * ============================================================
     */
 
+    // finallyで解放するパーサーの保持先。
+    var parser = null;
+
     var IP_TABLE = 'u_ip_address';
     var IP_FIELD = 'ip_address';
-　　　
-　　　/*
+   
+   /*
      * 編集不可項目。
      */
     var IP_PATTERN_FIELD = 'u_ip_pattern';
     var USE_FIELD = 'u_use';
     var COMMENTS_FIELD = 'comments';
     var STATE_FIELD = 'u_state';
-    var ORDER_NUMBER_FIELD = 'u_order_number';
     var IP_PATTERN_COMMENTS_FIELD = 'comments';
 
     /*
@@ -70,26 +73,23 @@
 
     /*
      * ============================================================
-     * 出力値の初期化
-     * ============================================================
-     */
-
-    outputs.valid = false;
-    outputs.rows = [];
-    outputs.errors = [];
-    outputs.row_count = 0;
-    outputs.skipped_count = 0;
-    outputs.attachment_sys_id = '';
-    outputs.error_code = '';
-    outputs.error_message = '';
-    outputs.failed_count = 0;
-    outputs.total_count = 0;
-
-    /*
-     * ============================================================
      * ユーティリティ関数
      * ============================================================
      */
+
+    function closeExcelParser(instance, label) {
+        if (!instance) return;
+        try {
+            instance.close();
+        } catch (closeError) {
+            gs.error(
+                '[Parse and validate Excel] Failed to close ' + label +
+                '. RITM=' + String(inputs.request_item_sys_id || '') +
+                ', Attachment=' + String(inputs.attachment_sys_id || '') +
+                ', Error=' + String(closeError)
+            );
+        }
+    }
 
     /*
      * nullおよびundefinedを空文字へ変換し、
@@ -114,32 +114,6 @@
         return valueOf(value)
             .replace(/\r\n/g, '\n')
             .replace(/\r/g, '\n');
-    }
-
-    /*
-     * 並び替え番号を比較用に正規化する。
-     *
-     * 空値は空値のままとする。
-     * 数値へ変換できる場合は、001と1を同一として扱う。
-     * 数値に変換できない場合は元の文字列を返す。
-     */
-    function orderNumberValueOf(value) {
-        var normalizedValue = valueOf(value);
-
-        if (!normalizedValue) {
-            return '';
-        }
-
-        var parsedValue = parseInt(
-            normalizedValue,
-            10
-        );
-
-        if (isNaN(parsedValue)) {
-            return normalizedValue;
-        }
-
-        return String(parsedValue);
     }
 
     function isValidSysId(value) {
@@ -315,7 +289,6 @@ function publishFailure() {
             USE_FIELD,
             COMMENTS_FIELD,
             STATE_FIELD,
-            ORDER_NUMBER_FIELD
         ];
 
         var valid = true;
@@ -430,7 +403,6 @@ function publishFailure() {
      * - u_ip_address
      * - u_ip_pattern
      * - u_ip_pattern.comments
-     * - u_order_number
      */
     function validateServerControlledFields(
         row,
@@ -453,13 +425,6 @@ function publishFailure() {
         var currentIpPatternComments =
             getCurrentIpPatternComments(
                 ipRecord
-            );
-
-        var currentOrderNumber =
-            orderNumberValueOf(
-                ipRecord.getValue(
-                    ORDER_NUMBER_FIELD
-                )
             );
 
         if (
@@ -518,27 +483,6 @@ function publishFailure() {
                 row.u_ip_pattern_comments +
                 '」、既存値:「' +
                 currentIpPatternComments +
-                '」'
-            );
-            failedCount++;
-
-            valid = false;
-        }
-
-        if (
-            row.u_order_number !==
-            currentOrderNumber
-        ) {
-            addError(
-                row.row_number,
-                'u_order_number',
-                'SERVER_VALUE_MISMATCH',
-                '「IPアドレス並び替え」が' +
-                '既存レコードと一致しません。' +
-                'Excel値:「' +
-                row.u_order_number +
-                '」、既存値:「' +
-                currentOrderNumber +
                 '」'
             );
             failedCount++;
@@ -801,6 +745,8 @@ function publishFailure() {
         };
     }
 
+    try {
+
     /*
      * Preconditions are validated by Validate Request.
      * Inputs must come from its valid=true branch, not from client values.
@@ -891,14 +837,6 @@ function publishFailure() {
                 'ステータス'
             );
 
-        var orderNumber =
-            orderNumberValueOf(
-                getCell(
-                    source,
-                    'IPアドレス並び替え'
-                )
-            );
-
         /*
          * 全項目が空の行はデータ行として数えず、
          * 読み飛ばす。
@@ -909,8 +847,7 @@ function publishFailure() {
             !ipPatternComments &&
             !useName &&
             !actualUseComments &&
-            !stateName &&
-            !orderNumber
+            !stateName
         ) {
             continue;
         }
@@ -1036,9 +973,6 @@ function publishFailure() {
 
                     u_ip_pattern_comments:
                         ipPatternComments,
-
-                    u_order_number:
-                        orderNumber,
 
                     /*
                      * 更新対象項目。
