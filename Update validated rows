@@ -1,0 +1,790 @@
+(function execute(inputs, outputs) {
+    var IP_TABLE = 'u_ip_address';
+    var IP_FIELD = 'ip_address';
+    var USE_FIELD = 'u_use';
+    var COMMENTS_FIELD = 'comments';
+    var STATE_FIELD = 'u_state';
+    var EXECUTED_BY_FIELD = 'u_executed_by';
+
+    var rows = inputs.rows || [];
+    var updatedCount = 0;
+    var skippedCount = 0;
+    var failedCount = 0;
+    var messages = [];
+
+    outputs.update_success = false;
+    outputs.message = '';
+    outputs.updated_count = 0;
+    outputs.skipped_count = 0;
+    outputs.failed_count = 0;
+    outputs.error_code = '';
+
+    function text(value) {
+        if (
+            value === null ||
+            value === undefined
+        ) {
+            return '';
+        }
+
+        return String(value).trim();
+    }
+
+    /*
+     * Action 19で正規化された更新値を保持する。
+     * null／undefinedだけを空文字へ変換する。
+     */
+    function updateText(value) {
+        if (
+            value === null ||
+            value === undefined
+        ) {
+            return '';
+        }
+
+        return String(value);
+    }
+
+    function isValidSysId(value) {
+        return /^[0-9a-f]{32}$/i.test(
+            text(value)
+        );
+    }
+
+    function rowNumberOf(
+        row,
+        index
+    ) {
+        var rowNumber =
+            parseInt(
+                row && row.row_number,
+                10
+            );
+
+        if (
+            rowNumber &&
+            rowNumber > 0
+        ) {
+            return String(rowNumber);
+        }
+
+        /*
+         * Excelの1行目がヘッダーである前提。
+         */
+        return String(index + 2);
+    }
+
+    function addFailure(
+        rowNumber,
+        message
+    ) {
+        failedCount++;
+
+        messages.push(
+            'Row ' +
+            rowNumber +
+            ': ' +
+            text(message)
+        );
+    }
+
+    function assignOutputs() {
+        outputs.updated_count =
+            updatedCount;
+
+        outputs.skipped_count =
+            skippedCount;
+
+        outputs.failed_count =
+            failedCount;
+
+        outputs.message =
+            messages.join('\n');
+
+        if (failedCount === 0) {
+            outputs.update_success = true;
+            outputs.error_code = '';
+        } else {
+            outputs.update_success = false;
+            outputs.error_code =
+                'IP_ADDRESS_UPDATE_FAILED';
+        }
+    }
+
+    /*
+     * Action 19で解決済みのtarget_sys_idを優先する。
+     *
+     * このActionは次を前提とする。
+     *
+     * 1. Flow/ActionがSystem contextで実行される。
+     * 2. 前段で事業会社と更新対象が検証されている。
+     * 3. このAction自体を未認可ユーザーが直接呼び出せない。
+     *
+     * 更新時に申請ユーザーのACLを再適用しないため、
+     * GlideRecordSecureではなくGlideRecordを使用する。
+     */
+    function getTargetRecord(row) {
+        var result = {
+            valid: false,
+            record: null,
+            message: ''
+        };
+
+        var target =
+            new GlideRecord(
+                IP_TABLE
+            );
+
+        if (!target.isValid()) {
+            result.message =
+                IP_TABLE +
+                ' is not a valid table.';
+
+            return result;
+        }
+
+        if (
+            !target.isValidField(
+                IP_FIELD
+            )
+        ) {
+            result.message =
+                IP_FIELD +
+                ' is not a valid field.';
+
+            return result;
+        }
+
+        var targetSysId =
+            text(
+                row.target_sys_id
+            );
+
+        var ipAddress =
+            text(
+                row.u_ip_address
+            );
+
+        /*
+         * 前段で解決済みのtarget_sys_idを優先する。
+         */
+        if (targetSysId) {
+            if (
+                !isValidSysId(
+                    targetSysId
+                )
+            ) {
+                result.message =
+                    'target_sys_id is invalid.';
+
+                return result;
+            }
+
+            if (
+                !target.get(
+                    targetSysId
+                )
+            ) {
+                result.message =
+                    'Target record was not found for target_sys_id ' +
+                    targetSysId +
+                    '.';
+
+                return result;
+            }
+
+            /*
+             * target_sys_idが指すレコードと
+             * u_ip_addressの整合性を確認する。
+             */
+            var currentIpAddress =
+                text(
+                    target.getValue(
+                        IP_FIELD
+                    )
+                );
+
+            if (
+                currentIpAddress !==
+                ipAddress
+            ) {
+                result.message =
+                    'target_sys_id and u_ip_address do not match. ' +
+                    'Expected IP address: ' +
+                    ipAddress +
+                    ', actual IP address: ' +
+                    currentIpAddress +
+                    '.';
+
+                return result;
+            }
+
+            result.valid = true;
+            result.record = target;
+
+            return result;
+        }
+
+        /*
+         * target_sys_idがない場合は
+         * IPアドレスで検索する。
+         */
+        if (!ipAddress) {
+            result.message =
+                'u_ip_address is required.';
+
+            return result;
+        }
+
+        target.addQuery(
+            IP_FIELD,
+            ipAddress
+        );
+
+        target.setLimit(2);
+        target.query();
+
+        if (!target.next()) {
+            result.message =
+                'Target record was not found for ' +
+                IP_FIELD +
+                ' ' +
+                ipAddress +
+                '.';
+
+            return result;
+        }
+
+        var firstSysId =
+            text(
+                target.getUniqueValue()
+            );
+
+        if (target.next()) {
+            result.message =
+                'Multiple target records were found for ' +
+                IP_FIELD +
+                ' ' +
+                ipAddress +
+                '.';
+
+            return result;
+        }
+
+        /*
+         * 2件目の確認後、1件目を再取得する。
+         */
+        if (
+            !target.get(
+                firstSysId
+            )
+        ) {
+            result.message =
+                'Target record could not be reloaded for ' +
+                IP_FIELD +
+                ' ' +
+                ipAddress +
+                '.';
+
+            return result;
+        }
+
+        result.valid = true;
+        result.record = target;
+
+        return result;
+    }
+
+    /*
+     * 更新後の値を確認する。
+     */
+    function verifyUpdatedValues(
+        verifyRecord,
+        updateComments,
+        updateUse,
+        updateState,
+        expectedComments,
+        expectedUse,
+        expectedState
+    ) {
+        var failures = [];
+
+        if (
+            updateComments &&
+            updateText(
+                verifyRecord.getValue(
+                    COMMENTS_FIELD
+                )
+            ) !==
+                expectedComments
+        ) {
+            failures.push(
+                COMMENTS_FIELD +
+                ' was not persisted.'
+            );
+        }
+
+        if (
+            updateUse &&
+            updateText(
+                verifyRecord.getValue(
+                    USE_FIELD
+                )
+            ) !==
+                expectedUse
+        ) {
+            failures.push(
+                USE_FIELD +
+                ' was not persisted.'
+            );
+        }
+
+        if (
+            updateState &&
+            text(
+                verifyRecord.getValue(
+                    STATE_FIELD
+                )
+            ) !==
+                expectedState
+        ) {
+            failures.push(
+                STATE_FIELD +
+                ' was not persisted.'
+            );
+        }
+
+        return {
+            valid:
+                failures.length === 0,
+
+            message:
+                failures.join(' ')
+        };
+    }
+
+    /*
+     * ============================================================
+     * Input validation
+     * ============================================================
+     */
+
+    /*
+     * Flow DesignerのArray.Objectは通常JavaScript Arrayとして
+     * 渡されるが、Array.isArray()に依存せずlengthで判定する。
+     */
+    if (
+        !rows ||
+        typeof rows.length !== 'number'
+    ) {
+        outputs.update_success = false;
+        outputs.message =
+            'Rows must be an array-like value.';
+        outputs.error_code =
+            'ROWS_INVALID';
+        outputs.failed_count = 1;
+
+        return;
+    }
+
+    /*
+     * 入力Rowsが空の場合は正常終了とする。
+     */
+    if (rows.length === 0) {
+        outputs.update_success = true;
+        outputs.message =
+            'No records required an update.';
+        outputs.updated_count = 0;
+        outputs.skipped_count = 0;
+        outputs.failed_count = 0;
+        outputs.error_code = '';
+
+        return;
+    }
+
+    /*
+     * ============================================================
+     * Row processing
+     * ============================================================
+     */
+
+    for (
+        var rowIndex = 0;
+        rowIndex < rows.length;
+        rowIndex++
+    ) {
+        var row =
+            rows[rowIndex] || {};
+
+        var rowNumber =
+            rowNumberOf(
+                row,
+                rowIndex
+            );
+
+        var ipAddress =
+            text(
+                row.u_ip_address
+            );
+
+        /*
+         * IPアドレスは対象確認のため必須。
+         */
+        if (!ipAddress) {
+            addFailure(
+                rowNumber,
+                'u_ip_address is required.'
+            );
+
+            continue;
+        }
+
+        /*
+         * 入力のupdate_*／skipだけではスキップしない。
+         *
+         * 先に対象レコードを取得し、
+         * 最新DB値とExcel入力値を再比較する。
+         */
+        var targetResult =
+            getTargetRecord(
+                row
+            );
+
+        if (!targetResult.valid) {
+            addFailure(
+                rowNumber,
+                targetResult.message
+            );
+
+            continue;
+        }
+
+        var updateRecord =
+            targetResult.record;
+
+        /*
+         * 検索後にもIPアドレスが一致していることを確認する。
+         */
+        var currentIpAddress =
+            text(
+                updateRecord.getValue(
+                    IP_FIELD
+                )
+            );
+
+        if (
+            currentIpAddress !==
+            ipAddress
+        ) {
+            addFailure(
+                rowNumber,
+                'Target ' +
+                IP_FIELD +
+                ' changed before update. ' +
+                'Expected: ' +
+                ipAddress +
+                ', actual: ' +
+                currentIpAddress +
+                '.'
+            );
+
+            continue;
+        }
+
+        /*
+         * Action 24へ渡されたExcel値を取得する。
+         *
+         * null／undefinedも空文字として扱い、
+         * 明示的なクリア要求にする。
+         */
+        var expectedComments =
+            updateText(
+                row.comments
+            );
+
+        var expectedUse =
+            updateText(
+                row.u_use
+            );
+
+        var expectedState =
+            text(
+                row.u_state
+            );
+
+        /*
+         * Action 19から渡されたupdate_*／skipには依存せず、
+         * 最新DB値と入力値を直接比較する。
+         */
+        var updateComments =
+            updateText(
+                updateRecord.getValue(
+                    COMMENTS_FIELD
+                )
+            ) !==
+                expectedComments;
+
+        var updateUse =
+            updateText(
+                updateRecord.getValue(
+                    USE_FIELD
+                )
+            ) !==
+                expectedUse;
+
+        var updateState =
+            text(
+                updateRecord.getValue(
+                    STATE_FIELD
+                )
+            ) !==
+                expectedState;
+
+        /*
+         * 更新実行時点で3項目すべてに差分がない場合だけ
+         * スキップする。
+         */
+        if (
+            !updateComments &&
+            !updateUse &&
+            !updateState
+        ) {
+            skippedCount++;
+            continue;
+        }
+
+        /*
+         * 空文字、1、2だけを有効なStateとする。
+         *
+         * 空文字は既存Stateをクリアする明示的な要求。
+         */
+        if (
+            updateState &&
+            expectedState !== '' &&
+            expectedState !== '1' &&
+            expectedState !== '2'
+        ) {
+            addFailure(
+                rowNumber,
+                'u_state is invalid. ' +
+                'Expected blank, 1 or 2, actual: ' +
+                expectedState +
+                '.'
+            );
+
+            continue;
+        }
+
+        /*
+         * 更新実行者を検証する。
+         */
+        var executedBy =
+            text(
+                row.executed_by
+            );
+
+        if (!executedBy) {
+            addFailure(
+                rowNumber,
+                'executed_by is required when updating a record.'
+            );
+
+            continue;
+        }
+
+        if (!isValidSysId(executedBy)) {
+            addFailure(
+                rowNumber,
+                'executed_by is invalid.'
+            );
+
+            continue;
+        }
+
+        var hasChange = false;
+
+        /*
+         * 更新対象1:
+         * 実際の利用用途 : 備考
+         *
+         * 空文字の場合もsetValue()する。
+         */
+        if (updateComments) {
+            updateRecord.setValue(
+                COMMENTS_FIELD,
+                expectedComments
+            );
+
+            hasChange = true;
+        }
+
+        /*
+         * 更新対象2:
+         * 実際の利用用途
+         *
+         * 空文字の場合もsetValue()する。
+         */
+        if (updateUse) {
+            updateRecord.setValue(
+                USE_FIELD,
+                expectedUse
+            );
+
+            hasChange = true;
+        }
+
+        /*
+         * 更新対象3:
+         * ステータス
+         *
+         * 空文字の場合もsetValue()する。
+         */
+        if (updateState) {
+            updateRecord.setValue(
+                STATE_FIELD,
+                expectedState
+            );
+
+            hasChange = true;
+        }
+
+        /*
+         * 防御的な確認。
+         */
+        if (!hasChange) {
+            skippedCount++;
+            continue;
+        }
+
+        /*
+         * 更新実行者を記録する。
+         */
+        updateRecord.setValue(
+            EXECUTED_BY_FIELD,
+            executedBy
+        );
+
+        /*
+         * 以下のサーバー管理項目は更新しない。
+         *
+         * IP_FIELD / ip_address
+         * u_ip_pattern
+         * u_ip_pattern.comments
+         * u_order_number
+         */
+
+        var updatedId;
+
+        try {
+            updatedId =
+                updateRecord.update();
+        } catch (updateError) {
+            addFailure(
+                rowNumber,
+                'Update threw an exception for ' +
+                IP_FIELD +
+                ' ' +
+                ipAddress +
+                '. Error: ' +
+                text(
+                    updateError &&
+                    updateError.message
+                        ? updateError.message
+                        : updateError
+                )
+            );
+
+            continue;
+        }
+
+        if (!updatedId) {
+            addFailure(
+                rowNumber,
+                'Update failed for ' +
+                IP_FIELD +
+                ' ' +
+                ipAddress +
+                '.'
+            );
+
+            continue;
+        }
+
+        /*
+         * 更新結果を再取得する。
+         *
+         * 更新確認でもユーザーACLを再適用しないため、
+         * GlideRecordを使用する。
+         */
+        var verify =
+            new GlideRecord(
+                IP_TABLE
+            );
+
+        if (
+            !verify.get(
+                String(updatedId)
+            )
+        ) {
+            addFailure(
+                rowNumber,
+                'Updated record could not be reloaded for ' +
+                IP_FIELD +
+                ' ' +
+                ipAddress +
+                '.'
+            );
+
+            continue;
+        }
+
+        /*
+         * 更新した3項目が永続化されたことを確認する。
+         */
+        var verifyResult =
+            verifyUpdatedValues(
+                verify,
+                updateComments,
+                updateUse,
+                updateState,
+                expectedComments,
+                expectedUse,
+                expectedState
+            );
+
+        if (!verifyResult.valid) {
+            addFailure(
+                rowNumber,
+                verifyResult.message +
+                ' ' +
+                IP_FIELD +
+                ': ' +
+                ipAddress +
+                '.'
+            );
+
+            continue;
+        }
+
+        updatedCount++;
+    }
+
+    /*
+     * ============================================================
+     * Final outputs
+     * ============================================================
+     */
+
+    assignOutputs();
+
+    if (outputs.update_success) {
+        outputs.message =
+            'Update completed successfully. ' +
+            'Updated: ' +
+            updatedCount +
+            ', skipped: ' +
+            skippedCount +
+            '.';
+    }
+
+})(inputs, outputs);
