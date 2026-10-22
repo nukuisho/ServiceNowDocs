@@ -26,7 +26,6 @@
 
     // finallyで解放するパーサーの保持先。
     var parser = null;
-
     var IP_TABLE = 'u_ip_address';
     var IP_FIELD = 'ip_address';
    
@@ -72,9 +71,6 @@
     var failedCount = 0;
     var commonSegmentSysId = '';
     var expectedSegmentSysId = valueOf(inputs.expected_segment_sys_id).toLowerCase();
-    var SYS_ID_ERROR_MESSAGE =
-        '「Sys ID」が更新されています。エクスポートした値から変更しないでください。' +
-        '最新のExcelを再度エクスポートし、送信しなおしてください。';
     var ipLookup = {};
 
 
@@ -274,7 +270,7 @@ function publishFailure() {
     }
 
     /*
-     * 取得したIP Addressレコードについて、
+     * 取得したIPアドレスレコードについて、
      * 今回使用するフィールドが存在することを検証する。
      */
     function validateIpRecordFields(record) {
@@ -402,6 +398,7 @@ function publishFailure() {
      * - u_ip_address
      * - u_ip_pattern
      * - u_ip_pattern.comments
+     * - u_ip_segment
      */
     function validateServerControlledFields(
         row,
@@ -614,7 +611,7 @@ function publishFailure() {
         return result;
     }
 
-    // DB cursor values are copied; no live GlideRecord is retained per IP.
+    // DBから取得した値をコピーし、IPごとのGlideRecordは保持しない。
     function snapshotIp(record) {
         var fields = [IP_FIELD, IP_PATTERN_FIELD, USE_FIELD, COMMENTS_FIELD,
             STATE_FIELD, SEGMENT_FIELD];
@@ -647,7 +644,7 @@ function publishFailure() {
                 'IPアドレステーブルまたは検索用フィールドが存在しません。');
             return false;
         }
-        // This is the only IP-table query in this validation Action.
+        // この検証アクションでIPテーブルを検索するのは、この1回だけ。
         target.addQuery(SEGMENT_FIELD, segmentId);
         target.query();
         while (target.next()) {
@@ -730,9 +727,7 @@ function publishFailure() {
     try {
 
     /*
-     * Preconditions are validated by Validate Request.
-     * Inputs must come from its valid=true branch, not from client values.
-     * Parse the same attachment using the parser's default first sheet.
+     * 添付ファイルを、パーサーの既定の先頭シートで解析する。
      */
     var attachmentSysId = valueOf(inputs.attachment_sys_id);
     var executedUser = valueOf(inputs.executed_user);
@@ -766,7 +761,7 @@ function publishFailure() {
         return;
     }
 
-    /* Row-level validation only; headers are validated upstream. */
+    /* ヘッダーは前段で検証済みとし、ここでSys IDの事前確認と行データの検証を行う。 */
     var excelRow = 1;
     var bufferedRows = [];
     var scanHeaders = ['IP アドレス', 'モデルパターンによる想定利用用途',
@@ -785,19 +780,62 @@ function publishFailure() {
         if (!hasData) continue;
         bufferedRows.push({ number: excelRow, source: copy });
         var scanId = copy['Sys ID'].toLowerCase();
-        var sysCode = '';
-        if (!scanId) sysCode = 'EMPTY_SYS_ID';
-        else if (commonSegmentSysId && scanId !== commonSegmentSysId)
-            sysCode = 'DUPLICATE_SYS_ID';
-        else {
-            if (!commonSegmentSysId) commonSegmentSysId = scanId;
-            if (!isValidSysId(scanId)) sysCode = 'SERVER_VALUE_MISMATCH_SYS_ID';
-            else if (isValidSysId(expectedSegmentSysId) && scanId !== expectedSegmentSysId)
-                sysCode = 'SERVER_VALUE_MISMATCH_SYS_ID';
-        }
-        if (sysCode) {
-            addError(excelRow, 'segment_sys_id', sysCode, SYS_ID_ERROR_MESSAGE);
+        // Sys IDの必須確認
+        if (!scanId) {
+            addError(
+                excelRow,
+                'segment_sys_id',
+                'EMPTY_SYS_ID',
+                '「Sys ID」が更新されています。' +
+                'エクスポートした値から変更しないでください。' +
+                '最新のExcelを再度エクスポートし、送信しなおしてください。'
+            );
             failedCount++;
+            continue;
+        }
+
+        // Excel内で異なるSys IDが混在していないか確認
+        if (commonSegmentSysId && scanId !== commonSegmentSysId) {
+            addError(
+                excelRow,
+                'segment_sys_id',
+                'DUPLICATE_SYS_ID',
+                '「Sys ID」が更新されています。' +
+                'エクスポートした値から変更しないでください。' +
+                '最新のExcelを再度エクスポートし、送信しなおしてください。'
+            );
+            failedCount++;
+            continue;
+        }
+
+        if (!commonSegmentSysId) commonSegmentSysId = scanId;
+
+        // Sys IDの形式確認
+        if (!isValidSysId(scanId)) {
+            addError(
+                excelRow,
+                'segment_sys_id',
+                'SERVER_VALUE_MISMATCH_SYS_ID',
+                '「Sys ID」が更新されています。' +
+                'エクスポートした値から変更しないでください。' +
+                '最新のExcelを再度エクスポートし、送信しなおしてください。'
+            );
+            failedCount++;
+            continue;
+        }
+
+        // 編集不可項目「Sys ID」を、サーバー側の正しい申請対象セグメントと比較する。
+        if (isValidSysId(expectedSegmentSysId) && scanId !== expectedSegmentSysId) {
+            addError(
+                excelRow,
+                'segment_sys_id',
+                'SERVER_VALUE_MISMATCH_SYS_ID',
+                '「Sys ID」が更新されています。' +
+                'エクスポートした値から変更しないでください。' +
+                '最新のExcelを再度エクスポートし、送信しなおしてください。'
+            );
+            failedCount++;
+            continue;
         }
     }
     if (errors.length) {
@@ -819,7 +857,7 @@ function publishFailure() {
     }
 
     var bufferedIndex = 0;
-    // All IP lookups below use the in-memory segment snapshot.
+    // 以降のIP照合は、メモリ上に保存した対象セグメントのデータを使用する。
     while (bufferedIndex < bufferedRows.length) {
         var bufferedRow = bufferedRows[bufferedIndex++];
         excelRow = bufferedRow.number;
@@ -907,7 +945,7 @@ function publishFailure() {
         var stateValue = stateName;
 
         /*
-         * IP Addressは更新対象レコードを特定するため必須。
+         * IPアドレスは更新対象レコードを特定するため必須。
          */
         if (!ipAddress) {
             addError(
@@ -977,7 +1015,7 @@ function publishFailure() {
                 errorCountBefore &&
             targetSysId
         ) {
-            // Use copied values loaded through GlideRecordSecure before the row loop.
+            // 行ループ前にGlideRecordSecureで取得・コピーした値を使用する。
             ipRecord = targetResult.record;
 
             if (valueOf(ipRecord.getValue(IP_FIELD)) !== ipAddress) {
@@ -1006,7 +1044,7 @@ function publishFailure() {
                         targetSysId,
 
                     /*
-                     * サーバー管理項目。
+                     * 編集不可項目。
                      */
                     u_ip_address:
                         ipAddress,
@@ -1123,7 +1161,7 @@ function publishFailure() {
     publishSuccess();
 
     } catch (rowError) {
-        // Includes exceptions from parser.next()/getRow() and row DB access.
+        // 行読み取りやDB参照などで発生した、未処理の例外を捕捉する。
         gs.error('[Parse and validate Excel] Row processing failed. Attachment=' +
             String(inputs.attachment_sys_id || '') + ', Error=' + String(rowError));
         addError(typeof excelRow === 'number' ? excelRow : 0,
