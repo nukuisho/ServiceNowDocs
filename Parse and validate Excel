@@ -603,15 +603,8 @@ function publishFailure() {
         var segmentId = valueOf(segmentSysId).toLowerCase();
         var ipAddress = valueOf(row.u_ip_address);
         var target = new GlideRecordSecure(IP_TABLE);
-        if (!target.isValid() || !target.isValidField(IP_FIELD) ||
-            !target.isValidField(SEGMENT_FIELD)) {
-            result.message = 'IPアドレステーブルまたは検索用フィールドが存在しません。';
-            return result;
-        }
-        if (!isValidSysId(segmentId) || !ipAddress) {
-            result.message = '検索用のセグメントSys IDまたはIPアドレスが不正です。';
-            return result;
-        }
+
+
 
         // 指定セグメントのレコードだけをDBから取得する。
         target.addQuery(SEGMENT_FIELD, segmentId);
@@ -621,14 +614,14 @@ function publishFailure() {
         while (target.next()) {
             if (valueOf(target.getValue(IP_FIELD)) !== ipAddress) continue;
             if (matchedSysId) {
-                result.message = '指定セグメント内で対象のIPアドレスに複数のレコードが一致しました。' +
+                result.message = '対象のIPアドレスに複数のレコードが一致しました。' +
                     ' Excel row: ' + rowNumber + '.';
                 return result;
             }
             matchedSysId = valueOf(target.getUniqueValue());
         }
         if (!matchedSysId) {
-            result.message = '指定セグメント内に対象のIPアドレスが見つかりません。' +
+            result.message = '対象のIPアドレスが見つかりません。' +
                 ' Excel row: ' + rowNumber + '.';
             return result;
         }
@@ -638,12 +631,7 @@ function publishFailure() {
                 ' Excel row: ' + rowNumber + '.';
             return result;
         }
-        if (valueOf(target.getValue(SEGMENT_FIELD)).toLowerCase() !== segmentId ||
-            valueOf(target.getValue(IP_FIELD)) !== ipAddress) {
-            result.message = '対象レコードのセグメントまたはIPアドレスが一致しません。' +
-                ' Excel row: ' + rowNumber + '.';
-            return result;
-        }
+
         result.valid = true;
         result.record = target;
         return result;
@@ -801,31 +789,13 @@ function publishFailure() {
     // セグメントの存在確認は、IPの行検証を始める前に1回だけ行う。
     if (bufferedRows.length) {
         var segmentSource = new GlideRecordSecure(IP_TABLE);
-        if (!segmentSource.isValid() || !segmentSource.isValidField(SEGMENT_FIELD)) {
-            addError(0, '', 'SERVER_CONFIGURATION_ERROR',
-                'IPアドレステーブルまたは所属セグメントフィールドが存在しません。');
-            rowCount = bufferedRows.length;
-            publishFailure();
-            return;
-        }
+
         var segmentTable = valueOf(
             segmentSource.getElement(SEGMENT_FIELD).getReferenceTable()
         );
-        if (!segmentTable) {
-            addError(0, SEGMENT_FIELD, 'SERVER_CONFIGURATION_ERROR',
-                '所属セグメントの参照先テーブルが設定されていません。');
-            rowCount = bufferedRows.length;
-            publishFailure();
-            return;
-        }
+
         var segmentRecord = new GlideRecordSecure(segmentTable);
-        if (!segmentRecord.isValid()) {
-            addError(0, SEGMENT_FIELD, 'SERVER_CONFIGURATION_ERROR',
-                '所属セグメントの参照先テーブルが有効ではありません。');
-            rowCount = bufferedRows.length;
-            publishFailure();
-            return;
-        }
+
         if (!segmentRecord.get(commonSegmentSysId)) {
             addError(0, 'segment_sys_id', 'SERVER_VALUE_MISMATCH_SYS_ID',
                 '「Sys ID」が更新されています。' +
@@ -1155,4 +1125,8 @@ function publishFailure() {
     }
 
 })(inputs, outputs);
+
+
+
+
 
