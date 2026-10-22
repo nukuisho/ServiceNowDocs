@@ -70,7 +70,6 @@
     var skippedCount = 0;
     var failedCount = 0;
     var commonSegmentSysId = '';
-    var expectedSegmentSysId = valueOf(inputs.expected_segment_sys_id).toLowerCase();
     var ipLookup = {};
 
 
@@ -398,7 +397,7 @@ function publishFailure() {
      * - u_ip_address
      * - u_ip_pattern
      * - u_ip_pattern.comments
-     * - u_ip_segment
+     * Excelの「Sys ID」は、この関数ではなく一括取得前に参照先セグメントの存在を確認する。
      */
     function validateServerControlledFields(
         row,
@@ -644,6 +643,31 @@ function publishFailure() {
                 'IPアドレステーブルまたは検索用フィールドが存在しません。');
             return false;
         }
+        // 所属セグメントフィールドの参照先テーブルを取得する。
+        var segmentTable = valueOf(
+            target.getElement(SEGMENT_FIELD).getReferenceTable()
+        );
+        if (!segmentTable) {
+            addError(0, SEGMENT_FIELD, 'SERVER_CONFIGURATION_ERROR',
+                '所属セグメントの参照先テーブルが設定されていません。');
+            return false;
+        }
+
+        // ExcelのSys IDに対応するセグメントレコードが存在するか確認する。
+        var segmentRecord = new GlideRecordSecure(segmentTable);
+        if (!segmentRecord.isValid()) {
+            addError(0, SEGMENT_FIELD, 'SERVER_CONFIGURATION_ERROR',
+                '所属セグメントの参照先テーブルが有効ではありません。');
+            return false;
+        }
+        if (!segmentRecord.get(segmentId)) {
+            addError(0, 'segment_sys_id', 'SERVER_VALUE_MISMATCH_SYS_ID',
+                '「Sys ID」が更新されています。' +
+                'エクスポートした値から変更しないでください。' +
+                '最新のExcelを再度エクスポートし、送信しなおしてください。');
+            return false;
+        }
+
         // この検証アクションでIPテーブルを検索するのは、この1回だけ。
         target.addQuery(SEGMENT_FIELD, segmentId);
         target.query();
@@ -824,29 +848,10 @@ function publishFailure() {
             continue;
         }
 
-        // 編集不可項目「Sys ID」を、サーバー側の正しい申請対象セグメントと比較する。
-        if (isValidSysId(expectedSegmentSysId) && scanId !== expectedSegmentSysId) {
-            addError(
-                excelRow,
-                'segment_sys_id',
-                'SERVER_VALUE_MISMATCH_SYS_ID',
-                '「Sys ID」が更新されています。' +
-                'エクスポートした値から変更しないでください。' +
-                '最新のExcelを再度エクスポートし、送信しなおしてください。'
-            );
-            failedCount++;
-            continue;
-        }
+
     }
     if (errors.length) {
         rowCount = bufferedRows.length;
-        publishFailure();
-        return;
-    }
-    if (bufferedRows.length && !isValidSysId(expectedSegmentSysId)) {
-        rowCount = bufferedRows.length;
-        addError(0, 'expected_segment_sys_id', 'EXPECTED_SEGMENT_NOT_CONFIGURED',
-            'サーバー側の申請対象セグメントSys IDが設定されていません。');
         publishFailure();
         return;
     }
