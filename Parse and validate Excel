@@ -38,6 +38,7 @@
     var COMMENTS_FIELD = 'comments';
     var STATE_FIELD = 'u_state';
     var IP_PATTERN_COMMENTS_FIELD = 'comments';
+    var SEGMENT_FIELD = 'u_segment';
 
     /*
      * u_ip_patternはReferenceフィールドを想定する。
@@ -531,14 +532,14 @@ function publishFailure() {
             message: ''
         };
 
-        if (!target.isValidField('u_segment')) {
+        if (!target.isValidField('SEGMENT_FIELD')) {
             result.message =
-                'u_segment is not a valid field at Excel row ' +
+                'SEGMENT_FIELD is not a valid field at Excel row ' +
                 rowNumber + '.';
             return result;
         }
 
-        var segmentRecord = target.u_segment.getRefRecord();
+        var segmentRecord = target.SEGMENT_FIELD.getRefRecord();
 
         if (!segmentRecord || !segmentRecord.isValidRecord()) {
             result.message =
@@ -616,7 +617,7 @@ function publishFailure() {
     // DB cursor values are copied; no live GlideRecord is retained per IP.
     function snapshotIp(record) {
         var fields = [IP_FIELD, IP_PATTERN_FIELD, USE_FIELD, COMMENTS_FIELD,
-            STATE_FIELD, 'u_segment'];
+            STATE_FIELD, 'SEGMENT_FIELD'];
         var values = {};
         var available = {};
         for (var i = 0; i < fields.length; i++) {
@@ -641,13 +642,13 @@ function publishFailure() {
     function loadSegmentRecords(segmentId) {
         var target = new GlideRecordSecure(IP_TABLE);
         if (!target.isValid() || !target.isValidField(IP_FIELD) ||
-            !target.isValidField('u_segment')) {
+            !target.isValidField('SEGMENT_FIELD')) {
             addError(0, '', 'SERVER_CONFIGURATION_ERROR',
                 'IPアドレステーブルまたは検索用フィールドが存在しません。');
             return false;
         }
         // This is the only IP-table query in this validation Action.
-        target.addQuery('u_segment', segmentId);
+        target.addQuery('SEGMENT_FIELD', segmentId);
         target.query();
         while (target.next()) {
             var key = '_' + valueOf(target.getValue(IP_FIELD));
@@ -672,7 +673,7 @@ function publishFailure() {
             return result;
         }
         var record = matches[0];
-        if (valueOf(record.getValue('u_segment')).toLowerCase() !== segmentSysId) {
+        if (valueOf(record.getValue('SEGMENT_FIELD')).toLowerCase() !== segmentSysId) {
             result.message = '対象レコードのセグメントが一致しません。';
             return result;
         }
