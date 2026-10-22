@@ -70,7 +70,6 @@
     var skippedCount = 0;
     var failedCount = 0;
     var commonSegmentSysId = '';
-    var ipLookup = {};
 
 
     /*
@@ -318,7 +317,6 @@ function publishFailure() {
     function getCurrentIpPatternValue(
         ipRecord
     ) {
-        if (hasOwn(ipRecord, 'snapshotPattern')) return ipRecord.snapshotPattern;
 
         if (
             COMPARE_IP_PATTERN_BY_DISPLAY_VALUE
@@ -344,7 +342,6 @@ function publishFailure() {
     function getCurrentIpPatternComments(
         ipRecord
     ) {
-        if (hasOwn(ipRecord, 'snapshotPatternComments')) return ipRecord.snapshotPatternComments;
 
         var patternSysId =
             valueOf(
@@ -513,15 +510,6 @@ function publishFailure() {
 
 
     function getIpOpCompany(target, rowNumber) {
-        if (hasOwn(target, 'snapshotCompany')) {
-            return {
-                valid: target.snapshotCompany.valid,
-                value: target.snapshotCompany.value,
-                message: target.snapshotCompany.message.replace(
-                    /Excel row 0\./g, 'Excel row ' + rowNumber + '.')
-            };
-        }
-
         var result = {
             valid: false,
             value: '',
@@ -610,96 +598,54 @@ function publishFailure() {
         return result;
     }
 
-    // DBから取得した値をコピーし、IPごとのGlideRecordは保持しない。
-    function snapshotIp(record) {
-        var fields = [IP_FIELD, IP_PATTERN_FIELD, USE_FIELD, COMMENTS_FIELD,
-            STATE_FIELD, SEGMENT_FIELD];
-        var values = {};
-        var available = {};
-        for (var i = 0; i < fields.length; i++) {
-            available[fields[i]] = record.isValidField(fields[i]);
-            values[fields[i]] = available[fields[i]]
-                ? valueOf(record.getValue(fields[i])) : '';
-        }
-        var id = valueOf(record.getUniqueValue());
-        var pattern = getCurrentIpPatternValue(record);
-        var patternComments = getCurrentIpPatternComments(record);
-        var company = getIpOpCompany(record, 0);
-        return {
-            getUniqueValue: function () { return id; },
-            getValue: function (field) { return values[field]; },
-            isValidField: function (field) { return !!available[field]; },
-            snapshotPattern: pattern,
-            snapshotPatternComments: patternComments,
-            snapshotCompany: company
-        };
-    }
-
-    function loadSegmentRecords(segmentId) {
+    function findTargetRecord(row, rowNumber, segmentSysId) {
+        var result = { valid: false, record: null, message: '' };
+        var segmentId = valueOf(segmentSysId).toLowerCase();
+        var ipAddress = valueOf(row.u_ip_address);
         var target = new GlideRecordSecure(IP_TABLE);
         if (!target.isValid() || !target.isValidField(IP_FIELD) ||
             !target.isValidField(SEGMENT_FIELD)) {
-            addError(0, '', 'SERVER_CONFIGURATION_ERROR',
-                'IPアドレステーブルまたは検索用フィールドが存在しません。');
-            return false;
+            result.message = 'IPアドレステーブルまたは検索用フィールドが存在しません。';
+            return result;
         }
-        // 所属セグメントフィールドの参照先テーブルを取得する。
-        var segmentTable = valueOf(
-            target.getElement(SEGMENT_FIELD).getReferenceTable()
-        );
-        if (!segmentTable) {
-            addError(0, SEGMENT_FIELD, 'SERVER_CONFIGURATION_ERROR',
-                '所属セグメントの参照先テーブルが設定されていません。');
-            return false;
+        if (!isValidSysId(segmentId) || !ipAddress) {
+            result.message = '検索用のセグメントSys IDまたはIPアドレスが不正です。';
+            return result;
         }
 
-        // ExcelのSys IDに対応するセグメントレコードが存在するか確認する。
-        var segmentRecord = new GlideRecordSecure(segmentTable);
-        if (!segmentRecord.isValid()) {
-            addError(0, SEGMENT_FIELD, 'SERVER_CONFIGURATION_ERROR',
-                '所属セグメントの参照先テーブルが有効ではありません。');
-            return false;
-        }
-        if (!segmentRecord.get(segmentId)) {
-            addError(0, 'segment_sys_id', 'SERVER_VALUE_MISMATCH_SYS_ID',
-                '「Sys ID」が更新されています。' +
-                'エクスポートした値から変更しないでください。' +
-                '最新のExcelを再度エクスポートし、送信しなおしてください。');
-            return false;
-        }
-
-        // この検証アクションでIPテーブルを検索するのは、この1回だけ。
+        // 指定セグメントのレコードだけをDBから取得する。
         target.addQuery(SEGMENT_FIELD, segmentId);
         target.query();
+        var matchedSysId = '';
+        // 取得したセグメントの中だけで、ExcelのIPアドレスを照合する。
         while (target.next()) {
-            var key = '_' + valueOf(target.getValue(IP_FIELD));
-            if (!hasOwn(ipLookup, key)) ipLookup[key] = [];
-            ipLookup[key].push(snapshotIp(target));
+            if (valueOf(target.getValue(IP_FIELD)) !== ipAddress) continue;
+            if (matchedSysId) {
+                result.message = '指定セグメント内で対象のIPアドレスに複数のレコードが一致しました。' +
+                    ' Excel row: ' + rowNumber + '.';
+                return result;
+            }
+            matchedSysId = valueOf(target.getUniqueValue());
         }
-        return true;
-    }
-
-    function findTargetRecord(row, rowNumber, segmentSysId) {
-        var result = { valid: false, record: null, message: '' };
-        var key = '_' + valueOf(row.u_ip_address);
-        var matches = hasOwn(ipLookup, key) ? ipLookup[key] : [];
-        if (!matches.length) {
+        if (!matchedSysId) {
             result.message = '指定セグメント内に対象のIPアドレスが見つかりません。' +
                 ' Excel row: ' + rowNumber + '.';
             return result;
         }
-        if (matches.length !== 1) {
-            result.message = '指定セグメント内で対象のIPアドレスに複数のレコードが一致しました。' +
+        // ループ終了後、対象の1件を再取得する。
+        if (!target.get(matchedSysId)) {
+            result.message = '対象IP Addressレコードを再取得できませんでした。' +
                 ' Excel row: ' + rowNumber + '.';
             return result;
         }
-        var record = matches[0];
-        if (valueOf(record.getValue(SEGMENT_FIELD)).toLowerCase() !== segmentSysId) {
-            result.message = '対象レコードのセグメントが一致しません。';
+        if (valueOf(target.getValue(SEGMENT_FIELD)).toLowerCase() !== segmentId ||
+            valueOf(target.getValue(IP_FIELD)) !== ipAddress) {
+            result.message = '対象レコードのセグメントまたはIPアドレスが一致しません。' +
+                ' Excel row: ' + rowNumber + '.';
             return result;
         }
         result.valid = true;
-        result.record = record;
+        result.record = target;
         return result;
     }
 
@@ -852,14 +798,47 @@ function publishFailure() {
         publishFailure();
         return;
     }
-    if (bufferedRows.length && !loadSegmentRecords(commonSegmentSysId)) {
-        rowCount = bufferedRows.length;
-        publishFailure();
-        return;
+    // セグメントの存在確認は、IPの行検証を始める前に1回だけ行う。
+    if (bufferedRows.length) {
+        var segmentSource = new GlideRecordSecure(IP_TABLE);
+        if (!segmentSource.isValid() || !segmentSource.isValidField(SEGMENT_FIELD)) {
+            addError(0, '', 'SERVER_CONFIGURATION_ERROR',
+                'IPアドレステーブルまたは所属セグメントフィールドが存在しません。');
+            rowCount = bufferedRows.length;
+            publishFailure();
+            return;
+        }
+        var segmentTable = valueOf(
+            segmentSource.getElement(SEGMENT_FIELD).getReferenceTable()
+        );
+        if (!segmentTable) {
+            addError(0, SEGMENT_FIELD, 'SERVER_CONFIGURATION_ERROR',
+                '所属セグメントの参照先テーブルが設定されていません。');
+            rowCount = bufferedRows.length;
+            publishFailure();
+            return;
+        }
+        var segmentRecord = new GlideRecordSecure(segmentTable);
+        if (!segmentRecord.isValid()) {
+            addError(0, SEGMENT_FIELD, 'SERVER_CONFIGURATION_ERROR',
+                '所属セグメントの参照先テーブルが有効ではありません。');
+            rowCount = bufferedRows.length;
+            publishFailure();
+            return;
+        }
+        if (!segmentRecord.get(commonSegmentSysId)) {
+            addError(0, 'segment_sys_id', 'SERVER_VALUE_MISMATCH_SYS_ID',
+                '「Sys ID」が更新されています。' +
+                'エクスポートした値から変更しないでください。' +
+                '最新のExcelを再度エクスポートし、送信しなおしてください。');
+            rowCount = bufferedRows.length;
+            publishFailure();
+            return;
+        }
     }
 
     var bufferedIndex = 0;
-    // 以降のIP照合は、メモリ上に保存した対象セグメントのデータを使用する。
+    // 各Excel行からfindTargetRecord()を呼び、所属セグメント内でIPを照合する。
     while (bufferedIndex < bufferedRows.length) {
         var bufferedRow = bufferedRows[bufferedIndex++];
         excelRow = bufferedRow.number;
@@ -1017,7 +996,7 @@ function publishFailure() {
                 errorCountBefore &&
             targetSysId
         ) {
-            // 行ループ前にGlideRecordSecureで取得・コピーした値を使用する。
+            // findTargetRecord()で取得した対象レコードを使用する。
             ipRecord = targetResult.record;
 
             if (valueOf(ipRecord.getValue(IP_FIELD)) !== ipAddress) {
@@ -1176,3 +1155,4 @@ function publishFailure() {
     }
 
 })(inputs, outputs);
+
