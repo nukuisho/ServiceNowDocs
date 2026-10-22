@@ -814,7 +814,6 @@ function publishFailure() {
                 'エクスポートした値から変更しないでください。' +
                 '最新のExcelを再度エクスポートし、送信しなおしてください。'
             );
-            failedCount++;
             continue;
         }
 
@@ -828,7 +827,6 @@ function publishFailure() {
                 'エクスポートした値から変更しないでください。' +
                 '最新のExcelを再度エクスポートし、送信しなおしてください。'
             );
-            failedCount++;
             continue;
         }
 
@@ -844,7 +842,6 @@ function publishFailure() {
                 'エクスポートした値から変更しないでください。' +
                 '最新のExcelを再度エクスポートし、送信しなおしてください。'
             );
-            failedCount++;
             continue;
         }
 
