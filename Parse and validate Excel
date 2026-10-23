@@ -295,10 +295,8 @@ function publishFailure() {
                     0,
                     fieldName,
                     'INVALID_SERVER_FIELD',
-                    'テーブル側に該当するフィールドが存在しません。' +
-                    IP_TABLE +
-                    '.' +
-                    fieldName
+                    'システムエラーが発生しました。' +
+                    'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
                 );
                 failedCount++;
                 valid = false;
@@ -427,13 +425,8 @@ function publishFailure() {
                 row.row_number,
                 'u_ip_address',
                 'SERVER_VALUE_MISMATCH',
-                '「IP アドレス」が既存レコードと' +
-                '一致しません。' +
-                'Excel値:「' +
-                row.u_ip_address +
-                '」、既存値:「' +
-                currentIpAddress +
-                '」'
+                'システムエラーが発生しました。' +
+                'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
             );
             failedCount++;
 
@@ -448,13 +441,8 @@ function publishFailure() {
                 row.row_number,
                 'u_ip_pattern',
                 'SERVER_VALUE_MISMATCH',
-                '「モデルパターンによる想定利用用途」が' +
-                '既存レコードと一致しません。' +
-                'Excel値:「' +
-                row.u_ip_pattern +
-                '」、既存値:「' +
-                currentIpPattern +
-                '」'
+                '「モデルパターンによる想定利用用途」は更新できない項目です。' +
+                '最新のExcelを再度エクスポートし、送信しなおしてください。'
             );
             failedCount++;
 
@@ -469,13 +457,8 @@ function publishFailure() {
                 row.row_number,
                 'u_ip_pattern_comments',
                 'SERVER_VALUE_MISMATCH',
-                '「IPパターン : 備考」が' +
-                '既存レコードと一致しません。' +
-                'Excel値:「' +
-                row.u_ip_pattern_comments +
-                '」、既存値:「' +
-                currentIpPatternComments +
-                '」'
+                '「IPパターン : 備考」は更新できない項目です。' +
+                '最新のExcelを再度エクスポートし、送信しなおしてください。'
             );
             failedCount++;
 
@@ -518,8 +501,8 @@ function publishFailure() {
 
         if (!target.isValidField(SEGMENT_FIELD)) {
             result.message =
-                SEGMENT_FIELD + ' is not a valid field at Excel row ' +
-                rowNumber + '.';
+                'システムエラーが発生しました。' +
+                'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。';
             return result;
         }
 
@@ -527,15 +510,14 @@ function publishFailure() {
 
         if (!segmentRecord || !segmentRecord.isValidRecord()) {
             result.message =
-                'Segment record was not found at Excel row ' +
-                rowNumber + '.';
+                'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。';
             return result;
         }
 
         if (!segmentRecord.isValidField('u_store_code')) {
             result.message =
-                'u_store_code is not a valid field at Excel row ' +
-                rowNumber + '.';
+                'システムエラーが発生しました。' +
+                'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。';
             return result;
         }
 
@@ -544,15 +526,15 @@ function publishFailure() {
 
         if (!storeRecord || !storeRecord.isValidRecord()) {
             result.message =
-                'Store record was not found at Excel row ' +
-                rowNumber + '.';
+                'システムエラーが発生しました。' +
+                'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。';
             return result;
         }
 
         if (!storeRecord.isValidField('u_company_code')) {
             result.message =
-                'u_company_code is not a valid field at Excel row ' +
-                rowNumber + '.';
+                'システムエラーが発生しました。' +
+                'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。';
             return result;
         }
 
@@ -561,15 +543,15 @@ function publishFailure() {
 
         if (!companyRecord || !companyRecord.isValidRecord()) {
             result.message =
-                'Company record was not found at Excel row ' +
-                rowNumber + '.';
+                'システムエラーが発生しました。' +
+                'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。';
             return result;
         }
 
         if (!companyRecord.isValidField('u_opcompany_code')) {
             result.message =
-                'u_opcompany_code is not a valid field at Excel row ' +
-                rowNumber + '.';
+                'システムエラーが発生しました。' +
+                'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。';
             return result;
         }
 
@@ -578,8 +560,8 @@ function publishFailure() {
 
         if (!opCompanyRecord || !opCompanyRecord.isValidRecord()) {
             result.message =
-                'Operating company record was not found at Excel row ' +
-                rowNumber + '.';
+                'システムエラーが発生しました。' +
+                'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。';
             return result;
         }
 
@@ -589,8 +571,7 @@ function publishFailure() {
 
         if (!result.value) {
             result.message =
-                'Operating company sys_id is empty at Excel row ' +
-                rowNumber + '.';
+                'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。';
             return result;
         }
 
@@ -606,29 +587,40 @@ function publishFailure() {
 
 
 
-        // 指定セグメントのレコードだけをDBから取得する。
+        // 指定セグメントのレコードだけをIPアドレステーブルから取得する。
         target.addQuery(SEGMENT_FIELD, segmentId);
+        target.addQuery(IP_FIELD, ipAddress);
         target.query();
+
+        /*IPアドレス検索件数をSystem_logに出力
+        var segmentRecordCount = target.getRowCount();
+
+        gs.info(
+            '[IPアドレス検索件数] Segment Sys ID=' + segmentId +
+            ', 件数=' + segmentRecordCount
+        );
+        */
+
         var matchedSysId = '';
         // 取得したセグメントの中だけで、ExcelのIPアドレスを照合する。
         while (target.next()) {
             if (valueOf(target.getValue(IP_FIELD)) !== ipAddress) continue;
             if (matchedSysId) {
-                result.message = '対象のIPアドレスに複数のレコードが一致しました。' +
-                    ' Excel row: ' + rowNumber + '.';
+                result.message = 'システムエラーが発生しました。' +
+                'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。';
                 return result;
             }
             matchedSysId = valueOf(target.getUniqueValue());
         }
         if (!matchedSysId) {
             result.message = '対象のIPアドレスが見つかりません。' +
-                ' Excel row: ' + rowNumber + '.';
+                '最新のExcelを再度エクスポートし、送信しなおしてください。';
             return result;
         }
         // ループ終了後、対象の1件を再取得する。
         if (!target.get(matchedSysId)) {
-            result.message = '対象IP Addressレコードを再取得できませんでした。' +
-                ' Excel row: ' + rowNumber + '.';
+            result.message = 'システムエラーが発生しました。' +
+            'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。';
             return result;
         }
 
@@ -697,7 +689,9 @@ function publishFailure() {
             .getContentStream(attachmentSysId);
         if (!parseStream) {
             addError(0, '', 'ATTACHMENT_READ_FAILED',
-                '添付ファイルを読み取れませんでした。');
+                'システムエラーが発生しました。' +
+                'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+            );
             publishFailure();
             return;
         }
@@ -705,7 +699,9 @@ function publishFailure() {
         parser.setSource(parseStream);
         if (!parser.parse()) {
             addError(0, '', 'PARSE_FAILED',
-                '添付ファイルをExcelとして解析できませんでした。');
+                'システムエラーが発生しました。' +
+                'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+            );
             publishFailure();
             return;
         }
@@ -714,7 +710,9 @@ function publishFailure() {
             ', Error=' + valueOf(parseError && parseError.message
                 ? parseError.message : parseError));
         addError(0, '', 'PARSE_EXCEPTION',
-            '添付ファイルの読み取り・Excel解析中にエラーが発生しました。');
+            'システムエラーが発生しました。' +
+            'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+        );
         publishFailure();
         return;
     }
@@ -903,7 +901,8 @@ function publishFailure() {
                 excelRow,
                 'u_ip_address',
                 'EMPTY_KEY',
-                '「IP アドレス」は必須です。'
+                '「IP アドレス」は必須です。' +
+                '最新のExcelを再度エクスポートし、送信しなおしてください。'
             );
             failedCount++;
         } else {
@@ -917,7 +916,8 @@ function publishFailure() {
                     'DUPLICATE_KEY',
                     'IP アドレス「' +
                     ipAddress +
-                    '」がExcel内で重複しています。'
+                    '」がExcel内で重複しています。' +
+                    '最新のExcelを再度エクスポートし、送信しなおしてください。'
                 );
                 failedCount++;
             } else {
@@ -974,7 +974,8 @@ function publishFailure() {
                     excelRow,
                     'u_ip_address',
                     'TARGET_IP_MISMATCH',
-                    '対象レコードとIPアドレスが一致しません。'
+                    'システムエラーが発生しました。' +
+                    'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
                 );
                 failedCount++;
             } else if (
@@ -1053,7 +1054,9 @@ function publishFailure() {
                     }
                     if (!containsSysId(userOpCompany, ipOpCompanyResult.value)) {
                         addError(excelRow, '', 'OPCOMPANY_MISMATCH',
-                            excelRow + '行目は更新できないレコードです。');
+                            '更新できないレコードです。' +
+                            '最新のExcelを再度エクスポートし、送信しなおしてください。'
+                        );
                         failedCount++;
                         continue;
                     }
@@ -1068,8 +1071,9 @@ function publishFailure() {
                         normalizedRow.u_state !== '1' &&
                         normalizedRow.u_state !== '2') {
                         addError(excelRow, 'u_state', 'INVALID_STATE',
-                            excelRow + '行目のStateが不正です。' +
-                            '使用中、未使用、またはブランクを指定してください。');
+                            'ステータスの値が不正です。' +
+                            '「使用中」、「未使用」を指定、または空欄にした上で、再度送信してください。'
+                        );
                         failedCount++;
                         continue;
                     }
@@ -1117,7 +1121,8 @@ function publishFailure() {
             String(inputs.attachment_sys_id || '') + ', Error=' + String(rowError));
         addError(typeof excelRow === 'number' ? excelRow : 0,
             '', 'ROW_PROCESSING_EXCEPTION',
-            'Excelの行読み取り・検証中にエラーが発生しました。');
+            'システムエラーが発生しました。' +
+            'お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。');
         publishFailure();
         return;
     } finally {
