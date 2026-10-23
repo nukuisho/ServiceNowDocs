@@ -240,8 +240,19 @@ function publishFailure() {
     outputs.error_code =
         buildErrorCode();
 
-    outputs.error_message =
-        buildErrorMessage();
+    // Sys IDに関する前提エラーでは、行番号などを付けずに出力する。
+    if (
+        outputs.error_code === 'EMPTY_SYS_ID' ||
+        outputs.error_code === 'DUPLICATE_SYS_ID' ||
+        outputs.error_code === 'SERVER_VALUE_MISMATCH_SYS_ID'
+    ) {
+        outputs.error_message =
+            '「Sys ID」が更新されています。エクスポートした値から変更しないでください。\n' +
+            '最新のExcelを再度エクスポートし、送信しなおしてください。';
+    } else {
+        // その他のエラーは、既存の表示形式を使用する。
+        outputs.error_message = buildErrorMessage();
+    }
 }
 
     function publishSuccess() {
@@ -746,10 +757,12 @@ function publishFailure() {
                 'エクスポートした値から変更しないでください。' +
                 '最新のExcelを再度エクスポートし、送信しなおしてください。'
             );
-            continue;
+            // IPレコードの行単位検索を開始せず、Actionを終了する。
+            publishFailure();
+            return;
         }
 
-        // Excel内で異なるSys IDが混在していないか確認
+        // Sys IDの一意性
         if (commonSegmentSysId && scanId !== commonSegmentSysId) {
             addError(
                 excelRow,
@@ -759,12 +772,14 @@ function publishFailure() {
                 'エクスポートした値から変更しないでください。' +
                 '最新のExcelを再度エクスポートし、送信しなおしてください。'
             );
-            continue;
+            // IPレコードの行単位検索を開始せず、Actionを終了する。
+            publishFailure();
+            return;
         }
 
         if (!commonSegmentSysId) commonSegmentSysId = scanId;
 
-        // Sys IDの形式確認
+        // Sys IDの一致（編集不可の項目）
         if (!isValidSysId(scanId)) {
             addError(
                 excelRow,
@@ -774,9 +789,10 @@ function publishFailure() {
                 'エクスポートした値から変更しないでください。' +
                 '最新のExcelを再度エクスポートし、送信しなおしてください。'
             );
-            continue;
+            // IPレコードの行単位検索を開始せず、Actionを終了する。
+            publishFailure();
+            return;
         }
-
 
     }
     if (errors.length) {
@@ -1130,7 +1146,6 @@ function publishFailure() {
     }
 
 })(inputs, outputs);
-
 
 
 
