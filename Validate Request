@@ -1,16 +1,104 @@
 (function execute(inputs, outputs) {
+
+    /*
+     * ============================================================
+     * 出力値の初期化
+     * ============================================================
+     */
+
     outputs.valid = false;
     outputs.error_code = '';
     outputs.error_message = '';
     outputs.resolved_attachment_sys_id = '';
+    outputs.validated_executed_user = '';
+    outputs.executed_user_opcompany = '';
 
     /*
-     * Excelファイルとして許可する最大件数。
-     *
-     * 1件に限定することで、どのファイルを処理するかが
-     * 不明確になることを防止する。
-     */
+     * ============================================================
+     * 変数の設定
+     * ============================================================
+    */
+
     var MAX_EXCEL_ATTACHMENTS = 1;
+
+    var EXPECTED_HEADERS = [
+        'IP アドレス',
+        'モデルパターンによる想定利用用途',
+        'IPパターン : 備考',
+        '実際の利用用途',
+        '実際の利用用途 : 備考',
+        'ステータス',
+        'Sys ID'
+    ];
+
+　　　/*
+     * ============================================================
+     * ユーティリティ関数
+     * ============================================================
+     */
+
+    function headerValue(value) {
+        return value === null || value === undefined
+            ? '' : String(value).trim();
+    }
+
+    /* ヘッダー名：文字列をそのまま比較する。 */
+    function exactHeaderValue(value) {
+        return value === null || value === undefined
+            ? '' : String(value);
+    }
+
+    function headerArray(source) {
+        var result = [];
+        var i;
+        if (!source) return result;
+        if (typeof source.length === 'number') {
+            for (i = 0; i < source.length; i++) {
+                result.push(exactHeaderValue(source[i]));
+            }
+        } else if (typeof source.size === 'function' &&
+                   typeof source.get === 'function') {
+            for (i = 0; i < source.size(); i++) {
+                result.push(exactHeaderValue(source.get(i)));
+            }
+        } else if (typeof source.iterator === 'function') {
+            var iterator = source.iterator();
+            while (iterator.hasNext()) {
+                result.push(exactHeaderValue(iterator.next()));
+            }
+        }
+        return result;
+    }
+
+    function validateHeaders(rawHeaders) {
+        var actual = headerArray(rawHeaders);
+        var messages = [];
+        var countInvalid = actual.length !== EXPECTED_HEADERS.length;
+        if (countInvalid) {
+            messages.push('Excelの列数が正しくありません。期待値: ' +
+                EXPECTED_HEADERS.length + '、実際: ' + actual.length +
+                '最新のExcelを再度エクスポートし、送信しなおしてください。' 
+            );
+        }
+        var length = Math.max(actual.length, EXPECTED_HEADERS.length);
+        for (var i = 0; i < length; i++) {
+            var expected = i < EXPECTED_HEADERS.length ? EXPECTED_HEADERS[i] : '';
+            var found = i < actual.length ? actual[i] : '';
+            if (found !== expected) {
+                messages.push(String(i + 1) +
+                    '列目のヘッダーが正しくありません。期待値:「' +
+                    expected + '」、実際:「' + found + '」' +
+                    '最新のExcelを再度エクスポートし、送信しなおしてください。'
+                );
+            }
+        }
+        if (messages.length) {
+            fail(countInvalid ? 'INVALID_HEADER_COUNT' : 'INVALID_HEADER',
+                messages.join('\n'));
+            return false;
+        }
+        return true;
+    }
 
     /*
      * エラー出力を設定する。
@@ -20,6 +108,8 @@
         outputs.error_code = String(code || '');
         outputs.error_message = String(message || '');
         outputs.resolved_attachment_sys_id = '';
+    outputs.validated_executed_user = '';
+    outputs.executed_user_opcompany = '';
     }
 
     /*
@@ -31,28 +121,79 @@
         );
     }
 
-    /*
-     * 対象ファイルがExcelか確認する。
-     *
-     * 現在の既存処理との互換性を維持するため、
-     * .xlsおよび.xlsxを許可している。
-     *
-     * 後続のValidate IP Address Excelが.xlsxのみ対応する
-     * 場合は、次の正規表現へ変更すること。
-     *
-     * /\.xlsx$/i
+       /*
+     * Excuted UserのSysID・レコードの有無の確認。
+     * 事業会社情報のフィールドの有無、Excuted Userに事業会社情報が設定されているか検証する。
      */
-    function isExcelFile(fileName) {
-        return /\.xlsx?$/i.test(
-            String(fileName || '').trim()
+        function validateExecutedUser(rawUserSysId) {
+        var userSysId = headerValue(rawUserSysId);
+
+        // 1. 必須チェック
+        if (!userSysId) {
+            fail(
+                'EXECUTED_USER_SYS_ID_MISSING',
+                'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+            );
+            return false;
+        }
+
+        // 2. 形式チェック
+        if (!isValidSysId(userSysId)) {
+            fail(
+                'EXECUTED_USER_SYS_ID_INVALID',
+                'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+            );
+            return false;
+        }
+
+        // 3. レコ―ドの存在チェック
+        var userRecord = new GlideRecord('sys_user');
+
+        if (!userRecord.get(userSysId)) {
+            fail(
+                'EXECUTED_USER_NOT_FOUND',
+                'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+            );
+            return false;
+        }
+
+        // 4. 事業会社フィールドの存在チェック
+        if (!userRecord.isValidField('u_opcompany_code')) {
+            fail(
+                'USER_OPCOMPANY_FIELD_INVALID',
+                'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+            );
+            return false;
+        }
+
+        // 5. 事業会社情報の必須チェック
+        var userOpCompany = headerValue(
+            userRecord.getValue('u_opcompany_code')
         );
+        if (!userOpCompany) {
+            fail(
+                'USER_OPCOMPANY_MISSING',
+                '所属事業会社情報が設定されていません。本機能を利用するには事業会社情報の設定が必要です。システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+            );
+            return false;
+        }
+
+        outputs.validated_executed_user = userSysId;
+        outputs.executed_user_opcompany = userOpCompany;
+        return true;
     }
 
     /*
-     * 指定されたテーブルとレコードに紐づく
-     * Excel添付を検索する。
-     *
-     * Excel以外の添付は無視する。
+     * .xlsx形式のファイルのみ許可する。
+     */
+    function isExcelFile(fileName) {
+        return /\.xlsx$/i.test(
+            String(fileName || '').trim()
+        );
+    }
+    /*
+     * 指定されたテーブルとレコードに紐づくExcel添付を検索する。
+     *対象外の添付はエラーとする。
      */
     function findExcelAttachments(
         tableName,
@@ -85,8 +226,9 @@
                 attachment.getValue('file_name') || ''
             ).trim();
 
-            if (!isExcelFile(fileName)) {
-                continue;
+                  if (!isExcelFile(fileName)) {
+                // nullは許可されていない拡張子の検出を表す。
+                return null;
             }
 
             results.push({
@@ -104,31 +246,13 @@
                 )
             });
 
-            /*
-             * 2件見つかった時点で複数ファイルエラーに
-             * できるため、それ以上は読み込まない。
-             */
-            if (
-                results.length >
-                MAX_EXCEL_ATTACHMENTS
-            ) {
-                break;
-            }
         }
-
-        return results;
+       return results;
     }
 
     /*
-     * RITMまたはREQからExcel添付を解決する。
-     *
-     * 優先順位:
-     * 1. sc_req_item
-     * 2. sc_request
-     *
-     * RITMにExcelが存在する場合はREQ側を検索しない。
-     * これにより、注文時の添付コピーによる重複判定を
-     * 避ける。
+     * RITMからExcel添付を解決し、REQの添付は検索しない。
+     * RITM側の添付検証と、既存のREQ Sys ID確認を行う。
      */
     function resolveExcelAttachment(ritm) {
         var ritmSysId =
@@ -140,6 +264,16 @@
                 ritmSysId
             );
 
+        if (ritmAttachments === null) {
+            return {
+                success: false,
+                code: 'INVALID_ATTACHMENT_EXTENSION',
+                message:
+                    '.xlsx形式のファイルを添付してください。' +
+                    '正しいファイルを選択して再度送信してください。'
+            };
+        }
+
         if (
             ritmAttachments.length >
             MAX_EXCEL_ATTACHMENTS
@@ -149,8 +283,7 @@
                 code:
                     'MULTIPLE_EXCEL_ATTACHMENTS',
                 message:
-                    'Only one Excel attachment ' +
-                    'is allowed on the Requested Item.'
+                    '添付ファイルを1件のみにして、再度送信してください。'
             };
         }
 
@@ -164,55 +297,36 @@
 
         /*
          * RITM直下にExcelがない場合のみ、
-         * 親REQの添付を確認する。
+         * 既存の親REQ Sys ID確認を行う。
          */
         var requestSysId = String(
             ritm.getValue('request') || ''
         ).trim();
 
+         // 1. 必須チェック
+        if (!requestSysId) {
+            return {
+                success: false,
+                code: 'REQUEST_SYS_ID_MISSING',
+                message: 'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+            };
+        }
+
+        // 2. 形式チェック
         if (!isValidSysId(requestSysId)) {
             return {
                 success: false,
-                code:
-                    'EXCEL_ATTACHMENT_MISSING',
-                message:
-                    'An Excel attachment is required.'
+                code: 'REQUEST_SYS_ID_INVALID',
+                message: 'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
             };
         }
 
-        var requestAttachments =
-            findExcelAttachments(
-                'sc_request',
-                requestSysId
-            );
-
-        if (
-            requestAttachments.length >
-            MAX_EXCEL_ATTACHMENTS
-        ) {
-            return {
-                success: false,
-                code:
-                    'MULTIPLE_EXCEL_ATTACHMENTS',
-                message:
-                    'Only one Excel attachment ' +
-                    'is allowed on the Request.'
-            };
-        }
-
-        if (requestAttachments.length === 1) {
-            return {
-                success: true,
-                attachment:
-                    requestAttachments[0]
-            };
-        }
-
+        // REQの添付は検索・検証しない。
+        // ここに到達するのはRITMに対象の添付がない場合。
         return {
             success: false,
             code: 'EXCEL_ATTACHMENT_MISSING',
-            message:
-                'An Excel attachment is required.'
+            message: 'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
         };
     }
 
@@ -226,7 +340,7 @@
     if (!requestedItemSysId) {
         fail(
             'REQUESTED_ITEM_MISSING',
-            'Requested Item Sys ID is required.'
+            'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
         );
         return;
     }
@@ -234,7 +348,7 @@
     if (!isValidSysId(requestedItemSysId)) {
         fail(
             'REQUESTED_ITEM_SYS_ID_INVALID',
-            'Requested Item Sys ID is invalid.'
+            'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
         );
         return;
     }
@@ -247,7 +361,7 @@
     if (!ritm.get(requestedItemSysId)) {
         fail(
             'REQUESTED_ITEM_NOT_FOUND',
-            'Requested Item could not be found.'
+            'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
         );
         return;
     }
@@ -265,9 +379,15 @@
     ) {
         fail(
             'INPUT_METHOD_INVALID',
-            'Input method must be either ' +
-            'manual or excel.'
+            'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
         );
+        return;
+    }
+
+    /*
+     * ユーザー検証：manual / excel の両方に適用する。
+     */
+    if (!validateExecutedUser(inputs.executed_user)) {
         return;
     }
 
@@ -275,8 +395,7 @@
      * 4. Manual
      *
      * Manual方式ではExcel関連変数を確認しない。
-     * MRVSの内容検証は後続の
-     * Prepare Manual Update Rowsで実施する。
+     * 
      */
     if (inputMethod === 'manual') {
         outputs.valid = true;
@@ -291,8 +410,7 @@
      * excel_import_session_id、
      * excel_import_hashには依存しない。
      *
-     * RITM、または親REQに紐づくExcel添付を
-     * サーバー側で検索する。
+     * RITMに紐づくExcel添付を検索する。
      */
     var resolved =
         resolveExcelAttachment(ritm);
@@ -316,17 +434,103 @@
     ) {
         fail(
             'EXCEL_ATTACHMENT_RESOLUTION_FAILED',
-            'The Excel attachment could not be resolved.'
+            'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
         );
         return;
     }
 
     /*
-     * 6. Final result
+     * 6. Attachment readability and Excel parsing
      *
-     * Excelのシート、列、行、IPアドレスなどの
-     * 内容検証はValidate IP Address Excelで行う。
+     * パーサーの既定シートを使用する。
      */
+    var parser = null;
+
+    try {
+        var parseStream =
+            new GlideSysAttachment()
+                .getContentStream(
+                    resolvedAttachment.sys_id
+                );
+
+        if (!parseStream) {
+            fail(
+                'ATTACHMENT_READ_FAILED',
+                'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+            );
+            return;
+        }
+
+        parser = new sn_impex.GlideExcelParser();
+        parser.setSource(parseStream);
+
+        if (!parser.parse()) {
+            fail(
+                'PARSE_FAILED',
+                'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+            );
+            return;
+        }
+
+        // パーサーをcloseする前にヘッダーを取得・検証する。
+        var rawHeaders;
+        try {
+            rawHeaders = parser.getColumnHeaders();
+        } catch (headerError) {
+            fail(
+                'HEADER_READ_FAILED',
+                'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+            );
+            return;
+        }
+        if (!validateHeaders(rawHeaders)) {
+            return;
+        }
+    } catch (parseError) {
+        var parseErrorMessage = String(
+            parseError && parseError.message
+                ? parseError.message
+                : parseError || 'Unknown parser error'
+        ).trim();
+
+        gs.error(
+            '[Validate Request] ' +
+            'Failed to read or parse attachment. ' +
+            'RITM=' + requestedItemSysId +
+            ', Attachment=' + resolvedAttachment.sys_id +
+            ', Error=' + parseErrorMessage
+        );
+
+        fail(
+            'PARSE_EXCEPTION',
+            'システムエラーが発生しました。お手数ですが、システム管理者（aeon-servicenow-support@ntt.com）へお問い合わせください。'
+        );
+        return;
+    } finally {
+        if (parser) {
+            try {
+                parser.close();
+            } catch (closeError) {
+                gs.error(
+                    '[Validate Request] ' +
+                    'Failed to close Excel parser. ' +
+                    'RITM=' + requestedItemSysId +
+                    ', Attachment=' + resolvedAttachment.sys_id +
+                    ', Error=' + String(closeError)
+                );
+            }
+        }
+    }
+
+
+    /*
+     * ============================================================
+     * 最終結果
+    　* Excelの行データ、IPアドレスなどの
+     * 行単位の内容検証IPUPD_Validate IP Address Excel - Japanese Headersで行う。
+     * ============================================================
+     */
+
     outputs.valid = true;
     outputs.resolved_attachment_sys_id =
         resolvedAttachment.sys_id;
